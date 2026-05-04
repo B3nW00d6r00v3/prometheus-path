@@ -1,0 +1,72 @@
+site_name: "Project Prometheus"
+site_description: "Stealing fire from the gods of AI — one lesson at a time"
+site_url: "https://b3nw00d6r00v3.github.io/project-prometheus/"
+repo_url: "https://github.com/B3nW00d6r00v3/project-prometheus"
+repo_name: "project-prometheus"
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  palette:
+    - scheme: slate
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+    - scheme: default
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/fire
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+
+extra_css:
+  - assets/css/custom.css
+
+extra_javascript:
+  - assets/js/progress.js
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/B3nW00d6r00v3
+
+nav:
+  - Home: index.md
+  - Syllabus: syllabus/index.md
+  - Resources: resources.md
+  - About: about.md
