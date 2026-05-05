@@ -20,18 +20,18 @@ with free alternatives. No paywalls. No gatekeeping. Just knowledge.</p>
 <div class="prometheus-stats" markdown>
 
 <div class="prometheus-stat">
-  <div class="stat-value">—</div>
-  <div class="stat-label">Modules</div>
+  <div class="stat-value">11</div>
+  <div class="stat-label">Stufen</div>
 </div>
 
 <div class="prometheus-stat">
-  <div class="stat-value">—</div>
-  <div class="stat-label">Lessons</div>
+  <div class="stat-value">3</div>
+  <div class="stat-label">Tracks</div>
 </div>
 
 <div class="prometheus-stat">
-  <div class="stat-value">—</div>
-  <div class="stat-label">Hours of Content</div>
+  <div class="stat-value">3</div>
+  <div class="stat-label">Capstones</div>
 </div>
 
 <div class="prometheus-stat">

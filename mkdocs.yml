@@ -60,6 +60,12 @@ markdown_extensions:
 plugins:
   - search
 
+exclude_docs: |
+  syllabus/drafts/
+  syllabus/current/V3/00_inventar_*.md
+  syllabus/current/V3/AI-Master-Curriculum_*.md
+  syllabus/current/V3/KI-Meisterlehrplan_*.md
+
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -67,6 +73,30 @@ extra:
 
 nav:
   - Home: index.md
-  - Syllabus: syllabus/index.md
+  - Syllabus:
+    - syllabus/index.md
+    - "Lehrplan-Übersicht": syllabus/current/V3/000_master.md
+    - Stufen:
+      - "Stufe 1 — Onboarding & Mindset": syllabus/current/V3/01_stufe1.md
+      - "Stufe 2 — Grundlagen": syllabus/current/V3/02_stufe2.md
+      - "Stufe 3 — Arbeitsmethoden mit KI": syllabus/current/V3/03_stufe3.md
+      - "Stufe 4 — Programmier-Foundation": syllabus/current/V3/04_stufe4.md
+      - "Stufe 5 — Anwendungen bauen": syllabus/current/V3/05_stufe5.md
+      - "Stufe 6 — Agenten": syllabus/current/V3/06_stufe6.md
+      - "Stufe 7 — Deep Learning Foundations": syllabus/current/V3/07_stufe7.md
+      - "Stufe 8 — Klassisches ML & Statistik": syllabus/current/V3/08_stufe8.md
+      - "Stufe 9 — KI-Strategie & Business": syllabus/current/V3/09_stufe9.md
+      - "Stufe 10 — Spezialisierung & Production": syllabus/current/V3/10_stufe10.md
+      - "Stufe 11 — Forschung & Cutting-Edge": syllabus/current/V3/11_stufe11.md
+    - Querschnitte:
+      - "Math-Foundation": syllabus/current/V3/12_querschnitt_math.md
+      - "Eval": syllabus/current/V3/13_querschnitt_eval.md
+      - "Production & LLMOps": syllabus/current/V3/14_querschnitt_production.md
+      - "AI Safety & Red-Teaming": syllabus/current/V3/16_querschnitt_safety.md
+    - Capstones:
+      - "Capstone A — Engineer": syllabus/current/V3/17_capstone_a_engineer.md
+      - "Capstone B — Foundations": syllabus/current/V3/18_capstone_b_foundations.md
+      - "Capstone C — Strategist": syllabus/current/V3/19_capstone_c_strategist.md
+    - "Anhang": syllabus/current/V3/99_anhang.md
   - Resources: resources.md
   - About: about.md
