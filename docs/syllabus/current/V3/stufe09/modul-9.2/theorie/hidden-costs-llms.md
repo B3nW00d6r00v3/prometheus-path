@@ -31,7 +31,7 @@ Neben direkten API-Kosten entstehen bei LLM-basierten Systemen vier Kategorien v
 
 | Typ | Link | Kommentar |
 |-----|------|-----------|
-| Modul | [Modul 5.0: RAG-Grundlagen](../../../modul-9.0/index.md) | Kontext für Embedding-Re-Generierung |
+| Modul | [Modul 5.0: RAG-Grundlagen](../../modul-9.0/index.md) | Kontext für Embedding-Re-Generierung |
 
 ## Teste dein Verständnis
 

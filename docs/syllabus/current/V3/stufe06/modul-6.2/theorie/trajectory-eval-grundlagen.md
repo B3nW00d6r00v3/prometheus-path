@@ -44,7 +44,7 @@ Trajectory-Eval würde diesen „falschen" Weg aufdecken — die Endantwort alle
 | Typ | Link | Kommentar |
 |-----|------|-----------|
 | 📖 Docs | [LangSmith — Agent Evaluation](https://docs.smith.langchain.com/old/cookbook/testing-examples/agent-evaluation) | Praktische Trajectory-Eval-Anleitung |
-| 📖 Querschnitt | [13_querschnitt_eval.md](../../querschnitt_eval.md) | Eval-Framework für alle Anwendungsklassen |
+| 📖 Querschnitt | [13_querschnitt_eval.md](../../../13_querschnitt_eval.md) | Eval-Framework für alle Anwendungsklassen |
 
 ## Teste dein Verständnis
 

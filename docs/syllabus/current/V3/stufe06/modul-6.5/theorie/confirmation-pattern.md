@@ -56,7 +56,7 @@ Wenn unsicher, ob eine Aktion destruktiv ist: Human-in-the-Loop aktivieren. Bess
 | Typ | Link | Kommentar |
 |-----|------|-----------|
 | 📖 Docs | [LangGraph — Human-in-the-Loop](https://langchain-ai.github.io/langgraph/concepts/human_in_the_loop/) | HITL-Pattern |
-| 📖 Modul | [Modul 6.2 — Human-in-the-Loop](../../../modul-6.2/theorie/human-in-the-loop.md) | Allgemeines HITL-Pattern |
+| 📖 Modul | [Modul 6.2 — Human-in-the-Loop](../../modul-6.2/theorie/human-in-the-loop.md) | Allgemeines HITL-Pattern |
 
 ## Teste dein Verständnis
 

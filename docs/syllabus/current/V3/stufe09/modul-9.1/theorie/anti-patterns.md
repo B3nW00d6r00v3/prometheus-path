@@ -33,8 +33,8 @@ Die sechs kritischsten Anti-Patterns:
 
 | Typ | Link | Kommentar |
 |-----|------|-----------|
-| Modul | [9.0: Datenstrategie](../../../modul-9.0/index.md) | Gegenmittel für Data-Blindness |
-| Modul | [9.4: Build-vs-Buy](../../../modul-9.4/index.md) | Gegenmittel für Build-Bias |
+| Modul | [9.0: Datenstrategie](../../modul-9.0/index.md) | Gegenmittel für Data-Blindness |
+| Modul | [9.4: Build-vs-Buy](../../modul-9.4/index.md) | Gegenmittel für Build-Bias |
 
 ## Teste dein Verständnis
 

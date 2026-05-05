@@ -31,7 +31,7 @@ Derselbe Business Case muss für verschiedene Stakeholder unterschiedlich aufber
 
 | Typ | Link | Kommentar |
 |-----|------|-----------|
-| Modul | [S9 Self-Assessment](../../../index.md) | Anwendung in der abschließenden Aufgabe |
+| Modul | [S9 Self-Assessment](../../index.md) | Anwendung in der abschließenden Aufgabe |
 
 ## Teste dein Verständnis
 

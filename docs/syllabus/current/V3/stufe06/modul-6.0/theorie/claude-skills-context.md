@@ -31,7 +31,7 @@ Skills sind ein Lösungsansatz für Antipattern (5) aus der vorherigen Lektion (
 | Typ | Link | Kommentar |
 |-----|------|-----------|
 | 📖 Docs | [Claude Agent SDK — Skills Integration](https://docs.claude.com/en/api/agent-sdk) | SDK-native Skills |
-| 📖 Vertiefung | [Modul 5.6: Skills-Pattern](../../modul-5.6/index.md) | Ausführliche Behandlung von Skills |
+| 📖 Vertiefung | [Modul 5.6: Skills-Pattern](../../../stufe05/modul-5.6/index.md) | Ausführliche Behandlung von Skills |
 
 ## Teste dein Verständnis
 

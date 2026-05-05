@@ -42,7 +42,7 @@ Die Wahl zwischen den vier Schwarm-Patterns ist keine Geschmacksfrage, sondern h
 
 | Typ | Link | Kommentar |
 |-----|------|-----------|
-| 📖 Konzept | [Modul 6.2 — Wann Multi-Agent vermeiden?](../../../modul-6.2/theorie/wann-multi-agent-vermeiden.md) | Basis-Entscheidung |
+| 📖 Konzept | [Modul 6.2 — Wann Multi-Agent vermeiden?](../../modul-6.2/theorie/wann-multi-agent-vermeiden.md) | Basis-Entscheidung |
 
 ## Teste dein Verständnis
 

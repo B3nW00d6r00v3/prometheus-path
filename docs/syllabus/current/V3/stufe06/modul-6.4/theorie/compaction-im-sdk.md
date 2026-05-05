@@ -45,7 +45,7 @@ Das SDK implementiert im Wesentlichen Strategie (2) aus Modul 6.0: LLM-as-Compac
 
 | Typ | Link | Kommentar |
 |-----|------|-----------|
-| 📖 Konzept | [Modul 6.0 — Compaction als Pflicht-Pattern](../../../modul-6.0/theorie/compaction-patterns.md) | Vier Compaction-Strategien |
+| 📖 Konzept | [Modul 6.0 — Compaction als Pflicht-Pattern](../../modul-6.0/theorie/compaction-patterns.md) | Vier Compaction-Strategien |
 | 📖 Docs | [Claude Agent SDK Docs](https://docs.claude.com/en/api/agent-sdk) | Compaction-Konfiguration |
 
 ## Teste dein Verständnis

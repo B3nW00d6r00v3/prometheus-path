@@ -33,7 +33,7 @@ Fünf Dimensionen der Datenreife-Prüfung pro Use-Case:
 
 | Typ | Link | Kommentar |
 |-----|------|-----------|
-| Modul | [9.0: Datenstrategie](../../../modul-9.0/index.md) | Foundation für diese Bewertung |
+| Modul | [9.0: Datenstrategie](../../modul-9.0/index.md) | Foundation für diese Bewertung |
 
 ## Teste dein Verständnis
 

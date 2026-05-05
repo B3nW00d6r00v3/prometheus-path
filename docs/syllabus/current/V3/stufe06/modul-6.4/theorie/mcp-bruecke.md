@@ -42,7 +42,7 @@ Tools sind oft das Hauptwerk-Artefakt — die echte Business-Logik. Wenn die Too
 | Typ | Link | Kommentar |
 |-----|------|-----------|
 | 📖 Docs | [MCP Tools Spec](https://modelcontextprotocol.io/docs/concepts/tools) | Standard-Specification |
-| 📖 Modul | [Modul 5.3 — MCP](../../../../05_stufe5.md) | MCP vollständig |
+| 📖 Modul | [Modul 5.3 — MCP](../../../stufe05/index.md) | MCP vollständig |
 
 ## Teste dein Verständnis
 

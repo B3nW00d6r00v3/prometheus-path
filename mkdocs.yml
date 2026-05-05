@@ -411,7 +411,7 @@ nav:
           - "Skills-Integration im Claude Agent SDK": syllabus/current/V3/stufe06/modul-6.4/theorie/skills-integration.md
           - "OpenAI Agents SDK": syllabus/current/V3/stufe06/modul-6.4/theorie/openai-agents-sdk.md
           - "Google ADK (Agent Development Kit)": syllabus/current/V3/stufe06/modul-6.4/theorie/google-adk.md
-          - "MCP als Brücke zwischen Vendor-SDKs": syllabus/current/V3/stufe06/modul-6.4/theorie/mcp-brücke.md
+          - "MCP als Brücke zwischen Vendor-SDKs": syllabus/current/V3/stufe06/modul-6.4/theorie/mcp-bruecke.md
           - "Computer Use als Sonderpattern": syllabus/current/V3/stufe06/modul-6.4/theorie/computer-use-ueberblick.md
         - "Modul 6.5 — Computer Use & Agentic Browsing":
           - syllabus/current/V3/stufe06/modul-6.5/index.md

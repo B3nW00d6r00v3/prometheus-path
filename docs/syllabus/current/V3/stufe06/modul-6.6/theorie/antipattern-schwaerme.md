@@ -56,7 +56,7 @@ Nur wenn der Use-Case explizit verlangen: massive Parallelisierung (100+ paralle
 | Typ | Link | Kommentar |
 |-----|------|-----------|
 | 📖 Pflicht | [Anthropic — Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) | Empfehlung für Einfachheit |
-| 📖 Modul | [Modul 6.2 — Wann Multi-Agent vermeiden?](../../../modul-6.2/theorie/wann-multi-agent-vermeiden.md) | Details |
+| 📖 Modul | [Modul 6.2 — Wann Multi-Agent vermeiden?](../../modul-6.2/theorie/wann-multi-agent-vermeiden.md) | Details |
 
 ## Teste dein Verständnis
 

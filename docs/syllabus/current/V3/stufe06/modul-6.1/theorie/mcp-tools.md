@@ -33,7 +33,7 @@ Dein ReAct-Agent aus diesem Modul kann MCP-Tools nutzen wie normale Function-Cal
 | Typ | Link | Kommentar |
 |-----|------|-----------|
 | 📖 Docs | [MCP Tools — Model Context Protocol](https://modelcontextprotocol.io/docs/concepts/tools) | Offizielle MCP-Tool-Dokumentation |
-| 📖 Vertiefung | [Modul 5.3: MCP](../../modul-5.3/index.md) | MCP-Grundlagen und Sicherheits-Block |
+| 📖 Vertiefung | [Modul 5.3: MCP](../../../stufe05/modul-5.3/index.md) | MCP-Grundlagen und Sicherheits-Block |
 
 ## Teste dein Verständnis
 

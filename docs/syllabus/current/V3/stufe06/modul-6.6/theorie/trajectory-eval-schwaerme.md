@@ -52,7 +52,7 @@ Wie in Modul 6.2: 10-20 Test-Cases mit Input + erwartetem Endzustand + erlaubten
 
 | Typ | Link | Kommentar |
 |-----|------|-----------|
-| 📖 Modul | [Modul 6.2 — Trajectory-Metriken](../../../modul-6.2/theorie/trajectory-metriken.md) | Basis-Metriken |
+| 📖 Modul | [Modul 6.2 — Trajectory-Metriken](../../modul-6.2/theorie/trajectory-metriken.md) | Basis-Metriken |
 | 📖 Docs | [Langfuse Trajectory Tracing](https://langfuse.com/docs/observability/features/agent-graphs) | Tracing-Tool |
 
 ## Teste dein Verständnis

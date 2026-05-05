@@ -51,8 +51,8 @@ Die Skill-Description ist entscheidend für korrektes Discovery. Vage Descriptio
 
 | Typ | Link | Kommentar |
 |-----|------|-----------|
-| 📖 Modul | [Modul 5.6 — Skills-Pattern](../../../../05_stufe5.md) | Vollständige Skills-Behandlung |
-| 📖 Konzept | [Modul 6.0 — Claude Skills als Context-Engineering-Pattern](../../../modul-6.0/theorie/claude-skills-context.md) | Context-Perspektive |
+| 📖 Modul | [Modul 5.6 — Skills-Pattern](../../../stufe05/index.md) | Vollständige Skills-Behandlung |
+| 📖 Konzept | [Modul 6.0 — Claude Skills als Context-Engineering-Pattern](../../modul-6.0/theorie/claude-skills-context.md) | Context-Perspektive |
 
 ## Teste dein Verständnis
 

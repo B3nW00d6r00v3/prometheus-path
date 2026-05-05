@@ -53,7 +53,7 @@ result = await agent.spawn_subagent(
 | Typ | Link | Kommentar |
 |-----|------|-----------|
 | 📖 Docs | [Claude Agent SDK — Sub-Agents](https://docs.claude.com/en/api/agent-sdk) | Offizielle Docs |
-| 📖 Konzept | [Modul 6.0 — Sub-Agent-Token-Budget](../../../modul-6.0/theorie/sub-agent-token-budget.md) | Context Engineering Perspektive |
+| 📖 Konzept | [Modul 6.0 — Sub-Agent-Token-Budget](../../modul-6.0/theorie/sub-agent-token-budget.md) | Context Engineering Perspektive |
 
 ## Teste dein Verständnis
 

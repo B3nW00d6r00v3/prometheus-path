@@ -49,7 +49,7 @@ Jeder der vier Schwarm-Failure-Modes hat eine direkte Mitigation. Diese sechs Mi
 | Typ | Link | Kommentar |
 |-----|------|-----------|
 | 📖 Artikel | [Fastio — Swarm Orchestration Best Practices](https://fast.io/resources/ai-agent-swarm-orchestration/) | Mitigations-Überblick |
-| 📖 Modul | [Modul 6.2 — Human-in-the-Loop](../../../modul-6.2/theorie/human-in-the-loop.md) | HITL-Details |
+| 📖 Modul | [Modul 6.2 — Human-in-the-Loop](../../modul-6.2/theorie/human-in-the-loop.md) | HITL-Details |
 
 ## Teste dein Verständnis
 

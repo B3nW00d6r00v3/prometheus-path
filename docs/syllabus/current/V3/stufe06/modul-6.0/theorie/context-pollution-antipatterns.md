@@ -35,7 +35,7 @@ Alle Skills in jeden Run, statt on-demand Discovery. Brücke zu Modul 5.6.
 | Typ | Link | Kommentar |
 |-----|------|-----------|
 | 📖 Artikel | [Anthropic — Effective Context Engineering](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) | Enthält Antipattern-Übersicht |
-| 📖 Vertiefung | [Modul 5.6: Skills-Pattern](../../modul-5.6/index.md) | Lazy Loading für Skills |
+| 📖 Vertiefung | [Modul 5.6: Skills-Pattern](../../../stufe05/modul-5.6/index.md) | Lazy Loading für Skills |
 
 ## Teste dein Verständnis
 

@@ -40,7 +40,7 @@ Fünf häufige Fehler beim Aufbau eines Agentic OS machen das System schlechter 
 
 | Typ | Link | Kommentar |
 |-----|------|-----------|
-| 📖 Querschnitt | [Querschnitt Eval (13_querschnitt_eval.md)](../../../../../13_querschnitt_eval.md) | Eval-Anker |
+| 📖 Querschnitt | [Querschnitt Eval (13_querschnitt_eval.md)](../../../13_querschnitt_eval.md) | Eval-Anker |
 
 ## Teste dein Verständnis
 
