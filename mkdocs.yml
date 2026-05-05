@@ -98,5 +98,7 @@ nav:
       - "Capstone B — Foundations": syllabus/current/V3/18_capstone_b_foundations.md
       - "Capstone C — Strategist": syllabus/current/V3/19_capstone_c_strategist.md
     - "Anhang": syllabus/current/V3/99_anhang.md
+  - Tools: tools.md
+  - Glossar: glossary.md
   - Resources: resources.md
   - About: about.md
