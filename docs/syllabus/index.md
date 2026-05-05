@@ -42,19 +42,19 @@ Jede Stufe markiert, welche Inhalte für welchen Track Pflicht, empfohlen oder o
 
     RAG, API-Integration, Eval, Function Calling, Prompt-Pipelines.
 
--   **[Stufe 6 — Agenten](current/V3/06_stufe6.md)**
+-   **[Stufe 6 — Agenten](current/V3/stufe06/index.md)**
 
     Context Engineering, MCP, Agenten-Frameworks, Schwärme, Agentic OS.
 
--   **[Stufe 7 — Deep Learning Foundations](current/V3/07_stufe7.md)**
+-   **[Stufe 7 — Deep Learning Foundations](current/V3/stufe07/index.md)**
 
     Transformer-Architektur, Fine-Tuning, Multimodal, Reasoning-Modelle.
 
--   **[Stufe 8 — Klassisches ML & Statistik](current/V3/08_stufe8.md)**
+-   **[Stufe 8 — Klassisches ML & Statistik](current/V3/stufe08/index.md)**
 
     Regression, Clustering, RecSys, A/B-Testing, Causal Inference.
 
--   **[Stufe 9 — KI-Strategie & Business](current/V3/09_stufe9.md)**
+-   **[Stufe 9 — KI-Strategie & Business](current/V3/stufe09/index.md)**
 
     Datenstrategie, ROI, Operating Model, Compliance, Change Management.
 

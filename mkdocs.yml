@@ -346,10 +346,358 @@ nav:
           - "Skills-Eval-Pattern": syllabus/current/V3/stufe05/modul-5.6/theorie/skills-eval.md
         - "Quellen": syllabus/current/V3/stufe05/quellen.md
         - "Free-Zertifikate": syllabus/current/V3/stufe05/zertifikate.md
-      - "Stufe 6 — Agenten": syllabus/current/V3/06_stufe6.md
-      - "Stufe 7 — Deep Learning Foundations": syllabus/current/V3/07_stufe7.md
-      - "Stufe 8 — Klassisches ML & Statistik": syllabus/current/V3/08_stufe8.md
-      - "Stufe 9 — KI-Strategie & Business": syllabus/current/V3/09_stufe9.md
+      - "Stufe 6 — Agenten":
+        - syllabus/current/V3/stufe06/index.md
+        - "Modul 6.0 — Context Engineering":
+          - syllabus/current/V3/stufe06/modul-6.0/index.md
+          - "Prompt → Context Engineering: die Disziplin-Verschiebung": syllabus/current/V3/stufe06/modul-6.0/theorie/disziplin-verschiebung.md
+          - "Context-Bestandteile — was ist im Window?": syllabus/current/V3/stufe06/modul-6.0/theorie/context-bestandteile.md
+          - "Token-Budget-Allokation als Engineering-Entscheidung": syllabus/current/V3/stufe06/modul-6.0/theorie/token-budget-allokation.md
+          - "Memory-Architekturen": syllabus/current/V3/stufe06/modul-6.0/theorie/memory-architekturen.md
+          - "Compaction als Pflicht-Pattern": syllabus/current/V3/stufe06/modul-6.0/theorie/compaction-patterns.md
+          - "Sub-Agent-Token-Budget-Verteilung": syllabus/current/V3/stufe06/modul-6.0/theorie/sub-agent-token-budget.md
+          - "Context-Pollution-Antipatterns": syllabus/current/V3/stufe06/modul-6.0/theorie/context-pollution-antipatterns.md
+          - "Tools für Observability": syllabus/current/V3/stufe06/modul-6.0/theorie/observability-tools.md
+          - "Claude Skills als Context-Engineering-Pattern": syllabus/current/V3/stufe06/modul-6.0/theorie/claude-skills-context.md
+        - "Modul 6.1 — Agent-Patterns":
+          - syllabus/current/V3/stufe06/modul-6.1/index.md
+          - "Was ist ein Agent?": syllabus/current/V3/stufe06/modul-6.1/theorie/was-ist-ein-agent.md
+          - "ReAct-Pattern (2022)": syllabus/current/V3/stufe06/modul-6.1/theorie/react-pattern.md
+          - "Reflection-Pattern als Erweiterung von ReAct": syllabus/current/V3/stufe06/modul-6.1/theorie/reflection-pattern.md
+          - "Plan-then-Execute vs. Iterativ": syllabus/current/V3/stufe06/modul-6.1/theorie/plan-then-execute.md
+          - "Tool-Definitionen mit Schemas": syllabus/current/V3/stufe06/modul-6.1/theorie/tool-definitionen.md
+          - "Tool-Auswahl: was wird ein Tool?": syllabus/current/V3/stufe06/modul-6.1/theorie/tool-auswahl.md
+          - "MCP-Tools statt Custom-Tools": syllabus/current/V3/stufe06/modul-6.1/theorie/mcp-tools.md
+          - "System-Prompt für Agenten": syllabus/current/V3/stufe06/modul-6.1/theorie/system-prompt-agenten.md
+          - "Loop-Steuerung: Stop-Bedingungen": syllabus/current/V3/stufe06/modul-6.1/theorie/stop-bedingungen.md
+          - "Cost und Latenz von Agenten": syllabus/current/V3/stufe06/modul-6.1/theorie/cost-latenz.md
+        - "Modul 6.2 — Multi-Agent & LangGraph":
+          - syllabus/current/V3/stufe06/modul-6.2/index.md
+          - "Multi-Agent-Patterns 2026": syllabus/current/V3/stufe06/modul-6.2/theorie/multi-agent-patterns.md
+          - "LangGraph als Industrie-Default 2026": syllabus/current/V3/stufe06/modul-6.2/theorie/langgraph.md
+          - "CrewAI — schnelles Multi-Agent-Prototyping": syllabus/current/V3/stufe06/modul-6.2/theorie/crewai.md
+          - "AutoGen v0.4+ — Microsoft-Stack": syllabus/current/V3/stufe06/modul-6.2/theorie/autogen.md
+          - "State-Management in Multi-Agent": syllabus/current/V3/stufe06/modul-6.2/theorie/state-management.md
+          - "Human-in-the-Loop als Sicherheits-Mechanismus": syllabus/current/V3/stufe06/modul-6.2/theorie/human-in-the-loop.md
+          - "Sandboxing für gefährliche Tools": syllabus/current/V3/stufe06/modul-6.2/theorie/sandboxing.md
+          - "Cost-Tracking als Pflicht": syllabus/current/V3/stufe06/modul-6.2/theorie/cost-tracking.md
+          - "Failure-Mode-Analyse als Pflicht": syllabus/current/V3/stufe06/modul-6.2/theorie/failure-mode-analyse.md
+          - "Agent-Anti-Patterns": syllabus/current/V3/stufe06/modul-6.2/theorie/agent-anti-patterns.md
+          - "Wann Multi-Agent vermeiden?": syllabus/current/V3/stufe06/modul-6.2/theorie/wann-multi-agent-vermeiden.md
+          - "Trajectory-Eval — Grundlagen": syllabus/current/V3/stufe06/modul-6.2/theorie/trajectory-eval-grundlagen.md
+          - "Trajectory-Metriken": syllabus/current/V3/stufe06/modul-6.2/theorie/trajectory-metriken.md
+          - "Test-Cases für Trajectory-Eval": syllabus/current/V3/stufe06/modul-6.2/theorie/trajectory-test-cases.md
+          - "Eval-Tooling für Trajectories": syllabus/current/V3/stufe06/modul-6.2/theorie/eval-tooling-trajectories.md
+        - "Modul 6.3 — RL & Agent-Theorie":
+          - syllabus/current/V3/stufe06/modul-6.3/index.md
+          - "Warum Agent-Theorie?": syllabus/current/V3/stufe06/modul-6.3/theorie/warum-agent-theorie.md
+          - "Markov Decision Process (MDP)": syllabus/current/V3/stufe06/modul-6.3/theorie/mdp.md
+          - "POMDPs — Partial Observability": syllabus/current/V3/stufe06/modul-6.3/theorie/pomdp.md
+          - "Bellman-Gleichung und Value Functions": syllabus/current/V3/stufe06/modul-6.3/theorie/bellman-value-functions.md
+          - "Q-Learning und Deep Q-Networks (DQN)": syllabus/current/V3/stufe06/modul-6.3/theorie/q-learning-dqn.md
+          - "Policy Gradients (PPO, A2C)": syllabus/current/V3/stufe06/modul-6.3/theorie/policy-gradients.md
+          - "RLHF — Reinforcement Learning from Human Feedback": syllabus/current/V3/stufe06/modul-6.3/theorie/rlhf.md
+          - "DPO, ORPO, GRPO als RLHF-Alternative": syllabus/current/V3/stufe06/modul-6.3/theorie/dpo-orpo-grpo.md
+          - "LLM-Agenten vs. klassisches RL": syllabus/current/V3/stufe06/modul-6.3/theorie/llm-vs-klassisches-rl.md
+          - "Spieletheorie und Multi-Agent-Theorie": syllabus/current/V3/stufe06/modul-6.3/theorie/spieletheorie.md
+        - "Modul 6.4 — Vendor-Patterns im Vergleich":
+          - syllabus/current/V3/stufe06/modul-6.4/index.md
+          - "Warum Vendor-SDKs?": syllabus/current/V3/stufe06/modul-6.4/theorie/warum-vendor-sdks.md
+          - "Wann Vendor-SDK, wann Framework?": syllabus/current/V3/stufe06/modul-6.4/theorie/sdk-vs-framework.md
+          - "Claude Agent SDK — Überblick": syllabus/current/V3/stufe06/modul-6.4/theorie/claude-agent-sdk.md
+          - "Session-Management im Claude Agent SDK": syllabus/current/V3/stufe06/modul-6.4/theorie/session-management.md
+          - "Compaction-Strategien im Claude Agent SDK": syllabus/current/V3/stufe06/modul-6.4/theorie/compaction-im-sdk.md
+          - "Sub-Agent-Spawn-Pattern": syllabus/current/V3/stufe06/modul-6.4/theorie/sub-agent-spawn.md
+          - "Skills-Integration im Claude Agent SDK": syllabus/current/V3/stufe06/modul-6.4/theorie/skills-integration.md
+          - "OpenAI Agents SDK": syllabus/current/V3/stufe06/modul-6.4/theorie/openai-agents-sdk.md
+          - "Google ADK (Agent Development Kit)": syllabus/current/V3/stufe06/modul-6.4/theorie/google-adk.md
+          - "MCP als Brücke zwischen Vendor-SDKs": syllabus/current/V3/stufe06/modul-6.4/theorie/mcp-brücke.md
+          - "Computer Use als Sonderpattern": syllabus/current/V3/stufe06/modul-6.4/theorie/computer-use-ueberblick.md
+        - "Modul 6.5 — Computer Use & Agentic Browsing":
+          - syllabus/current/V3/stufe06/modul-6.5/index.md
+          - "Was ist Computer Use?": syllabus/current/V3/stufe06/modul-6.5/theorie/was-ist-computer-use.md
+          - "Anthropic Computer Use": syllabus/current/V3/stufe06/modul-6.5/theorie/anthropic-computer-use.md
+          - "OpenAI Operator": syllabus/current/V3/stufe06/modul-6.5/theorie/openai-operator.md
+          - "Google Project Mariner": syllabus/current/V3/stufe06/modul-6.5/theorie/google-project-mariner.md
+          - "OSS-Alternativen 2026": syllabus/current/V3/stufe06/modul-6.5/theorie/oss-alternativen.md
+          - "Wann lohnt Computer Use sich?": syllabus/current/V3/stufe06/modul-6.5/theorie/wann-lohnt-computer-use.md
+          - "Cost-Realität: Computer Use ist 5-20x teurer": syllabus/current/V3/stufe06/modul-6.5/theorie/cost-realitaet.md
+          - "Sandboxing — nicht optional": syllabus/current/V3/stufe06/modul-6.5/theorie/sandboxing-computer-use.md
+          - "Confirmation-Pattern für destruktive Aktionen": syllabus/current/V3/stufe06/modul-6.5/theorie/confirmation-pattern.md
+          - "Eval für Computer-Use-Agents": syllabus/current/V3/stufe06/modul-6.5/theorie/eval-computer-use.md
+        - "Modul 6.6 — Agentenschwärme":
+          - syllabus/current/V3/stufe06/modul-6.6/index.md
+          - "Vier Schwarm-Pattern 2026": syllabus/current/V3/stufe06/modul-6.6/theorie/vier-schwarm-pattern.md
+          - "Wann welches Pattern?": syllabus/current/V3/stufe06/modul-6.6/theorie/wann-welches-pattern.md
+          - "Anti-Pattern: Schwarm wo Workflow reicht": syllabus/current/V3/stufe06/modul-6.6/theorie/antipattern-schwaerme.md
+          - "Failure-Modes von Schwärmen": syllabus/current/V3/stufe06/modul-6.6/theorie/failure-modes-schwaerme.md
+          - "Mitigations als Production-Pflicht": syllabus/current/V3/stufe06/modul-6.6/theorie/mitigations-schwaerme.md
+          - "Framework-Mapping 2026": syllabus/current/V3/stufe06/modul-6.6/theorie/framework-mapping.md
+          - "Trajectory-Eval für Schwärme": syllabus/current/V3/stufe06/modul-6.6/theorie/trajectory-eval-schwaerme.md
+          - "Anthropic Agent Teams (Februar 2026)": syllabus/current/V3/stufe06/modul-6.6/theorie/anthropic-agent-teams.md
+        - "Modul 6.7 — Agentic OS":
+          - syllabus/current/V3/stufe06/modul-6.7/index.md
+          - "Begriffs-Klärung: Agentic OS — zwei Bedeutungen": syllabus/current/V3/stufe06/modul-6.7/theorie/begriffs-klaerung.md
+          - "Was ein Agentic OS leistet": syllabus/current/V3/stufe06/modul-6.7/theorie/was-agentic-os-leistet.md
+          - "Pattern-Architektur: vier Layers": syllabus/current/V3/stufe06/modul-6.7/theorie/pattern-architektur.md
+          - "CLAUDE.md als minimaler Agentic-OS-Layer": syllabus/current/V3/stufe06/modul-6.7/theorie/claude-md-pattern.md
+          - "System-Software-Beispiele (Lesart b)": syllabus/current/V3/stufe06/modul-6.7/theorie/system-software-beispiele.md
+          - "Antipatterns im Agentic OS": syllabus/current/V3/stufe06/modul-6.7/theorie/antipatterns-agentic-os.md
+          - "Brücke zu Operating Model (Modul 9.3)": syllabus/current/V3/stufe06/modul-6.7/theorie/bruecke-operating-model.md
+        - "Quellen": syllabus/current/V3/stufe06/quellen.md
+        - "Free-Zertifikate": syllabus/current/V3/stufe06/zertifikate.md
+      - "Stufe 7 — Deep Learning Foundations":
+        - syllabus/current/V3/stufe07/index.md
+        - "Modul 7.1 — Neural Networks & Backpropagation":
+          - syllabus/current/V3/stufe07/modul-7.1/index.md
+          - "Was ist ein Neural Network?": syllabus/current/V3/stufe07/modul-7.1/theorie/was-ist-ein-neural-network.md
+          - "Forward Pass: Inferenz": syllabus/current/V3/stufe07/modul-7.1/theorie/forward-pass.md
+          - "Backpropagation: das Herzstück": syllabus/current/V3/stufe07/modul-7.1/theorie/backpropagation.md
+          - "Loss Functions": syllabus/current/V3/stufe07/modul-7.1/theorie/loss-functions.md
+          - "Optimierer: SGD, Adam, AdamW, Lion": syllabus/current/V3/stufe07/modul-7.1/theorie/optimierer.md
+          - "Activation Functions: ReLU, GELU, SiLU/Swish": syllabus/current/V3/stufe07/modul-7.1/theorie/activation-functions.md
+          - "Initialisierung: Xavier, He, Kaiming": syllabus/current/V3/stufe07/modul-7.1/theorie/initialisierung.md
+          - "Regularisierung: Dropout, Weight Decay, Batch/Layer Norm": syllabus/current/V3/stufe07/modul-7.1/theorie/regularisierung.md
+          - "Vanishing/Exploding Gradients": syllabus/current/V3/stufe07/modul-7.1/theorie/vanishing-exploding-gradients.md
+          - "GPU-Training-Basics": syllabus/current/V3/stufe07/modul-7.1/theorie/gpu-training-basics.md
+          - "Mixed Precision Training (FP16, BF16)": syllabus/current/V3/stufe07/modul-7.1/theorie/mixed-precision.md
+          - "Distributed Training: DDP, FSDP": syllabus/current/V3/stufe07/modul-7.1/theorie/distributed-training-basics.md
+          - "Compute-Cost-Realität": syllabus/current/V3/stufe07/modul-7.1/theorie/compute-cost-realitaet.md
+          - "Karpathys Zero to Hero-Serie": syllabus/current/V3/stufe07/modul-7.1/theorie/zero-to-hero.md
+        - "Modul 7.2 — Transformer-Architektur modern":
+          - syllabus/current/V3/stufe07/modul-7.2/index.md
+          - "Original Transformer (2017)": syllabus/current/V3/stufe07/modul-7.2/theorie/original-transformer.md
+          - "Self-Attention mathematisch: Q, K, V": syllabus/current/V3/stufe07/modul-7.2/theorie/self-attention-qkv.md
+          - "Multi-Head Attention": syllabus/current/V3/stufe07/modul-7.2/theorie/multi-head-attention.md
+          - "Decoder-only Architektur (GPT-Stil)": syllabus/current/V3/stufe07/modul-7.2/theorie/decoder-only.md
+          - "Tokenizer 2026: BPE, SentencePiece, Tiktoken": syllabus/current/V3/stufe07/modul-7.2/theorie/tokenizer.md
+          - "RoPE (Rotary Position Embeddings)": syllabus/current/V3/stufe07/modul-7.2/theorie/rope.md
+          - "GQA (Grouped Query Attention)": syllabus/current/V3/stufe07/modul-7.2/theorie/gqa.md
+          - "MLA (Multi-head Latent Attention)": syllabus/current/V3/stufe07/modul-7.2/theorie/mla.md
+          - "KV-Cache": syllabus/current/V3/stufe07/modul-7.2/theorie/kv-cache.md
+          - "Pre-Norm vs. Post-Norm": syllabus/current/V3/stufe07/modul-7.2/theorie/pre-norm-post-norm.md
+          - "Mixture of Experts (MoE)": syllabus/current/V3/stufe07/modul-7.2/theorie/mixture-of-experts.md
+          - "State Space Models / Mamba als Alternative": syllabus/current/V3/stufe07/modul-7.2/theorie/mamba.md
+        - "Modul 7.3 — Computer Vision":
+          - syllabus/current/V3/stufe07/modul-7.3/index.md
+          - "CNN-Grundlagen": syllabus/current/V3/stufe07/modul-7.3/theorie/cnn-grundlagen.md
+          - "ResNet und Skip Connections": syllabus/current/V3/stufe07/modul-7.3/theorie/resnet-skip-connections.md
+          - "Vision Transformer (ViT)": syllabus/current/V3/stufe07/modul-7.3/theorie/vision-transformer.md
+          - "CLIP — Text und Bild im selben Embedding-Raum": syllabus/current/V3/stufe07/modul-7.3/theorie/clip.md
+          - "DINOv2 — Vision Foundation Model": syllabus/current/V3/stufe07/modul-7.3/theorie/dinov2.md
+          - "SAM und SAM2 — Segment Anything": syllabus/current/V3/stufe07/modul-7.3/theorie/sam.md
+          - "YOLO — Object Detection": syllabus/current/V3/stufe07/modul-7.3/theorie/yolo.md
+          - "Stable Diffusion und Diffusion Models": syllabus/current/V3/stufe07/modul-7.3/theorie/diffusion-models.md
+          - "Transfer Learning für Vision": syllabus/current/V3/stufe07/modul-7.3/theorie/transfer-learning-vision.md
+          - "Augmentation und Datenaufbereitung": syllabus/current/V3/stufe07/modul-7.3/theorie/augmentation.md
+          - "Vision-LLMs vs. klassische CV": syllabus/current/V3/stufe07/modul-7.3/theorie/vision-llms-vs-klassische-cv.md
+        - "Modul 7.4 — Multimodale KI":
+          - syllabus/current/V3/stufe07/modul-7.4/index.md
+          - "Multimodale Frontier-Modelle Mai 2026": syllabus/current/V3/stufe07/modul-7.4/theorie/frontier-modelle.md
+          - "OSS Multimodale Modelle": syllabus/current/V3/stufe07/modul-7.4/theorie/oss-multimodale-modelle.md
+          - "Multimodal-Prompting-Patterns": syllabus/current/V3/stufe07/modul-7.4/theorie/multimodal-prompting-patterns.md
+          - "Vision-Use-Cases die 2026 zuverlässig funktionieren": syllabus/current/V3/stufe07/modul-7.4/theorie/vision-use-cases.md
+          - "Vision-Schwächen": syllabus/current/V3/stufe07/modul-7.4/theorie/vision-schwaechen.md
+          - "STT-Stack 2026": syllabus/current/V3/stufe07/modul-7.4/theorie/stt-stack.md
+          - "TTS-Stack 2026": syllabus/current/V3/stufe07/modul-7.4/theorie/tts-stack.md
+          - "Realtime-Voice-APIs": syllabus/current/V3/stufe07/modul-7.4/theorie/realtime-voice-apis.md
+          - "Voice-Agent-Patterns": syllabus/current/V3/stufe07/modul-7.4/theorie/voice-agent-patterns.md
+          - "Document AI mit Layout-Verständnis": syllabus/current/V3/stufe07/modul-7.4/theorie/document-ai.md
+          - "Video-Generation Awareness": syllabus/current/V3/stufe07/modul-7.4/theorie/video-generation-awareness.md
+          - "Cost und Performance multimodaler Modelle": syllabus/current/V3/stufe07/modul-7.4/theorie/cost-performance-multimodal.md
+          - "Audio-Anti-Patterns": syllabus/current/V3/stufe07/modul-7.4/theorie/audio-anti-patterns.md
+        - "Modul 7.5 — Reasoning-Modelle als Architektur-Familie":
+          - syllabus/current/V3/stufe07/modul-7.5/index.md
+          - "Reasoning-Modell-Familie 2026": syllabus/current/V3/stufe07/modul-7.5/theorie/reasoning-familie.md
+          - "Test-Time-Compute als Skalierungs-Achse": syllabus/current/V3/stufe07/modul-7.5/theorie/test-time-compute.md
+          - "Inferenz-Patterns: CoT, Self-Consistency, Tree-Search": syllabus/current/V3/stufe07/modul-7.5/theorie/inferenz-patterns.md
+          - "Trainings-Patterns: GRPO, PRM, ORM": syllabus/current/V3/stufe07/modul-7.5/theorie/trainings-patterns.md
+          - "Wann Reasoning-Modell, wann Standard?": syllabus/current/V3/stufe07/modul-7.5/theorie/wann-reasoning.md
+          - "Engineering-Patterns für Reasoning-Modelle": syllabus/current/V3/stufe07/modul-7.5/theorie/engineering-patterns.md
+          - "Failure-Modes von Reasoning-Modellen": syllabus/current/V3/stufe07/modul-7.5/theorie/failure-modes.md
+          - "Eval von Reasoning-Modellen": syllabus/current/V3/stufe07/modul-7.5/theorie/eval-reasoning.md
+        - "Modul 7.6 — Distributed Training systematisch":
+          - syllabus/current/V3/stufe07/modul-7.6/index.md
+          - "Warum Distributed Training?": syllabus/current/V3/stufe07/modul-7.6/theorie/warum-distributed.md
+          - "Data-Parallel (DDP)": syllabus/current/V3/stufe07/modul-7.6/theorie/ddp.md
+          - "Fully Sharded Data Parallel (FSDP)": syllabus/current/V3/stufe07/modul-7.6/theorie/fsdp.md
+          - "ZeRO Stages 1/2/3": syllabus/current/V3/stufe07/modul-7.6/theorie/zero-stages.md
+          - "Tensor-Parallelism (Awareness)": syllabus/current/V3/stufe07/modul-7.6/theorie/tensor-parallelism.md
+          - "Pipeline-Parallelism (Awareness)": syllabus/current/V3/stufe07/modul-7.6/theorie/pipeline-parallelism.md
+          - "Tools 2026: FSDP, DeepSpeed, Accelerate, Megatron-LM": syllabus/current/V3/stufe07/modul-7.6/theorie/distributed-tools.md
+        - "Quellen": syllabus/current/V3/stufe07/quellen.md
+        - "Free-Zertifikate": syllabus/current/V3/stufe07/zertifikate.md
+      - "Stufe 8 — Klassisches ML & Statistik":
+        - syllabus/current/V3/stufe08/index.md
+        - "Modul 8.1 — Data Exploration & Clustering":
+          - syllabus/current/V3/stufe08/modul-8.1/index.md
+          - "EDA-Workflow": syllabus/current/V3/stufe08/modul-8.1/theorie/eda-workflow.md
+          - "EDA mit KI-Augmentation": syllabus/current/V3/stufe08/modul-8.1/theorie/eda-ki-augmentation.md
+          - "Distanz-Metriken": syllabus/current/V3/stufe08/modul-8.1/theorie/distanz-metriken.md
+          - "K-Means": syllabus/current/V3/stufe08/modul-8.1/theorie/k-means.md
+          - "Wahl der Cluster-Anzahl": syllabus/current/V3/stufe08/modul-8.1/theorie/cluster-anzahl.md
+          - "Hierarchical Clustering": syllabus/current/V3/stufe08/modul-8.1/theorie/hierarchical-clustering.md
+          - "DBSCAN und HDBSCAN": syllabus/current/V3/stufe08/modul-8.1/theorie/dbscan-hdbscan.md
+          - "Gaussian Mixture Models": syllabus/current/V3/stufe08/modul-8.1/theorie/gmm.md
+          - "Cluster-Bewertung ohne Ground-Truth": syllabus/current/V3/stufe08/modul-8.1/theorie/cluster-bewertung.md
+          - "Dimensionsreduktion: PCA": syllabus/current/V3/stufe08/modul-8.1/theorie/pca.md
+          - "t-SNE und UMAP": syllabus/current/V3/stufe08/modul-8.1/theorie/tsne-umap.md
+          - "Skalierung vor Clustering": syllabus/current/V3/stufe08/modul-8.1/theorie/skalierung.md
+        - "Modul 8.2 — Klassifikation & Decision Trees":
+          - syllabus/current/V3/stufe08/modul-8.2/index.md
+          - "Das Klassifikations-Grundproblem": syllabus/current/V3/stufe08/modul-8.2/theorie/klassifikation-grundproblem.md
+          - "Logistische Regression": syllabus/current/V3/stufe08/modul-8.2/theorie/logistische-regression.md
+          - "Naive Bayes": syllabus/current/V3/stufe08/modul-8.2/theorie/naive-bayes.md
+          - "Decision Trees": syllabus/current/V3/stufe08/modul-8.2/theorie/decision-trees.md
+          - "Random Forests": syllabus/current/V3/stufe08/modul-8.2/theorie/random-forests.md
+          - "Klassifikations-Metriken": syllabus/current/V3/stufe08/modul-8.2/theorie/klassifikations-metriken.md
+          - "Confusion Matrix": syllabus/current/V3/stufe08/modul-8.2/theorie/confusion-matrix.md
+          - "Cross-Validation": syllabus/current/V3/stufe08/modul-8.2/theorie/cross-validation.md
+          - "Feature Engineering": syllabus/current/V3/stufe08/modul-8.2/theorie/feature-engineering.md
+          - "Multiclass vs. Multilabel": syllabus/current/V3/stufe08/modul-8.2/theorie/multiclass-multilabel.md
+          - "Class Imbalance": syllabus/current/V3/stufe08/modul-8.2/theorie/class-imbalance.md
+          - "SHAP und LIME": syllabus/current/V3/stufe08/modul-8.2/theorie/shap-lime.md
+          - "Calibration": syllabus/current/V3/stufe08/modul-8.2/theorie/calibration.md
+          - "Wann LLM, wann klassisches ML?": syllabus/current/V3/stufe08/modul-8.2/theorie/llm-vs-klassisches-ml.md
+        - "Modul 8.3 — Regression & Boosting":
+          - syllabus/current/V3/stufe08/modul-8.3/index.md
+          - "Lineare Regression": syllabus/current/V3/stufe08/modul-8.3/theorie/lineare-regression.md
+          - "Statistische Annahmen der Linearen Regression": syllabus/current/V3/stufe08/modul-8.3/theorie/statistische-annahmen.md
+          - "Regressions-Metriken": syllabus/current/V3/stufe08/modul-8.3/theorie/regressions-metriken.md
+          - "Regularisierung: Ridge, Lasso, Elastic Net": syllabus/current/V3/stufe08/modul-8.3/theorie/regularisierung.md
+          - "Polynomial und Interaction Features": syllabus/current/V3/stufe08/modul-8.3/theorie/polynomial-features.md
+          - "Time Series Regression": syllabus/current/V3/stufe08/modul-8.3/theorie/time-series-regression.md
+          - "Gradient Boosting konzeptionell": syllabus/current/V3/stufe08/modul-8.3/theorie/gradient-boosting.md
+          - "XGBoost": syllabus/current/V3/stufe08/modul-8.3/theorie/xgboost.md
+          - "LightGBM": syllabus/current/V3/stufe08/modul-8.3/theorie/lightgbm.md
+          - "CatBoost": syllabus/current/V3/stufe08/modul-8.3/theorie/catboost.md
+          - "XGBoost vs. LightGBM vs. CatBoost — wann welches?": syllabus/current/V3/stufe08/modul-8.3/theorie/boosting-vergleich.md
+          - "Early Stopping als Regularisierung": syllabus/current/V3/stufe08/modul-8.3/theorie/early-stopping.md
+          - "Hyperparameter-Tuning systematisch": syllabus/current/V3/stufe08/modul-8.3/theorie/hyperparameter-tuning.md
+          - "AutoML als Tool": syllabus/current/V3/stufe08/modul-8.3/theorie/automl.md
+          - "TabPFN — Foundation Model für Tabellendaten": syllabus/current/V3/stufe08/modul-8.3/theorie/tabpfn.md
+        - "Modul 8.4 — Recommendation Systems":
+          - syllabus/current/V3/stufe08/modul-8.4/index.md
+          - "Recommendation-Probleme": syllabus/current/V3/stufe08/modul-8.4/theorie/recommendation-probleme.md
+          - "Collaborative Filtering": syllabus/current/V3/stufe08/modul-8.4/theorie/collaborative-filtering.md
+          - "Content-Based Filtering": syllabus/current/V3/stufe08/modul-8.4/theorie/content-based-filtering.md
+          - "Matrix Factorization": syllabus/current/V3/stufe08/modul-8.4/theorie/matrix-factorization.md
+          - "Deep Learning für RecSys": syllabus/current/V3/stufe08/modul-8.4/theorie/deep-learning-recsys.md
+          - "Embedding-basierter Recommender (2026-Pattern)": syllabus/current/V3/stufe08/modul-8.4/theorie/embedding-recommender.md
+          - "LLM-basierte Recommender 2024-2026": syllabus/current/V3/stufe08/modul-8.4/theorie/llm-recsys.md
+          - "Hybrid Recommender": syllabus/current/V3/stufe08/modul-8.4/theorie/hybrid-recommender.md
+          - "Sequential Recommendation": syllabus/current/V3/stufe08/modul-8.4/theorie/sequential-recommendation.md
+          - "Cold-Start-Problem": syllabus/current/V3/stufe08/modul-8.4/theorie/cold-start.md
+          - "RecSys-Eval-Metriken": syllabus/current/V3/stufe08/modul-8.4/theorie/recsys-metriken.md
+          - "Diversity vs. Relevance Trade-off": syllabus/current/V3/stufe08/modul-8.4/theorie/diversity-relevance.md
+        - "Modul 8.5 — A/B-Testing & Causal Inference":
+          - syllabus/current/V3/stufe08/modul-8.5/index.md
+          - "Wann ist Experimentation sinnvoll?": syllabus/current/V3/stufe08/modul-8.5/theorie/experimentation-wann.md
+          - "Hypothesen-Tests: Null- und Alternativ-Hypothese": syllabus/current/V3/stufe08/modul-8.5/theorie/hypothesen-tests.md
+          - "t-Test, Chi-Square, Mann-Whitney": syllabus/current/V3/stufe08/modul-8.5/theorie/statistische-tests.md
+          - "Konfidenzintervalle": syllabus/current/V3/stufe08/modul-8.5/theorie/konfidenzintervalle.md
+          - "Sample-Size-Berechnung (Power Analysis)": syllabus/current/V3/stufe08/modul-8.5/theorie/power-analysis.md
+          - "OEC — Overall Evaluation Criterion": syllabus/current/V3/stufe08/modul-8.5/theorie/oec.md
+          - "Guardrail-Metriken": syllabus/current/V3/stufe08/modul-8.5/theorie/guardrails.md
+          - "Häufige A/B-Test-Fallen": syllabus/current/V3/stufe08/modul-8.5/theorie/ab-test-fallen.md
+          - "Bayesian A/B-Testing": syllabus/current/V3/stufe08/modul-8.5/theorie/bayesian-ab-testing.md
+          - "Multiple-Testing-Problem": syllabus/current/V3/stufe08/modul-8.5/theorie/multiple-testing.md
+          - "Sequential Testing und Stopping Rules": syllabus/current/V3/stufe08/modul-8.5/theorie/sequential-testing.md
+          - "Segment-Analyse": syllabus/current/V3/stufe08/modul-8.5/theorie/segment-analyse.md
+          - "Causal Inference jenseits A/B-Testing": syllabus/current/V3/stufe08/modul-8.5/theorie/causal-inference.md
+          - "A/B-Testing für LLM-Outputs": syllabus/current/V3/stufe08/modul-8.5/theorie/llm-ab-testing.md
+        - "Quellen": syllabus/current/V3/stufe08/quellen.md
+        - "Free-Zertifikate": syllabus/current/V3/stufe08/zertifikate.md
+      - "Stufe 9 — KI-Strategie & Business":
+        - syllabus/current/V3/stufe09/index.md
+        - "Modul 9.0 — Datenstrategie":
+          - syllabus/current/V3/stufe09/modul-9.0/index.md
+          - "Datenreife-Assessment — die fünf Stufen": syllabus/current/V3/stufe09/modul-9.0/theorie/datenreife-assessment.md
+          - "KI-spezifische Datenanforderungen": syllabus/current/V3/stufe09/modul-9.0/theorie/ki-spezifische-datenanforderungen.md
+          - "Daten-Architektur-Patterns 2026": syllabus/current/V3/stufe09/modul-9.0/theorie/daten-architektur-patterns.md
+          - "Daten als Wettbewerbsvorteil 2026": syllabus/current/V3/stufe09/modul-9.0/theorie/daten-als-wettbewerbsvorteil.md
+          - "Daten-Make-vs-Buy-Entscheidung": syllabus/current/V3/stufe09/modul-9.0/theorie/daten-make-vs-buy.md
+          - "Daten-Lock-in als unterschätztes Risiko": syllabus/current/V3/stufe09/modul-9.0/theorie/daten-lock-in.md
+          - "Data Governance auf operativem Level": syllabus/current/V3/stufe09/modul-9.0/theorie/data-governance.md
+          - "DSGVO-Konformität als Datenstrategie-Konstante": syllabus/current/V3/stufe09/modul-9.0/theorie/dsgvo-konformitaet.md
+          - "Anti-Patterns in der Datenstrategie": syllabus/current/V3/stufe09/modul-9.0/theorie/anti-patterns-datenstrategie.md
+        - "Modul 9.1 — KI-Use-Cases identifizieren":
+          - syllabus/current/V3/stufe09/modul-9.1/index.md
+          - "Strategy-First vs. Use-Case-First": syllabus/current/V3/stufe09/modul-9.1/theorie/strategy-first-vs-use-case-first.md
+          - "Use-Case-Quellen systematisch erschließen": syllabus/current/V3/stufe09/modul-9.1/theorie/use-case-quellen.md
+          - "Wertschöpfungsketten-Analyse für KI-Use-Cases": syllabus/current/V3/stufe09/modul-9.1/theorie/wertschoepfungsketten-analyse.md
+          - "Branchen-spezifische Use-Case-Cluster 2026": syllabus/current/V3/stufe09/modul-9.1/theorie/branchen-use-cases.md
+          - "Priorisierungs-Frameworks für KI-Use-Cases": syllabus/current/V3/stufe09/modul-9.1/theorie/priorisierungs-frameworks.md
+          - "Use-Case-Reifegrad bewerten": syllabus/current/V3/stufe09/modul-9.1/theorie/use-case-reifegrad.md
+          - "Datenreife pro Use-Case bewerten": syllabus/current/V3/stufe09/modul-9.1/theorie/datenreife-pro-use-case.md
+          - "AI Use Case Portfolio": syllabus/current/V3/stufe09/modul-9.1/theorie/ai-use-case-portfolio.md
+          - "AI Use Case Portfolio — Risiko-Diversifikation": syllabus/current/V3/stufe09/modul-9.1/theorie/use-case-portfolio.md
+          - "Stakeholder-Buy-In als Use-Case-Kriterium": syllabus/current/V3/stufe09/modul-9.1/theorie/stakeholder-buy-in.md
+          - "Anti-Patterns bei Use-Case-Auswahl": syllabus/current/V3/stufe09/modul-9.1/theorie/anti-patterns-use-case.md
+          - "2026-Reality-Check: Was funktioniert heute zuverlässig?": syllabus/current/V3/stufe09/modul-9.1/theorie/reality-check-2026.md
+        - "Modul 9.2 — ROI & Business Case":
+          - syllabus/current/V3/stufe09/modul-9.2/index.md
+          - "Wert-Kategorien für KI-ROI systematisieren": syllabus/current/V3/stufe09/modul-9.2/theorie/wert-kategorien.md
+          - "Total Cost of Ownership (TCO) für KI": syllabus/current/V3/stufe09/modul-9.2/theorie/tco-fuer-ki.md
+          - "API-Cost realistisch schätzen": syllabus/current/V3/stufe09/modul-9.2/theorie/api-cost-schaetzen.md
+          - "Hidden Costs of LLMs": syllabus/current/V3/stufe09/modul-9.2/theorie/hidden-costs-llms.md
+          - "Time Horizons und Discount Rate": syllabus/current/V3/stufe09/modul-9.2/theorie/time-horizons-discount-rate.md
+          - "Confidence Levels — drei Szenarien": syllabus/current/V3/stufe09/modul-9.2/theorie/confidence-levels-szenarien.md
+          - "Adoption-Kurve realistisch annehmen": syllabus/current/V3/stufe09/modul-9.2/theorie/adoption-kurve.md
+          - "Sensitivity Analysis für KI-Business-Cases": syllabus/current/V3/stufe09/modul-9.2/theorie/sensitivity-analysis.md
+          - "Pilot-Phasen mit klaren Gates": syllabus/current/V3/stufe09/modul-9.2/theorie/pilot-phasen-gates.md
+          - "Stakeholder-spezifische Kommunikation des Business Case": syllabus/current/V3/stufe09/modul-9.2/theorie/stakeholder-kommunikation.md
+          - "Anti-Patterns bei ROI-Berechnungen": syllabus/current/V3/stufe09/modul-9.2/theorie/anti-patterns.md
+        - "Modul 9.3 — KI-Skalierung & Operating Model":
+          - syllabus/current/V3/stufe09/modul-9.3/index.md
+          - "Operating-Model-Typen": syllabus/current/V3/stufe09/modul-9.3/theorie/operating-model-typen.md
+          - "Operating-Model-Reife — fünf Stufen": syllabus/current/V3/stufe09/modul-9.3/theorie/operating-model-reife.md
+          - "KI-spezifische KPI-Frameworks — die drei Ebenen": syllabus/current/V3/stufe09/modul-9.3/theorie/drei-kpi-ebenen.md
+          - "Eval-Querschnitt-Anker für System-KPIs": syllabus/current/V3/stufe09/modul-9.3/theorie/eval-querschnitt-anker.md
+          - "Anti-Patterns bei KPI-Definition": syllabus/current/V3/stufe09/modul-9.3/theorie/anti-patterns-kpis.md
+          - "AI-Maturity-Score als Zusammenfassungs-KPI": syllabus/current/V3/stufe09/modul-9.3/theorie/ai-maturity-score.md
+          - "AI Governance — was muss reguliert sein?": syllabus/current/V3/stufe09/modul-9.3/theorie/ai-governance.md
+          - "AI Governance Council & Ethics Board": syllabus/current/V3/stufe09/modul-9.3/theorie/ai-governance-council.md
+          - "NIST AI RMF — die vier Funktionen praktisch": syllabus/current/V3/stufe09/modul-9.3/theorie/nist-ai-rmf.md
+          - "ISO 42001 als Audit-Vorbereitung": syllabus/current/V3/stufe09/modul-9.3/theorie/iso-42001.md
+          - "AI Platform vs. Tool Sprawl": syllabus/current/V3/stufe09/modul-9.3/theorie/ai-platform-vs-tool-sprawl.md
+          - "Talent-Strategie für KI": syllabus/current/V3/stufe09/modul-9.3/theorie/talent-strategie.md
+        - "Modul 9.4 — Build-vs-Buy & Wettbewerbsvorteile":
+          - syllabus/current/V3/stufe09/modul-9.4/index.md
+          - "Build-vs-Buy-Decision-Framework": syllabus/current/V3/stufe09/modul-9.4/theorie/build-vs-buy-framework.md
+          - "Build-Stärken — wann ist Eigenbau die richtige Wahl?": syllabus/current/V3/stufe09/modul-9.4/theorie/build-staerken.md
+          - "Buy-Stärken — wann ist Off-the-Shelf die richtige Wahl?": syllabus/current/V3/stufe09/modul-9.4/theorie/buy-staerken.md
+          - "Hybrid-Strategien als 2026-Realität": syllabus/current/V3/stufe09/modul-9.4/theorie/hybrid-strategien.md
+          - "TCO-Vergleich Build vs. Buy": syllabus/current/V3/stufe09/modul-9.4/theorie/tco-build-vs-buy.md
+          - "Vendor-Lock-in bewerten": syllabus/current/V3/stufe09/modul-9.4/theorie/vendor-lock-in.md
+          - "MCP als Vendor-Lock-in-Mitigations-Faktor": syllabus/current/V3/stufe09/modul-9.4/theorie/mcp-lock-in-mitigation.md
+          - "Wann ist KI Wettbewerbsvorteil, wann Commodity?": syllabus/current/V3/stufe09/modul-9.4/theorie/ki-wettbewerbsvorteil.md
+          - "Daten als Moat — der eigentliche Wettbewerbsvorteil": syllabus/current/V3/stufe09/modul-9.4/theorie/daten-als-moat.md
+          - "First-Mover vs. Fast-Follower bei KI": syllabus/current/V3/stufe09/modul-9.4/theorie/first-mover-vs-fast-follower.md
+        - "Modul 9.5 — EU AI Act & Compliance":
+          - syllabus/current/V3/stufe09/modul-9.5/index.md
+          - "EU AI Act — Status Mai 2026": syllabus/current/V3/stufe09/modul-9.5/theorie/eu-ai-act-status.md
+          - "Risikoklassen des EU AI Act": syllabus/current/V3/stufe09/modul-9.5/theorie/risikoklassen.md
+          - "Risikoklassifizierung-Checkliste für eigene Use-Cases": syllabus/current/V3/stufe09/modul-9.5/theorie/risikoklassifizierung-checkliste.md
+          - "Conformity Assessment für High-Risk-Systeme": syllabus/current/V3/stufe09/modul-9.5/theorie/conformity-assessment.md
+          - "GPAI-Pflichten (General-Purpose AI Models)": syllabus/current/V3/stufe09/modul-9.5/theorie/gpai-pflichten.md
+          - "Strafen und Enforcement im EU AI Act": syllabus/current/V3/stufe09/modul-9.5/theorie/strafen-enforcement.md
+          - "DSGVO-Schnittmenge mit dem AI Act": syllabus/current/V3/stufe09/modul-9.5/theorie/dsgvo-schnittmenge.md
+          - "AI Literacy nach Art. 4 EU AI Act": syllabus/current/V3/stufe09/modul-9.5/theorie/ai-literacy-art4.md
+          - "NIST AI RMF im EU-Kontext": syllabus/current/V3/stufe09/modul-9.5/theorie/nist-rmf-eu-kontext.md
+          - "ISO/IEC 42001 — AI Management Systems im Compliance-Kontext": syllabus/current/V3/stufe09/modul-9.5/theorie/iso-42001-compliance.md
+          - "Praktischer Compliance-Workflow für Organisationen": syllabus/current/V3/stufe09/modul-9.5/theorie/compliance-workflow.md
+          - "Live-Quellen für aktuelle Compliance-Praxis": syllabus/current/V3/stufe09/modul-9.5/theorie/live-quellen-compliance.md
+        - "Modul 9.6 — Change Management":
+          - syllabus/current/V3/stufe09/modul-9.6/index.md
+          - "Warum scheitern KI-Projekte? Pareto-Verteilung 2026": syllabus/current/V3/stufe09/modul-9.6/theorie/warum-scheitern-ki-projekte.md
+          - "KI-spezifische Change-Management-Aspekte": syllabus/current/V3/stufe09/modul-9.6/theorie/ki-change-management-aspekte.md
+          - "Kotter's 8 Steps für KI-Einführung": syllabus/current/V3/stufe09/modul-9.6/theorie/kotter-8-steps.md
+          - "ADKAR als individuelles Change-Modell": syllabus/current/V3/stufe09/modul-9.6/theorie/adkar.md
+          - "Stakeholder-Mapping vertieft": syllabus/current/V3/stufe09/modul-9.6/theorie/stakeholder-mapping-vertieft.md
+          - "Adoption-Kurven — Crossing the Chasm": syllabus/current/V3/stufe09/modul-9.6/theorie/adoption-kurven-chasm.md
+          - "Realistische Adoption-Curve modellieren": syllabus/current/V3/stufe09/modul-9.6/theorie/adoption-curve-modellieren.md
+        - "Modul 9.7 — Failure-Case-Library": syllabus/current/V3/stufe09/modul-9.7/index.md
       - "Stufe 10 — Spezialisierung & Production":
         - syllabus/current/V3/stufe10/index.md
         - "Modul 10.1 — KI im Marketing":
