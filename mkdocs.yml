@@ -110,8 +110,142 @@ nav:
           - "Lernroutinen": syllabus/current/V3/stufe01/modul-1.3/theorie/lernroutinen.md
         - "Quellen": syllabus/current/V3/stufe01/quellen.md
         - "Free-Zertifikate": syllabus/current/V3/stufe01/zertifikate.md
-      - "Stufe 2 — Grundlagen": syllabus/current/V3/02_stufe2.md
-      - "Stufe 3 — Arbeitsmethoden mit KI": syllabus/current/V3/03_stufe3.md
+      - "Stufe 2 — Grundlagen":
+        - syllabus/current/V3/stufe02/index.md
+        - "Modul 2.1 — LLM Foundations LIGHT":
+          - syllabus/current/V3/stufe02/modul-2.1/index.md
+          - "Was ein LLM tut": syllabus/current/V3/stufe02/modul-2.1/theorie/was-ein-llm-tut.md
+          - "Tokens": syllabus/current/V3/stufe02/modul-2.1/theorie/tokens.md
+          - "Context Window": syllabus/current/V3/stufe02/modul-2.1/theorie/context-window.md
+          - "Trainingsdaten & Cutoff": syllabus/current/V3/stufe02/modul-2.1/theorie/trainingsdaten-cutoff.md
+          - "Halluzinationen": syllabus/current/V3/stufe02/modul-2.1/theorie/halluzinationen.md
+          - "Stochastik": syllabus/current/V3/stufe02/modul-2.1/theorie/stochastik.md
+          - "Frontier vs. Open-Source": syllabus/current/V3/stufe02/modul-2.1/theorie/frontier-vs-opensource.md
+        - "Cost-Awareness-Mini-Block":
+          - syllabus/current/V3/stufe02/cost-awareness/index.md
+          - "Token-Pricing": syllabus/current/V3/stufe02/cost-awareness/theorie/token-pricing.md
+          - "Output teurer als Input": syllabus/current/V3/stufe02/cost-awareness/theorie/output-teurer.md
+          - "Modell-Tiers": syllabus/current/V3/stufe02/cost-awareness/theorie/modell-tiers.md
+          - "Prompt Caching": syllabus/current/V3/stufe02/cost-awareness/theorie/prompt-caching.md
+          - "Free-Tier-Realität": syllabus/current/V3/stufe02/cost-awareness/theorie/free-tier.md
+          - "Cost-Tracking-Tools": syllabus/current/V3/stufe02/cost-awareness/theorie/cost-tracking.md
+          - "Lokale Modelle": syllabus/current/V3/stufe02/cost-awareness/theorie/lokale-modelle.md
+        - "Modul 2.2 — KI-Tools-Landschaft":
+          - syllabus/current/V3/stufe02/modul-2.2/index.md
+          - "Chatbots / Assistants": syllabus/current/V3/stufe02/modul-2.2/theorie/chatbots.md
+          - "Coding-Assistenten": syllabus/current/V3/stufe02/modul-2.2/theorie/coding-assistenten.md
+          - "KI-gestützte Suche": syllabus/current/V3/stufe02/modul-2.2/theorie/ki-suche.md
+          - "No-Code KI-App-Builder": syllabus/current/V3/stufe02/modul-2.2/theorie/no-code-builder.md
+          - "Workflow-Automatisierung": syllabus/current/V3/stufe02/modul-2.2/theorie/workflow-automatisierung.md
+          - "Bildgenerierung": syllabus/current/V3/stufe02/modul-2.2/theorie/bildgenerierung.md
+          - "Audio": syllabus/current/V3/stufe02/modul-2.2/theorie/audio.md
+          - "Videogenerierung": syllabus/current/V3/stufe02/modul-2.2/theorie/videogenerierung.md
+          - "Spezialisierte Tools": syllabus/current/V3/stufe02/modul-2.2/theorie/spezialisierte-tools.md
+          - "Live-Quellen": syllabus/current/V3/stufe02/modul-2.2/theorie/live-quellen.md
+        - "Modul 2.3 — Prompt Engineering":
+          - syllabus/current/V3/stufe02/modul-2.3/index.md
+          - "Prompt-Anatomie": syllabus/current/V3/stufe02/modul-2.3/theorie/prompt-anatomie.md
+          - "Few-Shot Prompting": syllabus/current/V3/stufe02/modul-2.3/theorie/few-shot.md
+          - "Chain-of-Thought": syllabus/current/V3/stufe02/modul-2.3/theorie/chain-of-thought.md
+          - "Strukturierte Outputs": syllabus/current/V3/stufe02/modul-2.3/theorie/strukturierte-outputs.md
+          - "System- vs. User-Prompt": syllabus/current/V3/stufe02/modul-2.3/theorie/system-vs-user-prompt.md
+          - "Prompt-Eval": syllabus/current/V3/stufe02/modul-2.3/theorie/prompt-eval.md
+          - "Context Engineering": syllabus/current/V3/stufe02/modul-2.3/theorie/context-engineering.md
+          - "Prompt-Bibliotheken": syllabus/current/V3/stufe02/modul-2.3/theorie/prompt-bibliotheken.md
+        - "Modul 2.4 — KI-Realität verstehen":
+          - syllabus/current/V3/stufe02/modul-2.4/index.md
+          - "Halluzinationen erkennen": syllabus/current/V3/stufe02/modul-2.4/theorie/halluzinationen-erkennen.md
+          - "Bias in KI-Systemen": syllabus/current/V3/stufe02/modul-2.4/theorie/bias.md
+          - "DSGVO-Basics": syllabus/current/V3/stufe02/modul-2.4/theorie/dsgvo-basics.md
+          - "Prompt Injection": syllabus/current/V3/stufe02/modul-2.4/theorie/prompt-injection.md
+          - "AI Literacy": syllabus/current/V3/stufe02/modul-2.4/theorie/ai-literacy.md
+          - "KI-Kommunikation": syllabus/current/V3/stufe02/modul-2.4/theorie/ki-kommunikation.md
+        - "Modul 2.5 — LLM Foundations VERTIEFT":
+          - syllabus/current/V3/stufe02/modul-2.5/index.md
+          - "Frontier Closed-Source": syllabus/current/V3/stufe02/modul-2.5/theorie/frontier-closed-source.md
+          - "Open-Source 2026": syllabus/current/V3/stufe02/modul-2.5/theorie/open-source-2026.md
+          - "Reasoning-Modelle": syllabus/current/V3/stufe02/modul-2.5/theorie/reasoning-modelle.md
+          - "Function Calling": syllabus/current/V3/stufe02/modul-2.5/theorie/function-calling.md
+          - "MCP-Konzept": syllabus/current/V3/stufe02/modul-2.5/theorie/mcp-konzept.md
+          - "Multi-Model-Routing": syllabus/current/V3/stufe02/modul-2.5/theorie/multi-model-routing.md
+          - "Provider-Abstraktion": syllabus/current/V3/stufe02/modul-2.5/theorie/provider-abstraktion.md
+          - "Cost-Modell": syllabus/current/V3/stufe02/modul-2.5/theorie/cost-modell.md
+          - "Modell-Wahl": syllabus/current/V3/stufe02/modul-2.5/theorie/modell-wahl.md
+          - "Ask, don't tell": syllabus/current/V3/stufe02/modul-2.5/theorie/ask-dont-tell.md
+          - "CoT-Anti-Pattern": syllabus/current/V3/stufe02/modul-2.5/theorie/cot-anti-pattern.md
+          - "Few-Shot-Anti-Pattern": syllabus/current/V3/stufe02/modul-2.5/theorie/few-shot-anti-pattern.md
+          - "Strukturierte Outputs + Reasoning": syllabus/current/V3/stufe02/modul-2.5/theorie/strukturierte-outputs-reasoning.md
+          - "Reasoning-Cost": syllabus/current/V3/stufe02/modul-2.5/theorie/reasoning-cost.md
+          - "Wann Reasoning?": syllabus/current/V3/stufe02/modul-2.5/theorie/wann-reasoning.md
+          - "Reasoning-Eval": syllabus/current/V3/stufe02/modul-2.5/theorie/reasoning-eval.md
+          - "Test-Time-Compute": syllabus/current/V3/stufe02/modul-2.5/theorie/test-time-compute.md
+          - "Reasoning-Familie 2026": syllabus/current/V3/stufe02/modul-2.5/theorie/reasoning-familie-2026.md
+          - "Trainings-Pattern": syllabus/current/V3/stufe02/modul-2.5/theorie/trainings-pattern.md
+          - "Inferenz-Pattern": syllabus/current/V3/stufe02/modul-2.5/theorie/inferenz-pattern.md
+          - "Effort-Parameter": syllabus/current/V3/stufe02/modul-2.5/theorie/effort-parameter.md
+          - "Brücke zu Capstone": syllabus/current/V3/stufe02/modul-2.5/theorie/bruecke-capstone.md
+        - "Modul 2.6 — No-Code & Vibe-Coding":
+          - syllabus/current/V3/stufe02/modul-2.6/index.md
+          - "No-Code-Workflow-Tools": syllabus/current/V3/stufe02/modul-2.6/theorie/no-code-tools.md
+          - "Vibe-Coding-Plattformen": syllabus/current/V3/stufe02/modul-2.6/theorie/vibe-coding.md
+          - "Wann No-Code ausreicht": syllabus/current/V3/stufe02/modul-2.6/theorie/wann-no-code.md
+          - "Workflow-Logik": syllabus/current/V3/stufe02/modul-2.6/theorie/workflow-logik.md
+          - "LLM-Integration No-Code": syllabus/current/V3/stufe02/modul-2.6/theorie/llm-integration-no-code.md
+          - "Datenschutz No-Code": syllabus/current/V3/stufe02/modul-2.6/theorie/datenschutz-no-code.md
+          - "Vibe-Coding-Patterns": syllabus/current/V3/stufe02/modul-2.6/theorie/vibe-coding-patterns.md
+        - "Modul 2.7 — Python für KI":
+          - syllabus/current/V3/stufe02/modul-2.7/index.md
+          - "Python-Grundlagen": syllabus/current/V3/stufe02/modul-2.7/theorie/python-grundlagen.md
+          - "venv & Package Management": syllabus/current/V3/stufe02/modul-2.7/theorie/venv-package-management.md
+          - "Type Hints & mypy": syllabus/current/V3/stufe02/modul-2.7/theorie/type-hints-mypy.md
+          - "Pydantic": syllabus/current/V3/stufe02/modul-2.7/theorie/pydantic.md
+          - "Async Programming": syllabus/current/V3/stufe02/modul-2.7/theorie/async-programming.md
+          - "Logging": syllabus/current/V3/stufe02/modul-2.7/theorie/logging.md
+          - "LLM-SDK-Patterns": syllabus/current/V3/stufe02/modul-2.7/theorie/llm-sdk-patterns.md
+          - "CLI-Tools": syllabus/current/V3/stufe02/modul-2.7/theorie/cli-tools.md
+          - "dotenv für Secrets": syllabus/current/V3/stufe02/modul-2.7/theorie/dotenv-secrets.md
+          - "Testing: pytest": syllabus/current/V3/stufe02/modul-2.7/theorie/testing-pytest.md
+        - "Quellen": syllabus/current/V3/stufe02/quellen.md
+        - "Free-Zertifikate": syllabus/current/V3/stufe02/zertifikate.md
+      - "Stufe 3 — Arbeitsmethoden mit KI":
+        - syllabus/current/V3/stufe03/index.md
+        - "Modul 3.1 — Design Thinking + KI":
+          - syllabus/current/V3/stufe03/modul-3.1/index.md
+          - "Doppel-Diamant": syllabus/current/V3/stufe03/modul-3.1/theorie/doppel-diamant.md
+          - "Empathize": syllabus/current/V3/stufe03/modul-3.1/theorie/empathize.md
+          - "Define": syllabus/current/V3/stufe03/modul-3.1/theorie/define.md
+          - "Ideate": syllabus/current/V3/stufe03/modul-3.1/theorie/ideate.md
+          - "Prototype": syllabus/current/V3/stufe03/modul-3.1/theorie/prototype.md
+          - "Test": syllabus/current/V3/stufe03/modul-3.1/theorie/test.md
+          - "KI-Produkt-Heuristiken": syllabus/current/V3/stufe03/modul-3.1/theorie/ki-heuristiken.md
+          - "Service Design": syllabus/current/V3/stufe03/modul-3.1/theorie/service-design.md
+          - "KI-Tools für DT 2026": syllabus/current/V3/stufe03/modul-3.1/theorie/ki-tools-dt.md
+        - "Modul 3.2 — Agile mit KI":
+          - syllabus/current/V3/stufe03/modul-3.2/index.md
+          - "Scrum-Grundlagen": syllabus/current/V3/stufe03/modul-3.2/theorie/scrum.md
+          - "Kanban-Grundlagen": syllabus/current/V3/stufe03/modul-3.2/theorie/kanban.md
+          - "User Stories": syllabus/current/V3/stufe03/modul-3.2/theorie/user-stories.md
+          - "Story-Estimation": syllabus/current/V3/stufe03/modul-3.2/theorie/estimation.md
+          - "Backlog-Refinement": syllabus/current/V3/stufe03/modul-3.2/theorie/backlog-refinement.md
+          - "Daily Stand-up": syllabus/current/V3/stufe03/modul-3.2/theorie/daily-standup.md
+          - "Sprint Review": syllabus/current/V3/stufe03/modul-3.2/theorie/sprint-review.md
+          - "Retro mit KI": syllabus/current/V3/stufe03/modul-3.2/theorie/retro.md
+          - "Agile-Tools 2026": syllabus/current/V3/stufe03/modul-3.2/theorie/agile-tools.md
+          - "Anti-Pattern: KI-Driven Dev": syllabus/current/V3/stufe03/modul-3.2/theorie/anti-pattern.md
+        - "Modul 3.3 — Use-Case-Methodik & MVP":
+          - syllabus/current/V3/stufe03/modul-3.3/index.md
+          - "Guter KI-Use-Case": syllabus/current/V3/stufe03/modul-3.3/theorie/guter-use-case.md
+          - "Use Case Canvas": syllabus/current/V3/stufe03/modul-3.3/theorie/use-case-canvas.md
+          - "Impact-Effort-Matrix": syllabus/current/V3/stufe03/modul-3.3/theorie/impact-effort.md
+          - "MVP-Denken": syllabus/current/V3/stufe03/modul-3.3/theorie/mvp-denken.md
+          - "Build vs. Buy": syllabus/current/V3/stufe03/modul-3.3/theorie/build-vs-buy.md
+          - "ROI-Schätzung": syllabus/current/V3/stufe03/modul-3.3/theorie/roi.md
+          - "Risiken bewerten": syllabus/current/V3/stufe03/modul-3.3/theorie/risiken.md
+          - "Stakeholder-Mapping": syllabus/current/V3/stufe03/modul-3.3/theorie/stakeholder.md
+          - "Anti-Pattern: AI for AI's sake": syllabus/current/V3/stufe03/modul-3.3/theorie/anti-pattern.md
+          - "2026-Reality-Check": syllabus/current/V3/stufe03/modul-3.3/theorie/reality-check.md
+        - "Quellen": syllabus/current/V3/stufe03/quellen.md
+        - "Free-Zertifikate": syllabus/current/V3/stufe03/zertifikate.md
       - "Stufe 4 — Programmier-Foundation": syllabus/current/V3/04_stufe4.md
       - "Stufe 5 — Anwendungen bauen": syllabus/current/V3/05_stufe5.md
       - "Stufe 6 — Agenten": syllabus/current/V3/06_stufe6.md

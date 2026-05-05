@@ -26,13 +26,13 @@ Jede Stufe markiert, welche Inhalte für welchen Track Pflicht, empfohlen oder o
 
     Tools-Setup, GitHub-Portfolio, Track-Wahl, Vorgeschmack-Demo.
 
--   **[Stufe 2 — Grundlagen](current/V3/02_stufe2.md)**
+-   **[Stufe 2 — Grundlagen](current/V3/stufe02/index.md)**
 
     Chatbots, Prompt Engineering, Tool-Landschaft, erste Projekte.
 
--   **[Stufe 3 — Arbeitsmethoden mit KI](current/V3/03_stufe3.md)**
+-   **[Stufe 3 — Arbeitsmethoden mit KI](current/V3/stufe03/index.md)**
 
-    KI im Alltag: Recherche, Schreiben, Analyse, Coding-Assistenten.
+    Design Thinking, Agile mit KI, Use-Case-Methodik & MVP-Denken.
 
 -   **[Stufe 4 — Programmier-Foundation](current/V3/04_stufe4.md)**
 

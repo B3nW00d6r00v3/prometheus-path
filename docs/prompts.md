@@ -768,7 +768,7 @@ Gesamtbewertung + Verbesserungsvorschlag.
 
 | Ressource | Beschreibung |
 |-----------|-------------|
-| [Syllabus Stufe 2 — Prompt Engineering](syllabus/current/V3/02_stufe2.md) | Grundlagen im Detail |
+| [Syllabus Stufe 2 — Prompt Engineering](syllabus/current/V3/stufe02/modul-2.3/index.md) | Grundlagen im Detail |
 | [Syllabus Stufe 5 — Anwendungen](syllabus/current/V3/05_stufe5.md) | RAG, MCP, Skills-Pattern |
 | [Syllabus Stufe 6 — Agenten](syllabus/current/V3/06_stufe6.md) | Context Engineering, Multi-Agent |
 | [Tool-Übersicht](tools.md) | Alle Tools zum Umsetzen |
