@@ -22,9 +22,9 @@ Jede Stufe markiert, welche Inhalte für welchen Track Pflicht, empfohlen oder o
 
 <div class="grid cards" markdown>
 
--   **[Stufe 1 — Onboarding & Mindset](current/V3/01_stufe1.md)**
+-   **[Stufe 1 — Onboarding & Mindset](current/V3/stufe01/index.md)**
 
-    Was ist KI? Hype vs. Realität, Growth Mindset, Portfolio-Setup.
+    Tools-Setup, GitHub-Portfolio, Track-Wahl, Vorgeschmack-Demo.
 
 -   **[Stufe 2 — Grundlagen](current/V3/02_stufe2.md)**
 

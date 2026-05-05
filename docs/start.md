@@ -71,19 +71,19 @@ Du willst loslegen, aber weißt nicht wo? Diese Seite hilft dir in 5 Minuten zum
 
 Python, Git, IDE und Ollama installieren. Einen API-Key einrichten (oder bewusst dagegen entscheiden).
 
-[:octicons-arrow-right-24: Modul 1.1 — Tools-Setup](syllabus/current/V3/01_stufe1.md)
+[:octicons-arrow-right-24: Modul 1.1 — Tools-Setup](syllabus/current/V3/stufe01/modul-1.1/index.md)
 
 ### Schritt 2: Portfolio anlegen (1h)
 
 GitHub-Repo erstellen, Ordnerstruktur aufsetzen, README schreiben.
 
-[:octicons-arrow-right-24: Modul 1.2 — Portfolio-Strategie](syllabus/current/V3/01_stufe1.md)
+[:octicons-arrow-right-24: Modul 1.2 — Portfolio-Strategie](syllabus/current/V3/stufe01/modul-1.2/index.md)
 
 ### Schritt 3: Track wählen & Vorgeschmack (3-4h)
 
 Track-Wahl dokumentieren, Lernplan skizzieren, und drei Demos erleben (RAG, MCP, Eval).
 
-[:octicons-arrow-right-24: Modul 1.3 — Track-Wahl & Demos](syllabus/current/V3/01_stufe1.md)
+[:octicons-arrow-right-24: Modul 1.3 — Track-Wahl & Demos](syllabus/current/V3/stufe01/modul-1.3/index.md)
 
 ---
 

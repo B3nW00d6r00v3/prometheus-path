@@ -80,7 +80,36 @@ nav:
     - syllabus/index.md
     - "Lehrplan-Übersicht": syllabus/current/V3/000_master.md
     - Stufen:
-      - "Stufe 1 — Onboarding & Mindset": syllabus/current/V3/01_stufe1.md
+      - "Stufe 1 — Onboarding & Mindset":
+        - syllabus/current/V3/stufe01/index.md
+        - "Modul 1.1 — Tools-Setup":
+          - syllabus/current/V3/stufe01/modul-1.1/index.md
+          - "Python 3.11+ Setup": syllabus/current/V3/stufe01/modul-1.1/theorie/python-setup.md
+          - "Virtual Environments": syllabus/current/V3/stufe01/modul-1.1/theorie/virtual-environments.md
+          - "IDE: Cursor oder VS Code": syllabus/current/V3/stufe01/modul-1.1/theorie/ide-setup.md
+          - "Git & GitHub": syllabus/current/V3/stufe01/modul-1.1/theorie/git-github.md
+          - "Ollama für lokale LLMs": syllabus/current/V3/stufe01/modul-1.1/theorie/ollama-lokal.md
+          - "Cloud-API-Keys": syllabus/current/V3/stufe01/modul-1.1/theorie/cloud-api-keys.md
+          - "Secrets Management": syllabus/current/V3/stufe01/modul-1.1/theorie/secrets-management.md
+        - "Modul 1.2 — GitHub & Portfolio":
+          - syllabus/current/V3/stufe01/modul-1.2/index.md
+          - "Portfolio > Zertifikat": syllabus/current/V3/stufe01/modul-1.2/theorie/portfolio-vs-zertifikat.md
+          - "Portfolio-Anforderungen": syllabus/current/V3/stufe01/modul-1.2/theorie/portfolio-anforderungen.md
+          - "Naming-Konventionen": syllabus/current/V3/stufe01/modul-1.2/theorie/naming-konventionen.md
+          - "GitHub-Profil-README": syllabus/current/V3/stufe01/modul-1.2/theorie/github-profil-readme.md
+          - "Markdown-Basics": syllabus/current/V3/stufe01/modul-1.2/theorie/markdown-basics.md
+        - "Modul 1.3 — Track-Wahl & Methodik":
+          - syllabus/current/V3/stufe01/modul-1.3/index.md
+          - "Drei Tracks": syllabus/current/V3/stufe01/modul-1.3/theorie/drei-tracks.md
+          - "Track-Wahl Flexibilität": syllabus/current/V3/stufe01/modul-1.3/theorie/track-wahl-flexibilitaet.md
+          - "Zeit-Erwartungen": syllabus/current/V3/stufe01/modul-1.3/theorie/zeit-erwartungen.md
+          - "Lern-Methodik": syllabus/current/V3/stufe01/modul-1.3/theorie/lern-methodik.md
+          - "Querschnitte erklärt": syllabus/current/V3/stufe01/modul-1.3/theorie/querschnitte-erklaert.md
+          - "Capstone erklärt": syllabus/current/V3/stufe01/modul-1.3/theorie/capstone-erklaert.md
+          - "Outcome-Rubrik": syllabus/current/V3/stufe01/modul-1.3/theorie/outcome-rubrik.md
+          - "Lernroutinen": syllabus/current/V3/stufe01/modul-1.3/theorie/lernroutinen.md
+        - "Quellen": syllabus/current/V3/stufe01/quellen.md
+        - "Free-Zertifikate": syllabus/current/V3/stufe01/zertifikate.md
       - "Stufe 2 — Grundlagen": syllabus/current/V3/02_stufe2.md
       - "Stufe 3 — Arbeitsmethoden mit KI": syllabus/current/V3/03_stufe3.md
       - "Stufe 4 — Programmier-Foundation": syllabus/current/V3/04_stufe4.md
