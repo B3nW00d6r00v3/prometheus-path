@@ -1,19 +1,21 @@
 # Capstone B: Foundations (🧮)
 
-**Working Title:** nanoGPT-Vertiefung mit Preference-Tuning auf eigenem Korpus
-**Aufwand:** 80-200h zusätzlich zu den Stufen-Aufwänden, Hardware-Cost 50-200€ realistisch
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 *(volatile Foundation-Modelle und Fine-Tuning-Tools)*
-**Voraussetzungen:** 🧮-Track, Stufen 1-6 absolviert, Math-Diagnose-Test bestanden vor Stufe 7 *(NEU in v2.1, siehe `12_querschnitt_math.md`)*
+**Working Title:** nanoGPT-Vertiefung mit Preference-Tuning auf eigenem Korpus  
+**Aufwand:** 80-200h zusätzlich zu den Stufen-Aufwänden, Hardware-Cost 50-200€ realistisch  
+**Voraussetzungen:** 🧮-Track, Stufen 1-6 absolviert, Math-Diagnose-Test bestanden vor Stufe 7 (siehe `12_querschnitt_math.md`)
+
+| Stufen-Bezüge | Querschnitte | Tools |
+|---|---|---|
+| Stufe 7, 8, 10, 11 | Math, Eval | PyTorch, nanoGPT, Unsloth, Axolotl, TRL |
 
 Du baust ein eigenes Sprachmodell von Grund auf, integrierst mindestens eine moderne Architektur-Komponente (RoPE oder GQA), trainierst auf einem eigenen Korpus und vollendest mit Preference-Tuning. Endprodukt: dokumentierte Trainings-Pipeline, fine-getunetes Modell, Eval-Vergleich gegen Baseline-Modelle.
 
-**Wichtige Strukturänderungen in v2.1:**
+**Vorbereitungs-Anforderungen:**
 
-- **Verschobener Update-Block aus Stufe 7** (war in v2.0 am Ende von Stufe 7) — jetzt als Capstone-Foundations-Update-Sektion hier.
-- **Math-Diagnose-Gate als Pflicht-Vorbedingung** *(NEU in v2.1)* — siehe `12_querschnitt_math.md`. Just-in-Time-Math reicht für 🧮 nicht.
-- **Klassisches-ML-Foundations-Pflicht** vor Stufe 7: Module 8.1, 8.2, 8.5 müssen vor Stufe 7 absolviert sein für 🧮 *(NEU in v2.1)*. Konkret in 8.2: Logistic Regression from scratch als Brücke zu Backprop in 7.1.
-- **S7-Self-Assessment** als Pflicht-Anker am Ende von Stufe 7 *(NEU in v2.1)* — siehe `07_stufe7.md`. Backprop auf Papier + eigene nanoGPT-Variante.
-- **Decision-Framework Fine-Tuning vs. RAG vs. Prompt-Engineering** *(NEU in v2.1)* — siehe `10_stufe10.md`. Pflicht vor Phase 5/6 (SFT/DPO).
+- **Math-Diagnose-Gate als Pflicht-Vorbedingung** — siehe `12_querschnitt_math.md`. Just-in-Time-Math reicht für 🧮 nicht.
+- **Klassisches-ML-Foundations-Pflicht** vor Stufe 7: Module 8.1, 8.2, 8.5 müssen vor Stufe 7 absolviert sein. Konkret in 8.2: Logistic Regression from scratch als Brücke zu Backprop in 7.1.
+- **S7-Self-Assessment** als Pflicht-Anker am Ende von Stufe 7 — siehe `07_stufe7.md`. Backprop auf Papier + eigene nanoGPT-Variante.
+- **Decision-Framework Fine-Tuning vs. RAG vs. Prompt-Engineering** — siehe `10_stufe10.md`. Pflicht vor Phase 5/6 (SFT/DPO).
 - **Capstone-Abschluss-Master-Sektion** in `17_capstone_a_engineer.md` referenziert — Demo-Video, Pitch, Lessons-Learned, Outcome-Schwellen-Check für 🧮.
 
 ---
@@ -31,16 +33,16 @@ Wer 🧮 ist, hat hier seine Hauptarbeit. Wer 🔧 mit-macht, kann den Capstone 
 
 ---
 
-## Pflicht-Vorbedingungen vor Capstone-Start *(verstärkt in v2.1)*
+## Pflicht-Vorbedingungen vor Capstone-Start
 
 Vor dem eigentlichen Capstone-Start (Phase 1 in Stufe 7) müssen für 🧮 folgende Voraussetzungen erfüllt sein:
 
-1. **Module 8.1, 8.2, 8.5 absolviert** *(NEU in v2.1)* — Klassisches-ML-Foundations als Vorbereitung auf Backprop:
+1. **Module 8.1, 8.2, 8.5 absolviert** — Klassisches-ML-Foundations als Vorbereitung auf Backprop:
  - 8.1: Distance-Metrics als Foundation für Embedding-Verständnis
- - 8.2: **Logistic Regression from scratch** (Pflicht-Aufgabe, NEU in v2.1) — die einfachste Backprop-Variante, direkte Brücke zu Modul 7.1
+ - 8.2: **Logistic Regression from scratch** (Pflicht-Aufgabe) — die einfachste Backprop-Variante, direkte Brücke zu Modul 7.1
  - 8.5: Statistik-Foundation für Eval
 
-2. **Math-Diagnose-Test bestanden** *(NEU in v2.1)* — siehe `12_querschnitt_math.md` Gate-Sektion. Mindestens 12 von 15 Aufgaben korrekt. Bei <12: Lücken schließen, dann neu testen.
+2. **Math-Diagnose-Test bestanden** — siehe `12_querschnitt_math.md` Gate-Sektion. Mindestens 12 von 15 Aufgaben korrekt. Bei <12: Lücken schließen, dann neu testen.
 
 3. **Math-Querschnitt in Tiefe absolviert** — 3Blue1Brown alle drei Series + Khan Academy Subset + Mathematics for ML Buch Kapitel 1-4, 6.
 
@@ -68,7 +70,7 @@ Wer ohne diese Vorbedingungen Capstone B startet, läuft systematisch in Problem
 - [Weights & Biases](https://wandb.ai) (kostenlos für Open-Source) oder [TensorBoard](https://www.tensorflow.org/tensorboard) für Experiment-Tracking
 - Hyperparameter-Sweeps
 
-### Capstone-Foundations-Update nach Stufe 7 *(verschoben aus Stufe 7 in v2.1)*
+### Capstone-Foundations-Update nach Stufe 7
 
 Nach Stufe 7 hat dein Capstone-Foundations-Projekt im Aufbau:
 - ✅ Korpus gewählt, Repo angelegt (Phase 1)
@@ -76,13 +78,13 @@ Nach Stufe 7 hat dein Capstone-Foundations-Projekt im Aufbau:
 - ✅ Erstes Char-Modell auf eigenem Korpus
 - ✅ Modern Transformer (Phase 3): mindestens RoPE oder GQA selbst eingebaut, Training auf eigenem Korpus mit Loss-Curves
 - ✅ Wandb/TensorBoard-Tracking eingerichtet (Phase 4)
-- ✅ **S7-Self-Assessment bestanden** *(NEU in v2.1)*: Backprop auf Papier (1-2h, <90 Min ohne Hilfsmittel) + eigene nanoGPT-Variante mit zweiter moderner Komponente oder Hyperparameter-Studie
+- ✅ **S7-Self-Assessment bestanden**: Backprop auf Papier (1-2h, <90 Min ohne Hilfsmittel) + eigene nanoGPT-Variante mit zweiter moderner Komponente oder Hyperparameter-Studie
 
-In Stufe 10.2 wird darauf SFT und Preference Tuning (DPO oder ORPO) angewendet, plus Eval mit Perplexity und MMLU-Delta. **Vor Phase 5/6 ist das Decision-Framework anzuwenden** *(NEU in v2.1)*: warum hier Fine-Tuning die richtige Wahl ist und nicht RAG oder Prompting — siehe `10_stufe10.md`.
+In Stufe 10.2 wird darauf SFT und Preference Tuning (DPO oder ORPO) angewendet, plus Eval mit Perplexity und MMLU-Delta. **Vor Phase 5/6 ist das Decision-Framework anzuwenden**: warum hier Fine-Tuning die richtige Wahl ist und nicht RAG oder Prompting — siehe `10_stufe10.md`.
 
 ### Phase 5 — SFT (Supervised Fine-Tuning) (Modul 10.2)
 
-**Vor Phase 5: Decision-Framework anwenden** *(NEU in v2.1)* — dokumentiere für deinen Capstone-Use-Case, warum Fine-Tuning hier die richtige Wahl ist (nicht Prompting, nicht RAG). Drei-stufige Entscheidungs-Hierarchie aus `10_stufe10.md`. Bei einem Foundations-Capstone ist die Antwort meist klar (Fine-Tuning ist *der* Capstone-Inhalt), aber die Reflexion gehört dokumentiert.
+**Vor Phase 5: Decision-Framework anwenden** — dokumentiere für deinen Capstone-Use-Case, warum Fine-Tuning hier die richtige Wahl ist (nicht Prompting, nicht RAG). Drei-stufige Entscheidungs-Hierarchie aus `10_stufe10.md`. Bei einem Foundations-Capstone ist die Antwort meist klar (Fine-Tuning ist *der* Capstone-Inhalt), aber die Reflexion gehört dokumentiert.
 
 - Aufbauend auf eigenem Foundation-Modell oder einem kleinen Open-Source-Modell (Qwen 3 0.5B/1.5B oder Gemma 3 2B)
 - Instruction-Tuning auf kuratiertem Datensatz
@@ -118,10 +120,10 @@ Siehe **Capstone-Abschluss-Master-Sektion in `17_capstone_a_engineer.md`** — g
 
 | Metrik | Schwelle | Wie messen |
 |---|---|---|
-| **Math-Diagnose-Test** *(NEU in v2.1)* | **bestanden mit ≥12/15 vor Stufe 7** | Selbstkorrektur in `self-assessments/math-diagnose/` |
-| **Module 8.1+8.2+8.5 absolviert vor Stufe 7** *(NEU in v2.1)* | **inkl. Logistic Regression from scratch (8.2)** | Code im Portfolio |
-| **S7-Self-Assessment bestanden** *(NEU in v2.1)* | **Backprop auf Papier <90 Min + nanoGPT-Variante** | `self-assessments/s7/` |
-| **Decision-Framework dokumentiert** *(NEU in v2.1)* | **vor Phase 5/6: Begründung Fine-Tuning vs. RAG vs. Prompt** | Reflexions-Dokument im Capstone-Repo |
+| **Math-Diagnose-Test** | **bestanden mit ≥12/15 vor Stufe 7** | Selbstkorrektur in `self-assessments/math-diagnose/` |
+| **Module 8.1+8.2+8.5 absolviert vor Stufe 7** | **inkl. Logistic Regression from scratch (8.2)** | Code im Portfolio |
+| **S7-Self-Assessment bestanden** | **Backprop auf Papier <90 Min + nanoGPT-Variante** | `self-assessments/s7/` |
+| **Decision-Framework dokumentiert** | **vor Phase 5/6: Begründung Fine-Tuning vs. RAG vs. Prompt** | Reflexions-Dokument im Capstone-Repo |
 | Loss-Konvergenz | dokumentierte Loss-Curves, plausible Konvergenz | W&B / TensorBoard |
 | Moderne Komponente | mindestens RoPE oder GQA selbst eingebaut | Code-Review |
 | SFT durchgeführt | ja | Trainings-Logs |
@@ -143,12 +145,12 @@ Im Portfolio-Repo unter `00_capstone/`:
 - `pitch-slides.pdf`
 - `model-outputs/` mit Beispiel-Generierungen vor und nach Training/Tuning
 - `lessons-learned.md`
-- `decision-framework.md` *(NEU in v2.1)* — Begründung Fine-Tuning vs. RAG vs. Prompt für deinen Use-Case
+- `decision-framework.md` — Begründung Fine-Tuning vs. RAG vs. Prompt für deinen Use-Case
 - *Optional*: `inference-operate/` falls Phase 8 mit Operate-Phase erweitert
 
 Plus Pflicht-Vorbedingungs-Belege:
-- `self-assessments/math-diagnose/` *(NEU in v2.1)* — Math-Diagnose-Test mit Selbstkorrektur, Status
-- `self-assessments/s7/` *(NEU in v2.1)* — S7-Self-Assessment-Outputs (Backprop auf Papier + nanoGPT-Variante)
+- `self-assessments/math-diagnose/` — Math-Diagnose-Test mit Selbstkorrektur, Status
+- `self-assessments/s7/` — S7-Self-Assessment-Outputs (Backprop auf Papier + nanoGPT-Variante)
 - Verweis auf Modul-8.2-Logistic-Regression-from-scratch-Code
 
 ---
@@ -181,7 +183,7 @@ Plus Pflicht-Vorbedingungs-Belege:
 - [Unsloth Docs](https://docs.unsloth.ai)
 - [Sebastian Raschka — Build a Large Language Model From Scratch (Buch)](https://www.manning.com/books/build-a-large-language-model-from-scratch)
 - [Hugging Face — LLM Course Chapter 11 (Fine-Tuning)](https://huggingface.co/learn/llm-course/chapter11)
-- [Decision-Framework: Fine-Tuning vs. RAG vs. Prompt](file:./10_stufe10.md) *(siehe Modul 10.2 in v2.1)*
+- [Decision-Framework: Fine-Tuning vs. RAG vs. Prompt](file:./10_stufe10.md)
 
 ---
 
@@ -195,15 +197,6 @@ Für den Capstone-Abschluss (Final-Doku, Demo-Video, Pitch, Lessons-Learned, Por
  - Modell trainiert mit dokumentierten Loss-Curves
  - Preference Tuning (DPO oder ORPO) durchgeführt
  - Eval Vorher/Nachher mit Verbesserung
- - **Decision-Framework dokumentiert** *(NEU in v2.1)*
- - **S7-Self-Assessment bestanden** *(NEU in v2.1)*
- - **Math-Diagnose-Gate bestanden** *(NEU in v2.1)*
-
----
-
-## Aktualisierungslog
-
-- **2026-05-04:** Version v2.2.0 — **Capstone-B-File renumbered von `16_capstone_b_foundations.md` auf `18_capstone_b_foundations.md`** (in v2.2 wegen Querschnitt 16 NEU). Alle Querverweise auf Capstone-A-Master-Sektion aktualisiert (15→17). **Brücke zu Modul 7.5 Reasoning-Modelle als Architektur-Familie (NEU in v2.2):** für 🧮, die Reasoning-Models als Capstone-Erweiterung interessieren, ist Modul 7.5 Pflicht (Mini-GRPO-Run optional als Capstone-B-Erweiterung). **Brücke zu Modul 7.6 Distributed Training systematisch (NEU in v2.2):** Multi-GPU-FSDP-Run auf 7B-Modell als optionale Capstone-B-Erweiterung. Capstone-B-Strukturkern selbst unverändert — nanoGPT-Vertiefung mit Preference-Tuning bleibt Hauptpfad.
-- **2026-05-04:** Version v2.1.0 — **Capstone-Foundations-Update-Block aus Stufe 7 hierher verschoben** (mit S7-Self-Assessment-Pflicht und v2.1-Anker-Punkten); **Pflicht-Vorbedingungen-Block NEU** vor Phase 1 (Math-Diagnose-Gate, Module 8.1+8.2+8.5, Math-Querschnitt in Tiefe — alle NEU oder verstärkt in v2.1); **Decision-Framework-Pflicht** vor Phase 5/6 dokumentiert (Verweis auf Modul 10.2 NEU in v2.1); Outcome-Schwellen-Tabelle erweitert um vier neue Pflicht-Schwellen (Math-Diagnose, Module 8.1+8.2+8.5, S7-Self-Assessment, Decision-Framework); Portfolio-Anforderungen erweitert um decision-framework.md und Pflicht-Vorbedingungs-Belege; **Capstone-Abschluss-Verweis** auf Master-Sektion in `15_capstone_a_engineer.md` ergänzt mit track-spezifischen Hinweisen für 🧮; Ressourcen erweitert um Decision-Framework-Verweis. **Keine yesberlin-Beispiele** verwendet (Memory #1).
-- **2026-05-02:** Initiale Version v2.0.0
-- **Re-check geplant:** **Aug 2026 (3-Monats-Audit)** für Foundation-Modell-Liste und Fine-Tuning-Tools (Unsloth, TRL, vLLM volatil). Plus Nov 2026 Hauptreview.
+ - **Decision-Framework dokumentiert**
+ - **S7-Self-Assessment bestanden**
+ - **Math-Diagnose-Gate bestanden**

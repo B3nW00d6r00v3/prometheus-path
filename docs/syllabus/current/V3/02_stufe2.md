@@ -1,25 +1,26 @@
 # Stufe 2: Grundlagen
 
-**Aufwand gesamt:** 🔧 41-60h · 🧮 56-80h · 💼 31-43h *(in v2.1 leicht erhöht durch Cost-Awareness-Block und Reasoning-Prompting-Block; in v2.2 +3-5h durch Block 2.5.5 Reasoning-Awareness)*
+**Aufwand:** 🔧 41-60h · 🧮 56-80h · 💼 31-43h
 **Voraussetzungen:** Stufe 1 abgeschlossen
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 (Modul 2.5 + Block 2.5.5 wegen volatiler Modell-Landschaft) / Nov 2026 (stabile Inhalte)
+
+| Querschnitte | Capstone-Beitrag | Tools |
+|---|---|---|
+| Eval (erste Berührung in 2.3) | Grundlagen alle Capstones | ChatGPT, Claude, Gemini, Ollama, Zapier/Make |
 
 Stufe 2 baut die solide Grundlage über LLMs, die Tools-Landschaft, Prompting, Limitationen und OSS-Optionen. Du baust **erste sichtbare Projekte ohne Code-Hürde** (No-Code), bevor du Python lernst. Am Ende der Stufe hast du mindestens drei Mehrwert-Mini-Projekte, die du täglich nutzt — eine Prompt-Library, einen No-Code-Workflow, und ein Python-CLI-Tool.
 
-**Neu in v2.1:**
+Zusätzliche Inhalte in dieser Stufe:
 - **Cost-Awareness-Mini-Block** vor Modul 2.2 — du verstehst Token-Pricing und Input/Output-Verhältnis, bevor du anfängst, Cloud-APIs intensiv zu testen.
 - **Reasoning-spezifisches Prompting** als Block in Modul 2.5 — was bei Reasoning-Modellen (Claude Extended Thinking, GPT-o-Serie, DeepSeek R1) anders ist als bei klassischen LLMs.
-
-**Neu in v2.2:**
-- **Block 2.5.5 Reasoning-Modelle als Architektur-Familie — erste Begegnung** — Awareness-Block als Vorlauf zu Modul 7.5. Test-Time-Compute als eigene Skalierungs-Achse, Reasoning-Modell-Familie 2026, Trainings-Patterns auf hoher Ebene, Effort-Parameter als API-Konvention. Komplementär zum v2.1-Reasoning-Prompting-Block: 2.5 lehrt *Anwendung*, 2.5.5 lehrt *Architektur-Awareness*.
+- **Block 2.5.5 Reasoning-Modelle als Architektur-Familie — erste Begegnung** — Awareness-Block als Vorlauf zu Modul 7.5. Test-Time-Compute als eigene Skalierungs-Achse, Reasoning-Modell-Familie 2026, Trainings-Patterns auf hoher Ebene, Effort-Parameter als API-Konvention. Komplementär zum Reasoning-Prompting-Block: 2.5 lehrt *Anwendung*, 2.5.5 lehrt *Architektur-Awareness*.
 
 **Ergebnis nach Stufe 2:**
 - Du verstehst, was ein LLM ist (Theorie-Light) und wie die 2026-Landschaft aussieht.
 - Du kannst Prompting professionell und mit Eval-Bewusstsein.
 - Du erkennst Halluzinationen, Bias, DSGVO-Risiken.
-- **Du hast Cost-Bewusstsein für Cloud-API-Nutzung** *(NEU in v2.1)*.
-- **Du kennst Reasoning-spezifische Prompting-Patterns und Anti-Patterns** *(NEU in v2.1)*.
-- **Du verstehst Reasoning-Modelle als eigene Architektur-Familie und Test-Time-Compute als Skalierungs-Achse** *(NEU in v2.2, Block 2.5.5)*.
+- **Du hast Cost-Bewusstsein für Cloud-API-Nutzung**.
+- **Du kennst Reasoning-spezifische Prompting-Patterns und Anti-Patterns**.
+- **Du verstehst Reasoning-Modelle als eigene Architektur-Familie und Test-Time-Compute als Skalierungs-Achse** (Block 2.5.5).
 - Du hast einen No-Code-Workflow gebaut, der dir Arbeit abnimmt.
 - 🔧🧮: Du hast Python-Skripte, die LLM-APIs benutzen.
 - 💼: Du verstehst die Modell-Landschaft strategisch.
@@ -31,7 +32,6 @@ Stufe 2 baut die solide Grundlage über LLMs, die Tools-Landschaft, Prompting, L
 Bevor du LLMs nutzt, solltest du in 60-90 Minuten das Grundprinzip verstehen — was ein LLM eigentlich tut, woher es kommt, wo seine Grenzen liegen. Keine Mathematik, keine Architektur-Tiefe (das kommt in 2.5 und Stufe 7). Nur die Konzepte, die du brauchst, um ab Modul 2.2 mit den Tools verantwortungsvoll arbeiten zu können.
 
 **Aufwand:** 🔧 1-2h · 🧮 1-2h · 💼 1-2h
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 **Voraussetzungen:** Keine
 
 ### Lernziel
@@ -65,7 +65,7 @@ Du kannst in eigenen Worten erklären: was ein LLM tut, was Tokens und Context W
 ### 🌱 Open-Source-Pfad
 Komplett mit Ollama-Modellen arbeiten — vergleichen, wie verschiedene Modellgrößen (3B, 7B, 13B, 70B falls Hardware reicht) bei Halluzinations-Prompts unterschiedlich performant sind. Größere Modelle halluzinieren weniger, aber auch nicht null.
 
-### Outcome-Check *(Tippfehler "Outcode-Check" in v2.0 korrigiert)*
+### Outcome-Check
 - [ ] Kannst du in 2-3 Sätzen erklären, was ein LLM tut?
 - [ ] Hast du Tokens für eigene Texte gezählt und Deutsch vs. Englisch verglichen?
 - [ ] Hast du mindestens 3 Halluzinations-Beispiele dokumentiert?
@@ -73,10 +73,9 @@ Komplett mit Ollama-Modellen arbeiten — vergleichen, wie verschiedene Modellgr
 
 ---
 
-## Cost-Awareness-Mini-Block *(NEU in v2.1, vor Modul 2.2)*
+## Cost-Awareness-Mini-Block *(vor Modul 2.2)*
 
 **Aufwand:** 🔧 1-2h · 🧮 1-2h · 💼 1-2h
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 *(Pricing-Strukturen ändern sich)*
 **Voraussetzungen:** Modul 2.1
 
 ### Warum dieser Block existiert
@@ -131,8 +130,7 @@ Komplett mit Ollama lokal arbeiten. Cost-Bewusstsein bleibt trotzdem nützlich �
 Bevor du Prompt Engineering lernst, musst du wissen, **wofür** du es lernst. Dieses Modul gibt dir den Überblick über die KI-Tools-Landschaft Mai 2026 — Chatbots, Coding-Assistenten, Suchmaschinen, Agenten, Bild/Audio/Video-Generatoren, OSS-Alternativen. Du testest die wichtigsten selbst und entscheidest, welche fünf du täglich nutzen willst.
 
 **Aufwand:** 🔧 4-6h · 🧮 4-6h · 💼 5-7h
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 *(Tools-Landschaft volatil)*
-**Voraussetzungen:** Modul 2.1, Cost-Awareness-Mini-Block (NEU in v2.1), mindestens ein Cloud-API-Key oder bewusster OSS-Pfad aus Stufe 1
+**Voraussetzungen:** Modul 2.1, Cost-Awareness-Mini-Block, mindestens ein Cloud-API-Key oder bewusster OSS-Pfad aus Stufe 1
 
 ### Lernziel
 Du hast aus jeder Tool-Kategorie mindestens ein Tool praktisch getestet und kannst eine begründete Auswahl treffen, welche fünf Tools du in deinen Alltag integrierst.
@@ -188,10 +186,9 @@ Du hast aus jeder Tool-Kategorie mindestens ein Tool praktisch getestet und kann
 
 ## Modul 2.3: Prompt Engineering
 
-Prompt Engineering ist 2026 nicht mehr "Geheim-Technik" — es ist Standard-Skill. In diesem Modul lernst du systematisches Prompting, **mit Eval-Bewusstsein von Anfang an**. Das bedeutet: nicht nur "wie schreibe ich einen Prompt", sondern auch "wie weiß ich, ob mein Prompt besser ist als der vorherige?" Damit baust du den ersten Anker zum Querschnitt-Eval auf, ohne dass du dort schon tief eintauchen musst. *Hinweis v2.1: Die echte Eval-Disziplin lernst du in Modul 5.0 (Eval-Mini-Block) vor Modul 5.1 — hier in 2.3 baust du nur das Bewusstsein.*
+Prompt Engineering ist 2026 nicht mehr "Geheim-Technik" — es ist Standard-Skill. In diesem Modul lernst du systematisches Prompting, **mit Eval-Bewusstsein von Anfang an**. Das bedeutet: nicht nur "wie schreibe ich einen Prompt", sondern auch "wie weiß ich, ob mein Prompt besser ist als der vorherige?" Damit baust du den ersten Anker zum Querschnitt-Eval auf, ohne dass du dort schon tief eintauchen musst. *Hinweis: Die echte Eval-Disziplin lernst du in Modul 5.0 (Eval-Mini-Block) vor Modul 5.1 — hier in 2.3 baust du nur das Bewusstsein.*
 
 **Aufwand:** 🔧 8-12h · 🧮 8-12h · 💼 6-10h
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 **Voraussetzungen:** Module 2.1, 2.2
 
 ### Lernziel
@@ -242,7 +239,6 @@ Du kannst Prompts systematisch entwickeln, mit Standard-Frameworks arbeiten, und
 Bevor du echte Projekte baust, musst du wissen, **wo KI lügt, wo sie verzerrt ist, und welche Datenschutz-Fallstricke du vermeiden musst**. Dieses Modul ist absichtlich kurz und praxisnah — keine Paragraphen-Lehre, sondern Bewusstsein für die häufigsten Fallen. Die formelle EU-AI-Act-Vertiefung folgt in Modul 9.5; hier geht es um sofort relevante Realität.
 
 **Aufwand:** 🔧 3-4h · 🧮 3-4h · 💼 4-5h
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 **Voraussetzungen:** Module 2.1, 2.3
 
 ### Lernziel
@@ -286,14 +282,13 @@ Du erkennst Halluzinationen aktiv, kennst die wichtigsten Bias-Muster, weißt wa
 
 ## Modul 2.5: LLM Foundations VERTIEFT
 
-Jetzt, mit Praxiserfahrung aus 2.2 und 2.3, kannst du LLM-Theorie sinnvoll vertiefen. Dieses Modul deckt die 2026er-Modell-Landschaft, Multi-Model-Routing, Provider-Abstraktion, MCP als Konzept, Function Calling, Reasoning-Modelle und Cost/Performance-Trade-offs ab. **Hier wird MCP zum ersten Mal eingeführt**, praktisch wird es in Modul 5.3. **Neu in v2.1:** Reasoning-spezifisches Prompting als eigener Block, weil es bei Reasoning-Modellen substanziell andere Patterns gibt als bei klassischen LLMs.
+Jetzt, mit Praxiserfahrung aus 2.2 und 2.3, kannst du LLM-Theorie sinnvoll vertiefen. Dieses Modul deckt die 2026er-Modell-Landschaft, Multi-Model-Routing, Provider-Abstraktion, MCP als Konzept, Function Calling, Reasoning-Modelle und Cost/Performance-Trade-offs ab. **Hier wird MCP zum ersten Mal eingeführt**, praktisch wird es in Modul 5.3. Reasoning-spezifisches Prompting wird als eigener Block behandelt, weil es bei Reasoning-Modellen substanziell andere Patterns gibt als bei klassischen LLMs.
 
-**Aufwand:** 🔧 9-13h · 🧮 13-19h · 💼 5-7h *(in v2.1 leicht erhöht durch Reasoning-Prompting-Block)*
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 *(volatile A-Tiefe-Module: Modell-Landschaft ändert sich quartalsweise)*
-**Voraussetzungen:** Module 2.1-2.4 plus Cost-Awareness-Mini-Block (NEU in v2.1)
+**Aufwand:** 🔧 9-13h · 🧮 13-19h · 💼 5-7h
+**Voraussetzungen:** Module 2.1-2.4 plus Cost-Awareness-Mini-Block
 
 ### Lernziel
-Du verstehst die Modell-Landschaft Mai 2026, kennst MCP konzeptionell, verstehst Function Calling und Multi-Model-Routing, und kannst eine begründete Entscheidung treffen, welches Modell für welchen Use-Case. **Plus (NEU in v2.1):** Du kennst die Anti-Patterns beim Prompten von Reasoning-Modellen.
+Du verstehst die Modell-Landschaft Mai 2026, kennst MCP konzeptionell, verstehst Function Calling und Multi-Model-Routing, und kannst eine begründete Entscheidung treffen, welches Modell für welchen Use-Case. Du kennst die Anti-Patterns beim Prompten von Reasoning-Modellen.
 
 ### Theorie
 
@@ -314,14 +309,14 @@ Du verstehst die Modell-Landschaft Mai 2026, kennst MCP konzeptionell, verstehst
 - 🟢 **Cost-Modell verstehen: Input vs. Output Tokens** — die meisten APIs berechnen Input und Output unterschiedlich (Output meist 3-5x teurer). Lange Kontexte mit langen Outputs werden schnell teuer. Prompt Caching (Anthropic, OpenAI) reduziert Cost bei wiederholten Prefixen um bis zu 90%. *Vertiefung dieses Themas im Cost-Awareness-Mini-Block oben.* [Anthropic — Pricing](https://www.anthropic.com/pricing) · [OpenAI — Pricing](https://openai.com/pricing) · [Anthropic — Prompt Caching](https://docs.claude.com/en/docs/build-with-claude/prompt-caching)
 
 - 🔄 **Welches Modell für welchen Task?** — keine universelle Antwort, aber Heuristiken:
- - Schnelle einfache Tasks → Haiku, Gemini Flash, Llama 3.2 lokal
- - Standard-Coding-Aufgaben → Sonnet 4.6, GPT-5, Qwen 3 Coder OSS
- - Komplexes Reasoning → Opus 4.7, GPT-o-Serie, DeepSeek R1
- - Lange Dokumente → Gemini 3.1 (2M Context)
- - Privatsphäre-kritisch → lokale OSS-Modelle via Ollama
- - Deutsche Sprache → Mistral 3, Gemma 4, Claude (alle gut)
+  - Schnelle einfache Tasks → Haiku, Gemini Flash, Llama 3.2 lokal
+  - Standard-Coding-Aufgaben → Sonnet 4.6, GPT-5, Qwen 3 Coder OSS
+  - Komplexes Reasoning → Opus 4.7, GPT-o-Serie, DeepSeek R1
+  - Lange Dokumente → Gemini 3.1 (2M Context)
+  - Privatsphäre-kritisch → lokale OSS-Modelle via Ollama
+  - Deutsche Sprache → Mistral 3, Gemma 4, Claude (alle gut)
 
-#### Reasoning-spezifisches Prompting *(NEU in v2.1)*
+#### Reasoning-spezifisches Prompting
 
 Reasoning-Modelle (Claude Extended Thinking, GPT-o3/o4/o5, DeepSeek R1, Gemini Thinking) sind eine eigene Klasse mit eigenen Prompting-Patterns. Was bei klassischen LLMs gut funktioniert, kann hier schaden — und umgekehrt.
 
@@ -341,30 +336,30 @@ Reasoning-Modelle (Claude Extended Thinking, GPT-o3/o4/o5, DeepSeek R1, Gemini T
 
 **Praxis-Mini in Modul 2.5 für Reasoning-Patterns:** Wähle eines deiner 20 Prompts aus Modul 2.3 (idealerweise eine Analyse- oder Coding-Aufgabe) und teste es gegen ein klassisches Modell *und* ein Reasoning-Modell — beide einmal mit "Schritt für Schritt"-Prompt, beide einmal ohne. Was passiert? Dokumentiere im Portfolio.
 
-#### Block 2.5.5: Reasoning-Modelle als Architektur-Familie — erste Begegnung *(NEU in v2.2)*
+#### Block 2.5.5: Reasoning-Modelle als Architektur-Familie — erste Begegnung
 
-In v2.1 lernst du in Modul 2.5 *Reasoning-Prompting* — wie du Reasoning-Modelle benutzt. Block 2.5.5 ergänzt eine **Architektur-Awareness-Schicht**: was sind Reasoning-Modelle als eigene Klasse, mit welcher Skalierungs-Logik, mit welchem Trainings-Pattern? Das ist Vorlauf zu Modul 7.5 (Reasoning-Modelle als Architektur-Familie), wo du es vertiefst — hier reicht Awareness.
+In Modul 2.5 lernst du *Reasoning-Prompting* — wie du Reasoning-Modelle benutzt. Block 2.5.5 ergänzt eine **Architektur-Awareness-Schicht**: was sind Reasoning-Modelle als eigene Klasse, mit welcher Skalierungs-Logik, mit welchem Trainings-Pattern? Das ist Vorlauf zu Modul 7.5 (Reasoning-Modelle als Architektur-Familie), wo du es vertiefst — hier reicht Awareness.
 
 Aufwand: alle Tracks +3-5h.
 
 - 🟢 **Test-Time-Compute als eigene Skalierungs-Achse** — bisher (2018-2024): mehr Training-Compute = bessere Modelle. Neu seit OpenAI o1 (2024): mehr **Inferenz-Compute** (Thinking-Tokens) = bessere Antworten bei harten Tasks. Das ist eine eigene Skalierungs-Achse neben Training-Compute. Pflichtkonzept für 2026er Modell-Verständnis. [OpenAI — Learning to Reason with LLMs (Sept 2024)](https://openai.com/index/learning-to-reason-with-llms/)
 
 - 🟢 **Reasoning-Modell-Familie Mai 2026:**
- - **OpenAI** o1 → o3 → o3-mini, plus o4/o5 in Roadmap.
- - **Anthropic** Claude Sonnet 4.6 mit Thinking, Claude Opus 4.7 mit **Adaptive Thinking** (Modell entscheidet selbst, wieviel Thinking nötig — Effort-Parameter low/medium/high/xhigh).
- - **DeepSeek** R1 (OSS, MIT-Lizenz) → R2.
- - **Google** Gemini 2.5 Reasoning, Gemini 3.1 Thinking.
- - **Alibaba** Qwen QwQ (OSS).
- - *Verfallsdatum: Aug 2026.*
+  - **OpenAI** o1 → o3 → o3-mini, plus o4/o5 in Roadmap.
+  - **Anthropic** Claude Sonnet 4.6 mit Thinking, Claude Opus 4.7 mit **Adaptive Thinking** (Modell entscheidet selbst, wieviel Thinking nötig — Effort-Parameter low/medium/high/xhigh).
+  - **DeepSeek** R1 (OSS, MIT-Lizenz) → R2.
+  - **Google** Gemini 2.5 Reasoning, Gemini 3.1 Thinking.
+  - **Alibaba** Qwen QwQ (OSS).
+  - *Verfallsdatum: Aug 2026.*
 
 - 🟢 **Trainings-Pattern auf hoher Ebene (Vertiefung in 7.5)** — Reasoning-Modelle entstehen durch RLHF mit Reasoning-Reward, **GRPO** (Group Relative Policy Optimization, DeepSeek R1), Process-Reward-Models (PRM), Outcome-Reward-Models (ORM). Hier reicht: du weißt, dass es eigene Trainings-Patterns sind, nicht "Standard-LLM mit besserem Prompt".
 
 - 🟢 **Inferenz-Pattern auf hoher Ebene** — Chain-of-Thought intern (das Modell tut es eingebaut), Self-Consistency-Sampling (mehrere Reasoning-Pfade, Mehrheits-Votum), Best-of-N mit Verifier, Tree-Search-Inference. **Adaptive Thinking** in Claude Opus 4.7 ist eine Sonderform: Modell entscheidet pro Anfrage, ob und wieviel Reasoning sinnvoll ist.
 
 - 🟢 **Effort-Parameter als API-Konvention 2026:**
- - Claude 4.7: `thinking.budget_tokens` mit Werten low / medium / high / xhigh.
- - OpenAI: `reasoning_effort` mit Werten low / medium / high.
- - Pflichtwissen für API-Aufrufe an Reasoning-Modelle.
+  - Claude 4.7: `thinking.budget_tokens` mit Werten low / medium / high / xhigh.
+  - OpenAI: `reasoning_effort` mit Werten low / medium / high.
+  - Pflichtwissen für API-Aufrufe an Reasoning-Modelle.
 
 - 🟢 **Brücke zu Capstone-Wahl** — wenn dein Capstone eine Aufgabe enthält, die "denken" erfordert (mehrstufige Analyse, Code-Debugging, formale Logik), wirst du ein Reasoning-Modell evaluieren. Modul 7.5 vertieft das mit eigenen Praxis-Vergleichen pro Track. **Hier reicht: du weißt, dass Reasoning-Modelle existieren, woher sie kommen, und wann sie sich lohnen.**
 
@@ -379,7 +374,7 @@ Aufwand: alle Tracks +3-5h.
 ### Praxis: Hauptprojekt — Modell-Vergleichs-Notebook
 
 - Drei Test-Prompts aus deinem Alltag wählen (z.B. eine Übersetzung, eine Code-Review, eine kreative Aufgabe).
-- Diese Prompts gegen 5-7 Modelle laufen lassen: Claude Sonnet, GPT-5 (oder Mini), Gemini, plus 2-3 lokale OSS via Ollama. **Plus mindestens ein Reasoning-Modell** *(NEU in v2.1)*.
+- Diese Prompts gegen 5-7 Modelle laufen lassen: Claude Sonnet, GPT-5 (oder Mini), Gemini, plus 2-3 lokale OSS via Ollama. **Plus mindestens ein Reasoning-Modell**.
 - Ergebnisse dokumentieren: Qualität (subjektiv 1-5), Latenz, Cost (falls Cloud), eigene Bewertung. **Plus Reasoning-Anti-Pattern-Test aus dem Block oben.**
 - Konsolidierter Bericht im Portfolio: welches Modell für welche Aufgabe?
 - Bonus 🔧🧮: Notebook in Python schreiben und LiteLLM zur Provider-Abstraktion nutzen.
@@ -399,8 +394,8 @@ Aufwand: alle Tracks +3-5h.
 - [ ] MCP konzeptionell verstanden (kannst du in 3 Sätzen erklären?)
 - [ ] Mindestens einmal mit LiteLLM oder OpenRouter Provider-Abstraktion getestet
 - [ ] Bewusstsein für Cost-Trade-offs und Multi-Model-Routing
-- [ ] Reasoning-Anti-Pattern verstanden — du weißt, wann du Reasoning-Modelle einsetzt und wann nicht *(NEU in v2.1)*
-- [ ] Eines deiner Prompts mit/ohne "Schritt für Schritt" gegen Reasoning-Modell getestet *(NEU in v2.1)*
+- [ ] Reasoning-Anti-Pattern verstanden — du weißt, wann du Reasoning-Modelle einsetzt und wann nicht
+- [ ] Eines deiner Prompts mit/ohne "Schritt für Schritt" gegen Reasoning-Modell getestet
 
 ---
 
@@ -409,7 +404,6 @@ Aufwand: alle Tracks +3-5h.
 Bevor du Python lernst, **baust du etwas Sichtbares**. No-Code-Plattformen (Make.com, n8n) und Vibe-Coding-Tools (Bolt, Lovable, v0) erlauben dir, in Stunden statt Wochen funktionierende KI-Workflows und Web-Apps zu produzieren. Das ist nicht Spielerei — es ist 2026 ein eigenständiger professioneller Skill für schnelle Prototypen, MVPs und Workflow-Automatisierung. Wer No-Code beherrscht, kann später bewusst entscheiden, wann Code nötig wird (was in Modul 2.7 motiviert wird).
 
 **Aufwand:** 🔧 8-10h · 🧮 8-10h · 💼 8-12h
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 **Voraussetzungen:** Module 2.1-2.5
 
 ### Lernziel
@@ -472,7 +466,6 @@ Jede Option im Portfolio dokumentieren: was, warum, wie, Screenshots, Code/Workf
 Du hast in 2.6 die Grenzen von No-Code gesehen. Jetzt lernst du Python — gezielt für KI-Anwendungen, nicht als allgemeine Programmiersprache. Wer schon Python kann, kann das Modul stark verkürzen oder skippen (mit Outcome-Check als Selbsttest). Wer Python neu lernt, sollte hier mindestens 30-50h einplanen — Python ist die Sprache aller KI-Module ab Stufe 4.
 
 **Aufwand:** 🔧 30-50h · 🧮 30-50h · 💼 0-15h (optional, Konzepte reichen)
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 **Voraussetzungen:** Module 2.1-2.6
 
 ### Lernziel
@@ -504,10 +497,10 @@ Du kannst LLM-APIs aufrufen, Daten strukturiert verarbeiten, mit Async-Patterns 
 
 - Wähle eine wiederkehrende Aufgabe aus deinem Alltag (Beispiele: Slack-Nachrichten zusammenfassen, RSS-Feeds curaten, Code-Review-Notizen aus Git-Diff generieren, E-Mails priorisieren).
 - Baue ein Python-CLI-Tool mit Typer:
- - Liest Input (Datei, URL, oder von stdin)
- - Ruft LLM-API auf (mit Pydantic-validiertem Schema für Output)
- - Schreibt strukturierten Output
- - Hat Type Hints, Logging, Error Handling, `.env`-basierte Secrets
+  - Liest Input (Datei, URL, oder von stdin)
+  - Ruft LLM-API auf (mit Pydantic-validiertem Schema für Output)
+  - Schreibt strukturierten Output
+  - Hat Type Hints, Logging, Error Handling, `.env`-basierte Secrets
 - Bonus: einfache Tests mit pytest für die nicht-KI-Logik.
 - Code im Portfolio mit README, das Installation und Nutzung erklärt.
 
@@ -542,7 +535,7 @@ Du kannst LLM-APIs aufrufen, Daten strukturiert verarbeiten, mit Async-Patterns 
 | [Anthropic — Prompt Engineering Interactive Tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) | Anthropic | ~5h | Vertiefung zu 2.3 |
 | [Hugging Face — LLM Course](https://huggingface.co/learn/llm-course) | Hugging Face | 20-40h | Vertiefung 2.5, vor Stufe 5 |
 
-**Coursera-Audit-Modus-Hinweis (NEU in v2.1):** DLAI-Materialien sind auf Coursera/learn.deeplearning.ai kostenlos im Audit-Modus zugänglich. Details siehe `99_anhang.md`.
+**Coursera-Audit-Modus-Hinweis:** DLAI-Materialien sind auf Coursera/learn.deeplearning.ai kostenlos im Audit-Modus zugänglich. Details siehe `99_anhang.md`.
 
 ---
 
@@ -552,22 +545,12 @@ Nach Stufe 2 hast du:
 - ✅ Solides LLM-Verständnis (Theorie + 2026-Modell-Landschaft)
 - ✅ Persönliche Prompt-Library mit dokumentierten A/B-Tests
 - ✅ Halluzinations- und DSGVO-Bewusstsein
-- ✅ **Cost-Bewusstsein für Cloud-API-Nutzung mit aktivem Limit-Setting** *(NEU in v2.1)*
+- ✅ **Cost-Bewusstsein für Cloud-API-Nutzung mit aktivem Limit-Setting**
 - ✅ Modell-Vergleichs-Notebook und persönlichen Wahl-Cheat-Sheet
 - ✅ MCP konzeptionell verstanden (Praxis folgt in 5.3)
-- ✅ **Reasoning-Modell-Anti-Patterns verstanden und einmal getestet** *(NEU in v2.1)*
-- ✅ **Reasoning-Modelle als eigene Architektur-Familie verstanden, Test-Time-Compute als Skalierungs-Achse erklärbar, 200-Wörter-Reflexion zu eigenem Use-Case im Portfolio** *(NEU in v2.2, Block 2.5.5 — Vorlauf zu Modul 7.5)*
+- ✅ **Reasoning-Modell-Anti-Patterns verstanden und einmal getestet**
+- ✅ **Reasoning-Modelle als eigene Architektur-Familie verstanden, Test-Time-Compute als Skalierungs-Achse erklärbar, 200-Wörter-Reflexion zu eigenem Use-Case im Portfolio** (Block 2.5.5 — Vorlauf zu Modul 7.5)
 - ✅ Mindestens ein No-Code-Workflow oder eine Web-App, die du täglich nutzt
 - 🔧🧮: Python-CLI-Tool mit allen Best Practices
 
 **Du bist bereit für Stufe 3: Arbeitsmethoden mit KI.**
-
----
-
-## Aktualisierungslog
-
-- **2026-05-05:** Version v2.2.1 — **Bugfix Audio-Tools**: Coqui TTS (Projekt archiviert/eingestellt) durch Piper TTS und Bark als OSS-TTS-Alternativen ersetzt (2 Stellen: Audio-Bullet und OSS-Pfad).
-- **2026-05-04:** Version v2.2.0 — **Block 2.5.5 Reasoning-Modelle als Architektur-Familie — erste Begegnung (NEU)**: Awareness-Block als Vorlauf zu Modul 7.5; Test-Time-Compute als eigene Skalierungs-Achse, Reasoning-Modell-Familie 2026 (o3, Sonnet 4.6 Thinking, Opus 4.7 Adaptive Thinking, R1, Gemini Thinking, QwQ), Trainings-Pattern auf hoher Ebene (GRPO, PRM/ORM), Inferenz-Pattern, Effort-Parameter als API-Konvention; Aufwand alle Tracks +3-5h; Praxis-Mini Block 2.5.5 mit 200-Wörter-Reflexion; eigener Outcome-Check für 2.5.5. Stufen-Outcome um Block 2.5.5 ergänzt. Komplementär zum bestehenden v2.1-"Reasoning-Prompting"-Block — der lehrt *Anwendung*, 2.5.5 lehrt *Architektur-Awareness*.
-- **2026-05-04:** Version v2.1.0 — Cost-Awareness-Mini-Block vor Modul 2.2 ergänzt; Reasoning-spezifisches Prompting als Block in Modul 2.5 ergänzt; Tippfehler "Outcode-Check" → "Outcome-Check" in Modul 2.1 korrigiert; MCP-Adoption-Behauptung um Quellen-Belegung ergänzt; Verfallsdatum-Stempel pro 🔄-Bullet eingeführt; Hinweis auf Modul 5.0 (NEU in v2.1) als echter Eval-Lernort; Aufwand entsprechend leicht erhöht.
-- **2026-05-02:** Initiale Version v2.0.0
-- **Re-check geplant:** Aug 2026 für Modul 2.5 (volatile Modell-Landschaft) und Cost-Awareness-Block (Pricing-Strukturen) und Block 2.5.5 (volatile Reasoning-Modell-Familie). Nov 2026 für stabile Inhalte (Module 2.1, 2.3, 2.4, 2.6, 2.7).

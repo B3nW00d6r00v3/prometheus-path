@@ -1,25 +1,28 @@
 # Querschnitt: Eval
 
-**Aufwand:** 🔧 30-50h · 🧮 30-50h · 💼 15-25h
+**Aufwand:** 🔧 30-50h · 🧮 30-50h · 💼 15-25h  
 **Wann nötig:** ab Modul 5.4 — vorher Anker in Modul 2.3 und 8.5
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 *(volatile Tools-Landschaft, 3-Monats-Audit als A-Tiefe-Querschnitt)*
+
+| Stufen-Bezüge | Capstone-Bezug | Tools |
+|---|---|---|
+| Stufe 2, 5, 6, 8, 9, 10 | Capstone A, B | Promptfoo, DeepEval, RAGAS, Langfuse |
 
 Dieser Querschnitt ist die wichtigste **Disziplin** im modernen KI-Stack. Wer LLM-Anwendungen ohne Eval baut, baut blind. Eval ist 2026 das Differenzierungsmerkmal zwischen Hobby-Bauer und Professional. Diese Datei vertieft, was in Stufen 2.3 (Prompt-Eval), 5.0 (Eval-Mini), 5.4 (RAG-Eval), 8.5 (Statistik-Foundation), 6.2 (Agent-Eval) angerissen wurde.
 
-**Eval-Querschnitt-Anker im v2.1-Curriculum** (zur Orientierung):
+**Eval-Querschnitt-Anker im Curriculum** (zur Orientierung):
 - **Modul 5.0 (Eval-Mini)**: erstes Hands-On mit Hamel-Methodik, Foundation für alle weiteren Eval-Anwendungen
 - **Modul 5.4 (RAG-Eval)**: Pflicht-Anwendung dieses Querschnitts auf RAG-Systeme
 - **Modul 6.2 (Agent-Eval)**: Trajectory-Eval-Pflicht-Block für Agent-Systeme
 - **Modul 8.2 (Klassifikation)**: Confusion Matrix, Precision/Recall/F1 — Foundation für Klassifikations-Eval
 - **Modul 8.5 (A/B-Testing)**: Statistik-Foundation für seriöses Eval — Power Analysis, Multiple-Testing-Korrektur
 - **Modul 9.3 (Operating Model)**: KPI-System auf 3 Ebenen, System-KPIs basieren auf diesem Querschnitt
-- **Modul 10.3 (LLMOps)**: Eval-as-CI mit Schwellenwert-Logik als verstärkte Pflicht-Praxis (NEU in v2.1)
-- **Modul 5.6 Skills-Pattern (NEU in v2.2)**: Skills brauchen ihre eigene Eval-Disziplin (Trigger-Eval, Outcome-Eval) — Hamel evals-skills (März 2026) als praktischer Anker
-- **Querschnitt 16 Safety/Red-Teaming (NEU in v2.2)**: Red-Team-Eval als Spezialfall von Eval — Promptfoo Red Team Mode nutzt dieselbe Test-Case-Methodik wie Standard-Eval
+- **Modul 10.3 (LLMOps)**: Eval-as-CI mit Schwellenwert-Logik als Pflicht-Praxis
+- **Modul 5.6 Skills-Pattern**: Skills brauchen ihre eigene Eval-Disziplin (Trigger-Eval, Outcome-Eval) — Hamel evals-skills (März 2026) als praktischer Anker
+- **Querschnitt 16 Safety/Red-Teaming**: Red-Team-Eval als Spezialfall von Eval — Promptfoo Red Team Mode nutzt dieselbe Test-Case-Methodik wie Standard-Eval
 
 **Hamel Husain's "Your AI Product Needs Evals" ist Pflicht-Lektüre 2026** — wenn du nichts anderes liest, lies das. [https://hamel.dev/blog/posts/evals/](https://hamel.dev/blog/posts/evals/)
 
-**Plus (NEU in v2.2):**
+**Weiterführend:**
 - **Hamel Husain — AI Evals FAQ** (Januar 2026): aktuelle Antworten auf häufige Eval-Fragen aus 2025/26-Praxis. [https://hamel.dev/blog/posts/evals-faq/](https://hamel.dev/blog/posts/evals-faq/)
 - **Hamel evals-skills** (März 2026): Skills-Pattern für Coding-Agents, mit eingebauter Eval-Methodik. Brücke zu Modul 5.6 Skills-Pattern. [evals-skills GitHub](https://github.com/hamelsmu/evals-skills)
 
@@ -208,21 +211,14 @@ Im Portfolio: `querschnitte/eval-pipeline/` als wiederverwendbarer Code.
 | [Hamel Husain — Eval Posts (gesamt)](https://hamel.dev) | Hamel Husain | ~10h | Pflicht-Lektüre |
 | [Eugene Yan — Eval Posts](https://eugeneyan.com/writing/) | Eugene Yan | ~5h | Vertiefung |
 
-**Coursera-Audit-Modus-Hinweis (NEU in v2.1):** DLAI-Kurse sind im Audit-Modus auf Coursera kostenlos zugänglich. Details siehe `99_anhang.md`.
+**Coursera-Audit-Modus-Hinweis:** DLAI-Kurse sind im Audit-Modus auf Coursera kostenlos zugänglich. Details siehe `99_anhang.md`.
 
 ## Outcome-Check
 
 - [ ] Eval-Dataset mit mindestens 50 strukturierten Test-Cases
 - [ ] LLM-as-Judge implementiert mit Bias-Mitigations
 - [ ] Eval-Skript reproduzierbar als CLI
-- [ ] Eval-as-CI in GitHub-Actions **mit Schwellenwert-Logik** *(verstärkt in v2.1)*
+- [ ] Eval-as-CI in GitHub-Actions **mit Schwellenwert-Logik**
 - [ ] Statistische Signifikanz für Vergleiche (Konfidenzintervalle)
 - [ ] Anti-Pattern bewusst vermieden (Cherry-Picking, Single-Run, Overfitting)
 
-## Aktualisierungslog
-
-- **2026-05-05:** Version v2.2.1 — **Bugfix Eval-Tools**: Braintrust-Lizenzstatus von "proprietär" auf "OSS-Kern (seit 2025), Managed Cloud verfügbar" korrigiert.
-- **2026-05-04:** Version v2.2.0 — **Hamel evals-skills (März 2026) als praktischer Anker** im Header ergänzt — Brücke zu Modul 5.6 Skills-Pattern (NEU in v2.2). **Hamel AI Evals FAQ (Jan 2026) als zweite Pflicht-Lektüre-Variante** ergänzt. **Querschnitt-Anker um Modul 5.6 Skills-Pattern und Querschnitt 16 Safety/Red-Teaming erweitert** — Skills brauchen Trigger-Eval, Red-Team nutzt Eval-Methodik. Inhaltliche Eval-Lehre selbst unverändert — Hamel-Methodik bleibt Foundation.
-- **2026-05-04:** Version v2.1.0 — **Eval-Querschnitt-Anker-Übersicht** als Stufen-Header hinzugefügt (zeigt explizit, welche Module diesen Querschnitt anwenden — wichtig für die Verzahnung in v2.1, vor allem Module 5.0 NEU, 6.2 Trajectory-Eval-Pflicht-Block NEU, 9.3 KPI-System NEU, 10.3 Eval-as-CI verstärkt); Verfallsdatum-Stempel pro 🔄-Bullet (Tools-Liste); Verweis auf Modul 10.3 für Eval-as-CI-Vertiefung mit Schwellenwert-Logik; Verweis auf Modul 6.2 Trajectory-Eval-Pflicht; Coursera-Audit-Modus-Hinweis ergänzt; Outcome-Check Eval-as-CI-Punkt verstärkt.
-- **2026-05-02:** Initiale Version v2.0.0
-- **Re-check geplant:** **Aug 2026 (3-Monats-Audit als A-Tiefe-Querschnitt)** — Eval-Tools-Landschaft, neue LLM-as-Judge-Bias-Forschung, Eval-as-CI-Patterns, evals-skills-Updates. Plus jährlicher Hauptreview Nov 2026.

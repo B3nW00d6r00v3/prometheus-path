@@ -1,14 +1,15 @@
 # Stufe 4: Programmier-Foundation
 
-**Aufwand gesamt:** 🔧 30-50h *(Pflicht vor Stufe 5)* · 🧮 30-50h · 💼 0-15h (optional)
+**Aufwand:** 🔧 30-50h (Pflicht vor Stufe 5) · 🧮 30-50h · 💼 0-15h (optional)  
 **Voraussetzungen:** Stufe 3 abgeschlossen
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 
-**Status-Änderung in v2.1:** Diese Stufe war in v2.0 als "optional" markiert. Das war eine Falle: Lernende auf 🔧-Track haben Stufe 4 übersprungen und sind dann in Stufe 5 (RAG, Frameworks) gegen Wand gelaufen — fehlende Async-Patterns, kein Pydantic-Verständnis, kein Error-Handling für LLM-APIs. **Ab v2.1 ist Stufe 4 Pflicht für 🔧 vor Stufe 5.** Für 🧮 und 💼 bleibt sie optional bzw. konzeptionell.
+| Querschnitte | Capstone-Beitrag | Tools |
+|---|---|---|
+| — | Programmier-Foundation Capstone A/B | Python, FastAPI, Pydantic, pytest, Git/GitHub |
 
-Diese Stufe vertieft die Themen, die für Stufe 5 (RAG, Frameworks) und Stufe 6 (Agenten) Production-Niveau erfordern: saubere Datenklassen mit Pydantic, Async-Programmierung für API-Calls, Logging und Error Handling, einfache Web-Services mit FastAPI, Tests für KI-Code. Wer in 2.7 schon sicher Python kann und alle Inhalte beherrscht, kann den Self-Check unten machen und ggf. das Modul deutlich verkürzen — aber nicht überspringen, wenn 🔧.
+Diese Stufe ist Pflicht für 🔧 vor Stufe 5. Sie vertieft die Themen, die für Stufe 5 (RAG, Frameworks) und Stufe 6 (Agenten) Production-Niveau erfordern: saubere Datenklassen mit Pydantic, Async-Programmierung für API-Calls, Logging und Error Handling, einfache Web-Services mit FastAPI, Tests für KI-Code. Wer in 2.7 schon sicher Python kann und alle Inhalte beherrscht, kann den Self-Check unten machen und ggf. das Modul deutlich verkürzen — aber nicht überspringen, wenn 🔧.
 
-**Self-Check vor Stufe 4 (NEU in v2.1, für 🔧):**
+**Self-Check vor Stufe 4 (für 🔧):**
 
 Wenn du folgende Fragen *alle* mit "ja, ich habe es schon getan oder weiß genau wie" beantworten kannst, kannst du Stufe 4 auf 8-15h verkürzen (nur Hauptprojekt + Outcome-Check):
 
@@ -30,10 +31,9 @@ Wer mindestens 2 davon mit "nein" beantwortet: Stufe 4 voll durchgehen, kein Ski
 
 ## Modul 4.1: Python-Vertiefung für KI
 
-Aufbauend auf Modul 2.7 vertiefst du hier die Themen, die für Stufe 5 (RAG-Pipelines, Frameworks) und Stufe 6 (Agenten) Pflicht sind: saubere Datenklassen mit Pydantic, Async-Programmierung für API-Calls, Logging und Error Handling, einfache Web-Services mit FastAPI, Tests für KI-Code. Wer die Outcome-Schwellen in 2.7 nicht erreicht hat, sollte diese Stufe nicht überspringen — und für 🔧 ist sie ab v2.1 Pflicht.
+Aufbauend auf Modul 2.7 vertiefst du hier die Themen, die für Stufe 5 (RAG-Pipelines, Frameworks) und Stufe 6 (Agenten) Pflicht sind: saubere Datenklassen mit Pydantic, Async-Programmierung für API-Calls, Logging und Error Handling, einfache Web-Services mit FastAPI, Tests für KI-Code. Wer die Outcome-Schwellen in 2.7 nicht erreicht hat, sollte diese Stufe nicht überspringen — und für 🔧 ist sie Pflicht.
 
 **Aufwand:** 🔧 30-50h *(Pflicht vor Stufe 5)* · 🧮 30-50h · 💼 0-15h
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 **Voraussetzungen:** Modul 2.7
 
 ### Lernziel
@@ -53,7 +53,7 @@ Du baust einen kleinen FastAPI-Service mit LLM-Funktion, vollständiger Pydantic
 
 - 🟢 **Konfigurations-Management mit Pydantic Settings** — Settings aus `.env`, Environment Variables, Defaults, alles mit Validierung. Saubere Trennung zwischen Code und Config. [Pydantic Settings Docs](https://docs.pydantic.dev/latest/concepts/pydantic_settings/)
 
-- 🟢 **Tests für KI-Code: das harte Problem** — LLM-Outputs sind nicht-deterministisch, also keine Snapshot-Tests. Was funktioniert: (1) Tests für Nicht-LLM-Logik (Parsing, Pipelines, Tool-Funktionen). (2) Mocking von LLM-Calls mit `pytest-mock` oder `respx`. (3) Schema-Tests (LLM-Output passt zur Pydantic-Struktur). (4) Eval-Tests (5-10 Test-Inputs, manueller Schwellenwert). *Hinweis v2.1: Modul 5.0 (NEU) lehrt die echte Eval-Disziplin — hier reichen Schema- und Mock-Tests.* [pytest Docs](https://docs.pytest.org) · [respx für httpx-Mocks](https://lundberg.github.io/respx/)
+- 🟢 **Tests für KI-Code: das harte Problem** — LLM-Outputs sind nicht-deterministisch, also keine Snapshot-Tests. Was funktioniert: (1) Tests für Nicht-LLM-Logik (Parsing, Pipelines, Tool-Funktionen). (2) Mocking von LLM-Calls mit `pytest-mock` oder `respx`. (3) Schema-Tests (LLM-Output passt zur Pydantic-Struktur). (4) Eval-Tests (5-10 Test-Inputs, manueller Schwellenwert). *Hinweis: Modul 5.0 lehrt die echte Eval-Disziplin — hier reichen Schema- und Mock-Tests.* [pytest Docs](https://docs.pytest.org) · [respx für httpx-Mocks](https://lundberg.github.io/respx/)
 
 - 🟢 **Project-Layout und Packaging** — `src/`-Layout, `pyproject.toml` (modern), `__init__.py`, Imports, Module-Struktur. Mit `uv` oder `poetry` als Build-Tool 2026 Standard. [Real Python — pyproject.toml](https://realpython.com/python-pyproject-toml/) · [uv](https://docs.astral.sh/uv/) · [Poetry](https://python-poetry.org)
 
@@ -91,7 +91,7 @@ Komplett mit Ollama als LLM-Backend: deine FastAPI nutzt LiteLLM, das gegen Olla
 - [ ] Mindestens 3 pytest-Tests grün
 - [ ] Logging strukturiert, keine PII-Lecks
 - [ ] README mit `uv`-Installation und Run-Anleitung
-- [ ] **Für 🔧:** Du beantwortest alle Self-Check-Fragen oben jetzt mit "ja" *(NEU in v2.1, harte Voraussetzung für Stufe 5)*
+- [ ] **Für 🔧:** Du beantwortest alle Self-Check-Fragen oben jetzt mit "ja" (harte Voraussetzung für Stufe 5)
 
 ---
 
@@ -103,7 +103,7 @@ Komplett mit Ollama als LLM-Backend: deine FastAPI nutzt LiteLLM, das gegen Olla
 | [DLAI — Building Generative AI Apps with Gradio](https://learn.deeplearning.ai) | DeepLearning.AI (Audit-Modus) | ~2h | Alternative für UI |
 | [Pydantic Tutorial](https://docs.pydantic.dev/latest/tutorial/) | Pydantic | ~3h | Wenn Pydantic neu |
 
-**Coursera-Audit-Modus-Hinweis (NEU in v2.1):** DLAI-Materialien sind im Audit-Modus kostenlos zugänglich (siehe `99_anhang.md`).
+**Coursera-Audit-Modus-Hinweis:** DLAI-Materialien sind im Audit-Modus kostenlos zugänglich (siehe `99_anhang.md`).
 
 ---
 
@@ -114,15 +114,7 @@ Nach Stufe 4 hast du:
 - ✅ Sauberen Python-Code mit Type Hints, Pydantic, Async, Logging
 - ✅ Tests für KI-Code (so weit testbar)
 - ✅ Verständnis für Production-Patterns (Retry, Error Handling, Streaming)
-- 🔧: ✅ **Self-Check bestanden** — du bist Production-Code-fähig vor Stufe 5 *(NEU in v2.1)*
+- 🔧: ✅ **Self-Check bestanden** — du bist Production-Code-fähig vor Stufe 5
 
 **Du bist bereit für Stufe 5: Anwendungen bauen — wo all das angewendet wird.**
 
----
-
-## Aktualisierungslog
-
-- **2026-05-04:** Version v2.2.0 — Aktualisierungslog-Eintrag ohne inhaltliche Änderungen. Stufe 4 (Programmier-Foundation) ist Tools-Foundation und unabhängig von v2.2-Frontier-Themen. Modul 4.1 unverändert. Pflicht für 🔧 vor Stufe 5 bleibt aus v2.1.
-- **2026-05-04:** Version v2.1.0 — **Stufe 4 von "optional" zu "Pflicht für 🔧 vor Stufe 5"** umgestellt (häufigste Crash-Falle in v2.0); Self-Check vor Stufe 4 mit 5 konkreten Fragen ergänzt für Lernende, die das Modul ggf. verkürzen können; Hinweis auf Modul 5.0 (Eval-Mini-Block, NEU in v2.1) als echter Eval-Lernort; Coursera-Audit-Modus-Hinweis bei Free-Zertifikaten ergänzt.
-- **2026-05-02:** Initiale Version v2.0.0
-- **Re-check geplant:** November 2026 — primär: FastAPI-Versions-Updates, ruff-/uv-Stand, Pydantic-v3-Vorbereitung falls relevant.

@@ -1,19 +1,20 @@
 # Capstone A: Engineer (🔧)
 
-**Working Title:** Production-Ready Multi-Agent-RAG-System
-**Aufwand:** 80-200h zusätzlich zu den Stufen-Aufwänden, je nach Domain-Komplexität
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
+**Working Title:** Production-Ready Multi-Agent-RAG-System  
+**Aufwand:** 80-200h zusätzlich zu den Stufen-Aufwänden, je nach Domain-Komplexität  
 **Voraussetzungen:** 🔧-Track, idealerweise Stufen 1-3 absolviert für Capstone-Start in Stufe 5
 
-Du baust ein RAG-Agent-System auf einer eigenen Domain (kann persönlich, beruflich, hobby-bezogen sein), das du iterativ über das Curriculum aufbaust. Endprodukt: deployed, evaluiert, hardened, **mit Operate-Phase im Real-User-Betrieb** *(Goldstandard NEU in v2.1)*, mit echten Stakeholdern getestet.
+| Stufen-Bezüge | Querschnitte | Tools |
+|---|---|---|
+| Stufe 3, 5, 6, 10, 11 | Eval, Production, Safety | LangGraph, Claude Agent SDK, Promptfoo, vLLM, Docker |
 
-**Wichtige Strukturänderungen in v2.1:**
+Du baust ein RAG-Agent-System auf einer eigenen Domain (kann persönlich, beruflich, hobby-bezogen sein), das du iterativ über das Curriculum aufbaust. Endprodukt: deployed, evaluiert, hardened, **mit Operate-Phase im Real-User-Betrieb**, mit echten Stakeholdern getestet.
 
-Diese Datei ist die **Master-Capstone-Datei** in v2.1. Sie enthält:
+Diese Datei ist die **Master-Capstone-Datei**. Sie enthält:
 1. **Capstone A komplett** (Konzept, 9 Phasen, Outcome-Schwellen, Portfolio-Anforderungen)
-2. **Verschobene Update-Blöcke aus Stufen 5+6** (Capstone-Engineer-Update nach 5.5, nach 6.2, nach 6.5 NEU in v2.1, plus Verweis auf 10.3)
-3. **Capstone-Abschluss-Master-Sektion** für alle drei Capstones — Demo-Video, Pitch, Lessons-Learned, Portfolio-Struktur (war in v2.0 in Stufe 11, jetzt zentral hier)
-4. **Operate-Phase als Goldstandard** (NEU in v2.1) — 4-6 Wochen Real-User-Betrieb nach Production-Hardening
+2. **Verschobene Update-Blöcke aus Stufen 5+6** (Capstone-Engineer-Update nach 5.5, nach 6.2, nach 6.5, plus Verweis auf 10.3)
+3. **Capstone-Abschluss-Master-Sektion** für alle drei Capstones — Demo-Video, Pitch, Lessons-Learned, Portfolio-Struktur
+4. **Operate-Phase als Goldstandard** — 4-6 Wochen Real-User-Betrieb nach Production-Hardening
 
 `18_capstone_b_foundations.md` und `19_capstone_c_strategist.md` referenzieren die Master-Sektionen aus dieser Datei.
 
@@ -24,7 +25,7 @@ Diese Datei ist die **Master-Capstone-Datei** in v2.1. Sie enthält:
 Du baust ein RAG-Agent-System auf einer eigenen Domain mit echtem Mehrwert für dich oder deine Stakeholder. Das System wächst iterativ über das Curriculum:
 
 - **Stufe 5** legt RAG-Foundation und Eval-Pipeline
-- **Stufe 6** macht es zum Multi-Agent-System mit Computer Use *(NEU in v2.1)*
+- **Stufe 6** macht es zum Multi-Agent-System mit Computer Use
 - **Stufe 10** macht es Production-hardened mit Eval-as-CI
 - **Stufe 11** vollendet mit Operate-Phase, Final-Doku, Demo, Pitch
 
@@ -51,10 +52,10 @@ Wer 🔧 ist, hat hier seine Hauptarbeit. Wer 🧮 oder 💼 mit-macht, kann Ele
 ### Phase 4 — MCP-Integration (Modul 5.3)
 - Eigener MCP-Server für die Domain
 - Optional: 2-3 externe MCP-Server konsumieren
-- *MCP-Sicherheits-Block (NEU in v2.1)*: dein eigener Server hält Best Practices ein (OAuth 2.1, Audit-Logs, Scope-Limitierung)
+- *MCP-Sicherheits-Block*: dein eigener Server hält Best Practices ein (OAuth 2.1, Audit-Logs, Scope-Limitierung)
 
 ### Phase 5 — Eval-Pipeline (Modul 5.0 + 5.4)
-- *Eval-Mini Hamel-Methodik aus Modul 5.0 (NEU in v2.1)*: erste 20 Test-Cases mit ehrlicher Eval, vor RAGAS
+- *Eval-Mini Hamel-Methodik aus Modul 5.0*: erste 20 Test-Cases mit ehrlicher Eval, vor RAGAS
 - Eval-Dataset mit 50-100 Test-Cases (Vertiefung in 5.4)
 - LLM-as-Judge mit Bias-Mitigations
 - Eval-Skript reproduzierbar
@@ -63,7 +64,7 @@ Wer 🔧 ist, hat hier seine Hauptarbeit. Wer 🧮 oder 💼 mit-macht, kann Ele
 - Streamlit, Vercel AI SDK, oder Chainlit
 - Streaming, Source-Citations, Tool-Use-Visualisierung
 
-### Capstone-Engineer-Update nach Stufe 5 *(verschoben aus Stufe 5 in v2.1)*
+### Capstone-Engineer-Update nach Stufe 5
 
 Nach Stufe 5 hast du dein Capstone-Engineer-Projekt im Aufbau:
 - ✅ Domain definiert, Repo angelegt (Phase 1)
@@ -79,23 +80,23 @@ In Stufe 6 wird daraus ein Multi-Agent-System mit Computer Use, in Stufe 10 wird
 - Erweiterung zum Multi-Agent-System mit LangGraph oder Vendor-SDK
 - Cost-Tracking
 - Sandboxed Tool-Execution
-- *Trajectory-Eval-Pflicht-Block (NEU in v2.1)*: 4 Metriken (Task Success Rate, Trajectory Quality, Tool Usage Quality, Cost Efficiency), Failure-Mode-Analyse
+- *Trajectory-Eval-Pflicht-Block*: 4 Metriken (Task Success Rate, Trajectory Quality, Tool Usage Quality, Cost Efficiency), Failure-Mode-Analyse
 
-### Phase 7b — Computer Use Integration (Modul 6.5, NEU in v2.1, optional)
+### Phase 7b — Computer Use Integration (Modul 6.5, optional)
 - Optional: Computer Use für Browser- oder Desktop-Automation als Erweiterung
 - Production-Sandboxing besonders wichtig (Daytona, E2B, oder Docker)
 - Wenn integriert: dokumentiere Use-Case und Sandboxing-Setup
 
-### Phase 7c — Schwarm-/Conductor-Vergleich *(NEU in v2.2, optional, Modul 6.6)*
+### Phase 7c — Schwarm-/Conductor-Vergleich
 - Wenn dein Capstone Multi-Agent-Workflows hat, vergleiche zwei Pattern auf demselben Use-Case:
  - **V1 Conductor**: 1 Master + 3 Workers (z.B. Topic-Research / Quellen-Eval / Synthese).
  - **V2 Hierarchical**: 1 Top-Orchestrator + 2 Team-Leads + je 2 Workers.
-- Trajectory-Eval mit den 4 Standard-Metriken aus 6.2 plus den **2 neuen Metriken Coordination-Cost und Time-to-Result** (NEU in v2.2 in Modul 6.6).
+- Trajectory-Eval mit den 4 Standard-Metriken aus 6.2 plus den **2 neuen Metriken Coordination-Cost und Time-to-Result**.
 - Failure-Mode-Test (Quelle gibt 500 zurück, Inter-Agent-Konflikt) — wie reagiert jede Architektur?
 - Begründete Pattern-Wahl für Capstone dokumentieren.
 - Im Capstone-Repo: `phase-7c-swarm-comparison/` mit Code beider Varianten + Eval-Report.
 
-### Phase 7d — Agentic-OS-Layer *(NEU in v2.2, optional, Modul 6.7)*
+### Phase 7d — Agentic-OS-Layer
 - Lege im Capstone-Repo eine `AGENT_OS/`-Struktur an (siehe Modul 6.7 Praxis):
  - `context/` (Brücke zu 6.0)
  - `memory/` mit `brand_voice.md`, `glossary.md`, `decisions_log.md`
@@ -105,7 +106,7 @@ In Stufe 6 wird daraus ein Multi-Agent-System mit Computer Use, in Stufe 10 wird
 - Reflexion: was hat die persistente Schicht gebracht, wo war sie überflüssig oder pollutionsfördernd?
 - Im Capstone-Repo: `phase-7d-agentic-os/` mit Repo-Struktur, Eval-Vergleich, Reflexion.
 
-### Phase 7e — Red-Team-Pass auf Capstone-State *(NEU in v2.2, **PFLICHT für Operate-Phase-Goldstandard**, Querschnitt 16)*
+### Phase 7e — Red-Team-Pass auf Capstone-State
 
 **Ohne Phase 7e ist die Operate-Phase nicht Goldstandard.** Production-Deploy ohne Red-Team-Pass ist 2026 ein Anti-Pattern — siehe Modul 9.7 Failure-Case-Library für Empirie (DPD-Chatbot, Air-Canada-Lawsuit als Beispiele für nicht-gehärtete Production-Anwendungen).
 
@@ -119,31 +120,31 @@ In Stufe 6 wird daraus ein Multi-Agent-System mit Computer Use, in Stufe 10 wird
 
 **Outcome-Schwelle Phase 7e (Operate-Goldstandard)**: keine offenen Critical-Findings, keine offenen High-Findings ohne dokumentierten Mitigations-Plan.
 
-### Capstone-Engineer-Update nach Stufe 6 *(verschoben aus Stufe 6 in v2.1, in v2.2 erweitert um Phasen 7c/7d/7e)*
+### Capstone-Engineer-Update nach Stufe 6
 
 Nach Stufe 6 ist dein Capstone-Engineer-Projekt erweitert:
 - ✅ Multi-Agent-System mit dokumentierten Agent-Rollen
-- ✅ Trajectory-Eval mit 4 Pflicht-Metriken durchgeführt *(NEU in v2.1)*
+- ✅ Trajectory-Eval mit 4 Pflicht-Metriken durchgeführt
 - ✅ Sandboxed Tool-Execution
 - ✅ Cost-Tracking pro Agent
-- ✅ Optional: Computer Use Integration *(NEU in v2.1, falls gemacht)*
-- ✅ **Optional: Schwarm-/Conductor-Vergleich (Phase 7c)** *(NEU in v2.2, falls Multi-Agent-Use-Case)*
-- ✅ **Optional: Agentic-OS-Layer (Phase 7d)** *(NEU in v2.2)*
-- ✅ **Pflicht für Operate-Goldstandard: Red-Team-Pass abgeschlossen (Phase 7e)** *(NEU in v2.2)*
+- ✅ Optional: Computer Use Integration
+- ✅ **Optional: Schwarm-/Conductor-Vergleich (Phase 7c)**
+- ✅ **Optional: Agentic-OS-Layer (Phase 7d)**
+- ✅ **Pflicht für Operate-Goldstandard: Red-Team-Pass abgeschlossen (Phase 7e)**
 
 In Stufe 10 wird daraus die Production-Reife mit Eval-as-CI und Operate-Phase.
 
 ### Phase 8 — Production-Hardening (Modul 10.3)
 - Multi-Model-Routing (LiteLLM/OpenRouter, 70/25/5-Pattern)
 - Prompt-Caching
-- *Eval-as-CI mit Schwellenwert-Logik (verstärkt in v2.1)*: Hard-Block / Warning / Tracking, Override-Pfad mit Begründungs-Pflicht, Trend-Tracking
+- *Eval-as-CI mit Schwellenwert-Logik*: Hard-Block / Warning / Tracking, Override-Pfad mit Begründungs-Pflicht, Trend-Tracking
 - Sandboxing für Tool-Execution
 - Production-Deployment (Hetzner/Railway/Fly.io)
 - Logging und Tracing in Langfuse oder LangSmith
 - Health-Check + Uptime-Monitoring
 - Incident-Response-Plan
 
-### Phase 9 — Operate-Phase als Goldstandard *(NEU in v2.1)*
+### Phase 9 — Operate-Phase als Goldstandard
 
 **Aufwand:** 4-6 Wochen Real-User-Betrieb (parallel zu 11.1/11.2)
 
@@ -185,15 +186,15 @@ Siehe **Capstone-Abschluss-Master-Sektion** weiter unten — gilt für alle drei
 | Faithfulness | ≥0.8 | RAGAS auf Eval-Dataset |
 | Latenz P50 | <3s | Production-Logging |
 | Cost pro Anfrage | <0.05€ | Helicone / Langfuse |
-| Eval-as-CI | grün **mit Schwellenwert-Logik (Hard-Block/Warning/Tracking)** *(NEU in v2.1)* | GitHub Actions Status |
+| Eval-as-CI | grün **mit Schwellenwert-Logik (Hard-Block/Warning/Tracking)** | GitHub Actions Status |
 | Uptime | >99% über 30 Tage | UptimeRobot |
 | MCP-Server | mindestens 1 eigener + 1 externer | Code im Repo |
 | User-Tests | mindestens 3 echte Nutzer | dokumentiertes Feedback |
-| Trajectory-Eval | 4 Pflicht-Metriken dokumentiert *(NEU in v2.1)* | Eval-Report |
-| **Phase 7c Schwarm-Vergleich** *(NEU in v2.2, optional)* | Trajectory-Eval mit 4+2 Metriken (Coordination-Cost, Time-to-Result), Pattern-Wahl-Begründung | Eval-Report `phase-7c-swarm-comparison/` |
-| **Phase 7d Agentic-OS-Layer** *(NEU in v2.2, optional)* | `AGENT_OS/`-Struktur mit ≥3 Memory-Files + ≥3 Skill-Files, Eval-Vergleich vor/nach | Repo + Eval-Report |
-| **Phase 7e Red-Team-Pass** *(NEU in v2.2, **Pflicht für Operate-Goldstandard**)* | ≥20 manuelle Angriffe + automatisierter Pass (Promptfoo/Garak), keine offenen Critical, kein offenes High ohne Mitigations-Plan | `phase-7e-red-team-audit/audit-report.md` |
-| **Operate-Phase** *(NEU in v2.1, Goldstandard)* | **4-6 Wochen Real-User-Betrieb mit allen 6 Pflicht-Aktivitäten + Phase 7e abgeschlossen** *(in v2.2 verschärft: Red-Team-Pass ist Pflicht-Vorbedingung)* | Operate-Phase-Doku im Portfolio |
+| Trajectory-Eval | 4 Pflicht-Metriken dokumentiert | Eval-Report |
+| **Phase 7c Schwarm-Vergleich** | Trajectory-Eval mit 4+2 Metriken (Coordination-Cost, Time-to-Result), Pattern-Wahl-Begründung | Eval-Report `phase-7c-swarm-comparison/` |
+| **Phase 7d Agentic-OS-Layer** | `AGENT_OS/`-Struktur mit ≥3 Memory-Files + ≥3 Skill-Files, Eval-Vergleich vor/nach | Repo + Eval-Report |
+| **Phase 7e Red-Team-Pass** | ≥20 manuelle Angriffe + automatisierter Pass (Promptfoo/Garak), keine offenen Critical, kein offenes High ohne Mitigations-Plan | `phase-7e-red-team-audit/audit-report.md` |
+| **Operate-Phase** | **4-6 Wochen Real-User-Betrieb mit allen 6 Pflicht-Aktivitäten + Phase 7e abgeschlossen** | Operate-Phase-Doku im Portfolio |
 
 ---
 
@@ -205,15 +206,15 @@ Im Portfolio-Repo unter `00_capstone/`:
 - `pitch-slides.pdf` (5 Slides)
 - `eval-report.md` mit Vorher/Nachher-Tabellen
 - `lessons-learned.md` mit Reflektion
-- `operate-phase/` *(NEU in v2.1)* — Operate-Phase-Doku
+- `operate-phase/` — Operate-Phase-Doku
  - `real-user-logs.md` (anonymisiert)
  - `cost-sprints.md`
  - `post-mortems.md`
  - `drift-analysis.md`
  - `final-lessons-learned.md`
-- `phase-7c-swarm-comparison/` *(NEU in v2.2, optional)* — Code beider Schwarm-Varianten + Eval-Report
-- `phase-7d-agentic-os/` *(NEU in v2.2, optional)* — `AGENT_OS/`-Struktur + Eval-Vergleich
-- `phase-7e-red-team-audit/` *(NEU in v2.2, **Pflicht für Operate-Goldstandard**)* — `audit-report.md` + Mitigations-Code + optional CI-Setup
+- `phase-7c-swarm-comparison/` — Code beider Schwarm-Varianten + Eval-Report
+- `phase-7d-agentic-os/` — `AGENT_OS/`-Struktur + Eval-Vergleich
+- `phase-7e-red-team-audit/` — `audit-report.md` + Mitigations-Code + optional CI-Setup
 
 ---
 
@@ -240,7 +241,7 @@ Im Portfolio-Repo unter `00_capstone/`:
 
 ---
 
-# Capstone-Abschluss — Master-Sektion für alle drei Capstones *(verschoben aus Stufe 11 in v2.1)*
+# Capstone-Abschluss — Master-Sektion für alle drei Capstones
 
 Nach Stufe 11 schließt du deinen Capstone offiziell ab. Diese Sektion gilt für **alle drei Capstones** (A Engineer, B Foundations, C Strategist) — die Capstone-spezifischen Dateien `18_capstone_b_foundations.md` und `19_capstone_c_strategist.md` referenzieren diese Master-Sektion.
 
@@ -254,7 +255,7 @@ Pflicht für alle drei Capstones:
 - **Architektur-Diagramm** der finalen Lösung. Tools: [draw.io](https://draw.io), [Excalidraw](https://excalidraw.com), [Mermaid](https://mermaid.js.org) für Code-as-Diagram.
 - **Eval-Report** mit allen Outcome-Schwellen und Vorher/Nachher.
 - **Reflektion**: was hat funktioniert, was nicht, was würdest du anders machen? Was lernst du über dich selbst? Was sind deine nächsten Schritte?
-- **Operate-Phase-Doku** *(NEU in v2.1)* — track-spezifisch:
+- **Operate-Phase-Doku** — track-spezifisch:
  - 🔧 (A): Pflicht (siehe Phase 9 oben)
  - 💼 (C): Pflicht mit Stakeholdern (siehe `19_capstone_c_strategist.md`)
  - 🧮 (B): Optional, weniger relevant für Forschungs-Capstone
@@ -290,22 +291,22 @@ Pflicht für alle drei Capstones:
 - Faithfulness ≥0.8
 - Latenz P50 <3s
 - Cost <0.05€/Request
-- Eval-as-CI grün **mit Schwellenwert-Logik** *(verstärkt in v2.1)*
-- **Operate-Phase 4-6 Wochen mit allen 6 Pflicht-Aktivitäten** *(NEU in v2.1)*
+- Eval-as-CI grün **mit Schwellenwert-Logik**
+- **Operate-Phase 4-6 Wochen mit allen 6 Pflicht-Aktivitäten**
 
 **🧮 Foundations:**
 - Modell trainiert mit dokumentierten Loss-Curves
 - Preference Tuning (DPO oder ORPO) durchgeführt
 - Eval Vorher/Nachher mit Verbesserung
-- **Decision-Framework dokumentiert** (Fine-Tuning vs. RAG vs. Prompt-Engineering — *NEU in v2.1*)
-- **S7-Self-Assessment bestanden** (Backprop auf Papier + nanoGPT-Variante — *NEU in v2.1*)
+- **Decision-Framework dokumentiert** (Fine-Tuning vs. RAG vs. Prompt-Engineering)
+- **S7-Self-Assessment bestanden** (Backprop auf Papier + nanoGPT-Variante)
 
 **💼 Strategist:**
 - Vollständige Strategie-Dokumentation (Module 9.0-9.6)
 - Funktionierender Pilot
 - Stakeholder-Tests mit ≥3 Nutzern
-- **Operate-Phase 4-6 Wochen mit ≥5 Nutzern/Woche** *(NEU in v2.1)*
-- **S9-Self-Assessment bestanden** (Stakeholder-Brief mit allen 9 Disziplinen — *NEU in v2.1*)
+- **Operate-Phase 4-6 Wochen mit ≥5 Nutzern/Woche**
+- **S9-Self-Assessment bestanden** (Stakeholder-Brief mit allen 9 Disziplinen)
 
 ## Im Portfolio: `00_capstone/` als oberster Ordner mit:
 
@@ -314,7 +315,7 @@ Pflicht für alle drei Capstones:
 - `pitch-slides.pdf` (5 Slides)
 - Link zum eigentlichen Capstone-Repo (falls separat)
 - `final-lessons-learned.md` mit Reflektion zum gesamten Curriculum-Weg
-- `operate-phase/` *(NEU in v2.1, track-spezifisch)*
+- `operate-phase/`
 
 ## Empfohlener Ablauf für Capstone-Abschluss
 
@@ -333,11 +334,3 @@ Pflicht für alle drei Capstones:
 - Optional: Blog-Post oder Substack-Artikel
 - Optional: Talk auf lokalem Meetup
 
----
-
-## Aktualisierungslog
-
-- **2026-05-04:** Version v2.2.0 — **Capstone-A-File renumbered von `15_capstone_a_engineer.md` auf `17_capstone_a_engineer.md`** (in v2.2 wegen Querschnitt 16 NEU). Alle Querverweise auf Capstone B und C aktualisiert (16→18, 17→19). **Drei neue Phasen ergänzt**: **Phase 7c Schwarm-/Conductor-Vergleich** (optional, baut auf Modul 6.6 NEU in v2.2): zwei Pattern auf demselben Use-Case mit Trajectory-Eval inklusive der 2 neuen Metriken Coordination-Cost und Time-to-Result. **Phase 7d Agentic-OS-Layer** (optional, baut auf Modul 6.7 NEU in v2.2): `AGENT_OS/`-Struktur mit ≥3 Memory-Files + ≥3 Skill-Files + Eval-Vergleich vor/nach. **Phase 7e Red-Team-Pass** (PFLICHT für Operate-Phase-Goldstandard, baut auf Querschnitt 16 NEU in v2.2): ≥20 manuelle Angriffe + automatisierter Pass mit Promptfoo/Garak + Mindest-3-Mitigations + Sicherheits-Audit-Dokument. **Outcome-Schwellen-Tabelle erweitert** um Phase 7c/d/e mit konkreten Schwellen. **Operate-Phase-Goldstandard-Definition verschärft**: Phase 7e ist Pflicht-Vorbedingung. **Portfolio-Anforderungen erweitert** um drei neue Verzeichnisse (`phase-7c-swarm-comparison/`, `phase-7d-agentic-os/`, `phase-7e-red-team-audit/`).
-- **2026-05-04:** Version v2.1.0 — **Master-Capstone-Datei aufgesetzt**: Capstone A komplett + verschobene Update-Blöcke aus Stufen 5+6 (mit v2.1-Anker-Punkten) + neue Phase 7b (Computer Use, Modul 6.5 NEU in v2.1) + **Operate-Phase als Goldstandard NEU** (4-6 Wochen Real-User-Betrieb mit 6 Pflicht-Aktivitäten: Cost-Sprints, Incident-Response, Eval-Drift, User-Feedback-Integration, Lessons-Learned, Eval-Set-Wachstum); **Capstone-Abschluss-Master-Sektion** für alle drei Capstones aus Stufe 11 hierher verschoben (Final-Doku, Demo-Video, Pitch, Outcome-Schwellen, Portfolio-Struktur — track-spezifisch); Outcome-Schwellen erweitert um Trajectory-Eval-4-Metriken und Operate-Phase; Portfolio-Anforderungen erweitert um operate-phase/-Ordner; Capstone-Outcome-Schwellen-Check track-spezifisch erweitert um S7/S9-Self-Assessments und Decision-Framework.
-- **2026-05-02:** Initiale Version v2.0.0
-- **Re-check geplant:** November 2026 — primär: Operate-Phase-Erfahrungen aus echten Capstones (welche Pflicht-Aktivitäten haben sich bewährt, welche brauchen Anpassung), Capstone-Outcome-Schwellen-Kalibrierung. **Aug 2026 (3-Monats-Audit):** Phase-7c/7d/7e-Erfahrungen aus echten Capstone-Durchläufen, Red-Team-Tool-Updates.

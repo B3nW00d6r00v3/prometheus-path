@@ -1,44 +1,33 @@
 # Stufe 6: Agenten
 
-**Aufwand gesamt:** 🔧 72-117h · 🧮 58-93h · 💼 30-55h *(in v2.1 erhöht durch Trajectory-Eval-Pflicht-Block in 6.2 und Modul 6.5 Computer Use; in v2.2 stark erweitert durch NEU: Modul 6.0 Context Engineering Pflicht-Vorlauf, Modul 6.4 Claude Agent SDK Tiefe, NEU: Module 6.6 Agentenschwärme + 6.7 Agentic OS)*
-**Voraussetzungen:** Stufen 1-3, Stufe 4 Pflicht für 🔧, Stufe 5 (inkl. neuem Modul 5.0 Eval-Mini-Block, **5.6 Skills-Pattern NEU in v2.2 für 🔧**)
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 (volatile A-Tiefe-Module 6.0, 6.2, 6.5, 6.6, 6.7) / Nov 2026 (stabile Inhalte)
+**Aufwand:** 🔧 72-117h · 🧮 58-93h · 💼 30-55h  
+**Voraussetzungen:** Stufen 1-5, Stufe 4 Pflicht für 🔧
 
-KI-Agenten sind 2026 das wichtigste Anwendungs-Pattern für komplexe Workflows. Diese Stufe baut den Agent **erst from scratch** (Pattern verstehen), dann mit modernen Frameworks (LangGraph, Agent-SDKs), dann mit Theorie-Anker (RL, MDP für 🧮), und schließlich vergleicht die Vendor-spezifischen Patterns (Claude Agent SDK, OpenAI Agents SDK, Google ADK), Schwarm-Patterns und Agentic-OS-Architekturen. **Neu in v2.1:** Modul 6.5 (Computer Use & Agentic Browsing). **Neu in v2.2:** Modul 6.0 (Context Engineering, Pflicht-Vorlauf), Modul 6.6 (Agentenschwärme), Modul 6.7 (Agentic OS).
+| Querschnitte | Capstone-Beitrag | Tools |
+|---|---|---|
+| Eval (6.2), Production (6.0, 6.5), Safety (6.0, 6.5) | Capstone A erweitert (Multi-Agent) | LangGraph, Claude Agent SDK, OpenAI Agents SDK, Google ADK |
+
+KI-Agenten sind 2026 das wichtigste Anwendungs-Pattern für komplexe Workflows. Diese Stufe baut den Agent **erst from scratch** (Pattern verstehen), dann mit modernen Frameworks (LangGraph, Agent-SDKs), dann mit Theorie-Anker (RL, MDP für 🧮), und schließlich vergleicht die Vendor-spezifischen Patterns (Claude Agent SDK, OpenAI Agents SDK, Google ADK), Schwarm-Patterns und Agentic-OS-Architekturen.
 
 Hier wird dein Capstone-Engineer-Projekt aus Stufe 5 zum **Multi-Agent-System** erweitert. *Capstone-spezifische Anforderungen siehe `17_capstone_a_engineer.md`.*
 
-**Neu in v2.1:**
-- **Trajectory-Eval als Pflicht-Block in Modul 6.2** — ohne Eval-Methodik für Multi-Agent-Trajektorien war 6.2 in v2.0 anfällig für die "Hello-World-Multi-Agent ohne Failure-Mode-Verständnis"-Falle.
-- **Modul 6.5 Computer Use & Agentic Browsing** — eigenes Sub-Modul, weil Anthropic Computer Use, OpenAI Operator, Google Project Mariner 2026 zentrale Patterns sind.
-- **Eval-Querschnitt-Anker** explizit in den Modulen verankert — du nutzt den Eval-Querschnitt nicht erst im Capstone, sondern durchgehend.
-- **Capstone-Engineer-Update-Block verschoben** nach `17_capstone_a_engineer.md` (vormals `15_…` in v2.1) — die Stufen-Datei wird fokussierter.
-
-**Neu in v2.2:**
-- **Modul 6.0 Context Engineering (NEU) — Pflicht-Vorlauf zu 6.1-6.7 für alle Tracks.** Anthropic hat 2025 Context Engineering als Nachfolger von Prompt Engineering proklamiert; ohne diesen Vorlauf bleibt Stufe 6 didaktisch unvollständig.
-- **Modul 6.4 Claude Agent SDK Tiefe** — Sub-Agent-Spawn, Skills-Integration, Compaction, Session-Mgmt als vier Production-Patterns vertieft (Brücke zu Modul 5.6 und 6.0).
-- **Modul 6.6 Agentenschwärme (NEU)** — Conductor / Hierarchical / Peer-Swarm / Hybrid mit Failure-Modes und Mitigations. Industrie-Konsens 2026: Hierarchical wins over Swarm in production almost every time, aber Awareness der Pattern-Familie ist Pflicht.
-- **Modul 6.7 Agentic OS (NEU)** — Framework-Pattern (Context + Memory + Skills + Self-Learning Layers) und System-Software-Layer-Awareness (AIOS, Cowork, MindStudio, Agno).
-- **Capstone-Renumbering** alle Querverweise auf `17_capstone_a_engineer.md`.
-
 **Ergebnis nach Stufe 6:**
-- **Du verstehst Context Engineering als Disziplin und hast Compaction-Strategie für eigenen Agent implementiert** *(NEU in v2.2, Modul 6.0)*.
+- **Du verstehst Context Engineering als Disziplin und hast Compaction-Strategie für eigenen Agent implementiert**.
 - Du hast einen ReAct-Agent from scratch in <200 Zeilen Python gebaut.
-- Du hast ein Multi-Agent-System mit LangGraph oder einem Vendor-SDK gebaut, **mit Trajectory-Eval und Failure-Mode-Reflektion** *(NEU in v2.1)*.
+- Du hast ein Multi-Agent-System mit LangGraph oder einem Vendor-SDK gebaut, **mit Trajectory-Eval und Failure-Mode-Reflektion**.
 - Du verstehst Cost-Tracking, Sandboxing, Eval für Agenten.
-- **Du hast einen Computer-Use-Demo umgesetzt** *(NEU in v2.1, Modul 6.5)*.
-- **Du hast die vier Schwarm-Patterns erklärt und einen Schwarm-vs-Conductor-Vergleich auf eigenem Use-Case gemacht** *(NEU in v2.2, Modul 6.6)*.
-- **Du hast eine minimale Agentic-OS-Schicht über deinem Capstone-Agent gelegt** *(NEU in v2.2, Modul 6.7)*.
+- **Du hast einen Computer-Use-Demo umgesetzt**.
+- **Du hast die vier Schwarm-Patterns erklärt und einen Schwarm-vs-Conductor-Vergleich auf eigenem Use-Case gemacht**.
+- **Du hast eine minimale Agentic-OS-Schicht über deinem Capstone-Agent gelegt**.
 - 🧮: Du verstehst RL und MDP/POMDP konzeptionell.
-- 🔧: Capstone hat Multi-Agent-Funktionalität *(Update siehe `17_capstone_a_engineer.md`)*.
+- 🔧: Capstone hat Multi-Agent-Funktionalität *(siehe `17_capstone_a_engineer.md`)*.
 
 ---
-## Modul 6.0: Context Engineering *(NEU in v2.2 — Pflicht-Vorlauf zu 6.1-6.7 für alle Tracks)*
+## Modul 6.0: Context Engineering
 
 Anthropic hat 2025 Context Engineering als **Nachfolger von Prompt Engineering** proklamiert. Moderne Agents scheitern selten an Prompt-Qualität — sie scheitern an Context-Strategie: zu volle Context-Windows, fehlende Compaction, falsche Memory-Architektur, Sub-Agent-Token-Verschwendung. Dieses Modul lehrt dich, eine Context-Strategie für deine Agents bewusst zu entwerfen, statt zu hoffen, dass es klappt. Pflicht-Vorlauf zu allen anderen Stufe-6-Modulen.
 
 **Aufwand:** 🔧 8-12h · 🧮 8-12h · 💼 4-6h
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 *(volatile A-Tiefe-Module — Context-Engineering-Patterns entwickeln sich quartalsweise)*
 **Voraussetzungen:** Stufen 2-3, **Stufe 5 inkl. Modul 5.0 Eval-Mini, 5.4 RAG-Eval, idealerweise 5.6 Skills**
 **Status:** Pflicht alle Tracks. **Begründung der Pflicht:** ohne Context-Engineering-Disziplin sind Module 6.1-6.5 didaktisch unvollständig — Agents werden an die Wand gebaut, nicht an Prompts.
 
@@ -119,7 +108,6 @@ Alle vier Compaction-Strategien lassen sich rein OSS umsetzen:
 Der wichtigste Schritt zum Agent-Verständnis: **du baust einen ReAct-Agent from scratch**, ohne Framework. In 100-200 Zeilen Python sieht ein Agent — Tool-Definition, Loop, Observation, Action — sehr klar aus. Wenn du das einmal selbst geschrieben hast, ist jedes Framework danach nur noch Abstraktion über bekannten Patterns. Hier kommt auch MCP wieder ins Spiel: deine selbstgebauten Tools können MCP-konform sein.
 
 **Aufwand:** 🔧 12-18h · 🧮 12-18h · 💼 6-10h
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 **Voraussetzungen:** Module 2.5 (Function Calling), 5.3 (MCP)
 
 ### Lernziel
@@ -139,7 +127,7 @@ Du hast einen funktionierenden ReAct-Agent from scratch in Python gebaut, der mi
 
 - 🟢 **Tool-Auswahl: was wird ein Tool?** — Faustregel: Tools sind **deterministische, gut definierte Operationen** (Web-Search, DB-Query, Rechner, File-Read, API-Call). NICHT als Tools eignen sich: kreative Aufgaben, Reasoning (das macht der Agent selbst), zu komplexe Multi-Step-Operationen (lieber als eigenen Sub-Agent).
 
-- 🔄 **MCP-Tools statt Custom-Tools** — 2026-Best-Practice: definiere deine Tools als MCP-Server (siehe 5.3). Damit funktionieren sie mit Claude, OpenAI, Gemini, Cursor — nicht nur deinem eigenen Agent. Backwards-kompatibel: dein Agent kann MCP-Tools nutzen wie normale Function-Calls. *Hinweis v2.1: dein Agent muss den MCP-Sicherheits-Block aus 5.3 anwenden — Read-Only-Default, Rate-Limits, Audit-Logs gelten auch für deinen Agent.* [MCP Tools](https://modelcontextprotocol.io/docs/concepts/tools)
+- 🔄 **MCP-Tools statt Custom-Tools** — 2026-Best-Practice: definiere deine Tools als MCP-Server (siehe 5.3). Damit funktionieren sie mit Claude, OpenAI, Gemini, Cursor — nicht nur deinem eigenen Agent. Backwards-kompatibel: dein Agent kann MCP-Tools nutzen wie normale Function-Calls. *Hinweis: dein Agent muss den MCP-Sicherheits-Block aus 5.3 anwenden — Read-Only-Default, Rate-Limits, Audit-Logs gelten auch für deinen Agent.* [MCP Tools](https://modelcontextprotocol.io/docs/concepts/tools)
 
 - 🟢 **Reflection-Pattern als Erweiterung von ReAct** — der Agent prüft seinen eigenen Output ("habe ich die Aufgabe wirklich gelöst?") und korrigiert sich selbst. Bessere Qualität, höhere Kosten. [LangChain — Self-Reflection Patterns](https://blog.langchain.dev/reflection-agents/)
 
@@ -190,16 +178,15 @@ Baue einen Python-Agent ohne Framework (kein LangChain, kein LangGraph), nur mit
 
 ## Modul 6.2: Multi-Agent & LangGraph
 
-Single-Agent reicht für viele Use-Cases — aber komplexe Workflows brauchen Multi-Agent-Architekturen: ein Coordinator-Agent, mehrere Spezialisten-Agents, klare Verantwortungs-Trennung. Dieses Modul lehrt dich Multi-Agent-Patterns mit **LangGraph** (Industriestandard 2026), behandelt aber auch die wichtigsten Alternativen (CrewAI, AutoGen). Plus die Production-Aspekte: **Cost-Tracking**, **Sandboxing**, **Agent-Eval mit Trajectory-Methoden** *(in v2.1 zur Pflicht erhoben)*.
+Single-Agent reicht für viele Use-Cases — aber komplexe Workflows brauchen Multi-Agent-Architekturen: ein Coordinator-Agent, mehrere Spezialisten-Agents, klare Verantwortungs-Trennung. Dieses Modul lehrt dich Multi-Agent-Patterns mit **LangGraph** (Industriestandard 2026), behandelt aber auch die wichtigsten Alternativen (CrewAI, AutoGen). Plus die Production-Aspekte: **Cost-Tracking**, **Sandboxing**, **Agent-Eval mit Trajectory-Methoden**.
 
-**Wichtig (NEU in v2.1):** Multi-Agent-Systeme sind 2026 immer noch fragil. Anthropic selbst rät zu "schwachen" Multi-Agent-Setups. Dieses Modul ist daher mit Trajectory-Eval-Pflicht und expliziter Failure-Mode-Reflektion ausgestattet — Hello-World-Multi-Agent ohne Failure-Mode-Verständnis ist die häufigste Falle.
+**Wichtig:** Multi-Agent-Systeme sind 2026 immer noch fragil. Anthropic selbst rät zu "schwachen" Multi-Agent-Setups. Dieses Modul ist daher mit Trajectory-Eval-Pflicht und expliziter Failure-Mode-Reflektion ausgestattet — Hello-World-Multi-Agent ohne Failure-Mode-Verständnis ist die häufigste Falle.
 
-**Aufwand:** 🔧 18-26h · 🧮 11-15h · 💼 7-10h *(in v2.1 erhöht durch Trajectory-Eval-Pflicht-Block)*
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 *(volatile A-Tiefe-Module: Multi-Agent-Patterns und Frameworks ändern sich quartalsweise)*
+**Aufwand:** 🔧 18-26h · 🧮 11-15h · 💼 7-10h
 **Voraussetzungen:** Modul 6.1, Modul 5.4 (GenAI-Eval), optional 4.1
 
 ### Lernziel
-Du hast ein Multi-Agent-System mit LangGraph (oder einer Alternative) gebaut, mit Cost-Tracking, mindestens einem sandboxed Tool, und einer **vollständigen Trajectory-Eval-Methodik mit Failure-Mode-Analyse** *(NEU in v2.1)*. Du weißt, wann Multi-Agent die richtige Wahl ist und wann nicht.
+Du hast ein Multi-Agent-System mit LangGraph (oder einer Alternative) gebaut, mit Cost-Tracking, mindestens einem sandboxed Tool, und einer **vollständigen Trajectory-Eval-Methodik mit Failure-Mode-Analyse**. Du weißt, wann Multi-Agent die richtige Wahl ist und wann nicht.
 
 ### Theorie
 
@@ -211,7 +198,7 @@ Du hast ein Multi-Agent-System mit LangGraph (oder einer Alternative) gebaut, mi
 
  *Verfallsdatum: Aug 2026.* [LangGraph — Multi-Agent Concepts](https://langchain-ai.github.io/langgraph/concepts/multi_agent/) · [Anthropic — Building Effective Agents (Patterns)](https://www.anthropic.com/research/building-effective-agents)
 
-- 🔄 **Wann Multi-Agent vermeiden?** *(NEU in v2.1)* — bevor du Multi-Agent baust, prüfe Anti-Indikatoren: (1) **Wenn ein Single-Agent mit gutem System-Prompt es kann** — dann ist Multi-Agent Overhead. (2) **Wenn Latenz kritisch ist** — Multi-Agent kostet 5-10x mehr Zeit. (3) **Wenn Cost ein Faktor ist** — Multi-Agent kann 5-15x teurer sein. (4) **Wenn das Eval-Setup nicht steht** — Multi-Agent ohne Eval ist Production-Roulette. Anthropic 2026: "Most agentic workflows benefit from simplicity, not complexity." [Anthropic — Building Effective Agents](https://www.anthropic.com/research/building-effective-agents)
+- 🔄 **Wann Multi-Agent vermeiden?** — bevor du Multi-Agent baust, prüfe Anti-Indikatoren: (1) **Wenn ein Single-Agent mit gutem System-Prompt es kann** — dann ist Multi-Agent Overhead. (2) **Wenn Latenz kritisch ist** — Multi-Agent kostet 5-10x mehr Zeit. (3) **Wenn Cost ein Faktor ist** — Multi-Agent kann 5-15x teurer sein. (4) **Wenn das Eval-Setup nicht steht** — Multi-Agent ohne Eval ist Production-Roulette. Anthropic 2026: "Most agentic workflows benefit from simplicity, not complexity." [Anthropic — Building Effective Agents](https://www.anthropic.com/research/building-effective-agents)
 
 - 🔄 **LangGraph als Industrie-Default 2026** — von LangChain, aber eigenständig nutzbar. Stark: explizite State-Maschine (du siehst, was passiert), Persistenz (Workflows können pausieren/fortsetzen), Streaming pro Node, Human-in-the-Loop. Schwach: Lernkurve steiler als CrewAI. *Verfallsdatum: Aug 2026.* [LangGraph Docs](https://langchain-ai.github.io/langgraph/) · [LangChain Academy — LangGraph Course (kostenlos)](https://academy.langchain.com/courses/intro-to-langgraph)
 
@@ -229,11 +216,10 @@ Du hast ein Multi-Agent-System mit LangGraph (oder einer Alternative) gebaut, mi
 
 - 🟢 **Human-in-the-Loop als Sicherheits-Mechanismus** — kritische Aktionen (Email senden, DB-Write, Geld-Transaktion) brauchen Mensch-Bestätigung. LangGraph hat HITL nativ. Pattern: Agent stoppt, präsentiert geplante Aktion, wartet auf "approve"/"reject"/"modify". [LangGraph — Human-in-the-Loop](https://langchain-ai.github.io/langgraph/concepts/human_in_the_loop/)
 
-- 🟢 **Agent-Anti-Patterns** — (1) **Endless Loop ohne Stop-Bedingungen**. (2) **Tool-Spam** (Agent ruft dasselbe Tool 20x). (3) **Cost Explosion** (kein Budget-Limit). (4) **Hallucinated Tool Calls** (Agent erfindet Tools, die nicht existieren). (5) **No Logging** (Black-Box-Verhalten ohne Debugging-Möglichkeit). (6) **Hello-World-Multi-Agent ohne Failure-Mode-Eval** *(NEU in v2.1)* — Lernende halten sich nach einem laufenden Demo für Agent-Builder. Alle vermeidbar mit guten Defaults und Eval.
+- 🟢 **Agent-Anti-Patterns** — (1) **Endless Loop ohne Stop-Bedingungen**. (2) **Tool-Spam** (Agent ruft dasselbe Tool 20x). (3) **Cost Explosion** (kein Budget-Limit). (4) **Hallucinated Tool Calls** (Agent erfindet Tools, die nicht existieren). (5) **No Logging** (Black-Box-Verhalten ohne Debugging-Möglichkeit). (6) **Hello-World-Multi-Agent ohne Failure-Mode-Eval** — Lernende halten sich nach einem laufenden Demo für Agent-Builder. Alle vermeidbar mit guten Defaults und Eval.
 
-#### Trajectory-Eval als Pflicht-Block *(NEU in v2.1)*
-
-In v2.0 stand Agent-Eval als ein einzelnes Bullet — viel zu wenig. Multi-Agent-Eval ist eigene Disziplin und unterscheidet sich substanziell von RAG-Eval (Modul 5.4). Dieser Block macht Trajectory-Eval zur Pflicht für jedes Multi-Agent-System.
+#### Trajectory-Eval als Pflicht-Block
+Multi-Agent-Eval ist eigene Disziplin und unterscheidet sich substanziell von RAG-Eval (Modul 5.4). Dieser Block macht Trajectory-Eval zur Pflicht für jedes Multi-Agent-System.
 
 - 🟢 **Was ist Trajectory-Eval?** — anders als bei Single-Output-Eval (RAG: ist die Antwort gut?) bewertet Trajectory-Eval den **Lösungsweg**: welche Tools wurden gerufen, in welcher Reihenfolge, mit welchen Argumenten, mit welchem Outcome pro Step? Ein Multi-Agent-System kann die richtige Endantwort geben, aber auf einem völlig falschen Weg dahin kommen — und das ist nicht reproduzierbar oder verlässlich. **Eval-Querschnitt-Anker:** siehe `13_querschnitt_eval.md`, Abschnitt "Eval für unterschiedliche Anwendungs-Klassen — Agent-Eval".
 
@@ -265,7 +251,7 @@ Baue ein Multi-Agent-System für einen konkreten Use-Case (Vorschläge):
 - **Cost-Tracking**: pro Run wird Token-Verbrauch und €-Cost dokumentiert.
 - **Mindestens ein sandboxed Tool**: Code-Execution oder Shell-Command in E2B/Modal/Docker.
 - **Human-in-the-Loop** für eine kritische Aktion (z.B. "Email senden").
-- **Trajectory-Eval-Setup** *(NEU in v2.1, Pflicht)*:
+- **Trajectory-Eval-Setup** (Pflicht):
  - 10-20 Test-Cases mit Input + erwartetem Endzustand + erlaubten Tool-Sequenzen + Anti-Pfaden
  - Vier Trajectory-Metriken: Task Success Rate, Tool-Call Quality, Trajectory Efficiency, Cost Efficiency
  - Mindestens 5 Runs pro Test-Case (Stochastik), Median-Werte als Hauptergebnis
@@ -278,7 +264,7 @@ Baue ein Multi-Agent-System für einen konkreten Use-Case (Vorschläge):
 ### 🎁 Mehrwert-Mini-Projekte
 - **Persönlicher Recherche-Crew**: CrewAI-basierter Multi-Agent für Themen-Recherchen, die du regelmäßig brauchst (Markt-Trends, Produkt-Updates, Lern-Materialien).
 - **Agent-Cost-Dashboard**: Streamlit-Dashboard, das deine Agent-Runs aus LangSmith/Langfuse visualisiert.
-- **Failure-Mode-Cheatsheet** *(NEU in v2.1)*: deine persönliche Liste der 5-10 häufigsten Failure-Modes, die du in deinen Agent-Experimenten gesehen hast — wertvolle Lernkurve.
+- **Failure-Mode-Cheatsheet**: deine persönliche Liste der 5-10 häufigsten Failure-Modes, die du in deinen Agent-Experimenten gesehen hast — wertvolle Lernkurve.
 
 ### 🌱 Open-Source-Pfad
 Vollständig OSS:
@@ -293,12 +279,11 @@ Vollständig OSS:
 - [ ] Cost-Tracking pro Run dokumentiert
 - [ ] Sandboxed Tool implementiert
 - [ ] Human-in-the-Loop für kritische Aktion
-- [ ] **Trajectory-Eval mit 10-20 Test-Cases und 4 Metriken** *(NEU in v2.1)*
-- [ ] **5 Runs pro Test-Case (Stochastik), Median dokumentiert** *(NEU in v2.1)*
-- [ ] **Failure-Mode-Doku mit 3-5 explizit dokumentierten Modes** *(NEU in v2.1)*
+- [ ] **Trajectory-Eval mit 10-20 Test-Cases und 4 Metriken**
+- [ ] **5 Runs pro Test-Case (Stochastik), Median dokumentiert**
+- [ ] **Failure-Mode-Doku mit 3-5 explizit dokumentierten Modes**
 - [ ] Architektur-Diagramm im Portfolio
-- [ ] Eval-Querschnitt-Anker (`13_querschnitt_eval.md`) genutzt, nicht eigene Methodik erfunden *(NEU in v2.1)*
-
+- [ ] Eval-Querschnitt-Anker (`13_querschnitt_eval.md`) genutzt, nicht eigene Methodik erfunden
 ---
 
 ## Modul 6.3: RL & Agent-Theorie
@@ -306,7 +291,6 @@ Vollständig OSS:
 Dieses Modul ist **primär für 🧮**. Es liefert das theoretische Fundament für Agenten: Markov Decision Processes, Reinforcement Learning, Belief-States in POMDPs. Wer 🔧 oder 💼 ist, kann das Modul oberflächlich oder gar nicht machen — die Praxis aus 6.1 und 6.2 reicht für die meisten Engineer- und Strategist-Aufgaben.
 
 **Aufwand:** 🔧 0-8h (optional) · 🧮 30-50h · 💼 0-4h (optional, konzeptionell)
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 **Voraussetzungen:** Modul 6.1, Querschnitt Math-Foundation (mindestens Probability)
 
 ### Lernziel
@@ -385,9 +369,8 @@ Für 💼: Du verstehst, dass moderne Agenten oft *nicht* klassisches RL nutzen,
 
 LangGraph ist nicht der einzige Multi-Agent-Stack 2026. Die großen Provider (Anthropic, OpenAI, Google) haben eigene Agent-SDKs entwickelt, die produktionsreif sind. Dieses Modul vergleicht **Claude Agent SDK**, **OpenAI Agents SDK**, **Google ADK** — und zeigt, wann Vendor-SDKs den Frameworks vorzuziehen sind und wann nicht. Wichtig: das ist Vergleich, nicht Empfehlung — du entscheidest am Ende, was zu deinem Use-Case passt.
 
-**Aufwand:** 🔧 9-14h *(in v2.2 erweitert um Claude Agent SDK Tiefe: +1-2h)* · 🧮 4-6h · 💼 4-6h
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
-**Voraussetzungen:** Module 6.1, 6.2, **6.0 Context Engineering NEU in v2.2**, idealerweise 5.6 Skills
+**Aufwand:** 🔧 9-14h · 🧮 4-6h · 💼 4-6h
+**Voraussetzungen:** Module 6.1, 6.2, 6.0 Context Engineering, idealerweise 5.6 Skills
 
 ### Lernziel
 Du hast denselben einfachen Agent in mindestens zwei Vendor-SDKs implementiert (z.B. Claude Agent SDK + OpenAI Agents SDK) und kannst Stärken/Schwächen begründet vergleichen.
@@ -398,7 +381,7 @@ Du hast denselben einfachen Agent in mindestens zwei Vendor-SDKs implementiert (
 
 - 🔄 **Claude Agent SDK** — Anthropic's Agent-Framework, MCP-nativ, starker Focus auf Tool Use und langlaufende Agents. Stärken: Computer Use Integration, Extended Thinking nativ, MCP first-class. *Verfallsdatum: Nov 2026.* [Claude Agent SDK Docs](https://docs.claude.com/en/api/agent-sdk) · [Anthropic Cookbook — Agents](https://github.com/anthropics/anthropic-cookbook)
 
-#### Claude Agent SDK Tiefe *(NEU in v2.2 — vertieft Modul 5.2)*
+#### Claude Agent SDK Tiefe
 
 In 5.2 hast du Claude Agent SDK als Vergleichs-Framework kennengelernt. Hier vertiefst du die vier Production-relevanten Patterns, die das SDK von einem reinen API-Wrapper unterscheiden.
 
@@ -416,7 +399,7 @@ In 5.2 hast du Claude Agent SDK als Vergleichs-Framework kennengelernt. Hier ver
 
 - 🔄 **Google ADK (Agent Development Kit)** — neuer als die anderen, integriert mit Vertex AI, gute Multi-Agent-Patterns, MCP-Support seit 2026. *Verfallsdatum: Nov 2026.* [Google ADK Docs](https://cloud.google.com/vertex-ai/generative-ai/docs/agent-builder)
 
-- 🔄 **Anthropic Claude Computer Use als Sonderpattern** — Claude kann seit 2024 direkt mit Computern interagieren (Maus, Tastatur, Screenshot-Reading). Anwendung: Browser-Automation, Desktop-Tasks, Form-Filling. Erfordert Sandbox. *Hinweis v2.1: Vertiefung in Modul 6.5.* [Anthropic — Computer Use](https://docs.claude.com/en/docs/build-with-claude/computer-use)
+- 🔄 **Anthropic Claude Computer Use als Sonderpattern** — Claude kann seit 2024 direkt mit Computern interagieren (Maus, Tastatur, Screenshot-Reading). Anwendung: Browser-Automation, Desktop-Tasks, Form-Filling. Erfordert Sandbox. *Vertiefung in Modul 6.5.* [Anthropic — Computer Use](https://docs.claude.com/en/docs/build-with-claude/computer-use)
 
 - 🟢 **Wann Vendor-SDK, wann Framework?** — Faustregel:
  - **Vendor-SDK**, wenn du primär ein Modell nutzt und Provider-spezifische Features brauchst (Computer Use, Realtime).
@@ -462,19 +445,17 @@ Vendor-SDKs sind per definition nicht OSS. Aber:
 - [ ] Vergleichs-Tabelle mit konkreten Metriken
 - [ ] Decision-Matrix für Vendor-Wahl
 - [ ] Migrations-Reflektion: wie austauschbar sind die SDKs?
-- [ ] **Mindestens eines der vier Claude-Agent-SDK-Tiefen-Patterns** *(NEU in v2.2)* erklärbar (Sub-Agent-Spawn / Skills-Integration / Compaction / Session-Management) und für eigenen Capstone-Use-Case bewertet
+- [ ] **Mindestens eines der vier Claude-Agent-SDK-Tiefen-Patterns** erklärbar (Sub-Agent-Spawn / Skills-Integration / Compaction / Session-Management) und für eigenen Capstone-Use-Case bewertet
 
 ---
 
-## Modul 6.5: Computer Use & Agentic Browsing *(NEU in v2.1)*
-
+## Modul 6.5: Computer Use & Agentic Browsing
 **Aufwand:** 🔧 10-15h · 🧮 6-10h · 💼 4-6h
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 *(volatile A-Tiefe-Module: Computer Use entwickelt sich schnell, Browser-Modelle ändern sich quartalsweise)*
 **Voraussetzungen:** Module 6.1, 6.2
 
-### Warum dieses Modul existiert (NEU in v2.1)
+### Warum dieses Modul existiert
 
-In v2.0 war Computer Use nur ein einzelnes Bullet im Modul 6.4 (Vendor-Patterns). Das war für 2026 zu wenig: Anthropic Computer Use, OpenAI Operator, Google Project Mariner sind eigene Pattern-Klassen mit spezifischen Sicherheits-, Eval- und Praxis-Aspekten. Wer 2026 Agent-Systeme baut und Computer Use ignoriert, übergeht eines der wichtigsten neuen Pattern-Klassen. Modul 6.5 macht es zur eigenständigen Disziplin.
+Anthropic Computer Use, OpenAI Operator, Google Project Mariner sind eigene Pattern-Klassen mit spezifischen Sicherheits-, Eval- und Praxis-Aspekten. Wer 2026 Agent-Systeme baut und Computer Use ignoriert, übergeht eines der wichtigsten neuen Pattern-Klassen. Modul 6.5 macht es zur eigenständigen Disziplin.
 
 ### Lernziel
 
@@ -554,12 +535,10 @@ Wähle EINE der folgenden Optionen:
 
 ---
 
-## Modul 6.6: Agentenschwärme *(NEU in v2.2)*
-
+## Modul 6.6: Agentenschwärme
 Multi-Agent-Architekturen sind 2026 dominantes Industrie-Thema. Vier Pattern-Familien etabliert: Conductor, Hierarchical, Peer-Swarm, Hybrid. Industrie-Konsens 2026: **Hierarchical wins over Swarm in production almost every time** — aber Awareness der Pattern-Familie ist Pflicht. Modul baut auf Modul 6.2 (Multi-Agent + Trajectory-Eval) auf und erweitert um die strategische Pattern-Wahl.
 
 **Aufwand:** 🔧 8-12h · 🧮 6-10h · 💼 3-5h
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 *(volatile A-Tiefe-Module — Schwarm-Patterns entwickeln sich quartalsweise)*
 **Voraussetzungen:** Module **6.0 Context Engineering**, 6.2 (Multi-Agent + Trajectory-Eval), 6.4 (Vendor-Patterns)
 **Status:** Pflicht 🔧, empfohlen 🧮/💼
 
@@ -633,7 +612,7 @@ Im Portfolio: `stufe-6_agenten/6-6-schwaerme/` mit Code beider Varianten, Eval-R
 
 ### 🎁 Mehrwert-Mini-Projekte
 - **Pattern-Decision-Tree** als 1-Pager: für welche Use-Case-Charakteristika welches Pattern?
-- **Capstone-Phase-7c-Vorbereitung** — wenn dein Capstone-A in Phase 7c (NEU in v2.2) den Schwarm-vs-Conductor-Vergleich macht, kannst du diese Praxis-Übung direkt einbinden.
+- **Capstone-Phase-7c-Vorbereitung** — wenn dein Capstone-A in Phase 7c den Schwarm-vs-Conductor-Vergleich macht, kannst du diese Praxis-Übung direkt einbinden.
 
 ### 🌱 Open-Source-Pfad
 AutoGen + CrewAI + LangGraph alle OSS. Für Peer-Swarm: AutoGen Group-Chat. Für Conductor: LangGraph Supervisor-Worker oder CrewAI Crew/Task. Beide Varianten gut auf Ollama mit lokalen Modellen lauffähig (etwas langsamer, aber komplett kostenfrei und DSGVO-konform).
@@ -648,12 +627,10 @@ AutoGen + CrewAI + LangGraph alle OSS. Für Peer-Swarm: AutoGen Group-Chat. Für
 
 ---
 
-## Modul 6.7: Agentic OS *(NEU in v2.2)*
-
+## Modul 6.7: Agentic OS
 "Agentic OS" ist 2026 ein Begriff mit zwei Bedeutungen, die du beide kennen solltest. (a) **Framework-Pattern**: Layer-Architektur über Context, Memory, Skills, Self-Learning (MindStudio, Agno, Reshape). (b) **System-Software-Ebene**: tatsächliches OS-Layer für Agenten mit Process-Scheduling, Isolation, Resource-Management (AIOS-Foundation, AgenticOS-Workshop ASPLOS 2026, Cowork). Modul behandelt beide Lesarten und legt eine minimale Agentic-OS-Schicht über deinen Capstone-Agent.
 
 **Aufwand:** 🔧 6-10h · 🧮 4-6h · 💼 4-6h
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 *(volatile A-Tiefe-Module — System-Software-Layer-Frühprodukte ändern sich quartalsweise)*
 **Voraussetzungen:** Module **6.0 Context Engineering**, **5.6 Skills-Pattern**, **6.6 Agentenschwärme**
 **Status:** Pflicht 🔧, Awareness 🧮/💼
 
@@ -730,7 +707,7 @@ Im Portfolio: `stufe-6_agenten/6-7-agentic-os/awareness-brief.md`.
 
 ### 🎁 Mehrwert-Mini-Projekte
 - **CLAUDE.md-Audit** auf existierende Open-Source-Projekte: viele Repositories haben schon CLAUDE.md oder vergleichbare Files. Inspiziere 3-5 davon und identifiziere die vier Layers (Context / Memory / Skills / Self-Learning).
-- **Capstone-Phase-7d-Vorbereitung** — wenn dein Capstone-A in Phase 7d (NEU in v2.2) einen Agentic-OS-Layer baut, ist diese Praxis die direkte Umsetzung.
+- **Capstone-Phase-7d-Vorbereitung** — wenn dein Capstone-A in Phase 7d einen Agentic-OS-Layer baut, ist diese Praxis die direkte Umsetzung.
 
 ### 🌱 Open-Source-Pfad
 AGENT_OS-Pattern als reines Markdown-File-System ist plattform-unabhängig. Optional: **Agno** (OSS, Apache 2.0) oder **Letta** (vormals MemGPT, OSS) für strukturierte Memory-Frameworks. Pure-Markdown-Variante reicht für die meisten Capstones.
@@ -757,35 +734,26 @@ AGENT_OS-Pattern als reines Markdown-File-System ist plattform-unabhängig. Opti
 | [Hugging Face Deep RL Course](https://huggingface.co/learn/deep-rl-course/) | Hugging Face | 30-50h | Pflicht für 🧮 in 6.3, mit Zertifikat |
 | [David Silver — RL Lectures](https://www.davidsilver.uk/teaching/) | DeepMind / UCL | 20-30h | Vertiefung 6.3 für 🧮 |
 
-**Coursera-Audit-Modus-Hinweis (NEU in v2.1):** DLAI-Materialien sind im Audit-Modus auf learn.deeplearning.ai kostenlos zugänglich. Details siehe `99_anhang.md`.
+**Coursera-Audit-Modus-Hinweis:** DLAI-Materialien sind im Audit-Modus auf learn.deeplearning.ai kostenlos zugänglich. Details siehe `99_anhang.md`.
 
 ---
 
 ## Stufen-Outcome
 
 Nach Stufe 6 hast du:
-- ✅ **Context-Engineering-Disziplin verstanden, Token-Bilanz erstellt, Compaction-Strategie implementiert** *(NEU in v2.2, Modul 6.0)*
+- ✅ **Context-Engineering-Disziplin verstanden, Token-Bilanz erstellt, Compaction-Strategie implementiert**
 - ✅ ReAct-Agent from scratch in <200 Zeilen Python
 - ✅ Multi-Agent-System mit Cost-Tracking, Sandboxing, Eval
-- ✅ **Trajectory-Eval mit 4 Metriken und Failure-Mode-Doku** *(NEU in v2.1)*
-- ✅ **Computer-Use-Agent mindestens einmal erlebt + Sicherheits-Audit** *(NEU in v2.1, Modul 6.5)*
+- ✅ **Trajectory-Eval mit 4 Metriken und Failure-Mode-Doku**
+- ✅ **Computer-Use-Agent mindestens einmal erlebt + Sicherheits-Audit**
 - ✅ Vendor-SDK-Vergleich mit eigener Decision-Matrix
-- ✅ **Mindestens eines der vier Claude-Agent-SDK-Tiefen-Patterns** *(NEU in v2.2, Modul 6.4)* erklärbar (Sub-Agent-Spawn / Skills-Integration / Compaction / Session-Management) und für eigenen Use-Case bewertet
-- ✅ **Eval-Querschnitt-Anker durchgehend genutzt** statt eigene Methodik *(NEU in v2.1)*
-- ✅ **Vier Schwarm-Patterns erklärt + Schwarm-vs-Conductor-Vergleich auf eigenem Use-Case mit Trajectory-Eval + Coordination-Cost** *(NEU in v2.2, Modul 6.6)*
-- ✅ **Minimale Agentic-OS-Schicht über eigenem Capstone-Agent (🔧) oder 1-2-Pager-Awareness-Brief (🧮/💼)** *(NEU in v2.2, Modul 6.7)*
+- ✅ **Mindestens eines der vier Claude-Agent-SDK-Tiefen-Patterns** erklärbar (Sub-Agent-Spawn / Skills-Integration / Compaction / Session-Management) und für eigenen Use-Case bewertet
+- ✅ **Eval-Querschnitt-Anker durchgehend genutzt** statt eigene Methodik
+- ✅ **Vier Schwarm-Patterns erklärt + Schwarm-vs-Conductor-Vergleich auf eigenem Use-Case mit Trajectory-Eval + Coordination-Cost**
+- ✅ **Minimale Agentic-OS-Schicht über eigenem Capstone-Agent (🔧) oder 1-2-Pager-Awareness-Brief (🧮/💼)**
 - 🧮: RL und Agent-Theorie verstanden, eigene RL-Implementations
 - 🔧: Capstone hat Multi-Agent-Funktionalität, Frontier-Patterns (Schwarm/Agentic OS) auf Capstone evaluiert *(Capstone-Update siehe `17_capstone_a_engineer.md`)*
 - 💼: Konzeptionelles Verständnis von Agent-Theorie, Computer-Use-Patterns, Schwarm-Patterns und Agentic-OS-Trade-offs
 
 **Du bist bereit für Stufe 7: Deep Learning Foundations — die Stufe mit den größten Track-Tiefen-Unterschieden.**
 
----
-
-## Aktualisierungslog
-
-- **2026-05-05:** Version v2.2.1 — **Bugfix Modul 6.7**: AIOS GitHub-Sterne-Angabe von "140k+ GitHub-Sterne Anfang 2026" auf "wachsende Community (tausende GitHub-Sterne)" korrigiert (unverifizierbarer Claim entfernt).
-- **2026-05-04:** Version v2.2.0 — **Modul 6.0 Context Engineering (NEU als komplettes Modul, Pflicht-Vorlauf zu 6.1-6.7)**: Token-Budget-Allokation, Compaction-Patterns (Sliding Window / LLM-Compactor / Sub-Agent-Delegation / External Memory), Memory-Architekturen (kurz/mittel/lang), Sub-Agent-Token-Budget-Verteilung, Context-Pollution-Antipatterns; Aufwand 8-12h 🔧/🧮, 4-6h 💼; Praxis-Hauptprojekt Context-Audit auf bestehenden Capstone mit Eval-Vergleich. **Modul 6.4 Claude Agent SDK Tiefen-Block (NEU)**: vier Production-Patterns (Sub-Agent-Spawn, Skills-Integration, Compaction, Session-Mgmt) mit Brücken zu 5.6 und 6.0; Aufwand 6.4 +1-2h für 🔧. **Modul 6.6 Agentenschwärme (NEU als komplettes Modul)**: vier Pattern (Conductor / Hierarchical / Peer-Swarm / Hybrid), Failure-Modes, Mitigations, Anker zu Trajectory-Eval mit neuer Metrik Coordination-Cost; Aufwand 8-12h 🔧, 6-10h 🧮, 3-5h 💼; Pflicht 🔧, empfohlen 🧮/💼; Praxis-Hauptprojekt Schwarm-vs-Conductor-Vergleich. **Modul 6.7 Agentic OS (NEU als komplettes Modul)**: Framework-Pattern + System-Software-Layer (zwei Lesarten), CLAUDE.md-Pattern als minimaler Layer, AGENT_OS-Repo-Struktur, Awareness-Variante für 🧮/💼; Aufwand 6-10h 🔧, 4-6h 🧮/💼. **Capstone-Renumbering** alle 6 Querverweise von `15_capstone_a_engineer.md` auf `17_capstone_a_engineer.md` aktualisiert. Stufen-Header und Stufen-Outcome stark erweitert um v2.2-Inhalte (Modul 6.0 als Pflicht-Vorlauf, Module 6.6/6.7 als neue Pflicht-Module).
-- **2026-05-04:** Version v2.1.0 — **Trajectory-Eval als Pflicht-Block in Modul 6.2** ergänzt mit 4 Metriken, Failure-Mode-Analyse, Test-Case-Set-Anatomie (war in v2.0 nur ein einzelnes Bullet); **NEUES Modul 6.5: Computer Use & Agentic Browsing** (Anthropic Computer Use, OpenAI Operator, Google Project Mariner, OSS-Alternativen, Sandboxing-Pflicht, Cost-Realität, Eval-Aspekte); **"Wann Multi-Agent vermeiden"-Bullet** in 6.2 ergänzt (Anthropic-Empfehlung); **Eval-Querschnitt-Anker** explizit in 6.1 (MCP-Sicherheit), 6.2 (Trajectory-Eval), 6.5 (Computer-Use-Eval); **Capstone-Engineer-Update-Block** verschoben nach `15_capstone_a_engineer.md`; Verfallsdatum-Stempel pro 🔄-Bullet eingeführt; Coursera-Audit-Modus-Hinweis ergänzt.
-- **2026-05-02:** Initiale Version v2.0.0
-- **Re-check geplant:** **Aug 2026 (3-Monats-Audit)** für Module 6.0, 6.2, 6.5, 6.6, 6.7 — alle A-Tiefe-Volatil. Nov 2026 für Module 6.1, 6.3, 6.4.

@@ -1,12 +1,13 @@
 # Stufe 8: Klassisches ML & Statistik
 
-**Aufwand gesamt:** 🔧 30-50h · 🧮 80-120h · 💼 15-25h
-**Voraussetzungen:** Stufe 7 (für 🔧/💼) — bzw. Module 8.1+8.2+8.5 schon vor Stufe 7 absolviert für 🧮 *(NEU in v2.1)*. Math-Foundation aus Querschnitt, optional Stufe 4
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
+**Aufwand:** 🔧 30-50h · 🧮 80-120h · 💼 15-25h
+**Voraussetzungen:** Stufe 7 (für 🔧/💼) — bzw. Module 8.1+8.2+8.5 schon vor Stufe 7 absolviert für 🧮. Math-Foundation aus Querschnitt, optional Stufe 4
+
+| Querschnitte | Capstone-Beitrag | Tools |
+|---|---|---|
+| Math, Eval (8.5 Statistik) | Capstone B Vorbedingung (8.1/8.2/8.5 🧮) | scikit-learn, XGBoost, pandas, numpy |
 
 Klassisches ML hat 2026 zwei Funktionen: erstens als didaktischer Rückblick (XGBoost ist konzeptionell einfacher als ein Transformer und trotzdem oft die richtige Wahl für Tabellendaten); zweitens als Praxis-Werkzeug (für Tabellendaten mit klaren Features ist klassisches ML konsistent besser als Deep Learning). Plus: 8.5 (A/B-Testing) liefert die Statistik-Foundation, die du für ehrliche Eval brauchst — sie verbindet sich mit dem Querschnitt-Eval.
-
-**Wichtige Strukturänderung in v2.1:**
 
 Für **🧮** sind Module 8.1, 8.2 und 8.5 **harte Pflicht-Voraussetzung für Stufe 7** (siehe `07_stufe7.md` Voraussetzungs-Block). Wer 🧮-Track ist, hat diese Module also bereits absolviert, bevor er hier ankommt. In Stufe 8 fokussiert sich 🧮 dann auf:
 - **Modul 8.3** (Regression & Boosting) — XGBoost-Familie für Tabular-Data-Praxis
@@ -14,9 +15,7 @@ Für **🧮** sind Module 8.1, 8.2 und 8.5 **harte Pflicht-Voraussetzung für St
 
 Für **🔧/💼** ist die Reihenfolge unverändert — alle Module 8.1 bis 8.5 sind sequenziell hier in Stufe 8.
 
-**Begründung der Sequenz-Korrektur:** In v2.0 war Stufe 7 (Deep Learning) vor Stufe 8 sequenziert — als didaktischer Rückblick. Das war der größte strukturelle Schwachpunkt: Karpathy selbst empfiehlt klassisches ML als Foundation, jedes etablierte Curriculum (DLAI Specialization, Stanford CS229 → CS231n) sequenziert klassisches ML *vor* Deep Learning. Backpropagation ist Spezialfall von Gradient Descent — den lernt man im Logistic-Regression-Kontext zuerst sauber. Ab v2.1 ist diese Reihenfolge für 🧮 erzwungen.
-
-**Eval-Anker (NEU in v2.1):** Statistische Eval ist die Foundation für die LLM-Eval aus Modul 5.0/5.4 und den Querschnitt-Eval (`13_querschnitt_eval.md`). Module 8.1, 8.2 und 8.5 sind explizite Anker-Punkte für Eval-Methodik:
+Statistische Eval ist die Foundation für die LLM-Eval aus Modul 5.0/5.4 und den Querschnitt-Eval (`13_querschnitt_eval.md`). Module 8.1, 8.2 und 8.5 sind explizite Anker-Punkte für Eval-Methodik:
 - **8.1**: Distance-Metrics als Foundation für Embedding-Eval (Cosine in Vector-Search aus Modul 5.1)
 - **8.2**: Confusion Matrix, Precision/Recall/F1 als Foundation für jede Klassifikations-Eval — auch in LLM-Klassifikation
 - **8.5**: Hypothesen-Tests, Power Analysis, Multiple-Testing-Korrektur als Foundation für seriöses A/B-Testing (Prompt-A/B in 5.0/5.4, Production-Eval-as-CI im Querschnitt-Production)
@@ -27,18 +26,17 @@ Für **🔧/💼** ist die Reihenfolge unverändert — alle Module 8.1 bis 8.5 
 - Du kannst Recommendation-Systems bauen.
 - Du verstehst A/B-Testing mit OEC, Sample-Size-Berechnung, Multiple-Testing-Korrektur.
 - Du weißt, wann klassisches ML, wann Deep Learning, wann LLM die richtige Wahl ist.
-- **Statistik-Foundation für ehrliche LLM- und RAG-Eval ist solide** *(verstärkt in v2.1)*.
+- **Statistik-Foundation für ehrliche LLM- und RAG-Eval ist solide**.
 
 ---
 
 ## Modul 8.1: Data Exploration & Clustering
 
-**Hinweis v2.1:** Für 🧮 ist dieses Modul **Pflicht-Vorbedingung für Stufe 7** und sollte bereits absolviert sein. Eval-Querschnitt-Anker: Distance-Metrics als Foundation für Embedding-Vergleiche und Vector-Search.
+Für 🧮 ist dieses Modul **Pflicht-Vorbedingung für Stufe 7** und sollte bereits absolviert sein. Eval-Querschnitt-Anker: Distance-Metrics als Foundation für Embedding-Vergleiche und Vector-Search.
 
 Bevor du modellierst, musst du Daten verstehen. EDA (Exploratory Data Analysis) ist 2026 nicht durch KI obsolet — sie wird durch KI **schneller**, aber das menschliche Urteil bleibt zentral. Clustering als unsupervised Lernverfahren ist die natürliche Erweiterung — von "ich sehe meine Daten" zu "ich gruppiere meine Daten ohne Vorgaben".
 
 **Aufwand:** 🔧 6-10h · 🧮 15-25h · 💼 4-6h
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 **Voraussetzungen:** Modul 2.7, Querschnitt Math-Foundation (Lineare Algebra konzeptionell)
 
 ### Lernziel
@@ -106,18 +104,17 @@ Wähle einen Datensatz mit Substanz (Vorschläge):
 
 ## Modul 8.2: Klassifikation & Decision Trees
 
-**Hinweis v2.1:** Für 🧮 ist dieses Modul **Pflicht-Vorbedingung für Stufe 7** und sollte bereits absolviert sein. Eval-Querschnitt-Anker: Logistic Regression als Foundation für Backprop in Modul 7.1 (Backprop ist Gradient Descent in mehreren Schichten — Logistic Regression ist Backprop in einer Schicht). Confusion Matrix, Precision, Recall, F1 sind Foundation für jede Klassifikations-Eval, auch in LLM-Klassifikation (Modul 5.0/5.4).
+Für 🧮 ist dieses Modul **Pflicht-Vorbedingung für Stufe 7** und sollte bereits absolviert sein. Eval-Querschnitt-Anker: Logistic Regression als Foundation für Backprop in Modul 7.1 (Backprop ist Gradient Descent in mehreren Schichten — Logistic Regression ist Backprop in einer Schicht). Confusion Matrix, Precision, Recall, F1 sind Foundation für jede Klassifikations-Eval, auch in LLM-Klassifikation (Modul 5.0/5.4).
 
 **Vor** Boosting müssen Decision Trees verstanden sein — sie sind die Bausteine, aus denen XGBoost und LightGBM gebaut sind. Klassifikation ist außerdem der Use-Case, in dem die meisten ML-Anfänger praktisch landen: Spam vs. Ham, Churn vs. Stay, Lead vs. No-Lead. Dieses Modul lehrt klassische Klassifikation plus die wichtige Frage: **wann LLM, wann klassisches ML?**
 
 **Aufwand:** 🔧 8-12h · 🧮 15-22h · 💼 4-6h
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 **Voraussetzungen:** Modul 8.1
 
 ### Lernziel
 Du baust einen Klassifikator auf einem realen Datensatz (mit Class-Imbalance), bewertest mit den richtigen Metriken (nicht nur Accuracy), und kannst begründen, ob klassisches ML oder ein LLM die bessere Wahl ist.
 
-**Zusatz für 🧮 (NEU in v2.1):** Du implementierst Logistic Regression from scratch — Forward Pass, Loss-Berechnung, Gradient-Berechnung, Update-Step. Das ist die kleinste Variante von Backprop und Foundation für Modul 7.1.
+**Zusatz für 🧮:** Du implementierst Logistic Regression from scratch — Forward Pass, Loss-Berechnung, Gradient-Berechnung, Update-Step. Das ist die kleinste Variante von Backprop und Foundation für Modul 7.1.
 
 ### Theorie
 
@@ -172,7 +169,7 @@ Wähle einen Datensatz mit Class Imbalance (Vorschläge: Credit Card Fraud Detec
 - **LLM-Vergleich**: dieselbe Klassifikations-Aufgabe mit Claude oder GPT-5 als Zero-Shot-Klassifikator. Vergleich: Genauigkeit, Cost, Latenz.
 - Im Portfolio: `stufe-8_klassisches-ml/8-2-klassifikation/` mit Notebook, Vergleichs-Tabelle, SHAP-Plots.
 
-**Zusatz-Aufgabe für 🧮 (NEU in v2.1, Pflicht-Vorbedingung für Stufe 7):**
+**Zusatz-Aufgabe für 🧮 (Pflicht-Vorbedingung für Stufe 7):**
 
 Implementiere **Logistic Regression from scratch** in Python (ohne scikit-learn):
 - Forward Pass: σ(Wx + b) mit eigener Sigmoid-Implementierung
@@ -203,7 +200,7 @@ Im Portfolio: `stufe-8_klassisches-ml/8-2-klassifikation/logistic-regression-scr
 - [ ] Mindestens 4 verschiedene Metriken berechnet
 - [ ] SHAP-Analyse mit Feature-Wichtigkeit
 - [ ] LLM-Vergleich mit Begründung der Wahl
-- [ ] **Für 🧮: Logistic Regression from scratch implementiert (Pflicht-Vorbedingung für Stufe 7)** *(NEU in v2.1)*
+- [ ] **Für 🧮: Logistic Regression from scratch implementiert (Pflicht-Vorbedingung für Stufe 7)**
 
 ---
 
@@ -212,7 +209,6 @@ Im Portfolio: `stufe-8_klassisches-ml/8-2-klassifikation/logistic-regression-scr
 XGBoost, LightGBM und CatBoost dominieren 2026 die Tabular-Data-Welt. Bei strukturierten Daten schlagen sie konsistent Deep Learning. Dieses Modul vermittelt Regression-Foundations (Linear, Polynomial, Regularisiert) und vertieft die Boosting-Familie. Plus: TabPFN als 2024-2026-Innovation für Foundation Models auf Tabellendaten.
 
 **Aufwand:** 🔧 8-12h · 🧮 18-25h · 💼 4-6h
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 **Voraussetzungen:** Modul 8.2
 
 ### Lernziel
@@ -291,7 +287,6 @@ Wähle einen Regressions-Datensatz (Vorschläge: House Prices, Bike Sharing Dema
 Recommender Systems sind 2026 in vielen Anwendungen unsichtbar präsent — Spotify, Netflix, Amazon, LinkedIn, jedes E-Commerce-System. Klassische Methoden (Collaborative Filtering, Matrix Factorization) sind weiterhin Foundation, moderne Systems kombinieren sie mit Embeddings und LLMs. Dieses Modul lehrt die Klassiker plus die 2026-Erweiterungen.
 
 **Aufwand:** 🔧 4-8h · 🧮 12-18h · 💼 3-5h
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 **Voraussetzungen:** Module 8.1-8.3, optional 5.1 (für Embedding-basiertes RecSys)
 
 ### Lernziel
@@ -358,12 +353,11 @@ Wähle einen Datensatz:
 
 ## Modul 8.5: A/B-Testing & Causal Inference
 
-**Hinweis v2.1:** Für 🧮 ist dieses Modul **Pflicht-Vorbedingung für Stufe 7** und sollte bereits absolviert sein. Eval-Querschnitt-Anker: Hypothesen-Tests, Power Analysis und Multiple-Testing-Korrektur sind Foundation für seriöses A/B-Testing in jedem KI-Kontext — Prompt-A/B (Modul 5.0/5.4), Production-Eval-as-CI (Querschnitt Production), Online-Experimentation auf User-Engagement.
+Für 🧮 ist dieses Modul **Pflicht-Vorbedingung für Stufe 7** und sollte bereits absolviert sein. Eval-Querschnitt-Anker: Hypothesen-Tests, Power Analysis und Multiple-Testing-Korrektur sind Foundation für seriöses A/B-Testing in jedem KI-Kontext — Prompt-A/B (Modul 5.0/5.4), Production-Eval-as-CI (Querschnitt Production), Online-Experimentation auf User-Engagement.
 
 Statistik ist 2026 nicht obsolet — sie ist die Foundation für ehrliche Eval. Ohne Statistik weißt du nicht, ob deine "Verbesserung" wirklich besser ist oder nur Rauschen. **Wer LLMs und Modelle ohne Statistik bewertet, betreibt Theater.**
 
 **Aufwand:** 🔧 4-8h · 🧮 18-25h · 💼 4-8h
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 **Voraussetzungen:** Querschnitt Math-Foundation (Probability + Statistik), Querschnitt Eval
 
 ### Lernziel
@@ -450,7 +444,7 @@ Wähle einen Use-Case:
 | [Coursera — Google A/B Testing](https://www.coursera.org/learn/google-ab-testing) | Google (Coursera Audit-Modus) | ~10h | Vertiefung 8.5 |
 | [Causal Inference: The Mixtape](https://mixtape.scunning.com) | Scott Cunningham | als Buch | Vertiefung 8.5 |
 
-**Coursera-Audit-Modus-Hinweis (NEU in v2.1):** Coursera-Kurse (DLAI, Google A/B Testing) sind im Audit-Modus kostenlos zugänglich. Details siehe `99_anhang.md`.
+**Coursera-Audit-Modus-Hinweis:** Coursera-Kurse (DLAI, Google A/B Testing) sind im Audit-Modus kostenlos zugänglich. Details siehe `99_anhang.md`.
 
 ---
 
@@ -462,17 +456,8 @@ Nach Stufe 8 hast du:
 - ✅ Boosting-Familie verstanden, XGBoost/LightGBM/CatBoost gewählt nach Use-Case
 - ✅ Recommender-System gebaut
 - ✅ A/B-Testing mit Power Analysis, Multiple Testing, Causal Inference
-- ✅ **Statistik-Foundation für ehrliche LLM- und RAG-Eval** *(verstärkt in v2.1)*
-- 🧮: ✅ **Logistic Regression from scratch implementiert** als Brücke zu Stufe 7 *(NEU in v2.1, falls noch nicht vor Stufe 7 gemacht)*
+- ✅ **Statistik-Foundation für ehrliche LLM- und RAG-Eval**
+- 🧮: ✅ **Logistic Regression from scratch implementiert** als Brücke zu Stufe 7
 
 **Du bist bereit für Stufe 9: KI-Strategie & Business — wo das Gelernte in Business-Entscheidungen übergeht.**
 
----
-
-## Aktualisierungslog
-
-- **2026-05-05:** Version v2.2.1 — **Bugfix Modul 8.4 RecSys-Tools**: Surprise und LightFM als "wenig aktiv gepflegt" markiert (Surprise seit 2023, LightFM seit 2022), Microsoft Recommenders als primäre Referenz hervorgehoben, NVIDIA Merlin als Production-Grade-Alternative ergänzt.
-- **2026-05-04:** Version v2.2.0 — Aktualisierungslog-Eintrag ohne inhaltliche Änderungen. Stufe 8 (Klassisches ML & Statistik) ist Foundations-Disziplin und von v2.2-Frontier-Themen nicht betroffen. Module 8.1-8.5 unverändert. Module 8.1+8.2+8.5 als Pflicht-Voraussetzung für Stufe 7 (🧮) bleiben aus v2.1.
-- **2026-05-04:** Version v2.1.0 — **Header umstrukturiert**: explizit klargestellt, dass Module 8.1+8.2+8.5 für 🧮 schon vor Stufe 7 absolviert sein müssen (Sequenz-Korrektur, siehe `07_stufe7.md` Voraussetzungs-Block); **Begründung der Sequenz-Korrektur** im Stufen-Header (Karpathy, DLAI, Stanford); **Eval-Querschnitt-Anker** explizit in 8.1 (Distance-Metrics → Embedding-Eval), 8.2 (Confusion Matrix, Precision/Recall/F1 → LLM-Klassifikations-Eval, Cross-Validation), 8.5 (Hypothesen-Tests → Prompt-A/B, RAG-A/B, Multiple-Testing für RAG-Eval); **Logistic Regression from scratch als Pflicht-Aufgabe für 🧮 in 8.2** ergänzt (Brücke zu Modul 7.1 Backprop und S7-Self-Assessment); **Statistik-Foundation für ehrliche Eval** im Stufen-Outcome verstärkt; Verfallsdatum-Stempel pro 🔄-Bullet eingeführt; Coursera-Audit-Modus-Hinweis ergänzt.
-- **2026-05-02:** Initiale Version v2.0.0
-- **Re-check geplant:** November 2026 — primär: TabPFN-Entwicklung, AutoML-Landschaft, LLM-basierte RecSys, Bayesian A/B-Testing-Tools.

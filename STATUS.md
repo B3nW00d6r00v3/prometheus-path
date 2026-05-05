@@ -5,19 +5,19 @@
 🟢 Aktiv
 
 ## Letzter Fortschritt
-- Alle 7 Arbeitspakete aus Plan "Site Improvements Round 2" abgeschlossen:
-  1. Resources-Seite vollständig aufgebaut (200+ kategorisierte Links)
-  2. Start Here / Track-Wahl-Guide erstellt (`docs/start.md`)
-  3. Capstone-Showcase auf Landing Page eingefügt
-  4. Footer mit Version via `copyright` in mkdocs.yml
-  5. Tools-Seite massiv erweitert — TAAFT Leaderboard-Daten integriert (~60 neue Tools in 10 neuen Kategorien)
-  6. Querverlinks (Quick-Reference auf Syllabus-Index)
-  7. Progress-Export/Import/Reset in JavaScript + Buttons auf Syllabus-Index
+- Syllabus Content Cleanup abgeschlossen (20 Dateien):
+  - Changelog auf eigene Seite ausgelagert (`docs/changelog.md`)
+  - Alle `Last verified` / `Re-check by` Metadaten entfernt
+  - Alle `NEU in v2.1` / `NEU in v2.2` Version-Annotationen entfernt
+  - Alle `## Aktualisierungslog` Sektionen entfernt
+  - Standardisierte Intros mit Querschnitt/Capstone/Tools-Tabelle in allen 18 Modulen
+  - 99_anhang.md: Changelog-Sektion durch Link ersetzt, Sektionen renummeriert
+  - 000_master.md: Version-Overhead entfernt, Stufen-Tabelle vereinfacht
+  - mkdocs build erfolgreich
 
 ## Nächster Schritt
 1. Commit & Push aller Änderungen
 2. Visuelle Prüfung der Live-Site nach Deployment
-3. Ggf. weitere Syllabus-Stufen (7-11) für Resource-Links auswerten
 
 ## Blocker
 Keine

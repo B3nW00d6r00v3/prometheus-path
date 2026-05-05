@@ -1,15 +1,15 @@
 # Stufe 11: Forschung & Cutting-Edge
 
-**Aufwand gesamt:** laufend (kein einmaliger Abschluss) · 🔧🧮💼 jeweils 15-30h für Setup, dann ~2h/Woche dauerhaft
+**Aufwand:** laufend (kein einmaliger Abschluss) · 🔧🧮💼 jeweils 15-30h für Setup, dann ~2h/Woche dauerhaft
 **Voraussetzungen:** Stufe 10
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
+
+| Querschnitte | Capstone-Beitrag | Tools |
+|---|---|---|
+| — | Alle Capstones: Final-Doku & Demo | arXiv, Semantic Scholar, Papers with Code |
 
 Diese Stufe ist die letzte Stufe des Curriculums — und gleichzeitig die einzige, die nie "fertig" ist. KI bewegt sich 2026 schneller als jede Lehrplan-Aktualisierung. Ein guter KI-Profi muss eine **persönliche Routine** haben, um auf dem Stand zu bleiben — und die ist so individuell wie der eigene Use-Case.
 
 Modul 11.1 ist deshalb keine Liste von "diese 50 Tools musst du kennen", sondern eine **Methodik**, mit der du dir selbst kontinuierlich die Liste pflegst. Modul 11.2 wählt 1-2 Branchen für echte Tiefe statt 6 für Oberfläche — Tiefe ist 2026 wertvoller als Breite, weil ChatGPT die Breite kann.
-
-**Wichtige Strukturänderung in v2.1:**
-- **Capstone-Abschluss-Block verschoben** nach `17_capstone_a_engineer.md` als **Master-Sektion für alle drei Capstones** (Demo-Video, Pitch, Lessons-Learned, Final-Doku, Outcome-Schwellen-Check). Die Master-Sektion in Capstone-A wird von `18_capstone_b_foundations.md` und `19_capstone_c_strategist.md` referenziert. Begründung: in v2.0 stand der Abschluss-Block in Stufe 11 selbst, was die Stufe gegenüber den track-spezifischen Capstone-Dateien fragmentierte. In v2.1 kommt aller Capstone-Inhalt in die Capstone-Dateien — die Stufen-Datei bleibt fokussiert auf die zwei kontinuierlichen Module.
 
 **Ergebnis nach Stufe 11:**
 - Du hast eine laufende Update-Routine etabliert (Sources, Cadence, Filter).
@@ -24,7 +24,6 @@ Modul 11.1 ist deshalb keine Liste von "diese 50 Tools musst du kennen", sondern
 Die häufigste Frage von KI-Lernenden 2024-2026: "Wie bleibe ich auf dem Laufenden?" Die schlechte Antwort wäre: "Hier sind 50 Newsletter, 30 Podcasts, 20 Blogs." Das ist die Falle, die zu Information-Overload und Burnout führt. Die gute Antwort: **kuratiere bewusst, kombiniere Quellen-Typen, etabliere Routinen, kalibriere regelmäßig**. Dieses Modul lehrt dich die Methodik, nicht die Liste.
 
 **Aufwand:** 🔧🧮💼 jeweils 10-15h für Setup, dann laufend
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 **Voraussetzungen:** Stufen 1-10
 
 ### Lernziel
@@ -140,7 +139,6 @@ Setze deine persönliche KI-Information-Routine auf:
 Im Original-Curriculum gab es eine Liste mit 6 Branchen, jede oberflächlich behandelt. Das Problem: Oberflächliches Branchen-Wissen ist 2026 wertlos, weil ChatGPT/Claude das auf Anfrage liefern. **Tiefe ist der Differenziator**. Dieses Modul wählt deshalb 1-2 Branchen für **echte Vertiefung** — Best Practices, Anti-Pattern, Compliance-Spezifika, reale Production-Beispiele, persönliche Netzwerk-Kontakte. Die Wahl ist persönlich: deine Branche, deine Kund:innen-Branche, oder die Branche deines Capstone.
 
 **Aufwand:** 🔧🧮💼 jeweils 5-15h pro Branche (für 1-2 Branchen)
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 **Voraussetzungen:** alle vorherigen Stufen, Capstone-Idee identifiziert
 
 ### Lernziel
@@ -228,9 +226,9 @@ Branchen-Wissen ist tool-unabhängig. OSS-Tools für Recherche: [Zotero](https:/
 
 ---
 
-## Capstone-Abschluss *(verschoben in v2.1)*
+## Capstone-Abschluss
 
-In v2.0 stand der Capstone-Abschluss-Block (Final-Doku, Demo-Video, Pitch, Outcome-Schwellen-Check, Portfolio-Struktur) hier in Stufe 11. In v2.1 wurde er **komplett verschoben nach `17_capstone_a_engineer.md` als Master-Sektion für alle drei Capstones**. Die Master-Sektion wird von `18_capstone_b_foundations.md` (Foundations) und `19_capstone_c_strategist.md` (Strategist) referenziert — so sind alle Capstone-Inhalte zentral in den Capstone-Dateien, nicht fragmentiert über mehrere Stufen.
+Der Capstone-Abschluss-Block (Final-Doku, Demo-Video, Pitch, Outcome-Schwellen-Check, Portfolio-Struktur) befindet sich in `17_capstone_a_engineer.md` als Master-Sektion für alle drei Capstones. Die Master-Sektion wird von `18_capstone_b_foundations.md` (Foundations) und `19_capstone_c_strategist.md` (Strategist) referenziert — so sind alle Capstone-Inhalte zentral in den Capstone-Dateien.
 
 **Was der Capstone-Abschluss umfasst** (Details siehe `17_capstone_a_engineer.md` Master-Sektion):
 - Capstone-Final-Doku (README, Architektur-Diagramm, Eval-Report, Reflektion)
@@ -272,11 +270,3 @@ Nach Stufe 11 hast du:
 
 **Du hast das gesamte KI-Meisterlehrplan-Curriculum durchgearbeitet. Aber das Ende des Curriculums ist nicht das Ende deines Lernens — das ist der Punkt von Stufe 11. Du hast jetzt die Methodik, um dauerhaft auf dem Stand zu bleiben, mit eigenen Praxis-Projekten als Anker.**
 
----
-
-## Aktualisierungslog
-
-- **2026-05-04:** Version v2.2.0 — **Capstone-Renumbering** alle Querverweise von `15_capstone_a_engineer.md` / `16_capstone_b_foundations.md` / `17_capstone_c_strategist.md` auf `17_…` / `18_…` / `19_…` aktualisiert (Aktualisierungslog-Historie unverändert). Inhaltliche Module 11.1, 11.2 unverändert — Forschungs-Disziplin und Capstone-Abschluss bleiben Hauptpfade. **Brücke zu Modul 9.7 Failure-Case-Library (NEU in v2.2)**: 🔄-Bullet zu Failure-Case-Awareness in Modul 11.1 ergänzt — kontinuierliche Pflege gehört zur Forschungs-Disziplin.
-- **2026-05-04:** Version v2.1.0 — **Capstone-Abschluss-Block komplett verschoben** nach `15_capstone_a_engineer.md` als Master-Sektion für alle drei Capstones (Begründung: zentralisierter Capstone-Inhalt in den Capstone-Dateien statt Fragmentierung); Querverweise zu Capstone-Dateien an drei Stellen ergänzt; **Eval-Querschnitt-Anker im Hype-Detector-Bullet** als methodische Brücke; Verbindung zu Modul 9.0 Datenstrategie im Branchen-Pattern-Feld 5 ergänzt; Verfallsdatum-Stempel pro 🔄-Bullet eingeführt.
-- **2026-05-02:** Initiale Version v2.0.0
-- **Re-check geplant:** November 2026 — primär: aktuelle Newsletter/Podcasts/Blogs-Landschaft, Branchen-Tools-Updates.

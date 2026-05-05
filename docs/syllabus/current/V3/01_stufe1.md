@@ -1,12 +1,15 @@
 # Stufe 1: Onboarding & Mindset
 
-**Aufwand gesamt:** 6-9h (gleich für alle Tracks) *(in v2.1 erhöht von 4-6h, da Vorgeschmack-Demo ergänzt)*
+**Aufwand:** 6-9h (gleich für alle Tracks)
 **Voraussetzungen:** Keine
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026 (Modul 1.3 Vorgeschmack-Demo: Aug 2026 wegen Tool-Aktualität)
+
+| Querschnitte | Capstone-Beitrag | Tools |
+|---|---|---|
+| — | Grundverständnis alle Tracks | ChatGPT, Claude, Perplexity, Ollama |
 
 Bevor du inhaltlich startest, brauchst du drei Dinge: eine **funktionierende Lernumgebung**, eine **klare Track-Wahl**, und ein **GitHub-Portfolio**, in das ab Stufe 2 alle Praxisprojekte gepusht werden. Diese Stufe enthält keine KI-Inhalte zum Selbst-Bauen — die starten in Stufe 2. Hier richtest du das Fundament ein, damit du nicht beim ersten echten Modul am Setup stolperst.
 
-**Neu in v2.1:** Modul 1.3 enthält einen **Vorgeschmack-Demo-Block** (RAG + MCP + Eval), in dem du drei vorbereitete Demos klonst und laufen lässt — ohne sie selbst zu bauen oder verstehen zu müssen. Reiner "Wow-Effekt": du siehst, wohin die Reise geht, bevor du Stufen 2-4 absolvierst.
+Modul 1.3 enthält einen **Vorgeschmack-Demo-Block** (RAG + MCP + Eval), in dem du drei vorbereitete Demos klonst und laufen lässt — ohne sie selbst zu bauen oder verstehen zu müssen. Reiner "Wow-Effekt": du siehst, wohin die Reise geht, bevor du Stufen 2-4 absolvierst.
 
 **Ergebnis nach Stufe 1:**
 - Tools laufen (Python, IDE, Ollama, GitHub).
@@ -21,7 +24,6 @@ Bevor du inhaltlich startest, brauchst du drei Dinge: eine **funktionierende Ler
 Bevor du KI lernst, muss sie auf deinem Rechner laufen. Dieses Modul richtet die lokale Umgebung ein: Python, IDE, Ollama für lokale LLMs, plus optional einen Cloud-API-Key für State-of-the-Art-Vergleiche. Open-Source-First heißt nicht Open-Source-Only — beides ist nötig, weil Frontier-Modelle (Claude Opus 4.7, GPT-5.5, Gemini 3.1 Ultra) nicht lokal lauffähig sind.
 
 **Aufwand:** 🔧 2-3h · 🧮 2-3h · 💼 2-3h
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 **Voraussetzungen:** Keine
 
 ### Lernziel
@@ -79,7 +81,6 @@ Komplett ohne Cloud-API arbeiten: nur Ollama nutzen, mehrere Modelle parallel in
 Dein **GitHub-Portfolio** ist das wichtigste Output dieses Curriculums — wichtiger als jedes Zertifikat. Recruiter und Hiring Manager schauen 2026 primär auf reale Projekte, nicht auf Kursabschlüsse. Dieses Modul richtet das Portfolio strategisch ein, damit jedes Praxisprojekt ab Stufe 2 sofort einen sauberen Platz hat.
 
 **Aufwand:** 🔧 1h · 🧮 1h · 💼 1h
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 **Voraussetzungen:** Modul 1.1 (GitHub-Account aktiv)
 
 ### Lernziel
@@ -101,7 +102,7 @@ Dein **GitHub-Portfolio** ist das wichtigste Output dieses Curriculums — wicht
 
 - Repo `ki-meisterlehrplan-portfolio` erstellen (Public, mit README, mit `.gitignore` für Python, MIT-Lizenz oder eigene Wahl).
 - Lokal klonen.
-- Ordnerstruktur anlegen: ein Ordner pro Stufe (`stufe-1_onboarding/` bis `stufe-11_forschung/`), plus `capstone/`, `mehrwert-projekte/` und (neu in v2.1) `self-assessments/` für die Mid-Stage-Self-Assessments S5/S7/S9.
+- Ordnerstruktur anlegen: ein Ordner pro Stufe (`stufe-1_onboarding/` bis `stufe-11_forschung/`), plus `capstone/`, `mehrwert-projekte/` und `self-assessments/` für die Mid-Stage-Self-Assessments S5/S7/S9.
 - README mit eigenen Daten füllen: Über mich, Track-Wahl (kommt in Modul 1.3), Lernziele, Stufen-Checklist.
 - Setup-Cheat-Sheet aus 1.1 in `stufe-1_onboarding/` verschieben und committen.
 
@@ -126,22 +127,21 @@ GitHub ist Microsoft-Closed-Source. OSS-Alternativen: [Codeberg](https://codeber
 
 ## Modul 1.3: Track-Wahl & Lern-Methodik
 
-Dieses Curriculum hat **drei Track-Tiefen** (Engineer, Foundations, Strategist) und eine **Meister-Variante** (alle drei). Die Wahl ist nicht verbindlich — Wechsel sind erlaubt — aber bewusst zu treffen, ist wichtig: sie bestimmt deine Modul-Tiefen, deinen Capstone, deinen Zeitaufwand. **Neu in v2.1:** zusätzlich erlebst du am Ende des Moduls einen Vorgeschmack-Demo-Block (RAG + MCP + Eval) — drei vorbereitete Demos zum Klonen und Laufenlassen, damit du *siehst*, wohin du in Stufen 5-6 selbst kommst.
+Dieses Curriculum hat **drei Track-Tiefen** (Engineer, Foundations, Strategist) und eine **Meister-Variante** (alle drei). Die Wahl ist nicht verbindlich — Wechsel sind erlaubt — aber bewusst zu treffen, ist wichtig: sie bestimmt deine Modul-Tiefen, deinen Capstone, deinen Zeitaufwand. Zusätzlich erlebst du am Ende des Moduls einen Vorgeschmack-Demo-Block (RAG + MCP + Eval) — drei vorbereitete Demos zum Klonen und Laufenlassen, damit du *siehst*, wohin du in Stufen 5-6 selbst kommst.
 
-**Aufwand:** 🔧 3-4h · 🧮 3-4h · 💼 3-4h *(in v2.1 erhöht von 1-2h durch Vorgeschmack-Demo)*
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 *(Vorgeschmack-Demo enthält Tool-Aktualitäts-Risiko, daher 3-Monats-Audit-Zyklus)*
+**Aufwand:** 🔧 3-4h · 🧮 3-4h · 💼 3-4h
 **Voraussetzungen:** Modul 1.2 (Portfolio aktiv)
 
 ### Lernziel
-Track ist begründet gewählt und im Portfolio dokumentiert. Lern-Plan für die ersten 8 Wochen ist skizziert. **Plus (NEU in v2.1):** Du hast einmal eine RAG-Anwendung, einen MCP-Server und eine Eval-Pipeline in Aktion gesehen — ohne sie selbst gebaut zu haben.
+Track ist begründet gewählt und im Portfolio dokumentiert. Lern-Plan für die ersten 8 Wochen ist skizziert. Du hast einmal eine RAG-Anwendung, einen MCP-Server und eine Eval-Pipeline in Aktion gesehen — ohne sie selbst gebaut zu haben.
 
 ### Theorie
 
 - 🟢 **Drei Tracks, vier Möglichkeiten:**
- - 🔧 **Engineer** — du baust KI-Systeme, sie laufen produktiv. Ziel: AI Engineer / ML Engineer / KI-Entwickler.
- - 🧮 **Foundations** — du verstehst, *warum* KI funktioniert, mathematisch und konzeptionell. Ziel: ML Researcher / Data Scientist mit Tiefe / PhD-Vorbereitung.
- - 💼 **Strategist** — du identifizierst KI-Use-Cases und führst sie ein. Ziel: KI-Manager / KI-Berater / KI-Lead. *Aufwand in v2.1 auf 350-500h erhöht — bewusste Differenzierung gegenüber Bootcamps; Schwerpunkt auf Datenstrategie, Change Management, Operating Model.*
- - 🥇 **Meister** — alle drei Tiefen. Ziel: Senior-Position mit voller Spannweite, eigene Beratung, Top-Tier-Engineer.
+  - 🔧 **Engineer** — du baust KI-Systeme, sie laufen produktiv. Ziel: AI Engineer / ML Engineer / KI-Entwickler.
+  - 🧮 **Foundations** — du verstehst, *warum* KI funktioniert, mathematisch und konzeptionell. Ziel: ML Researcher / Data Scientist mit Tiefe / PhD-Vorbereitung.
+  - 💼 **Strategist** — du identifizierst KI-Use-Cases und führst sie ein. Ziel: KI-Manager / KI-Berater / KI-Lead. *Aufwand auf 350-500h erhöht — bewusste Differenzierung gegenüber Bootcamps; Schwerpunkt auf Datenstrategie, Change Management, Operating Model.*
+  - 🥇 **Meister** — alle drei Tiefen. Ziel: Senior-Position mit voller Spannweite, eigene Beratung, Top-Tier-Engineer.
 
 - 🟢 **Track-Wahl ist nicht final** — du kannst nach Stufe 4 (Anwendungen) oder Stufe 7 (Deep Learning) wechseln, wenn du merkst, dass dich eine andere Tiefe mehr interessiert. Das Curriculum ist track-flexibel.
 
@@ -154,50 +154,48 @@ Track ist begründet gewählt und im Portfolio dokumentiert. Lern-Plan für die 
 | 💼 Strategist | 14-20 Monate | 9-12 Monate | 6-8 Monate |
 | 🥇 Meister | 36+ Monate | 24-36 Monate | 18-24 Monate |
 
-*(Strategist-Werte in v2.1 angepasst aufgrund erhöhtem Aufwand 350-500h.)*
-
 Wenn du mit "12 Monate bis Job-Ready"-Versprechen geködert wurdest: das ist Marketing. Tiefe braucht Zeit.
 
 - 🟢 **Lern-Methodik dieses Curriculums** — vier Bausteine pro Modul:
- 1. **Theorie** mit Quellen-Links (verstehen, was passiert).
- 2. **Praxis-Hauptprojekt** (mindestens 40% der Modul-Zeit, kommt ins Portfolio).
- 3. **🎁 Mehrwert-Mini-Projekt** (klein, sofort nutzbar — z.B. Prompt Library, Newsletter-Workflow).
- 4. **🌱 Open-Source-Pfad** (alternative Implementierung mit OSS, oft schwieriger, als Bonus).
+  1. **Theorie** mit Quellen-Links (verstehen, was passiert).
+  2. **Praxis-Hauptprojekt** (mindestens 40% der Modul-Zeit, kommt ins Portfolio).
+  3. **🎁 Mehrwert-Mini-Projekt** (klein, sofort nutzbar — z.B. Prompt Library, Newsletter-Workflow).
+  4. **🌱 Open-Source-Pfad** (alternative Implementierung mit OSS, oft schwieriger, als Bonus).
 
-- 🟢 **Querschnitte** (Math, Eval, Production) sind nicht sequenziell — bearbeitest du parallel, wenn du eine Lücke spürst. Erste Berührung mit Eval bereits in Modul 5.0 (NEU in v2.1, Eval-Mini-Block). Math-Querschnitt ab Stufe 7 (für 🧮 vorher mit Diagnose-Test als Gate).
+- 🟢 **Querschnitte** (Math, Eval, Production) sind nicht sequenziell — bearbeitest du parallel, wenn du eine Lücke spürst. Erste Berührung mit Eval bereits in Modul 5.0 (Eval-Mini-Block). Math-Querschnitt ab Stufe 7 (für 🧮 vorher mit Diagnose-Test als Gate).
 
 - 🟢 **Capstone** — durchgehendes Projekt ab track-spezifischem Startpunkt:
- - 🔧 startet in Stufe 5.1 (RAG-Agent-System, mit Operate-Phase als Goldstandard in v2.1).
- - 🧮 startet in Stufe 7.1 (eigenes kleines LLM trainieren).
- - 💼 startet in Stufe 9.1 (KI-Strategie + Pilot — *reale Organisation Pflicht*).
+  - 🔧 startet in Stufe 5.1 (RAG-Agent-System, mit Operate-Phase als Goldstandard).
+  - 🧮 startet in Stufe 7.1 (eigenes kleines LLM trainieren).
+  - 💼 startet in Stufe 9.1 (KI-Strategie + Pilot — *reale Organisation Pflicht*).
 
-- 🟢 **Outcome-Rubrik pro Track (NEU in v2.1)** — siehe `000_master.md`. Sieben messbare Kompetenzen pro Track, plus Mid-Stage-Self-Assessments Ende Stufe 5 / 7 / 9. Vor dem Start: schau dir die Outcome-Rubrik deines Tracks an — das ist dein Ziel-Bild.
+- 🟢 **Outcome-Rubrik pro Track** — siehe `000_master.md`. Sieben messbare Kompetenzen pro Track, plus Mid-Stage-Self-Assessments Ende Stufe 5 / 7 / 9. Vor dem Start: schau dir die Outcome-Rubrik deines Tracks an — das ist dein Ziel-Bild.
 
 - 🟢 **Wie viel pro Woche?** Self-paced. Aber: weniger als 4h/Woche → vergisst du beim Wiedereinstieg die Hälfte. Empfehlung: 6h/Woche minimum, 8-12h ideal.
 
 - 🔄 **Lernroutinen, die etablierte Praktiker empfehlen:**
- - Cal Newport, *Deep Work* — Methodik für fokussiertes Lernen ohne Ablenkung.
- - Barbara Oakley, *Learning How to Learn* — kognitive Lernstrategien, [Coursera-Kurs kostenlos](https://www.coursera.org/learn/learning-how-to-learn) (Audit-Modus, siehe `99_anhang.md`).
- - Hamel Husain Blog für 🔧-Track. [hamel.dev](https://hamel.dev)
- - Sebastian Raschka Blog für 🧮-Track. [magazine.sebastianraschka.com](https://magazine.sebastianraschka.com)
+  - Cal Newport, *Deep Work* — Methodik für fokussiertes Lernen ohne Ablenkung.
+  - Barbara Oakley, *Learning How to Learn* — kognitive Lernstrategien, [Coursera-Kurs kostenlos](https://www.coursera.org/learn/learning-how-to-learn) (Audit-Modus, siehe `99_anhang.md`).
+  - Hamel Husain Blog für 🔧-Track. [hamel.dev](https://hamel.dev)
+  - Sebastian Raschka Blog für 🧮-Track. [magazine.sebastianraschka.com](https://magazine.sebastianraschka.com)
 
 ### Praxis: Hauptprojekt — Track-Wahl + Lern-Plan + Vorgeschmack-Demo
 
 **Teil 1 — Track-Wahl + Lern-Plan (1-2h):**
 
 - Datei `stufe-1_onboarding/track-wahl.md` schreiben mit:
- - Welcher Track? (🔧 / 🧮 / 💼 / 🥇)
- - Warum dieser Track? (3-5 ehrliche Sätze)
- - Konkretes Karriere-Ziel in 12-18 Monaten?
- - Vorerfahrung?
- - Zeit pro Woche?
- - Welcher Capstone wird Hauptprojekt?
- - **NEU in v2.1:** Outcome-Rubrik deines Tracks lesen (`000_master.md`) und 1-2 Outcomes als persönliches Zwischenziel markieren.
+  - Welcher Track? (🔧 / 🧮 / 💼 / 🥇)
+  - Warum dieser Track? (3-5 ehrliche Sätze)
+  - Konkretes Karriere-Ziel in 12-18 Monaten?
+  - Vorerfahrung?
+  - Zeit pro Woche?
+  - Welcher Capstone wird Hauptprojekt?
+  - Outcome-Rubrik deines Tracks lesen (`000_master.md`) und 1-2 Outcomes als persönliches Zwischenziel markieren.
 - Datei `stufe-1_onboarding/lern-plan.md` für die ersten 8 Wochen skizzieren (Tabelle: Woche / Modul / geplante Stunden / Status).
 - Portfolio-README aktualisieren: Track + Capstone-Platzhalter eintragen.
 - Alles committen.
 
-**Teil 2 — Vorgeschmack-Demo (NEU in v2.1, 2-3h):**
+**Teil 2 — Vorgeschmack-Demo (2-3h):**
 
 Drei vorbereitete Demos zum Klonen und Laufenlassen. **Du musst sie nicht verstehen oder erweitern.** Ziel ist ausschließlich, dass du *siehst*, wie sich RAG, MCP und Eval anfühlen, bevor du dich durch Stufen 2-4 arbeitest.
 
@@ -246,9 +244,9 @@ Track-Wahl ist tool-unabhängig — kein OSS-Pfad nötig.
 - [ ] `track-wahl.md` mit klarer Begründung im Portfolio
 - [ ] `lern-plan.md` für 8 Wochen skizziert
 - [ ] Portfolio-README zeigt Track und Capstone-Platzhalter
-- [ ] Outcome-Rubrik des gewählten Tracks gelesen, 1-2 Zwischenziele markiert *(NEU in v2.1)*
-- [ ] Vorgeschmack-Demo: mindestens 2 von 3 Demos einmal erfolgreich gelaufen *(NEU in v2.1)*
-- [ ] `vorgeschmack-reflektion.md` mit kurzer Notiz im Portfolio *(NEU in v2.1)*
+- [ ] Outcome-Rubrik des gewählten Tracks gelesen, 1-2 Zwischenziele markiert
+- [ ] Vorgeschmack-Demo: mindestens 2 von 3 Demos einmal erfolgreich gelaufen
+- [ ] `vorgeschmack-reflektion.md` mit kurzer Notiz im Portfolio
 - [ ] Optional: `LERN_TAGEBUCH.md` mit erstem Eintrag
 
 ---
@@ -287,7 +285,7 @@ Track-Wahl ist tool-unabhängig — kein OSS-Pfad nötig.
 | [Python Crash Course](https://www.kaggle.com/learn/python) | Kaggle Learn | ~7h | Wenn Python ganz neu, vor Stufe 2.7 |
 | [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) | Coursera (Audit-Modus) | ~15h | Wenn dir Lerntechniken fehlen |
 
-**Coursera-Audit-Modus-Hinweis (NEU in v2.1):** Coursera-Kurse sind in der Audit-Variante kostenlos zugänglich. Beim Klick auf "Enroll" zeigt Coursera teils nur die Paid-Variante prominent — der Audit-Link ist meistens kleiner darunter ("Enroll for free / Audit"). Details siehe `99_anhang.md`.
+**Coursera-Audit-Modus-Hinweis:** Coursera-Kurse sind in der Audit-Variante kostenlos zugänglich. Beim Klick auf "Enroll" zeigt Coursera teils nur die Paid-Variante prominent — der Audit-Link ist meistens kleiner darunter ("Enroll for free / Audit"). Details siehe `99_anhang.md`.
 
 ---
 
@@ -298,15 +296,6 @@ Nach Stufe 1 hast du:
 - ✅ Öffentliches GitHub-Portfolio mit klarer Struktur und README (inkl. `self-assessments/` Ordner).
 - ✅ Bewusst gewählten Track mit Begründung und Outcome-Rubrik-Bewusstsein.
 - ✅ Skizzierten Lern-Plan für die ersten 8 Wochen.
-- ✅ **Erste Berührung mit RAG, MCP und Eval** durch Vorgeschmack-Demo *(NEU in v2.1)*.
+- ✅ **Erste Berührung mit RAG, MCP und Eval** durch Vorgeschmack-Demo.
 
 **Du bist bereit für Stufe 2: Grundlagen.**
-
----
-
-## Aktualisierungslog
-
-- **2026-05-04:** Version v2.2.0 — Aktualisierungslog-Eintrag ohne inhaltliche Änderungen. Stufe 1 ist Onboarding-Foundation und bleibt von v2.2-Frontier-Themen unberührt. Stufenstruktur, Module 1.1-1.3, Vorgeschmack-Demo unverändert.
-- **2026-05-04:** Version v2.1.0 — Vorgeschmack-Demo-Block (RAG + MCP + Eval) in Modul 1.3 ergänzt; Aufwand Stufe 1 von 4-6h auf 6-9h erhöht; Verweis auf Outcome-Rubrik (`000_master.md`) ergänzt; `self-assessments/` als neuer Portfolio-Ordner eingeführt; Hinweis auf Coursera-Audit-Modus.
-- **2026-05-02:** Initiale Version v2.0.0
-- **Re-check geplant:** Aug 2026 — primär: Vorgeschmack-Demo-Tutorials (Tool-Aktualität), Ollama-Modell-Empfehlungen, Cloud-API-Free-Tiers, MCP-Quickstart-Stand. Nov 2026 für stabile Inhalte (IDE, Git, Markdown).

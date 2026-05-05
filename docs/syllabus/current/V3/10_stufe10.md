@@ -1,24 +1,21 @@
 # Stufe 10: Spezialisierung & Production
 
-**Aufwand gesamt:** 🔧 60-100h · 🧮 80-120h · 💼 30-50h
+**Aufwand:** 🔧 60-100h · 🧮 80-120h · 💼 30-50h
 **Voraussetzungen:** Stufen 1-9, Capstone-Auswahl getroffen
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 *(volatile A-Tiefe-Module 10.2 Fine-Tuning, 10.3 LLMOps)*
 
-Diese Stufe schließt alle drei Capstones zur **Production-Reife** ab. Modul 10.1 (Marketing) ist als Branchen-Beispiel gewählt, weil Marketing-KI 2026 die häufigste Praxis-Anwendung ist und du die Pattern (LLM + MCP + Workflow + Eval) auf jede andere Branche übertragen kannst. Modul 10.2 ist Fine-Tuning in der modernen Form (DPO/ORPO/GRPO/DoRA mit Llama 4 / Qwen 3 / Gemma 4) **mit Decision-Framework (NEU in v2.1)**. Modul 10.3 ist LLMOps mit Cost-Engineering, Monitoring und **Eval-as-CI als verstärkte Pflicht-Disziplin (NEU in v2.1)**.
+| Querschnitte | Capstone-Beitrag | Tools |
+|---|---|---|
+| Eval (10.3 Eval-as-CI), Production (10.3 LLMOps) | Alle Capstones: Production-Hardening | Unsloth, Axolotl, vLLM, Langfuse, Docker, GitHub Actions |
 
-**Wichtige Strukturänderungen in v2.1:**
-- **Fine-Tuning-vs-RAG-vs-Prompt Decision-Framework in 10.2** — explizit am Anfang von 10.2 als Entscheidungs-Filter, bevor man in Fine-Tuning-Tooling investiert. Faustregel: 80% der Use-Cases brauchen kein Fine-Tuning.
-- **Eval-as-CI verstärkt in 10.3** — vom "wichtigen Pattern" zum eigenständigen Sub-Block mit konkretem Setup-Walkthrough, Schwellenwert-Logik, Failure-Handling.
-- **Capstone-Operate-Phase-Verweis** in alle drei track-spezifischen Praxis-Blöcke — Outcome-Schwellen sind nicht das Ende, Operate-Phase (4-6 Wochen Real-User-Betrieb mit Iteration) ist Goldstandard.
-- **Capstone-Updates verschoben** nach `17_capstone_a_engineer.md`, `18_capstone_b_foundations.md`, `19_capstone_c_strategist.md`.
+Diese Stufe schließt alle drei Capstones zur **Production-Reife** ab. Modul 10.1 (Marketing) ist als Branchen-Beispiel gewählt, weil Marketing-KI 2026 die häufigste Praxis-Anwendung ist und du die Pattern (LLM + MCP + Workflow + Eval) auf jede andere Branche übertragen kannst. Modul 10.2 ist Fine-Tuning in der modernen Form (DPO/ORPO/GRPO/DoRA mit Llama 4 / Qwen 3 / Gemma 4) **mit Decision-Framework**. Modul 10.3 ist LLMOps mit Cost-Engineering, Monitoring und **Eval-as-CI als verstärkte Pflicht-Disziplin**.
 
 **Ergebnis nach Stufe 10:**
 - 🔧: RAG-Agent-System aus 5.1/6.2 ist production-hardened mit Cost-Monitoring, Sandboxing, Eval-as-CI. *Capstone-Update siehe `17_capstone_a_engineer.md`.*
 - 🧮: nanoGPT aus 7.2 hat Preference-Tuning (DPO oder ORPO) und Eval-Vergleich. *Capstone-Update siehe `18_capstone_b_foundations.md`.*
 - 💼: Capstone-Pilot ist gebaut und mit echten Stakeholder-Tests validiert. *Capstone-Update siehe `19_capstone_c_strategist.md`.*
 - Du verstehst KI im Marketing als Branchen-Pattern.
-- Du kennst die Fine-Tuning-Landschaft 2026 **und das Decision-Framework, wann Fine-Tuning nicht die richtige Wahl ist** *(NEU in v2.1)*.
-- Du beherrschst LLMOps-Production-Patterns **mit Eval-as-CI als gelebte Pflicht-Praxis** *(verstärkt in v2.1)*.
+- Du kennst die Fine-Tuning-Landschaft 2026 **und das Decision-Framework, wann Fine-Tuning nicht die richtige Wahl ist**.
+- Du beherrschst LLMOps-Production-Patterns **mit Eval-as-CI als gelebte Pflicht-Praxis**.
 
 ---
 
@@ -27,7 +24,6 @@ Diese Stufe schließt alle drei Capstones zur **Production-Reife** ab. Modul 10.
 Marketing ist 2026 die KI-Anwendung mit der höchsten Verbreitung in Mittelstand und Großunternehmen. Dieses Modul behandelt Marketing-KI **als Pattern**, das du auf andere Branchen übertragen kannst: LLM + MCP-Integrationen + Workflow-Automation + Eval. Wer Marketing-KI versteht, versteht 70% der Branchen-spezifischen Anwendungs-Pattern.
 
 **Aufwand:** 🔧 12-18h · 🧮 8-12h · 💼 18-25h
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 **Voraussetzungen:** Stufen 5, 6, 9
 
 ### Lernziel
@@ -141,7 +137,6 @@ Wähle einen konkreten Marketing-Use-Case (für 💼 sollte das den Capstone-Pil
 Fine-Tuning ist 2026 nicht mehr "trainiere ein eigenes Modell" — es ist **Preference-Tuning auf bestehenden Foundation-Modellen mit DPO/ORPO/GRPO** plus **PEFT-Methoden wie LoRA und DoRA** für Compute-Effizienz. Dieses Modul lehrt die moderne Landschaft: wann Fine-Tuning, was die Methoden sind, welche Tools (Unsloth, Axolotl, TRL), und welche Modelle (Llama 4, Qwen 3, Gemma 4, DeepSeek V4). **Hier vollendet sich Capstone-Foundations für 🧮** *(Update siehe `18_capstone_b_foundations.md`)*.
 
 **Aufwand:** 🔧 18-25h · 🧮 50-80h · 💼 4-8h
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 *(volatile A-Tiefe-Module: Foundation-Modelle und Fine-Tuning-Tools quartalsweise im Wandel)*
 **Voraussetzungen:** Stufen 7 (DL Foundations), Querschnitt Math-Foundation, Querschnitt Eval
 
 ### Lernziel
@@ -151,9 +146,9 @@ Fine-Tuning ist 2026 nicht mehr "trainiere ein eigenes Modell" — es ist **Pref
 
 **💼**: Du verstehst konzeptionell, was Fine-Tuning ist, was es kostet, wann es strategisch sinnvoll ist.
 
-### Decision-Framework: Fine-Tuning vs. RAG vs. Prompt-Engineering *(NEU in v2.1)*
+### Decision-Framework: Fine-Tuning vs. RAG vs. Prompt-Engineering
 
-In v2.0 wurde "wann Fine-Tuning" als einziger Bullet behandelt. Das war zu wenig — die häufigste Entscheidungs-Falle 2026 ist, Fine-Tuning zu wählen, wenn besseres Prompting oder RAG es lösen würde. Dieses Decision-Framework geht **vor** der eigentlichen Fine-Tuning-Theorie: erst entscheiden, dann investieren.
+Die häufigste Entscheidungs-Falle 2026 ist, Fine-Tuning zu wählen, wenn besseres Prompting oder RAG es lösen würde. Dieses Decision-Framework geht **vor** der eigentlichen Fine-Tuning-Theorie: erst entscheiden, dann investieren.
 
 **Die Entscheidungs-Hierarchie (in dieser Reihenfolge prüfen):**
 
@@ -281,7 +276,7 @@ In v2.0 wurde "wann Fine-Tuning" als einziger Bullet behandelt. Das war zu wenig
 - Im Portfolio: `stufe-10_spezialisierung/10-2-fine-tuning-engineer/`.
 
 **Für 💼:**
-- **Decision-Framework als Entscheidungs-Matrix dokumentieren** *(NEU in v2.1)*: für drei Use-Cases der Org klare Empfehlung Prompt / RAG / Fine-Tuning mit Begründung.
+- **Decision-Framework als Entscheidungs-Matrix dokumentieren**: für drei Use-Cases der Org klare Empfehlung Prompt / RAG / Fine-Tuning mit Begründung.
 - 1-Pager-Briefing: Was ist Fine-Tuning 2026, wann lohnt es sich, was kostet es, was sind Alternativen?
 - Optional: einen kleinen LoRA-Run via [Together AI Fine-Tuning](https://www.together.ai) oder OpenAI Fine-Tuning API mit Click-Click-Setup, ohne tiefe Code-Berührung.
 - Im Portfolio: `stufe-10_spezialisierung/10-2-fine-tuning-strategist/`.
@@ -295,7 +290,7 @@ Komplett OSS: TRL, PEFT, Unsloth, Axolotl, alle genannten Foundation-Modelle. Cl
 
 ### Outcome-Check (track-spezifisch)
 **🧮:**
-- [ ] **Decision-Framework dokumentiert: warum Fine-Tuning hier die richtige Wahl ist** *(NEU in v2.1)*
+- [ ] **Decision-Framework dokumentiert: warum Fine-Tuning hier die richtige Wahl ist**
 - [ ] SFT durchgeführt
 - [ ] Preference Tuning (DPO oder ORPO) durchgeführt
 - [ ] Eval Vorher/Nachher mit mindestens drei Metriken
@@ -303,29 +298,28 @@ Komplett OSS: TRL, PEFT, Unsloth, Axolotl, alle genannten Foundation-Modelle. Cl
 - [ ] Capstone-Foundations vollendet *(siehe `18_capstone_b_foundations.md`)*
 
 **🔧:**
-- [ ] **Decision-Framework dokumentiert** *(NEU in v2.1)*
+- [ ] **Decision-Framework dokumentiert**
 - [ ] LoRA Fine-Tuning durchgeführt
 - [ ] Eval Vorher/Nachher
 - [ ] Cost-Dokumentation
 - [ ] Reflexion: war es den Aufwand wert vs. besseres Prompting + RAG?
 
 **💼:**
-- [ ] **Decision-Framework als Entscheidungs-Matrix für 3 Use-Cases** *(NEU in v2.1)*
+- [ ] **Decision-Framework als Entscheidungs-Matrix für 3 Use-Cases**
 - [ ] 1-Pager-Briefing zu Fine-Tuning
 - [ ] Optional: einen Click-Click-Fine-Tune
 
 ---
 
-## Modul 10.3: MLOps + LLMOps Production *(verstärkt in v2.1)*
+## Modul 10.3: MLOps + LLMOps Production
 
-LLMOps (LLM Operations) ist die Disziplin, die LLM-Anwendungen in Production hält. Anders als klassisches MLOps: nicht-deterministische Outputs, Cost als Hauptthema, schnelle Modell-Updates extern, **Eval-as-CI als Pflicht-Praxis** (verstärkt in v2.1). Dieses Modul lehrt die Production-Patterns 2026 und vollendet **Capstone-Engineer** für 🔧 mit Production-Hardening *(Update siehe `17_capstone_a_engineer.md`)*.
+LLMOps (LLM Operations) ist die Disziplin, die LLM-Anwendungen in Production hält. Anders als klassisches MLOps: nicht-deterministische Outputs, Cost als Hauptthema, schnelle Modell-Updates extern, **Eval-as-CI als Pflicht-Praxis**. Dieses Modul lehrt die Production-Patterns 2026 und vollendet **Capstone-Engineer** für 🔧 mit Production-Hardening *(Anforderungen siehe `17_capstone_a_engineer.md`)*.
 
 **Aufwand:** 🔧 30-45h · 🧮 18-25h · 💼 8-12h
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 *(volatile A-Tiefe-Module: LLMOps-Tools quartalsweise im Wandel)*
 **Voraussetzungen:** Stufen 5, 6, idealerweise alle vorherigen, Querschnitt Production
 
 ### Lernziel
-**🔧:** Dein Capstone-Engineer-Projekt ist production-hardened: Cost-Monitoring, Multi-Model-Routing, **Eval-as-CI mit konkreter Schwellenwert-Logik** *(NEU in v2.1)*, Sandboxing, Incident-Response.
+**🔧:** Dein Capstone-Engineer-Projekt ist production-hardened: Cost-Monitoring, Multi-Model-Routing, **Eval-as-CI mit konkreter Schwellenwert-Logik**, Sandboxing, Incident-Response.
 
 **🧮:** Du verstehst Production-Patterns für deine fine-getuneten Modelle (Inferenz mit vLLM/SGLang).
 
@@ -381,7 +375,7 @@ LLMOps (LLM Operations) ist die Disziplin, die LLM-Anwendungen in Production hä
 
  *Verfallsdatum: Aug 2026.*
 
-#### Eval-as-CI als gelebte Pflicht-Praxis *(verstärkt in v2.1)*
+#### Eval-as-CI als gelebte Pflicht-Praxis
 
 In v2.0 war Eval-as-CI als ein Bullet behandelt — "wichtigster Production-Pattern 2026". Das war zu wenig: ohne konkrete Schwellenwert-Logik und Failure-Handling wird Eval-as-CI in der Praxis zu einer leeren Checkbox. Hier die operative Anleitung.
 
@@ -393,14 +387,14 @@ In v2.0 war Eval-as-CI als ein Bullet behandelt — "wichtigster Production-Patt
  5. **PR-Status setzen**: Grün bei Verbesserung oder Stabilität, Rot bei Regression, Gelb bei mehrdeutigen Ergebnissen.
  6. **Bei signifikanter Verbesserung**: dokumentieren in PR-Beschreibung mit Vorher/Nachher-Tabelle.
 
-- 🟢 **Schwellenwert-Logik konkret** *(NEU in v2.1)* — drei Eval-Kategorien:
+- 🟢 **Schwellenwert-Logik konkret** — drei Eval-Kategorien:
  - **Hard-Block-Metriken**: bei Regression > 5% wird Merge blockiert. Beispiele: Faithfulness, Answer Relevancy.
  - **Warning-Metriken**: bei Regression > 10% wird Warnung gesetzt, aber Merge möglich. Beispiele: Latenz, Cost.
  - **Tracking-Metriken**: nur dokumentiert, keine Block-Logik. Beispiele: Output-Länge, Diversity-Scores.
 
  Schwellenwerte werden in der Repo-Config dokumentiert und mit dem PR aktualisiert.
 
-- 🟢 **Failure-Handling-Pattern** *(NEU in v2.1)* — was tun bei Regression:
+- 🟢 **Failure-Handling-Pattern** — was tun bei Regression:
  - **Detail-Ausgabe**: pro fehlgeschlagenem Test-Case zeigen, was sich vorher zu nachher geändert hat (Diff-Output).
  - **Root-Cause-Analyse**: ist die Regression statistisch signifikant (siehe Modul 8.5)? Oder liegt sie in der Standardabweichung?
  - **Override-Pfad** mit Begründung: für edge-cases, wo Regression bewusst akzeptiert wird (z.B. wenn ein anderer Trade-off höher gewichtet wird). Override muss in PR dokumentiert werden.
@@ -456,7 +450,7 @@ Nimm dein RAG-Agent-System aus Stufen 5-6 und mache es production-ready:
 - **Multi-Model-Routing** mit LiteLLM oder OpenRouter (70% Haiku/Gemini Flash, 25% Sonnet/GPT-5, 5% Opus für komplexe Cases).
 - **Cost-Tracking + Alerting** mit Helicone oder Langfuse: pro Request, pro User, pro Tag.
 - **Prompt-Caching** für System-Prompts.
-- **Eval-as-CI mit konkreter Schwellenwert-Logik** *(verstärkt in v2.1)*: GitHub Actions Workflow mit:
+- **Eval-as-CI mit konkreter Schwellenwert-Logik**: GitHub Actions Workflow mit:
  - 30+ Test-Cases, 5 Runs pro Case
  - Hard-Block-Metriken (Faithfulness, Answer Relevancy) mit 5%-Schwelle
  - Warning-Metriken (Latenz, Cost) mit 10%-Schwelle
@@ -471,13 +465,13 @@ Nimm dein RAG-Agent-System aus Stufen 5-6 und mache es production-ready:
 
 *Capstone-Engineer-Production-Hardening vollendet*: dein RAG-Agent-System ist von Stufe 5 (Prototyp) zu Stufe 6 (Multi-Agent) zu Stufe 10 (Production-hardened) gewachsen. Outcome-Schwellen aus Master-Skelett: Faithfulness ≥0.8, Latenz P50 <3s, Cost <0.05€/Request.
 
-**Capstone-Operate-Phase als Goldstandard** *(NEU in v2.1)*: Production-Hardening ist nicht das Ende. Im Capstone-A wird die Operate-Phase (4-6 Wochen Real-User-Betrieb mit Iterationen, Incident-Response-Übungen, Cost-Optimierungs-Sprints) als Goldstandard ergänzt — *Details siehe `17_capstone_a_engineer.md`*.
+**Capstone-Operate-Phase als Goldstandard**: Production-Hardening ist nicht das Ende. Im Capstone-A wird die Operate-Phase (4-6 Wochen Real-User-Betrieb mit Iterationen, Incident-Response-Übungen, Cost-Optimierungs-Sprints) als Goldstandard ergänzt — *Details siehe `17_capstone_a_engineer.md`*.
 
 **Für 🧮:**
 - vLLM oder SGLang lokal aufsetzen, dein fine-getunetes Modell aus 10.2 deployen.
 - Latency-Benchmarks: vLLM vs. Ollama, Quantisierte vs. Full-Precision.
 - Optional: Inference-Service als FastAPI vor dem Inferenz-Server mit Auth und Rate-Limiting.
-- **Optional Eval-as-CI** *(NEU in v2.1)* für dein fine-getuntes Modell: bei jedem Re-Train automatischer Eval-Run gegen Baseline.
+- **Optional Eval-as-CI** für dein fine-getuntes Modell: bei jedem Re-Train automatischer Eval-Run gegen Baseline.
 - Im Portfolio: `stufe-10_spezialisierung/10-3-inferenz-foundations/`. *Capstone-Update siehe `18_capstone_b_foundations.md`.*
 
 **Für 💼 (Capstone-Strategist-Pilot vollenden):**
@@ -509,7 +503,7 @@ Nimm dein RAG-Agent-System aus Stufen 5-6 und mache es production-ready:
 **🔧 (Capstone-Engineer):**
 - [ ] Multi-Model-Routing implementiert
 - [ ] Cost-Tracking + Alerting
-- [ ] **Eval-as-CI in GitHub Actions mit Schwellenwert-Logik (Hard-Block + Warning + Override)** *(verstärkt in v2.1)*
+- [ ] **Eval-as-CI in GitHub Actions mit Schwellenwert-Logik (Hard-Block + Warning + Override)**
 - [ ] Sandboxing für Tool-Execution
 - [ ] Production-Deployment erreichbar
 - [ ] Logging/Tracing in Langfuse oder LangSmith
@@ -520,7 +514,7 @@ Nimm dein RAG-Agent-System aus Stufen 5-6 und mache es production-ready:
 - [ ] vLLM oder SGLang aufgesetzt
 - [ ] Inferenz-Benchmarks dokumentiert
 - [ ] Optional: API-Service vor Inferenz-Server
-- [ ] Optional: Eval-as-CI für Re-Trains *(NEU in v2.1)*
+- [ ] Optional: Eval-as-CI für Re-Trains
 
 **💼 (Capstone-Strategist):**
 - [ ] Pilot-Implementation lauffähig
@@ -539,14 +533,14 @@ Nimm dein RAG-Agent-System aus Stufen 5-6 und mache es production-ready:
 | [DLAI — Reinforcement Learning from Human Feedback](https://learn.deeplearning.ai) | DeepLearning.AI (Audit-Modus) | ~2h | Vertiefung 10.2 |
 | [Hugging Face — LLM Course Chapter 11 (Fine-Tuning)](https://huggingface.co/learn/llm-course/chapter11) | Hugging Face | ~10h | Pflicht für 🧮 in 10.2 |
 | [DLAI — LLMOps](https://learn.deeplearning.ai) | DeepLearning.AI (Audit-Modus) | ~2h | Vertiefung 10.3 |
-| [DLAI — Automated Testing for LLMOps](https://learn.deeplearning.ai) | DeepLearning.AI / CircleCI (Audit-Modus) | ~2h | Pflicht für 🔧 in 10.3 *(verstärkt in v2.1)* |
+| [DLAI — Automated Testing for LLMOps](https://learn.deeplearning.ai) | DeepLearning.AI / CircleCI (Audit-Modus) | ~2h | Pflicht für 🔧 in 10.3 |
 | [DLAI — Building Applications with Vector Databases](https://learn.deeplearning.ai) | DeepLearning.AI (Audit-Modus) | ~2h | Optional Production-RAG |
 | [Anthropic Cookbook — Production Patterns](https://github.com/anthropics/anthropic-cookbook) | Anthropic | nach Bedarf | Vertiefung 10.1, 10.3 |
 | [Promptfoo Documentation](https://www.promptfoo.dev/docs) | Promptfoo | ~5h | Vertiefung Eval-as-CI |
 | [LangSmith Documentation](https://docs.smith.langchain.com) | LangChain | ~5h | Vertiefung 10.3 |
 | [Langfuse Documentation](https://langfuse.com/docs) | Langfuse | ~5h | OSS-Alternative für 10.3 |
 
-**Coursera-Audit-Modus-Hinweis (NEU in v2.1):** DLAI-Kurse sind im Audit-Modus auf Coursera kostenlos zugänglich. Details siehe `99_anhang.md`.
+**Coursera-Audit-Modus-Hinweis:** DLAI-Kurse sind im Audit-Modus auf Coursera kostenlos zugänglich. Details siehe `99_anhang.md`.
 
 ---
 
@@ -554,20 +548,12 @@ Nimm dein RAG-Agent-System aus Stufen 5-6 und mache es production-ready:
 
 Nach Stufe 10 hast du:
 - ✅ Marketing-KI-Workflow als Branchen-Pattern (übertragbar)
-- ✅ Fine-Tuning-Erfahrung mit modernen Methoden (DPO/ORPO/LoRA) **mit Decision-Framework als Methodik-Foundation** *(NEU in v2.1)*
+- ✅ Fine-Tuning-Erfahrung mit modernen Methoden (DPO/ORPO/LoRA) **mit Decision-Framework als Methodik-Foundation**
 - ✅ LLMOps-Production-Patterns
-- ✅ **Eval-as-CI mit Schwellenwert-Logik und Failure-Handling** *(verstärkt in v2.1)*
+- ✅ **Eval-as-CI mit Schwellenwert-Logik und Failure-Handling**
 - 🔧: Capstone-Engineer-Projekt production-ready (Outcome-Schwellen erreicht). *Capstone-Update inkl. Operate-Phase siehe `17_capstone_a_engineer.md`.*
 - 🧮: Capstone-Foundations-Modell mit Preference-Tuning fine-getuned. *Capstone-Update siehe `18_capstone_b_foundations.md`.*
 - 💼: Capstone-Strategist mit funktionierendem Pilot und Stakeholder-Tests. *Capstone-Update inkl. Operate-Phase siehe `19_capstone_c_strategist.md`.*
 
 **Du bist bereit für Stufe 11: Forschung & Cutting-Edge — die finale Stufe.**
 
----
-
-## Aktualisierungslog
-
-- **2026-05-04:** Version v2.2.0 — **Capstone-Renumbering** alle 18 Querverweise von `15_capstone_a_engineer.md` / `16_capstone_b_foundations.md` / `17_capstone_c_strategist.md` auf `17_…` / `18_…` / `19_…` aktualisiert (Aktualisierungslog-Historie unverändert). Inhaltliche Module 10.1, 10.2, 10.3 strukturell unverändert — Decision-Framework und Eval-as-CI bleiben Pflicht-Inhalte aus v2.1. **Brücke zu Querschnitt 16 Safety/Red-Teaming (NEU in v2.2):** für 🔧-Production-Hardening in Modul 10.3 ist Querschnitt 16 als Pflicht-Vorlauf empfohlen vor Operate-Phase-Goldstandard.
-- **2026-05-04:** Version v2.1.0 — **Decision-Framework Fine-Tuning vs. RAG vs. Prompt-Engineering in Modul 10.2 als eigener Block vor der Theorie** (drei-stufige Hierarchie mit konkreten Beispielen, 80%-Faustregel — verhindert die häufigste Fine-Tuning-Falle); **Eval-as-CI in Modul 10.3 als verstärkte Pflicht-Praxis** (Setup-Walkthrough, Schwellenwert-Logik mit Hard-Block / Warning / Tracking, Failure-Handling-Pattern, Anti-Patterns); **Capstone-Operate-Phase-Verweis** in alle drei track-spezifischen Praxis-Blöcke (4-6 Wochen Real-User-Betrieb als Goldstandard); **Capstone-Updates verschoben** nach `15_capstone_a_engineer.md`, `16_capstone_b_foundations.md`, `17_capstone_c_strategist.md`; Decision-Framework-Pflicht in track-spezifischen Praxis-Blöcken und Outcome-Checks von 10.2 ergänzt; Eval-as-CI-Schwellenwert-Logik im 🔧-Outcome-Check von 10.3 verstärkt; Verfallsdatum-Stempel pro 🔄-Bullet eingeführt; Coursera-Audit-Modus-Hinweis ergänzt.
-- **2026-05-02:** Initiale Version v2.0.0
-- **Re-check geplant:** **Aug 2026 (3-Monats-Audit)** für Module 10.2 und 10.3 (beide A-Tiefe-Volatil — Foundation-Modelle und LLMOps-Tools quartalsweise im Wandel). Nov 2026 für Modul 10.1 (stabiler).

@@ -1,19 +1,22 @@
 # Querschnitt: Production & LLMOps
 
-**Aufwand:** 🔧 40-70h · 🧮 20-35h · 💼 15-25h
+**Aufwand:** 🔧 40-70h · 🧮 20-35h · 💼 15-25h  
 **Wann nötig:** ab Stufe 5 als Bewusstsein, vertieft in Stufe 10
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 *(volatile Tools-Landschaft, 3-Monats-Audit als A-Tiefe-Querschnitt)*
+
+| Stufen-Bezüge | Capstone-Bezug | Tools |
+|---|---|---|
+| Stufe 5, 6, 10 | Capstone A | vLLM, SGLang, Docker, Helicone, LiteLLM |
 
 Dieser Querschnitt vertieft, was in Modul 10.3 angerissen wurde, plus die Production-Pattern, die du quer durch das Curriculum brauchst. **LLMOps ist nicht klassisches MLOps** — die Disziplinen überlappen, aber LLM-Apps haben eigene Production-Patterns.
 
-**Production-Querschnitt-Anker im Curriculum** (zur Orientierung, v2.2 erweitert):
+**Production-Querschnitt-Anker im Curriculum** (zur Orientierung):
 - **Modul 5.5 (Streaming & UX)**: Latency-UX-Foundation
-- **Modul 6.0 (Context Engineering, NEU in v2.2)**: Token-Budget-Allokation als Production-Disziplin
-- **Modul 6.5 (Computer Use)**: Production-Sandboxing-Anwendung *(NEU in v2.1)*
-- **Modul 10.3 (LLMOps)**: vollständige Anwendung — Eval-as-CI mit Schwellenwert-Logik (verstärkt in v2.1)
-- **Capstone-A (Engineer)**: Production-Hardening + Operate-Phase als Goldstandard *(NEU in v2.1)*, plus Phase 7e Red-Team-Pass als Pflicht *(NEU in v2.2)*
-- **Capstone-C (Strategist)**: Operate-Phase mit echten Stakeholdern *(NEU in v2.1)*
-- **Querschnitt 16 Safety/Red-Teaming (NEU in v2.2)**: Threat-Models, Red-Team-Methodik, Red-Team-as-CI als Gegenstück zu Eval-as-CI. **Production-Hardening ohne Querschnitt 16 ist 2026 unvollständig.**
+- **Modul 6.0 (Context Engineering)**: Token-Budget-Allokation als Production-Disziplin
+- **Modul 6.5 (Computer Use)**: Production-Sandboxing-Anwendung
+- **Modul 10.3 (LLMOps)**: vollständige Anwendung — Eval-as-CI mit Schwellenwert-Logik
+- **Capstone-A (Engineer)**: Production-Hardening + Operate-Phase als Goldstandard, plus Phase 7e Red-Team-Pass als Pflicht
+- **Capstone-C (Strategist)**: Operate-Phase mit echten Stakeholdern
+- **Querschnitt 16 Safety/Red-Teaming**: Threat-Models, Red-Team-Methodik, Red-Team-as-CI als Gegenstück zu Eval-as-CI. **Production-Hardening ohne Querschnitt 16 ist 2026 unvollständig.**
 
 ## Cost-Engineering
 
@@ -108,7 +111,7 @@ Drei Layer:
 
 ## Eval-as-CI Pattern
 
-Bereits im Querschnitt Eval behandelt — hier nur die Production-Verzahnung. *Vertiefung mit Schwellenwert-Logik und Failure-Handling siehe Modul 10.3 (verstärkt in v2.1).*
+Bereits im Querschnitt Eval behandelt — hier nur die Production-Verzahnung. *Vertiefung mit Schwellenwert-Logik und Failure-Handling siehe Modul 10.3.*
 
 - Eval-Run bei jedem Pull Request (GitHub Actions, GitLab CI, Jenkins)
 - Bei Regression: Merge blockiert oder Warnung
@@ -126,7 +129,7 @@ Bei Agents mit Code-Execution oder Shell-Commands ist Sandboxing pflicht:
 - **WebContainers**: Browser-basierte Node.js-Sandbox. [WebContainers](https://webcontainers.io)
 - **Firecracker MicroVMs** (OSS): von AWS für Lambda entwickelt, sehr schneller Start, gute Isolation. [Firecracker](https://firecracker-microvm.github.io)
 
-*Hinweis v2.1:* Sandboxing-Anforderungen sind besonders relevant für Modul 6.5 (Computer Use, NEU in v2.1) — wo Agents mit Browser/Desktop interagieren.
+Sandboxing-Anforderungen sind besonders relevant für Modul 6.5 (Computer Use) — wo Agents mit Browser/Desktop interagieren.
 
 ## MCP-Sicherheit in Production
 
@@ -222,7 +225,7 @@ Wenn du klassische ML-Modelle (Boosting aus 8.3, Klassifikation aus 8.2) in Prod
 - 🟢 **Hardcoded Prompts**: Prompts im Code statt in versionierten Files.
 - 🟢 **No Rate Limiting per User**: ein Power-User frisst gesamtes API-Budget.
 - 🟢 **Streaming nicht implementiert**: User wartet 10s ohne Feedback.
-- 🟢 **No Operate-Phase** *(NEU in v2.1)*: Production-Hardening wird als Endzustand betrachtet, nicht als Anfang einer Operate-Phase mit echtem User-Betrieb.
+- 🟢 **No Operate-Phase**: Production-Hardening wird als Endzustand betrachtet, nicht als Anfang einer Operate-Phase mit echtem User-Betrieb.
 
 ## Praxis: Production-Hardening für eigenen Capstone
 
@@ -233,9 +236,9 @@ Wenn du 🧮 oder 💼 bist, ist dies vor allem als Bewusstsein wichtig:
 - 🧮: Inferenz-Server-Wahl für eigenes Modell aus Stufe 7+10.
 - 💼: bei Build-vs-Buy-Entscheidungen (Modul 9.4) realistisch einschätzen, was Production wirklich kostet und welche Risiken existieren.
 
-### Capstone-Operate-Phase als Goldstandard *(NEU in v2.1)*
+### Capstone-Operate-Phase als Goldstandard
 
-Production-Hardening ist nicht der Endpunkt — es ist die Voraussetzung für die **Operate-Phase**, die in v2.1 als Goldstandard für die Capstones definiert wird. *Details zur Operate-Phase siehe `17_capstone_a_engineer.md` Master-Sektion (auch von 19_capstone_c_strategist.md referenziert).*
+Production-Hardening ist nicht der Endpunkt — es ist die Voraussetzung für die **Operate-Phase**. *Details zur Operate-Phase siehe `17_capstone_a_engineer.md` Master-Sektion (auch von 19_capstone_c_strategist.md referenziert).*
 
 Was die Operate-Phase im Production-Kontext bedeutet:
 
@@ -264,7 +267,7 @@ Der Unterschied zur reinen Production-Hardening-Phase: in der Hardening-Phase ba
 | [Coursera — MLOps Specialization](https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops) | Andrew Ng / Coursera (Audit-Modus) | ~80h | klassisches MLOps |
 | [Anthropic Cookbook — Production Patterns](https://github.com/anthropics/anthropic-cookbook) | Anthropic | nach Bedarf | Praxis-Beispiele |
 
-**Coursera-Audit-Modus-Hinweis (NEU in v2.1):** DLAI- und Coursera-Kurse sind im Audit-Modus kostenlos zugänglich. Details siehe `99_anhang.md`.
+**Coursera-Audit-Modus-Hinweis:** DLAI- und Coursera-Kurse sind im Audit-Modus kostenlos zugänglich. Details siehe `99_anhang.md`.
 
 ## Outcome-Check
 
@@ -273,27 +276,21 @@ Der Unterschied zur reinen Production-Hardening-Phase: in der Hardening-Phase ba
 - [ ] Cost-Tracking + Alerting (Helicone, Langfuse, oder LangSmith)
 - [ ] Prompt-Caching wo sinnvoll
 - [ ] Sandboxing für Tool-Execution
-- [ ] Eval-as-CI in GitHub Actions **mit Schwellenwert-Logik** *(verstärkt in v2.1, siehe Modul 10.3)*
+- [ ] Eval-as-CI in GitHub Actions **mit Schwellenwert-Logik**
 - [ ] Production-Logging mit LLM-Tracing
 - [ ] Health-Check + Uptime-Monitoring
 - [ ] Incident-Response-Plan dokumentiert
-- [ ] **Capstone-Operate-Phase durchlaufen (mindestens 4 Wochen Real-User-Betrieb)** *(NEU in v2.1, Goldstandard für Capstone-A — siehe `17_capstone_a_engineer.md`)*
+- [ ] **Capstone-Operate-Phase durchlaufen (mindestens 4 Wochen Real-User-Betrieb)**
 
 **🧮:**
 - [ ] Inferenz-Server-Wahl mit Begründung (vLLM, SGLang, oder Ollama)
 - [ ] Quantisierung als Option getestet
 - [ ] Latency-Benchmarks dokumentiert
-- [ ] Optional: Inference-Service-Operate-Phase *(NEU in v2.1)*
+- [ ] Optional: Inference-Service-Operate-Phase
 
 **💼:**
 - [ ] Production-Cost-Realität konzeptionell verstanden
 - [ ] Build-vs-Buy-Entscheidung berücksichtigt LLMOps-Aufwand
 - [ ] Compliance-Anforderungen Production-relevant gedacht
-- [ ] **Capstone-Operate-Phase mit Stakeholdern (mindestens 4 Wochen, ≥5 Nutzer/Woche)** *(NEU in v2.1, Goldstandard für Capstone-C — siehe `19_capstone_c_strategist.md`)*
+- [ ] **Capstone-Operate-Phase mit Stakeholdern (mindestens 4 Wochen, ≥5 Nutzer/Woche)** (Goldstandard für Capstone-C — siehe `19_capstone_c_strategist.md`)
 
-## Aktualisierungslog
-
-- **2026-05-04:** Version v2.2.0 — **Querschnitt-Anker-Übersicht erweitert** um Modul 6.0 Context Engineering (NEU in v2.2 als Token-Budget-Allokations-Disziplin), Capstone-A Phase 7e Red-Team-Pass als Pflicht für Operate-Goldstandard (NEU in v2.2), und expliziten Verweis auf **Querschnitt 16 Safety/Red-Teaming als Pflicht-Komplement zu diesem Querschnitt** ("Production-Hardening ohne Querschnitt 16 ist 2026 unvollständig"). Inhaltliche Production-Lehre selbst unverändert — Cost-Engineering, Latency-Optimierung, Inferenz-Server-Patterns bleiben Foundation.
-- **2026-05-04:** Version v2.1.0 — **Production-Querschnitt-Anker-Übersicht** als Stufen-Header hinzugefügt (Module 5.5, 6.5 NEU, 10.3 verstärkt, Capstone-A und C); **Capstone-Operate-Phase als Goldstandard** als eigener Block im Praxis-Bereich (4-6 Wochen Real-User-Betrieb, Cost-Optimierungs-Sprints, Incident-Response-Übungen, Eval-Drift-Beobachtung, User-Feedback-Integration, track-differenzierte Anforderungen); Outcome-Check für 🔧 und 💼 um Operate-Phase-Pflicht erweitert; Anti-Pattern "No Operate-Phase" hinzugefügt; Verfallsdatum-Stempel pro 🔄-Bullet (Multi-Model-Routing, Tools-Listen, Inferenz-Server, E2B); Verweis auf Modul 6.5 Computer Use bei Sandboxing; Verweis auf Modul 5.3 MCP-Sicherheits-Block; Verweis auf Modul 10.3 für Eval-as-CI-Schwellenwert-Logik-Vertiefung; Coursera-Audit-Modus-Hinweis ergänzt.
-- **2026-05-02:** Initiale Version v2.0.0
-- **Re-check geplant:** **Aug 2026 (3-Monats-Audit als A-Tiefe-Querschnitt)** — Inferenz-Server-Performance-Updates, neue Quantisierungs-Methoden, Multi-Model-Routing-Tools, MCP-Sicherheits-Patterns. Plus jährlicher Hauptreview Nov 2026.

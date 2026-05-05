@@ -1,50 +1,40 @@
 # Stufe 9: KI-Strategie & Business
 
-**Aufwand gesamt:** 🔧 31-48h · 🧮 24-39h · 💼 112-165h *(in v2.1 substanziell erhöht durch zwei neue Module 9.0 und 9.6, Modul 9.3 verstärkt, S9-Self-Assessment; in v2.2 erweitert um Modul 9.7 Failure-Case-Library: +3-5h 🔧/🧮, +8-12h 💼; Aufwand in v2.2.1 nachgerechnet und korrigiert)*
-**Voraussetzungen:** Stufen 1-3, Stufe 5 (Praxis-Erfahrung Pflicht für sinnvolle Strategie)
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 (volatile Module 9.5, 9.0, 9.7) / Nov 2026 (stabile Inhalte)
+**Aufwand:** 🔧 31-48h · 🧮 24-39h · 💼 112-165h  
+**Voraussetzungen:** Stufen 1-3, Stufe 5 (Praxis-Erfahrung Pflicht)
 
-Diese Stufe ist absichtlich nach den Praxis-Stufen platziert. **Strategie ohne Substrat ist Theater** — wer noch nie ein RAG-System gebaut hat, kann nicht beurteilen, ob ein KI-Use-Case in 3 Monaten oder 18 Monaten umsetzbar ist. Hier verbindest du Praxis-Erfahrung mit Business-Strategie, ROI-Quantifizierung, Operating-Model, Build-vs-Buy, dem EU AI Act in voller Tiefe — plus (NEU in v2.1) Datenstrategie und Change Management plus (NEU in v2.2) Failure-Case-Library als Empirie-Anker.
+| Querschnitte | Capstone-Beitrag | Tools |
+|---|---|---|
+| Eval (9.3 KPIs), Safety (9.5, 9.7) | **Capstone C Start** (Strategie) | NIST AI RMF, EU AI Act, Notion/Confluence |
 
-**Capstone-Strategist (💼) startet hier**: KI-Strategie für eine reale Organisation (Job, Verein, Hobby) plus Pilot-Implementierung. *Capstone-spezifische Anforderungen siehe `19_capstone_c_strategist.md` (vormals `17_…` in v2.1).*
+Diese Stufe ist absichtlich nach den Praxis-Stufen platziert. **Strategie ohne Substrat ist Theater** — wer noch nie ein RAG-System gebaut hat, kann nicht beurteilen, ob ein KI-Use-Case in 3 Monaten oder 18 Monaten umsetzbar ist. Hier verbindest du Praxis-Erfahrung mit Business-Strategie, ROI-Quantifizierung, Operating-Model, Build-vs-Buy, dem EU AI Act in voller Tiefe, Datenstrategie, Change Management und einer Failure-Case-Library als Empirie-Anker.
 
-**Wichtige Strukturänderungen in v2.1:**
-
-- **💼-Aufwand auf 80-130h erhöht** — in v2.0 war Stufe 9 mit 50-80h für 💼 deutlich zu schmal für einen Track, der Business-KI als Hauptdisziplin hat. Bootcamps und Executive-Programme haben hier 100-200h. Die Erhöhung ist der wichtigste Differenzierungs-Faktor gegenüber populären Strategist-Bootcamps.
-- **Modul 9.0 Datenstrategie (NEU)** — Datenstrategie war in v2.0 nur ein Sub-Bullet in Modul 9.3 ("Datenstrategie als Voraussetzung"). Das war zu wenig: Daten sind 2026 der wichtigste KI-Wettbewerbsvorteil. Modul 9.0 macht es zur eigenständigen Disziplin **vor** Modul 9.1 — du verstehst Daten-Reife, *bevor* du Use-Cases auswählst, die ohne Daten-Foundation scheitern werden.
-- **Modul 9.3 substanziell verstärkt** — Operating Model, KPI-Frameworks für KI, Governance-Tiefe (NIST AI RMF, ISO 42001 als praktische Anleitung statt nur Erwähnung).
-- **Modul 9.6 Change Management (NEU)** — eigenständiges Modul am Ende der Stufe. Adoption-Curves, Stakeholder-Mapping, Betriebsrat-Praxis in Deutschland. War in v2.0 als Sub-Bullet in 9.3 eingebettet, was die Wichtigkeit verschleierte.
-- **S9-Self-Assessment** — Pflicht-Anker für 💼 vor Stufe 10. Stakeholder-Brief mit ROI + Compliance-Argument für eine reale (oder simulierte) Organisation.
-- **Capstone-Strategist-Update-Block** verschoben nach `19_capstone_c_strategist.md` — die Stufen-Datei wird fokussierter.
-
-**Wichtige Strukturänderungen in v2.2:**
-
-- **Modul 9.7 Failure-Case-Library DE/EU 2024-2026 (NEU)** — Methodik aus 9.0-9.6 ohne empirische Anker bleibt akademisch. 9.7 ergänzt dokumentierte KI-Pilot-/Produkt-Failures (McDonald's, Klarna, DPD, Air Canada, Bundesagentur für Arbeit, DSGVO-OpenAI etc.) mit Failure-Mode-Klassifikation und Anwendung auf eigenen Capstone-C. Pflicht 💼, empfohlen 🔧/🧮.
+**Capstone-Strategist (💼) startet hier**: KI-Strategie für eine reale Organisation plus Pilot-Implementierung. *Capstone-spezifische Anforderungen siehe `19_capstone_c_strategist.md`.*
 
 **Ergebnis nach Stufe 9:**
-- **Du hast eine Datenreife-Bewertung deiner Organisation und kennst Lock-in-Risiken bei Datenstrategien** *(NEU in v2.1, Modul 9.0)*.
+- Du hast eine Datenreife-Bewertung deiner Organisation und kennst Lock-in-Risiken bei Datenstrategien.
 - Du identifizierst KI-Use-Cases auf strategischer Ebene mit Portfolio-Methodik.
 - Du quantifizierst ROI mit dokumentierten Annahmen.
-- Du verstehst Operating Models für KI-Skalierung mit KPI-Frameworks und Governance-Praxis *(verstärkt in v2.1)*.
+- Du verstehst Operating Models für KI-Skalierung mit KPI-Frameworks und Governance-Praxis.
 - Du triffst Build-vs-Buy-Entscheidungen mit Total Cost of Ownership.
 - Du beherrschst den EU AI Act mit allen Compliance-Anforderungen.
-- **Du hast einen Change-Management-Plan mit Stakeholder-Mapping und Adoption-Curve** *(NEU in v2.1, Modul 9.6)*.
-- **Du kennst dokumentierte Failure-Cases DE/EU 2024-2026 und hast Risiko-Mitigations-Matrix für eigenen Capstone-C erstellt** *(NEU in v2.2, Modul 9.7)*.
-- 💼: Capstone-Strategist startet mit vollständiger Strategie + Pilot. **S9-Self-Assessment bestanden** *(NEU in v2.1)*.
+- Du hast einen Change-Management-Plan mit Stakeholder-Mapping, Adoption-Curve, Betriebsrat-Plan.
+- Du hast eine Failure-Case-Library mit mindestens 8 DE/EU-Cases und Risiko-Mapping auf eigenen Use-Case.
+- 💼: Capstone-Strategist mit allen strategischen Bausteinen.
+- 💼: S9-Self-Assessment bestanden — Stakeholder-Brief mit allen 10 Pflicht-Inhalten integriert.
 
 ---
 
-## Modul 9.0: Datenstrategie *(NEU in v2.1, vor Modul 9.1)*
+## Modul 9.0: Datenstrategie
 
 **Aufwand:** 🔧 4-6h · 🧮 3-5h · 💼 15-22h
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 *(Daten-Plattform-Landschaft volatil)*
 **Voraussetzungen:** Stufe 5 (Praxis-Erfahrung), idealerweise Modul 8.1 (EDA)
 
-### Warum dieses Modul existiert (NEU in v2.1)
+### Warum dieses Modul existiert
 
-Datenstrategie war in v2.0 nur ein einzelner Bullet im Operating-Model-Modul. Das war ein systematischer Fehler: Daten sind 2026 der wichtigste KI-Wettbewerbsvorteil — Modelle sind Commodity, **proprietäre, gut strukturierte, frische Daten sind nicht commoditisierbar**. Wer KI-Strategie macht, ohne Daten-Foundation zu prüfen, wählt Use-Cases aus, die ohne ausreichende Daten scheitern werden.
+Datenstrategie war ursprünglich nur ein einzelner Bullet im Operating-Model-Modul. Das war ein systematischer Fehler: Daten sind 2026 der wichtigste KI-Wettbewerbsvorteil — Modelle sind Commodity, **proprietäre, gut strukturierte, frische Daten sind nicht commoditisierbar**. Wer KI-Strategie macht, ohne Daten-Foundation zu prüfen, wählt Use-Cases aus, die ohne ausreichende Daten scheitern werden.
 
-In v2.1 kommt Datenstrategie **vor** Use-Case-Identifikation: erst verstehen, welche Daten existieren und in welcher Reife — dann Use-Cases priorisieren, die zur Daten-Realität passen.
+Datenstrategie kommt **vor** Use-Case-Identifikation: erst verstehen, welche Daten existieren und in welcher Reife — dann Use-Cases priorisieren, die zur Daten-Realität passen.
 
 ### Lernziel
 
@@ -123,14 +113,13 @@ Wähle die gleiche Organisation, die du in 9.1 weiterverwenden wirst (Job, Verei
 
 ## Modul 9.1: KI-Use-Cases identifizieren (strategisch)
 
-In Modul 3.3 hast du Use-Case-Methodik für einzelne Ideen gelernt. Hier geht es um die **Portfolio-Ebene**: wie identifiziert eine Organisation systematisch ihre besten KI-Use-Cases? Welche Frameworks helfen, aus 50 Ideen die richtigen 3-5 auszuwählen? Wie verbindet man strategische Ziele mit operativen Use-Cases? **Hinweis v2.1:** Use-Case-Auswahl ohne Datenreife-Bewertung (Modul 9.0) ist Wunschdenken — dieses Modul setzt 9.0 voraus.
+In Modul 3.3 hast du Use-Case-Methodik für einzelne Ideen gelernt. Hier geht es um die **Portfolio-Ebene**: wie identifiziert eine Organisation systematisch ihre besten KI-Use-Cases? Welche Frameworks helfen, aus 50 Ideen die richtigen 3-5 auszuwählen? Wie verbindet man strategische Ziele mit operativen Use-Cases? Use-Case-Auswahl ohne Datenreife-Bewertung (Modul 9.0) ist Wunschdenken — dieses Modul setzt 9.0 voraus.
 
-**Aufwand:** 🔧 4-6h · 🧮 3-5h · 💼 15-22h *(in v2.1 leicht erhöht durch tiefere Verzahnung mit 9.0 Datenstrategie)*
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
-**Voraussetzungen:** Modul 3.3, **Modul 9.0 (NEU in v2.1)**, Praxis-Erfahrung aus Stufen 5-6 (für 💼)
+**Aufwand:** 🔧 4-6h · 🧮 3-5h · 💼 15-22h
+**Voraussetzungen:** Modul 3.3, Modul 9.0, Praxis-Erfahrung aus Stufen 5-6 (für 💼)
 
 ### Lernziel
-Du führst eine vollständige Use-Case-Identifikation für eine reale Organisation durch: 20+ Ideen sammeln, mit Framework priorisieren, Top-5 vertiefen mit Use-Case-Canvas, **mit Datenreife-Bewertung pro Use-Case** *(NEU in v2.1)*. Mindestens ein Use-Case wird Capstone-Pilot.
+Du führst eine vollständige Use-Case-Identifikation für eine reale Organisation durch: 20+ Ideen sammeln, mit Framework priorisieren, Top-5 vertiefen mit Use-Case-Canvas, mit Datenreife-Bewertung pro Use-Case. Mindestens ein Use-Case wird Capstone-Pilot.
 
 ### Theorie
 
@@ -154,7 +143,7 @@ Du führst eine vollständige Use-Case-Identifikation für eine reale Organisati
 
 - 🟢 **Use-Case-Reifegrad bewerten** — nicht jeder Use-Case ist sofort umsetzbar. Reifegrad-Kategorien: (1) **Proven** — Standard-Anwendung mit etablierten Tools. (2) **Emerging** — möglich, aber Pilot nötig. (3) **Frontier** — Forschungs-nahe Ideen, hohes Risiko. Für Mittelstand 2026: 80% Proven, 15% Emerging, 5% Frontier ist realistische Mischung.
 
-- 🟢 **Datenreife pro Use-Case bewerten** *(NEU in v2.1, verzahnt mit 9.0)* — der häufigste Use-Case-Killer 2024-2026 ist nicht die Technik, sondern fehlende oder schlechte Daten. Pro Use-Case bewerten: (1) **Welche Daten sind nötig?** (Eingangsdaten, Trainingsdaten, Ground-Truth für Eval). (2) **Sind sie vorhanden?** (intern, extern, gekauft, synthetisch). (3) **In welcher Qualität?** (Modul 9.0 Reifestufen). (4) **DSGVO-Status?** (5) **Refresh-Cycle?** (täglich vs. monatlich vs. einmalig). Use-Cases ohne ausreichende Datenreife: in Roadmap nach hinten verschieben oder Daten-Foundation-Projekt davor.
+- 🟢 **Datenreife pro Use-Case bewerten** — der häufigste Use-Case-Killer 2024-2026 ist nicht die Technik, sondern fehlende oder schlechte Daten. Pro Use-Case bewerten: (1) **Welche Daten sind nötig?** (Eingangsdaten, Trainingsdaten, Ground-Truth für Eval). (2) **Sind sie vorhanden?** (intern, extern, gekauft, synthetisch). (3) **In welcher Qualität?** (Modul 9.0 Reifestufen). (4) **DSGVO-Status?** (5) **Refresh-Cycle?** (täglich vs. monatlich vs. einmalig). Use-Cases ohne ausreichende Datenreife: in Roadmap nach hinten verschieben oder Daten-Foundation-Projekt davor.
 
 - 🟢 **Stakeholder-Buy-In als Use-Case-Kriterium** — der beste Use-Case scheitert, wenn niemand ihn will. Stakeholder-Mapping (siehe 3.3 und vertiefend in 9.6) plus konkrete Champion-Identifikation: wer in der Organisation **will** den Use-Case? Wer wird ihn **blockieren**? Beides muss vor Start klar sein.
 
@@ -168,7 +157,7 @@ Du führst eine vollständige Use-Case-Identifikation für eine reale Organisati
 
  *Verfallsdatum: Nov 2026.* [BCG Industry-Specific AI](https://www.bcg.com) · [Branchen-Vertiefung in Modul 11.2](#)
 
-- 🟢 **Anti-Patterns bei Use-Case-Auswahl** — (1) **CEO-Pet-Project**: Use-Case wegen Vorstands-Buzzword statt Problem. (2) **Tech-Push**: "wir haben jetzt KI, was machen wir damit?" statt "wir haben Problem X". (3) **Boil-the-Ocean**: 50 Use-Cases gleichzeitig statt 3-5 fokussiert. (4) **Compliance-Blindness**: rechtliche Aspekte erst nach Pilot prüfen. (5) **Build-Bias**: alles selbst bauen statt Off-the-Shelf nutzen. (6) **Data-Blindness** *(NEU in v2.1)*: Use-Case wählen, ohne Datenreife zu prüfen — siehe Modul 9.0.
+- 🟢 **Anti-Patterns bei Use-Case-Auswahl** — (1) **CEO-Pet-Project**: Use-Case wegen Vorstands-Buzzword statt Problem. (2) **Tech-Push**: "wir haben jetzt KI, was machen wir damit?" statt "wir haben Problem X". (3) **Boil-the-Ocean**: 50 Use-Cases gleichzeitig statt 3-5 fokussiert. (4) **Compliance-Blindness**: rechtliche Aspekte erst nach Pilot prüfen. (5) **Build-Bias**: alles selbst bauen statt Off-the-Shelf nutzen. (6) **Data-Blindness**: Use-Case wählen, ohne Datenreife zu prüfen — siehe Modul 9.0.
 
 ### Praxis: Hauptprojekt — Use-Case-Portfolio für reale Organisation
 
@@ -177,7 +166,7 @@ Wähle eine Organisation (eigene Firma, Verein, Hobby, fiktive Beratung) — **d
 - **20+ Use-Case-Ideen sammeln** mit mindestens drei Sammlungs-Methoden (z.B. Stakeholder-Interviews, Wertschöpfungsketten-Analyse, Branchen-Recherche).
 - **Priorisierung** mit zwei verschiedenen Frameworks (z.B. RICE + Weighted Scoring), Vergleich der Ergebnisse.
 - **Top-5-Use-Cases vertiefen** mit AI Use Case Canvas aus 3.3.
-- **Datenreife pro Top-5-Use-Case bewerten** *(NEU in v2.1)*: welche Daten sind nötig, sind sie vorhanden, in welcher Qualität, Roadmap-Anpassung wenn Daten fehlen.
+- **Datenreife pro Top-5-Use-Case bewerten**: welche Daten sind nötig, sind sie vorhanden, in welcher Qualität, Roadmap-Anpassung wenn Daten fehlen.
 - **Portfolio-Mix** dokumentieren: Anteil Quick Wins / Strategische Initiativen / Moonshots, Anteil Proven / Emerging / Frontier.
 - **Reifegrad-Roadmap**: was kommt in 0-3 Monaten, 3-12 Monaten, 12+ Monaten?
 - **Stakeholder-Map** für Top-3-Use-Cases (Champions, Blocker — Vertiefung in 9.6).
@@ -198,7 +187,7 @@ Use-Case-Methodik ist tool-unabhängig. Wer die Canvases als interaktives Tool w
 - [ ] 20+ Use-Case-Ideen aus 3+ Sammlungs-Methoden
 - [ ] Priorisierung mit zwei Frameworks
 - [ ] Top-5-Canvases vollständig
-- [ ] **Datenreife-Bewertung pro Top-5-Use-Case** *(NEU in v2.1)*
+- [ ] Datenreife-Bewertung pro Top-5-Use-Case
 - [ ] Portfolio-Mix dokumentiert
 - [ ] Reifegrad-Roadmap
 - [ ] Capstone-Use-Case identifiziert
@@ -210,7 +199,6 @@ Use-Case-Methodik ist tool-unabhängig. Wer die Canvases als interaktives Tool w
 In Modul 3.3 hast du ROI auf einer einzelnen Use-Case-Ebene angerissen. Hier ist die Business-Case-Tiefe: TCO über mehrere Jahre, Sensitivity Analysis, Szenarien, Stakeholder-spezifische Kommunikation. Dieses Modul ist der Aufbau für realistische Capstone-Bewertung — und die wichtigste Disziplin, um KI-Projekte intern zu verkaufen.
 
 **Aufwand:** 🔧 4-6h · 🧮 3-5h · 💼 12-18h
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 **Voraussetzungen:** Modul 9.1, idealerweise 9.0
 
 ### Lernziel
@@ -240,7 +228,7 @@ Du erstellst einen vollständigen Business Case für deinen Capstone-Use-Case mi
 
 - 🟢 **Time Horizons und Discount Rate** — KI-Projekte haben Initial-Cost vorne, Wert oft erst ab Monat 6-12. NPV (Net Present Value) berechnet diskontiert. Diskontierungsrate: typisch 8-15% je nach Branche. Bei kurzen Horizonten oft vernachlässigbar.
 
-- 🟢 **Adoption-Kurve realistisch annehmen** — neue Tools werden nicht von 0 auf 100% am Tag 1 genutzt. Realistische Adoption-Kurven: 6 Monate, 12 Monate, oft S-Kurve. Der Wert pro Monat steigt also langsam, was den initial-ROI senkt. *Hinweis v2.1: Vertiefung der Adoption-Curves in Modul 9.6.* [Crossing the Chasm (Geoffrey Moore, klassisch)](https://en.wikipedia.org/wiki/Crossing_the_Chasm)
+- 🟢 **Adoption-Kurve realistisch annehmen** — neue Tools werden nicht von 0 auf 100% am Tag 1 genutzt. Realistische Adoption-Kurven: 6 Monate, 12 Monate, oft S-Kurve. Der Wert pro Monat steigt also langsam, was den initial-ROI senkt. *Vertiefung der Adoption-Curves in Modul 9.6.* [Crossing the Chasm (Geoffrey Moore, klassisch)](https://en.wikipedia.org/wiki/Crossing_the_Chasm)
 
 - 🟢 **Confidence Levels für ROI-Aussagen** — drei Szenarien: **Pessimistisch** (Worst Case), **Realistisch** (Base Case), **Optimistisch** (Best Case). Statt "ROI ist 250%" → "ROI liegt zwischen 80% (pessimistisch) und 400% (optimistisch), Base Case 250%". Ehrlicher und debattierbarer.
 
@@ -282,16 +270,15 @@ Wähle deinen Capstone-Use-Case aus 9.1 und erstelle einen **vollständigen Busi
 
 ---
 
-## Modul 9.3: KI-Skalierung & Operating Model *(verstärkt in v2.1)*
+## Modul 9.3: KI-Skalierung & Operating Model
 
-Eine erfolgreiche Pilot-Implementierung ist nicht das Ziel — Skalierung über die Organisation ist es. Dieses Modul lehrt das Operating Model für KI: AI Factory vs. Center of Excellence, Governance-Strukturen, Talent-Strategie. **Verstärkt in v2.1:** KPI-Frameworks für KI-Skalierung, NIST AI RMF und ISO 42001 als praktische Anleitung statt nur Erwähnung. Wer KI nur in einem Team einsetzt, verschenkt 80% des Werts.
+Eine erfolgreiche Pilot-Implementierung ist nicht das Ziel — Skalierung über die Organisation ist es. Dieses Modul lehrt das Operating Model für KI: AI Factory vs. Center of Excellence, Governance-Strukturen, Talent-Strategie, KPI-Frameworks für KI-Skalierung, NIST AI RMF und ISO 42001 als praktische Anleitung. Wer KI nur in einem Team einsetzt, verschenkt 80% des Werts.
 
-**Aufwand:** 🔧 4-6h · 🧮 3-5h · 💼 14-20h *(in v2.1 substanziell erhöht durch KPI-Frameworks und Governance-Praxis)*
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
+**Aufwand:** 🔧 4-6h · 🧮 3-5h · 💼 14-20h
 **Voraussetzungen:** Module 9.1, 9.2, idealerweise 9.0
 
 ### Lernziel
-Du verstehst die wichtigsten Operating-Models für KI-Skalierung, kennst die typischen Governance-Strukturen, kannst **KI-spezifische KPIs definieren und tracken**, und entwirfst einen Skalierungs-Plan für deinen Capstone-Use-Case mit konkreter Governance-Implementierung.
+Du verstehst die wichtigsten Operating-Models für KI-Skalierung, kennst die typischen Governance-Strukturen, kannst KI-spezifische KPIs definieren und tracken, und entwirfst einen Skalierungs-Plan für deinen Capstone-Use-Case mit konkreter Governance-Implementierung.
 
 ### Theorie
 
@@ -305,9 +292,9 @@ Du verstehst die wichtigsten Operating-Models für KI-Skalierung, kennst die typ
 
 - 🟢 **AI Governance — was muss reguliert sein?** — sieben Bereiche: (1) **Use-Case-Approval-Prozess**. (2) **Datenschutz und DSGVO**. (3) **Modell-Risiko-Bewertung** (kritisch / hoch / niedrig). (4) **Ethik-Prüfung** für sensitive Use-Cases. (5) **Vendor-Management** (welche externen LLMs darf wer nutzen?). (6) **Monitoring und Audit**. (7) **AI Literacy** (siehe Modul 9.5). [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) · [ISO 42001 (AI Management Systems)](https://www.iso.org/standard/81230.html)
 
-#### KI-spezifische KPI-Frameworks *(NEU in v2.1)*
+#### KI-spezifische KPI-Frameworks
 
-In v2.0 endete Operating-Model-Diskussion bei "wir brauchen Governance". Das war zu vage. Hier die konkrete Anleitung: **was misst eine Organisation, um KI-Skalierung zu steuern?**
+**Was misst eine Organisation, um KI-Skalierung zu steuern?**
 
 - 🟢 **Drei KPI-Ebenen** — strukturierte Hierarchie:
  1. **Strategic KPIs** (für CEO/Vorstand): KI-Wertbeitrag absolut (€), Anzahl produktiver KI-Use-Cases, Time-to-Value pro Use-Case, AI Maturity Score (siehe weiter unten), Wettbewerbs-Position.
@@ -316,13 +303,13 @@ In v2.0 endete Operating-Model-Diskussion bei "wir brauchen Governance". Das war
 
 - 🟢 **AI-Maturity-Score als Zusammenfassungs-KPI** — die fünf Stufen aus Modul 9.0 (Datenstrategie) plus Operating-Model-Reife (siehe weiter unten in diesem Modul). Eine Organisation kann auf jeder Stufe sein. Self-Assessment alle 6 Monate, dokumentiert in Strategy-Review.
 
-- 🟢 **Eval-Querschnitt-Anker** *(NEU in v2.1)* — System-KPIs auf Use-Case-Ebene basieren auf dem Eval-Querschnitt (`13_querschnitt_eval.md`). Wer in 9.3 KPIs definiert, sollte den Querschnitt-Eval als Methodik-Foundation nutzen — nicht eigene Metriken erfinden.
+- 🟢 **Eval-Querschnitt-Anker** — System-KPIs auf Use-Case-Ebene basieren auf dem Eval-Querschnitt (`13_querschnitt_eval.md`). Wer in 9.3 KPIs definiert, sollte den Querschnitt-Eval als Methodik-Foundation nutzen — nicht eigene Metriken erfinden.
 
 - 🟢 **Anti-Patterns bei KPI-Definition** — (1) **Vanity Metrics**: "wie viele Mitarbeiter haben KI-Tools genutzt?" sagt nichts über Wert. (2) **Single-Number-Tyranny**: ein einziger ROI-Wert ohne Konfidenzintervall. (3) **Output statt Outcome**: "1000 KI-generierte E-Mails" statt "Open-Rate +5%". (4) **Tracking-ohne-Action**: KPIs werden gemessen, aber niemand reagiert auf Veränderungen.
 
-#### Governance-Praxis: NIST AI RMF und ISO 42001 *(NEU in v2.1)*
+#### Governance-Praxis: NIST AI RMF und ISO 42001
 
-In v2.0 wurden NIST AI RMF und ISO 42001 nur erwähnt. Hier die operative Anleitung — was bedeutet es konkret, sie umzusetzen?
+Was bedeutet es konkret, NIST AI RMF und ISO 42001 umzusetzen?
 
 - 🟢 **NIST AI RMF — die vier Funktionen praktisch** —
  - **Govern**: AI Council etablieren, Use-Case-Approval-Prozess dokumentieren, Verantwortlichkeiten klären (RACI-Matrix).
@@ -330,7 +317,7 @@ In v2.0 wurden NIST AI RMF und ISO 42001 nur erwähnt. Hier die operative Anleit
  - **Measure**: KPIs aus dem Block oben, Monitoring-Frequenz pro KPI, Schwellenwerte für Eskalation.
  - **Manage**: Incident-Response-Plan, regelmäßige Risiko-Re-Bewertung (alle 6-12 Monate), Continuous-Improvement-Process.
 
- [NIST AI RMF Playbook](https://www.nist.gov/itl/ai-risk-management-framework) (Pflicht-Lektüre für 💼 in v2.1)
+ [NIST AI RMF Playbook](https://www.nist.gov/itl/ai-risk-management-framework) (Pflicht-Lektüre für 💼)
 
 - 🟢 **ISO 42001 als Audit-Vorbereitung** — Internationaler Standard für AI Management Systems. Zertifizierung möglich (analog zu ISO 9001/27001), zunehmend nachgefragt. Praxis: 12-18 Monate Vorlauf für Zertifizierung. Kern-Elemente: Policy, Roles, Risk Assessment, Operational Controls, Performance Evaluation, Continual Improvement. Auch für nicht-zertifizierende Organisationen als Strukturierungs-Hilfe nützlich. [ISO 42001 Overview](https://www.iso.org/standard/81230.html)
 
@@ -340,7 +327,7 @@ In v2.0 wurden NIST AI RMF und ISO 42001 nur erwähnt. Hier die operative Anleit
 
 - 🟢 **AI Platform vs. Tool Sprawl** — Anti-Pattern 2024-2026: jedes Team baut eigene KI-Tools, jeder nutzt einen anderen LLM-Provider, niemand teilt. Lösung: AI Platform als interne Service-Schicht. Komponenten: gemeinsamer LLM-Gateway (LiteLLM, OpenRouter), gemeinsames RAG-Backend, gemeinsames Eval-Framework, gemeinsames Monitoring. [Anyscale — Building AI Platforms](https://www.anyscale.com)
 
-- 🟢 **Operating-Model-Reife — fünf Stufen** *(NEU in v2.1, ergänzend zu Datenreife aus 9.0)*:
+- 🟢 **Operating-Model-Reife — fünf Stufen** (ergänzend zu Datenreife aus 9.0):
  - **Initial**: Einzelne KI-Pilots, keine Plattform, kein Governance.
  - **Repeatable**: Pilots erfolgreich, erste Standards (Modell-Wahl, Eval), aber keine zentrale Plattform.
  - **Defined**: AI Platform existiert, Governance-Council aktiv, KPIs etabliert.
@@ -357,8 +344,8 @@ Für deine Organisation aus 9.1/9.2:
 
 - **Aktuelle Reife bewerten** auf BEIDEN Achsen: Datenreife (aus 9.0) und Operating-Model-Reife.
 - **Operating Model entscheiden**: zentral / dezentral / hybrid? Begründung.
-- **Governance-Struktur entwerfen** *(verstärkt in v2.1)*: AI Council / Ethics Board, Use-Case-Approval-Prozess, Risiko-Klassifikation, RACI-Matrix für Verantwortlichkeiten. NIST AI RMF als Strukturierungs-Hilfe.
-- **KPI-System entwickeln** *(NEU in v2.1)*: Strategic / Operational / System KPIs auf den drei Ebenen. Mindestens 5 KPIs pro Ebene, mit Datenquelle, Frequenz, Schwellenwerten für Eskalation.
+- **Governance-Struktur entwerfen**: AI Council / Ethics Board, Use-Case-Approval-Prozess, Risiko-Klassifikation, RACI-Matrix für Verantwortlichkeiten. NIST AI RMF als Strukturierungs-Hilfe.
+- **KPI-System entwickeln**: Strategic / Operational / System KPIs auf den drei Ebenen. Mindestens 5 KPIs pro Ebene, mit Datenquelle, Frequenz, Schwellenwerten für Eskalation.
 - **Talent-Plan**: welche Rollen brauchst du in 6 / 12 / 24 Monaten?
 - **AI-Platform-Skizze**: was muss als zentrale Service-Schicht existieren? Was bleibt dezentral?
 - **ISO 42001-Bereitschafts-Bewertung**: Selbst-Einschätzung der 7 Kern-Elemente. Was fehlt für Zertifizierung in 12-18 Monaten?
@@ -376,8 +363,8 @@ Strategie-Modelle sind tool-unabhängig. KPI-Tracking: [Apache Superset](https:/
 - [ ] AI-Maturity-Bewertung (Daten + Operating Model)
 - [ ] Operating Model gewählt mit Begründung
 - [ ] Governance-Struktur mit RACI-Matrix entworfen
-- [ ] **KPI-System auf 3 Ebenen mit mindestens 15 KPIs** *(NEU in v2.1)*
-- [ ] **NIST AI RMF Map auf eigene Org angewendet** *(NEU in v2.1)*
+- [ ] KPI-System auf 3 Ebenen mit mindestens 15 KPIs
+- [ ] NIST AI RMF Map auf eigene Org angewendet
 - [ ] Talent-Roadmap (6/12/24 Monate)
 - [ ] AI-Platform-Skizze
 - [ ] Skalierungs-Roadmap
@@ -389,7 +376,6 @@ Strategie-Modelle sind tool-unabhängig. KPI-Tracking: [Apache Superset](https:/
 Sollst du das KI-System selbst bauen oder Off-the-Shelf-Tools kaufen? Die Antwort ist nicht "immer Build" — und nicht "immer Buy". Dieses Modul lehrt strukturierte Build-vs-Buy-Entscheidungen mit Total-Cost-of-Ownership, Strategic Fit und Vendor-Lock-in-Bewertung. Plus: wann KI tatsächlich Wettbewerbsvorteil schafft und wann sie Commodity wird.
 
 **Aufwand:** 🔧 4-6h · 🧮 3-4h · 💼 10-15h
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 **Voraussetzungen:** Module 9.0, 9.2, 9.3
 
 ### Lernziel
@@ -473,8 +459,7 @@ Build-vs-Buy ist tool-unabhängig. Für OSS als Alternative zu kommerziellen Too
 
 In Modul 2.4 hast du DSGVO-Basics und einen AI-Literacy-Hinweis bekommen. Hier ist die **Tiefe**: EU AI Act Risikoklassen, Conformity Assessment, NIST AI RMF, ISO 42001, AI Literacy als formale Schulungsverantwortung. Das ist 2026 nicht mehr optional — es ist Pflicht für jede Organisation, die in der EU KI einsetzt. **Wer das ignoriert, riskiert Strafen bis 35 Millionen Euro oder 7% des globalen Umsatzes.**
 
-**Aufwand:** 🔧 5-8h · 🧮 4-6h · 💼 14-20h *(in v2.1 leicht erhöht durch Praxis-Tiefe)*
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 *(volatile Compliance-Auslegung)*
+**Aufwand:** 🔧 5-8h · 🧮 4-6h · 💼 14-20h
 **Voraussetzungen:** Modul 2.4, ideal alle vorherigen Stufen, Modul 9.3
 
 ### Lernziel
@@ -557,15 +542,14 @@ Für deinen Capstone-Use-Case:
 
 ---
 
-## Modul 9.6: Change Management *(NEU in v2.1)*
+## Modul 9.6: Change Management
 
 **Aufwand:** 🔧 3-5h · 🧮 2-4h · 💼 12-18h
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 **Voraussetzungen:** Module 9.1-9.5
 
-### Warum dieses Modul existiert (NEU in v2.1)
+### Warum dieses Modul existiert
 
-Change Management war in v2.0 als kurzer Sub-Bullet in Modul 9.3 versteckt. Das war systematisch falsch: **mehr KI-Initiativen scheitern an Change Management als an Technik**. Adoption-Curves sind realer Wertvernichter, Stakeholder-Resistance kann ROI um Jahre verzögern, Betriebsrat-Praxis in Deutschland ist nicht optional. Modul 9.6 macht Change Management zur eigenständigen Disziplin am Ende der Strategie-Stufe — direkt vor dem Capstone-Pilot, wo es sofort gebraucht wird.
+**Mehr KI-Initiativen scheitern an Change Management als an Technik.** Adoption-Curves sind realer Wertvernichter, Stakeholder-Resistance kann ROI um Jahre verzögern, Betriebsrat-Praxis in Deutschland ist nicht optional. Modul 9.6 macht Change Management zur eigenständigen Disziplin am Ende der Strategie-Stufe — direkt vor dem Capstone-Pilot, wo es sofort gebraucht wird.
 
 ### Lernziel
 
@@ -649,12 +633,11 @@ Change Management ist tool-unabhängig. Tools die helfen können: [Notion](https
 
 ---
 
-## Modul 9.7: Failure-Case-Library DE/EU 2024-2026 *(NEU in v2.2)*
+## Modul 9.7: Failure-Case-Library DE/EU 2024-2026
 
 Methodik ohne empirische Anker bleibt akademisch. Modul 9.7 ergänzt Stufe 9 um eine kuratierte Sammlung dokumentierter KI-Pilot-/Produkt-Failures aus DE/EU 2024-2026 — McDonald's, Klarna, DPD, Air Canada, Bundesagentur für Arbeit, DSGVO-Verfahren gegen OpenAI. Die Cases werden mit Failure-Mode-Klassifikation versehen und auf den eigenen Capstone-C-Use-Case angewendet: "Wo könnte mein Pilot ähnlich scheitern?"
 
 **Aufwand:** 🔧 3-5h *(empfohlen)* · 🧮 3-5h *(empfohlen)* · 💼 8-12h *(Pflicht)*
-**Last verified:** Mai 2026 · **Re-check by:** alle 6 Monate als Live-pflegbare Sammlung *(in v2.3 als Community-driven Repo geplant)*
 **Voraussetzungen:** Module 9.0-9.6 (gesamte Stufe-9-Vorgängermodule)
 **Status:** Pflicht 💼, empfohlen 🔧/🧮
 
@@ -671,7 +654,7 @@ Diese Liste ist Startpunkt, nicht Abschluss. Für die Vollvariante (💼 Pflicht
 
 - 🔄 **Klarna AI-Customer-Service Rückbau (2024-2025)** — initiale Erfolgsmeldung "AI ersetzt 700 Agenten", später Rückbau und Re-Hiring. Failure-Mode: Quality-Drift unter Real-User-Load + Stakeholder-Kommunikations-Falle (überzogene initiale Claims). Lehre: Pilot-Ergebnisse ≠ Production-Realität, ehrliche Stakeholder-Kommunikation ist Risk-Management. *Verfallsdatum: alle 6 Monate.*
 
-- 🔄 **DPD-Chatbot beleidigt Kunden (Januar 2024)** — Chatbot schimpft auf eigenes Unternehmen, schreibt Gedicht über DPD-Schlechtigkeit. Failure-Mode: keine Output-Filterung, keine Persona-Stabilität, kein Red-Team-Pass. Lehre: ohne Querschnitt-16-Methodik (NEU in v2.2) ist Customer-Facing-LLM hochriskant. *Verfallsdatum: alle 6 Monate.*
+- 🔄 **DPD-Chatbot beleidigt Kunden (Januar 2024)** — Chatbot schimpft auf eigenes Unternehmen, schreibt Gedicht über DPD-Schlechtigkeit. Failure-Mode: keine Output-Filterung, keine Persona-Stabilität, kein Red-Team-Pass. Lehre: ohne Querschnitt-16-Methodik ist Customer-Facing-LLM hochriskant. *Verfallsdatum: alle 6 Monate.*
 
 - 🔄 **Air Canada Chatbot-Lawsuit (2024)** — Chatbot gibt falsches Trauerfall-Tarif-Versprechen, Gericht entscheidet: Airline haftet für Chatbot-Aussagen. Failure-Mode: Liability-Frage ungelöst, Brand-Voice ohne Faktencheck, keine Hallucination-Mitigations. Lehre: LLM-Outputs sind rechtsverbindliche Unternehmens-Aussagen. *Verfallsdatum: alle 6 Monate.*
 
@@ -720,7 +703,7 @@ Pro Case ein 3-Teil-Schema dokumentieren:
 3. Im Portfolio: `stufe-9_strategie/9-7-failure-reflexion.md`.
 
 ### 🎁 Mehrwert-Mini-Projekte
-- **Eigene Sammlung pflegen** — Live-Liste im Portfolio mit neuen Cases, die du in deiner täglichen Arbeit beobachtest. Brücke zu v2.3-Plan (Community-driven Failure-Library).
+- **Eigene Sammlung pflegen** — Live-Liste im Portfolio mit neuen Cases, die du in deiner täglichen Arbeit beobachtest. Brücke zu Community-driven Failure-Library.
 - **Branchen-spezifische Sub-Sammlung** — wenn du in einer regulierten Branche bist (Finanz, Gesundheit, Logistik, Public Sector), pflege eine branchen-spezifische Sub-Liste.
 
 ### 🌱 Open-Source-Pfad
@@ -742,7 +725,7 @@ Die Cases selbst sind öffentlich dokumentiert (Presse, Behörden-Statements, Se
 
 ---
 
-## S9-Self-Assessment *(NEU in v2.1, primär für 💼)*
+## S9-Self-Assessment
 
 **Aufwand:** 12-18h *(primär 💼 — für andere Tracks optional)*
 **Wann:** Am Ende der Stufe 9, vor Beginn Stufe 10
@@ -750,7 +733,7 @@ Die Cases selbst sind öffentlich dokumentiert (Presse, Behörden-Statements, Se
 
 ### Warum dieses Self-Assessment
 
-In v2.0 trug der Capstone-C (Strategist) allein die Last der Stufen-9-Outcome-Validierung. Das war zu spät: 💼-Lernende absolvierten Module-Outcomes (Checkboxen), waren aber nicht wirklich Strategy-kompetent. S9-Self-Assessment fängt das ab — bevor du in den Capstone-Pilot gehst (Stufe 10).
+S9-Self-Assessment stellt sicher, dass 💼-Lernende wirklich Strategy-kompetent sind, bevor sie in den Capstone-Pilot gehen (Stufe 10). Module-Outcomes allein (Checkboxen) reichen nicht.
 
 Für 🔧/🧮 ist S9 optional — sie haben in dieser Stufe weniger Tiefe und entsprechend weniger Validierungs-Bedarf.
 
@@ -814,38 +797,29 @@ Schreibe einen 8-12-seitigen Stakeholder-Brief an einen fiktiven (oder echten) C
 | [Vanderbilt — Generative AI Leadership & Strategy](https://www.coursera.org) | Vanderbilt (Coursera Audit-Modus) | ~10h | Vertiefung 9.1-9.3 |
 | [Stanford d.school — Bootcamp Bootleg](https://dschool.stanford.edu/resources/the-bootcamp-bootleg) | Stanford (kostenlos) | ~5h | Vorlauf für Use-Case-Discovery |
 | [EU AI Act Service Desk Resources](https://ai-act-service-desk.ec.europa.eu) | EU Commission | nach Bedarf | Pflicht für 9.5 |
-| [NIST AI RMF Playbook](https://www.nist.gov/itl/ai-risk-management-framework) | NIST | ~10h | Pflicht für 9.3 + 9.5 *(verstärkt in v2.1)* |
+| [NIST AI RMF Playbook](https://www.nist.gov/itl/ai-risk-management-framework) | NIST | ~10h | Pflicht für 9.3 + 9.5 |
 | [Strategyzer — Free Resources](https://www.strategyzer.com/library) | Strategyzer | nach Bedarf | Vertiefung Business-Modelle |
 | [Causal Inference: The Mixtape](https://mixtape.scunning.com) | Scott Cunningham | als Buch | Optional für 9.2 |
-| [Prosci — Free Change Management Resources](https://www.prosci.com/resources) | Prosci | nach Bedarf | Vertiefung 9.6 *(NEU in v2.1)* |
-| [Hans-Böckler-Stiftung — KI-Betriebsvereinbarungen](https://www.boeckler.de) | Hans-Böckler-Stiftung | nach Bedarf | Pflicht für 9.6 deutsche Org *(NEU in v2.1)* |
+| [Prosci — Free Change Management Resources](https://www.prosci.com/resources) | Prosci | nach Bedarf | Vertiefung 9.6 |
+| [Hans-Böckler-Stiftung — KI-Betriebsvereinbarungen](https://www.boeckler.de) | Hans-Böckler-Stiftung | nach Bedarf | Pflicht für 9.6 deutsche Org |
 
-**Coursera-Audit-Modus-Hinweis (NEU in v2.1):** Coursera-Kurse sind im Audit-Modus kostenlos zugänglich (Materialien ja, Zertifikat nein). Details siehe `99_anhang.md`.
+**Coursera-Audit-Modus-Hinweis:** Coursera-Kurse sind im Audit-Modus kostenlos zugänglich (Materialien ja, Zertifikat nein). Details siehe `99_anhang.md`.
 
 ---
 
 ## Stufen-Outcome
 
 Nach Stufe 9 hast du:
-- ✅ **Datenreife-Bewertung mit Architektur- und Lock-in-Analyse** *(NEU in v2.1, Modul 9.0)*
+- ✅ Datenreife-Bewertung mit Architektur- und Lock-in-Analyse
 - ✅ Use-Case-Portfolio mit 20+ Ideen, priorisiert, mit Datenreife pro Use-Case
 - ✅ Vollständigen Business Case mit ROI für Capstone
-- ✅ Operating Model und Skalierungs-Roadmap **mit KPI-System auf 3 Ebenen** *(verstärkt in v2.1)*
+- ✅ Operating Model und Skalierungs-Roadmap mit KPI-System auf 3 Ebenen
 - ✅ Build-vs-Buy-Entscheidung mit TCO und Vendor-Analyse
 - ✅ EU-AI-Act-Compliance-Plan
-- ✅ **Change-Management-Plan mit Stakeholder-Mapping, Adoption-Curve, Betriebsrat-Plan** *(NEU in v2.1, Modul 9.6)*
-- ✅ **Failure-Case-Library mit mindestens 8 DE/EU-Cases, Risiko-Mapping auf eigenen Use-Case** *(NEU in v2.2, Modul 9.7)*
-- 💼: Capstone-Strategist mit allen strategischen Bausteinen *(Capstone-Update siehe `19_capstone_c_strategist.md`)*
-- 💼: ✅ **S9-Self-Assessment bestanden** — Stakeholder-Brief mit allen 10 Pflicht-Inhalten integriert *(NEU in v2.1, aktualisiert v2.2.1)*
+- ✅ Change-Management-Plan mit Stakeholder-Mapping, Adoption-Curve, Betriebsrat-Plan
+- ✅ Failure-Case-Library mit mindestens 8 DE/EU-Cases, Risiko-Mapping auf eigenen Use-Case
+- 💼: Capstone-Strategist mit allen strategischen Bausteinen
+- 💼: ✅ S9-Self-Assessment bestanden — Stakeholder-Brief mit allen 10 Pflicht-Inhalten integriert
 
 **Du bist bereit für Stufe 10: Spezialisierung & Production — wo Capstones zur Production-Reife kommen.**
 
----
-
-## Aktualisierungslog
-
-- **2026-05-05:** Version v2.2.1 — **Bugfix Stufen-Header**: Aufwand korrigiert von `🔧 28-45h · 🧮 21-35h · 💼 88-142h` auf `🔧 31-48h · 🧮 24-39h · 💼 112-165h` (Summe der Module stimmte nicht mit Header überein). **S9-Self-Assessment Pflicht-Inhalte**: Failure-Case-Integration (aus 9.7) als Pflicht-Inhalt #9 ergänzt, alte #9/#10 auf #10/#11 renummeriert, Zähler von 9 auf 10 Pflicht-Inhalte aktualisiert. Stufen-Outcome entsprechend angepasst.
-- **2026-05-04:** Version v2.2.0 — **Modul 9.7 Failure-Case-Library DE/EU 2024-2026 (NEU als komplettes Modul)**: 8 kuratierte Cases (McDonald's, Klarna, DPD, Air Canada, Google Bard, iTutor, OpenAI/Garante, Bundesagentur für Arbeit), Failure-Mode-Klassifikation in 5 Kategorien (Daten / Stakeholder-Politik / Compliance / Technik / Change-Management), 3-Teil-Lehre-Extraktions-Schema, Capstone-C-Risiko-Mitigations-Matrix als 💼-Pflicht; Aufwand 3-5h 🔧/🧮 (empfohlen), 8-12h 💼 (Pflicht); Brücke-Notiz zu Querschnitt 16 (Safety/Red-Teaming) für technische Failure-Modes. **Capstone-Renumbering** alle Querverweise von `17_capstone_c_strategist.md` auf `19_capstone_c_strategist.md` aktualisiert (Aktualisierungslog-Historie unverändert). Stufen-Header und Stufen-Outcome um 9.7 erweitert.
-- **2026-05-04:** Version v2.1.0 — **Modul 9.0 Datenstrategie als NEUES Modul vor 9.1** (Datenreife-Assessment, Architektur-Patterns, Data Governance, Lock-in-Risiken — war in v2.0 nur Sub-Bullet); **💼-Aufwand auf 80-130h erhöht** (war 50-80h, zu schmal für Strategist-Track-Differenzierung); **Modul 9.3 substanziell verstärkt** (KI-spezifisches KPI-Framework auf 3 Ebenen, NIST AI RMF und ISO 42001 als praktische Anleitung, Operating-Model-Reife-Modell, RACI-Matrix); **Modul 9.6 Change Management als NEUES Modul** (Stakeholder-Mapping vertieft, Adoption-Curves, Kotter/ADKAR, KI-spezifische Aspekte, Betriebsrat-Praxis Deutschland, Schulungs-Konzept, Failure-Kultur — war in v2.0 als Sub-Bullet versteckt); **S9-Self-Assessment am Ende der Stufe** als Pflicht-Anker für 💼: 8-12-seitiger Stakeholder-Brief, der alle 9 Strategie-Disziplinen integriert; **Capstone-Strategist-Update-Block** verschoben nach `17_capstone_c_strategist.md`; Verfallsdatum-Stempel pro 🔄-Bullet eingeführt; Coursera-Audit-Modus-Hinweis ergänzt; Eval-Querschnitt-Anker in 9.3 KPI-System ergänzt.
-- **2026-05-02:** Initiale Version v2.0.0
-- **Re-check geplant:** **Aug 2026 (3-Monats-Audit)** für Module 9.0 (Daten-Plattform-Landschaft volatil), 9.5 (EU AI Act Auslegungs-Praxis, Digital Omnibus Status), 9.7 (Failure-Cases laufende Pflege). Nov 2026 für Module 9.1, 9.2, 9.3, 9.4, 9.6 — primär: Operating-Model-Patterns, AI-Maturity-Models, Change-Management-Tools.

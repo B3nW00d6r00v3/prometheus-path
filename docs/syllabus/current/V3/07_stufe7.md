@@ -1,43 +1,34 @@
 # Stufe 7: Deep Learning Foundations
 
-**Aufwand gesamt:** 🔧 70-116h · 🧮 245-413h · 💼 13-25h *(in v2.1 leicht erhöht durch S7-Self-Assessment; in v2.2 stark erweitert: 7.4 Audio + Video-Awareness, NEU: Module 7.5 Reasoning-Modelle als Architektur-Familie + 7.6 Distributed Training systematisch)*
-**Voraussetzungen:**
-- **🧮: NEUE Pflicht-Voraussetzungen in v2.1** — siehe Voraussetzungs-Block unten
-- 🔧/💼: Stufen 1-6
-- Math-Querschnitt mindestens konzeptionell
-- **Stanford CS336** als parallele Vertiefungs-Lektüre für 🧮 empfohlen *(NEU in v2.2)*
+**Aufwand:** 🔧 70-116h · 🧮 245-413h · 💼 13-25h  
+**Voraussetzungen:** 🔧/💼: Stufen 1-6 · 🧮: Module 8.1+8.2+8.5 + Math-Diagnose + Stufen 1-6
 
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 (volatile A-Tiefe-Module 7.1, 7.2, 7.4, 7.5, 7.6) / Nov 2026 (stabile Inhalte)
+| Querschnitte | Capstone-Beitrag | Tools |
+|---|---|---|
+| Math (Pflicht-Gate 🧮) | **Capstone B Start** (nanoGPT) | PyTorch, nanoGPT, Hugging Face Transformers, fast.ai |
 
 Diese Stufe ist das mathematische und konzeptionelle Fundament moderner KI. Wer 🧮 ist, lebt hier — Karpathys Zero-to-Hero und fast.ai sind die Welt für mehrere Monate. Wer 🔧 ist, holt sich gezielt das, was für bewusste Modell-Auswahl und Fine-Tuning nötig ist. Wer 💼 ist, lernt die Größenordnungen und Konzepte, um Stakeholder-Gespräche führen zu können.
 
-**Hier startet das Capstone-Foundations-Projekt (🧮): nanoGPT-Vertiefung mit eigenem Korpus.** *Capstone-spezifische Anforderungen siehe `18_capstone_b_foundations.md`.*
-
-**Wichtige Strukturänderungen in v2.1:**
-- **Math-Diagnose-Test als Pflicht-Gate für 🧮** — siehe `12_querschnitt_math.md`. Just-in-Time-Math funktioniert für 🔧, nicht zuverlässig für 🧮.
-- **Module 8.1, 8.2, 8.5 als harte Voraussetzung für Stufe 7 für 🧮** — Klassisches-ML-Foundations vor Deep Learning. Begründung im Voraussetzungs-Block unten.
-- **S7-Self-Assessment am Ende der Stufe** — Mid-Stage-Outcome-Validierung speziell für 🧮 als Pflicht-Anker vor Stufe 8 (klassisches ML, falls noch nicht gemacht) bzw. Stufe 9.
-- **Capstone-Foundations-Update-Block verschoben** nach `18_capstone_b_foundations.md` (vormals `16_…` in v2.1) — die Stufen-Datei wird fokussierter.
-
-**Wichtige Strukturänderungen in v2.2:**
-- **Modul 7.4 Multimodale KI erweitert** um Audio/Voice-AI-Tiefen-Block (STT-Stack, TTS-Stack, Realtime-API-Patterns, Voice-Agent-Patterns) und Video-Generation-Awareness-Block (Veo 3, Sora, Runway Gen-4, Pika, Kling). Neue Praxis-Option E (Voice-Agent-Mini).
-- **Modul 7.5 Reasoning-Modelle als Architektur-Familie (NEU)** — Test-Time-Compute als eigene Skalierungs-Achse, Trainings-Patterns (GRPO, PRM/ORM), Inferenz-Patterns. Pflicht 🧮, optional 🔧, Awareness 💼.
-- **Modul 7.6 Distributed Training systematisch (NEU)** — DDP, FSDP, ZeRO 1/2/3, Megatron-Style. Pflicht 🧮, optional 🔧.
-- **Stanford CS336** als parallele Vertiefungs-Lektüre für 🧮 empfohlen.
+Hier startet das Capstone-Foundations-Projekt (🧮): nanoGPT-Vertiefung mit eigenem Korpus. *Capstone-spezifische Anforderungen siehe `18_capstone_b_foundations.md`.*
 
 **Ergebnis nach Stufe 7:**
 - Du verstehst Backpropagation mathematisch (🧮 vollständig, 🔧 konzeptionell, 💼 prinzipiell).
 - Du kennst die moderne Transformer-Architektur (RoPE, GQA, KV-Cache, MLA).
-- Du hast Computer Vision und Multimodalität verstanden.
-- **Du kennst Audio/Voice-AI-Stack und Video-Generation-Awareness** *(NEU in v2.2, Modul 7.4 erweitert)*.
-- **Du verstehst Reasoning-Modelle als eigene Architektur-Familie** *(NEU in v2.2, Modul 7.5)* — 🧮 mit eigenem GRPO-Mini-Run, 🔧 mit Reasoning-vs-Standard-Vergleich auf Capstone, 💼 mit 1-2-Pager.
-- **Du kennst Distributed Training-Patterns** *(NEU in v2.2, Modul 7.6)* — 🧮 mit Multi-GPU-Run, 🔧 als Awareness.
-- 🧮: nanoGPT von Grund auf trainiert auf eigenem Korpus. **S7-Self-Assessment bestanden** *(NEU in v2.1)*.
-- 🔧: Du kannst Modelle bewusst wählen für Fine-Tuning in 10.2.
+- Du hast Computer Vision verstanden: CNNs, ViT, Vision Foundation Models.
+- Du hast eine multimodale Anwendung gebaut.
+- Audio/Voice-AI-Stack erklärbar + Voice-Agent-Pattern für eigenen Use-Case bewertet.
+- Video-Generation-Awareness — Top-5-Modelle Mai 2026 erklärbar, Cost-Bandbreite, Use-Case-Limits verstanden.
+- Reasoning-Modelle als Architektur-Familie verstanden: 🧮 mit eigenem GRPO-Mini-Run + Eval-Vergleich, 🔧 mit Reasoning-vs-Standard-Vergleich auf Capstone, 💼 mit 1-2-Pager an Team.
+- Distributed Training-Patterns: 🧮 mit Multi-GPU-FSDP-Run auf 7B-Modell + Throughput-Vergleich, 🔧 mit Strategie-Wahl-Awareness-Brief.
+- 🧮: nanoGPT auf eigenem Korpus trainiert (Capstone-Foundations Start).
+- 🧮: Voraussetzungs-Block bestanden (8.1+8.2+8.5 + Math-Diagnose).
+- 🧮: S7-Self-Assessment bestanden — Backprop auf Papier + eigene nanoGPT-Variante.
+- 🔧: Modell-Configs lesen, Architektur-Entscheidungen treffen.
+- 💼: Konzeptionelles Verständnis für Stakeholder-Gespräche, plus 1-2-Pager zu Reasoning-Modellen.
 
 ---
 
-## Voraussetzungs-Block für 🧮 *(NEU in v2.1)*
+## Voraussetzungs-Block für 🧮
 
 In v2.0 war Stufe 7 (Deep Learning) **vor** Stufe 8 (Klassisches ML) sequenziert — als didaktischer Rückblick. Das war der größte strukturelle Schwachpunkt der v2.0: Karpathy selbst empfiehlt klassisches ML als Foundation, jedes etablierte Curriculum (DeepLearning.AI Specialization, Stanford CS229 → CS231n) sequenziert klassisches ML *vor* Deep Learning. Backpropagation ist Spezialfall von Gradient Descent — den lernt man im Logistic-Regression-Kontext zuerst sauber.
 
@@ -68,9 +59,8 @@ Stop. Mach erst Module 8.1, 8.2, 8.5 plus Math-Diagnose-Test. Es ist zwei bis vi
 Die Grundlage allen Deep Learnings. Karpathys "Zero to Hero"-Serie ist 2026 der Goldstandard für dieses Material — sechs Stunden Video, Wochen Hands-on. Es gibt keine bessere Quelle. Dieses Modul lehrt **wann du was davon brauchst** und wie du es track-spezifisch durcharbeitest. Wer 🧮 ist, geht durch alle sieben Karpathy-Lectures. Wer 🔧 ist, geht durch die ersten drei (bis zur Tiny GPT-Implementation). Wer 💼 ist, schaut den ersten Lecture und liest die Zusammenfassungen.
 
 **Aufwand:** 🔧 30-50h · 🧮 80-120h · 💼 5-10h
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 *(volatile A-Tiefe-Module: Foundations sind stabil, aber GPU-Tooling und Best Practices ändern sich)*
 **Voraussetzungen:**
-- **🧮: Voraussetzungs-Block oben (8.1+8.2+8.5 + Math-Diagnose) Pflicht** *(NEU in v2.1)*
+- **🧮: Voraussetzungs-Block oben (8.1+8.2+8.5 + Math-Diagnose) Pflicht**
 - 🔧/💼: Math-Querschnitt (Lineare Algebra + Calculus mindestens konzeptionell)
 
 ### Lernziel
@@ -86,7 +76,7 @@ Die Grundlage allen Deep Learnings. Karpathys "Zero to Hero"-Serie ist 2026 der 
 
 - 🟢 **Forward Pass: Inferenz** — Input geht durch alle Layer, am Ende Output. Mit Linear Algebra: jede Layer ist eine Matrix-Multiplikation plus Activation Function. [d2l.ai — Multilayer Perceptrons](https://d2l.ai/chapter_multilayer-perceptrons/index.html)
 
-- 🟢 **Backpropagation: das Herzstück** — wie ein Network lernt. Loss-Function misst Fehler. Gradient (= partielle Ableitung des Loss nach jedem Weight) zeigt Richtung. Weights werden in Gegenrichtung des Gradients angepasst. Das ist Calculus + Lineare Algebra in Aktion. *Hinweis v2.1 für 🧮: aus Modul 8.2 kennst du Gradient Descent für Logistic Regression — Backprop ist die mehrschichtige Variante. Das ist der Vorteil der korrigierten Sequenz.* [Karpathy — The spelled-out intro to neural networks (Video)](https://www.youtube.com/watch?v=VMj-3S1tku0) (Lecture 1, Pflicht für 🧮)
+- 🟢 **Backpropagation: das Herzstück** — wie ein Network lernt. Loss-Function misst Fehler. Gradient (= partielle Ableitung des Loss nach jedem Weight) zeigt Richtung. Weights werden in Gegenrichtung des Gradients angepasst. Das ist Calculus + Lineare Algebra in Aktion. *Für 🧮: aus Modul 8.2 kennst du Gradient Descent für Logistic Regression — Backprop ist die mehrschichtige Variante. Das ist der Vorteil der korrigierten Sequenz.* [Karpathy — The spelled-out intro to neural networks (Video)](https://www.youtube.com/watch?v=VMj-3S1tku0) (Lecture 1, Pflicht für 🧮)
 
 - 🟢 **Karpathys "Zero to Hero"-Serie** — sieben Lectures, in denen Karpathy von skalaren Gradienten (micrograd, ~100 Zeilen) zu nanoGPT (~300 Zeilen) baut. Jede Zeile ist erklärt. Wer das durchgemacht hat, versteht moderne LLMs auf Code-Ebene. [Neural Networks: Zero to Hero (Playlist)](https://karpathy.ai/zero-to-hero.html) · [GitHub: micrograd](https://github.com/karpathy/micrograd) · [GitHub: makemore](https://github.com/karpathy/makemore) · [GitHub: nanoGPT](https://github.com/karpathy/nanoGPT)
 
@@ -142,7 +132,7 @@ PyTorch und alle Karpathy-Materialien sind OSS. Bonus: Implementierungen mit JAX
 
 ### Outcome-Check (track-spezifisch)
 **🧮:**
-- [ ] **Voraussetzungs-Block bestanden** (8.1+8.2+8.5 + Math-Diagnose) *(NEU in v2.1)*
+- [ ] **Voraussetzungs-Block bestanden** (8.1+8.2+8.5 + Math-Diagnose)
 - [ ] micrograd selbst implementiert
 - [ ] makemore in mindestens drei Stufen (Bigram, MLP, WaveNet)
 - [ ] Eigenes Char-Model auf eigenem Korpus trainiert
@@ -164,7 +154,6 @@ PyTorch und alle Karpathy-Materialien sind OSS. Bonus: Implementierungen mit JAX
 Das Original "Attention is All You Need" Paper von 2017 ist Foundation-Lektüre — aber wer 2026 LLMs versteht, muss die **modernen Komponenten** kennen, die 2024-2026 Standard wurden: **RoPE** (Rotary Position Embeddings), **GQA** (Grouped Query Attention), **KV-Cache**, **MLA** (Multi-head Latent Attention bei DeepSeek). Dieses Modul ergänzt das Original-Transformer-Wissen um diese modernen Bausteine. Karpathys "Let's build GPT from scratch"-Lecture ist die didaktische Brücke.
 
 **Aufwand:** 🔧 15-25h · 🧮 60-90h · 💼 0-3h (skip für 💼)
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 *(volatile A-Tiefe-Module: Architektur-Innovationen quartalsweise)*
 **Voraussetzungen:** Modul 7.1
 
 ### Lernziel
@@ -255,7 +244,6 @@ Das Original "Attention is All You Need" Paper von 2017 ist Foundation-Lektüre 
 Computer Vision ist 2026 nicht mehr nur CNN-basiert — Vision Transformers (ViT) und **Vision Foundation Models** (SAM, DINOv2) haben das Feld neu definiert. Plus: moderne LLMs (Claude, GPT-5) haben native Vision-Fähigkeiten, die für viele praktische Aufgaben klassische CV ersetzen. Dieses Modul lehrt sowohl die Foundations (CNN, ViT) als auch wann du klassische CV brauchst und wann ein Vision-LLM-Aufruf reicht.
 
 **Aufwand:** 🔧 8-15h · 🧮 30-50h · 💼 3-5h
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 **Voraussetzungen:** Modul 7.1
 
 ### Lernziel
@@ -337,8 +325,7 @@ Computer Vision ist 2026 nicht mehr nur CNN-basiert — Vision Transformers (ViT
 
 Modern LLMs sind 2026 oft multimodal — sie verarbeiten Text, Bild, Audio, Video, PDFs nativ. Dieses Modul lehrt dich, wann multimodale Modelle die richtige Wahl sind, wie du sie effektiv prompst, und wo ihre Grenzen liegen. Plus: lokale OSS-Multimodal-Modelle wie LLaVA, Qwen-VL, die für viele Use-Cases reichen.
 
-**Aufwand:** 🔧 14-22h *(in v2.2 erweitert um Audio/Voice-AI-Praxis-Block + Video-Awareness: +6-10h)* · 🧮 20-30h *(in v2.2: +12-18h)* · 💼 6-10h *(in v2.2: +3-5h)*
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 *(volatile B-Tiefe-Module: Multimodal-Modelle ändern sich quartalsweise; Audio-Stack und Video-Generierung quartalsweise)*
+**Aufwand:** 🔧 14-22h · 🧮 20-30h · 💼 6-10h
 **Voraussetzungen:** Modul 5.1, optional 7.1-7.3
 
 ### Lernziel
@@ -364,7 +351,7 @@ Du hast eine multimodale Anwendung gebaut (z.B. PDF-Analyse mit Tabellen und Bil
 
 ---
 
-#### Block: Audio/Voice-AI in der Tiefe *(NEU in v2.2)*
+#### Block: Audio/Voice-AI in der Tiefe
 
 Audio ist 2026 nicht mehr Nische. Voice-Agents, Realtime-Conversation, Meeting-Transkription, Podcast-Analyse sind etablierte Use-Cases. Pflicht-Wissen für 🔧 mit Audio-Use-Case-Bezug, Awareness-Wissen für alle.
 
@@ -403,7 +390,7 @@ Audio ist 2026 nicht mehr Nische. Voice-Agents, Realtime-Conversation, Meeting-T
 
 ---
 
-#### Block: Video-Generation Awareness *(NEU in v2.2)*
+#### Block: Video-Generation Awareness
 
 Video-Generation ist 2026 ein eigenständiges Feld, das sich rasant entwickelt. Curriculum-Stand: **Awareness-Wissen, kein Praxis-Capstone** — die Modell-Landschaft ist zu volatil und die Praxis-Anwendungen 2026 für die meisten Lernenden noch zu nischen-spezifisch.
 
@@ -446,7 +433,7 @@ Wähle EINEN Use-Case und baue ihn:
 
 **Option D: Document AI für Eigenbedarf** — alle eigenen Belege/Verträge automatisch parsen, in Markdown oder Datenbank überführen. DSGVO-relevant, deshalb lokales OSS-Setup empfohlen.
 
-**Option E: Voice-Agent-Mini *(NEU in v2.2)*** — einfacher Voice-Assistant mit STT (Whisper lokal) → LLM (Claude/GPT/lokal) → TTS (Piper oder ElevenLabs). Use-Case: persönlicher Voice-Wissens-Assistent auf eigenem RAG aus 5.1, Lerngesprächs-Begleiter, Sprach-Tagebuch-Assistent. Trade-off-Reflexion klassische Pipeline vs. Realtime-API dokumentieren.
+**Option E: Voice-Agent-Mini** — einfacher Voice-Assistant mit STT (Whisper lokal) → LLM (Claude/GPT/lokal) → TTS (Piper oder ElevenLabs). Use-Case: persönlicher Voice-Wissens-Assistent auf eigenem RAG aus 5.1, Lerngesprächs-Begleiter, Sprach-Tagebuch-Assistent. Trade-off-Reflexion klassische Pipeline vs. Realtime-API dokumentieren.
 
 Im Portfolio: `stufe-7_deep-learning/7-4-multimodal/` mit Code, Beispielen, Vergleich Cloud vs. lokal.
 
@@ -466,18 +453,17 @@ Komplett OSS-Stack:
 - [ ] Mindestens zwei Modelle verglichen (Cloud vs. lokal, oder zwei Cloud-Anbieter)
 - [ ] Cost-Analyse pro Aufruf
 - [ ] Reflexion: für welche Use-Cases reicht OSS, wo muss Cloud sein?
-- [ ] **Audio/Voice-AI-Stack 2026 erklärbar** *(NEU in v2.2)* — STT-Optionen (Whisper / Deepgram / AssemblyAI), TTS-Optionen (ElevenLabs / OpenAI / Piper / Bark), Realtime-API-Pattern
-- [ ] **Voice-Agent-Pattern für eigenen Use-Case bewertet** *(NEU in v2.2)* — STT→LLM→TTS-Pipeline vs. Realtime-API-End-to-End vs. Hybrid
-- [ ] **Video-Generation-Awareness** *(NEU in v2.2)* — Top-5-Modelle Mai 2026 (Veo 3, Sora, Runway, Pika, Kling) erklärbar, Cost-Bandbreite gemerkt, Use-Case-Limits verstanden
+- [ ] **Audio/Voice-AI-Stack 2026 erklärbar** — STT-Optionen (Whisper / Deepgram / AssemblyAI), TTS-Optionen (ElevenLabs / OpenAI / Piper / Bark), Realtime-API-Pattern
+- [ ] **Voice-Agent-Pattern für eigenen Use-Case bewertet** — STT→LLM→TTS-Pipeline vs. Realtime-API-End-to-End vs. Hybrid
+- [ ] **Video-Generation-Awareness** — Top-5-Modelle Mai 2026 (Veo 3, Sora, Runway, Pika, Kling) erklärbar, Cost-Bandbreite gemerkt, Use-Case-Limits verstanden
 
 ---
 
-## Modul 7.5: Reasoning-Modelle als Architektur-Familie *(NEU in v2.2)*
+## Modul 7.5: Reasoning-Modelle als Architektur-Familie
 
 In Modul 2.5.5 hast du Reasoning-Modelle als Architektur-Familie auf Awareness-Niveau kennengelernt. Modul 7.5 vertieft das mit Trainings- und Inferenz-Tiefe — für 🧮 mit eigenem GRPO-Mini-Run, für 🔧 mit Production-Engineering-Patterns, für 💼 als 1-2-Pager mit Cost-Awareness und strategischer Implikation.
 
 **Aufwand:** 🔧 4-6h · 🧮 12-18h · 💼 3-5h
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 *(volatile A-Tiefe-Module — Reasoning-Modell-Familie entwickelt sich quartalsweise)*
 **Voraussetzungen:** Module 7.1 (NN/Backprop), 7.2 (Modern Transformer); für 🧮 zusätzlich Stufe 8 (RL-Awareness in 6.3)
 **Status:** **Pflicht 🧮**, optional 🔧, Awareness 💼
 
@@ -529,7 +515,7 @@ In Modul 2.5.5 hast du Reasoning-Modelle als Architektur-Familie auf Awareness-N
 
 - 🟢 **Eval von Reasoning** — Eval-Methodik anders als bei Standard-LLMs: nicht nur Output, auch **Trajectory der Thinking-Tokens** (für 🧮 + 🔧). Verifier-basierte Eval (PRM/ORM) als Vertiefung. Brücke zu Modul 6.2 Trajectory-Eval und Querschnitt 13.
 
-- 🟢 **Stanford CS336 Post-Training-Block** als Vertiefungs-Referenz für 🧮 — deckt Reasoning-Training systematisch ab. Brücke zu Master-Sektion "Lizenz und Credits" (CS336 als Vergleichsreferenz NEU in v2.2).
+- 🟢 **Stanford CS336 Post-Training-Block** als Vertiefungs-Referenz für 🧮 — deckt Reasoning-Training systematisch ab. Brücke zu Master-Sektion "Lizenz und Credits".
 
 ### Praxis (track-spezifisch)
 
@@ -584,12 +570,11 @@ In Modul 2.5.5 hast du Reasoning-Modelle als Architektur-Familie auf Awareness-N
 
 ---
 
-## Modul 7.6: Distributed Training systematisch *(NEU in v2.2)*
+## Modul 7.6: Distributed Training systematisch
 
 Multi-GPU-Training ist 2026 nicht mehr Forschungs-Nische — Open-Source-Modelle ab 7B benötigen es. Dieses Modul lehrt 🧮 systematisch DDP, FSDP, ZeRO 1/2/3, plus Tensor- und Pipeline-Parallelism als Awareness. Für 🔧 als konzeptionelles Verständnis für Architektur-Entscheidungen ("welches Modell auf welcher Hardware?"). Für 💼 nicht relevant.
 
 **Aufwand:** 🔧 4-6h · 🧮 18-30h · 💼 0h
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 *(volatile A-Tiefe-Module — Distributed-Training-Tools entwickeln sich quartalsweise)*
 **Voraussetzungen:** Module 7.1, 7.2; idealerweise 10.2 (Fine-Tuning) als Anwendungsanker
 **Status:** **Pflicht 🧮**, optional 🔧, **nicht für 💼**
 
@@ -662,7 +647,7 @@ Multi-GPU-Training ist 2026 nicht mehr Forschungs-Nische — Open-Source-Modelle
 
 ---
 
-## S7-Self-Assessment *(NEU in v2.1, primär für 🧮)*
+## S7-Self-Assessment (primär für 🧮)
 
 **Aufwand:** 10-15h *(primär 🧮 — für andere Tracks optional)*
 **Wann:** Am Ende der Stufe 7, vor Beginn nächster Stufe (Stufe 8 falls noch nicht gemacht, oder Stufe 9)
@@ -731,7 +716,7 @@ Auf deinem Capstone-Korpus (aus 7.1/7.2):
 | [fast.ai — Practical Deep Learning](https://course.fast.ai) | fast.ai | 60-80h | Alternative zu DLAI |
 | [d2l.ai — Dive into Deep Learning](https://d2l.ai) | Aston Zhang et al. | als Buch | Referenz-Lehrbuch |
 
-**Coursera-Audit-Modus-Hinweis (NEU in v2.1):** Andrew Ng's Deep Learning Specialization ist im Audit-Modus auf Coursera kostenlos zugänglich (Materialien ja, Zertifikat nein). Details siehe `99_anhang.md`.
+**Coursera-Audit-Modus-Hinweis:** Andrew Ng's Deep Learning Specialization ist im Audit-Modus auf Coursera kostenlos zugänglich (Materialien ja, Zertifikat nein). Details siehe `99_anhang.md`.
 
 ---
 
@@ -742,24 +727,15 @@ Nach Stufe 7 hast du:
 - ✅ Moderne Transformer-Architektur verstanden (RoPE, GQA, KV-Cache, MLA)
 - ✅ Computer Vision: CNNs, ViT, Vision Foundation Models
 - ✅ Multimodale Anwendung gebaut
-- ✅ **Audio/Voice-AI-Stack erklärbar + Voice-Agent-Pattern für eigenen Use-Case bewertet** *(NEU in v2.2, Modul 7.4)*
-- ✅ **Video-Generation-Awareness** *(NEU in v2.2)* — Top-5-Modelle Mai 2026 erklärbar, Cost-Bandbreite, Use-Case-Limits verstanden
-- ✅ **Reasoning-Modelle als Architektur-Familie verstanden** *(NEU in v2.2, Modul 7.5)*: 🧮 mit eigenem GRPO-Mini-Run + Eval-Vergleich, 🔧 mit Reasoning-vs-Standard-Vergleich auf Capstone, 💼 mit 1-2-Pager an Team
-- ✅ **Distributed Training-Patterns** *(NEU in v2.2, Modul 7.6)*: 🧮 mit Multi-GPU-FSDP-Run auf 7B-Modell + Throughput-Vergleich, 🔧 mit Strategie-Wahl-Awareness-Brief
+- ✅ **Audio/Voice-AI-Stack erklärbar + Voice-Agent-Pattern für eigenen Use-Case bewertet**
+- ✅ **Video-Generation-Awareness** — Top-5-Modelle Mai 2026 erklärbar, Cost-Bandbreite, Use-Case-Limits verstanden
+- ✅ **Reasoning-Modelle als Architektur-Familie verstanden**: 🧮 mit eigenem GRPO-Mini-Run + Eval-Vergleich, 🔧 mit Reasoning-vs-Standard-Vergleich auf Capstone, 💼 mit 1-2-Pager an Team
+- ✅ **Distributed Training-Patterns**: 🧮 mit Multi-GPU-FSDP-Run auf 7B-Modell + Throughput-Vergleich, 🔧 mit Strategie-Wahl-Awareness-Brief
 - 🧮: nanoGPT auf eigenem Korpus trainiert (Capstone-Foundations Start, *Update siehe `18_capstone_b_foundations.md`*)
-- 🧮: **Voraussetzungs-Block bestanden** (8.1+8.2+8.5 + Math-Diagnose) *(NEU in v2.1)*
-- 🧮: **S7-Self-Assessment bestanden** — Backprop auf Papier + eigene nanoGPT-Variante *(NEU in v2.1)*
+- 🧮: **Voraussetzungs-Block bestanden** (8.1+8.2+8.5 + Math-Diagnose)
+- 🧮: **S7-Self-Assessment bestanden** — Backprop auf Papier + eigene nanoGPT-Variante
 - 🔧: Modell-Configs lesen, Architektur-Entscheidungen treffen
 - 💼: Konzeptionelles Verständnis für Stakeholder-Gespräche, plus 1-2-Pager zu Reasoning-Modellen
 
-**Du bist bereit für Stufe 8: Klassisches ML & Statistik.** *Hinweis v2.1: Für 🧮 hast du Module 8.1+8.2+8.5 schon vorgezogen — in Stufe 8 fokussierst du dich auf 8.3 (Regression & Boosting) und 8.4 (Recommendation Systems), die nicht-Pflicht-Vorbedingung waren.*
+**Du bist bereit für Stufe 8: Klassisches ML & Statistik.** *Für 🧮 hast du Module 8.1+8.2+8.5 schon vorgezogen — in Stufe 8 fokussierst du dich auf 8.3 (Regression & Boosting) und 8.4 (Recommendation Systems), die nicht-Pflicht-Vorbedingung waren.*
 
----
-
-## Aktualisierungslog
-
-- **2026-05-05:** Version v2.2.1 — **Bugfix Audio-Tools**: Coqui TTS (Projekt archiviert/eingestellt) durchgehend durch Piper TTS und Bark ersetzt (Audio-Basis-Bullet, TTS-Stack-Block, OSS-Pfad, Outcome-Check). Aktualisierungslog v2.2.0 historisch unverändert.
-- **2026-05-04:** Version v2.2.0 — **Modul 7.4 Audio/Voice-AI-Tiefen-Block (NEU)**: STT-Stack 2026 (Whisper / Deepgram / AssemblyAI), TTS-Stack (ElevenLabs / OpenAI / Coqui-Piper), Realtime-Voice-APIs (OpenAI Realtime, Gemini Live), Voice-Agent-Patterns (klassische Pipeline / Realtime-End-to-End / Hybrid), Audio-Anti-Patterns. **Modul 7.4 Video-Generation-Awareness-Block (NEU)**: Top-5-Modelle Mai 2026 (Veo 3, Sora, Runway Gen-4, Pika 2.0, Kling 2.0/3.0), Use-Cases und Limits, Awareness-Outcome (kein Praxis-Capstone). **Praxis-Option E Voice-Agent-Mini ergänzt**. Aufwand 7.4 +6-10h für 🔧, +12-18h für 🧮, +3-5h für 💼. **Modul 7.5 Reasoning-Modelle als Architektur-Familie (NEU als komplettes Modul)**: Test-Time-Compute mathematisch und mechanistisch, Trainings-Patterns (RLHF-Reasoning / GRPO / PRM / ORM), Inferenz-Patterns (CoT intern / Self-Consistency / Best-of-N / Tree-Search / Adaptive Thinking), Engineering-Patterns für 🔧, Failure-Modes; Aufwand 4-6h 🔧, 12-18h 🧮, 3-5h 💼; Pflicht 🧮, optional 🔧, Awareness 💼; Praxis track-spezifisch (🧮: GRPO-Mini-Run; 🔧: Standard-vs-Reasoning-Vergleich auf Capstone; 💼: 1-2-Pager). **Modul 7.6 Distributed Training systematisch (NEU als komplettes Modul)**: DDP, FSDP, ZeRO 1/2/3, Tensor-Parallelism, Pipeline-Parallelism, Wahl der Strategie nach Modell-Größe; Aufwand 4-6h 🔧 Awareness, 18-30h 🧮 mit Multi-GPU-Run auf 7B-Modell; Pflicht 🧮; Cloud-GPU-Cost <50€. **Stanford CS336** als parallele Vertiefungs-Lektüre für 🧮 in Stufen-Header und Modul 7.5/7.6 Ressourcen ergänzt. **Capstone-Renumbering** alle 5 Querverweise von `16_capstone_b_foundations.md` auf `18_capstone_b_foundations.md` aktualisiert. Stufen-Header und Stufen-Outcome stark erweitert um v2.2-Inhalte.
-- **2026-05-04:** Version v2.1.0 — **Voraussetzungs-Block für 🧮 ergänzt**: Module 8.1+8.2+8.5 als harte Pflicht-Vorbedingung für Stufe 7 + Math-Diagnose-Test (Sequenz-Korrektur gegenüber v2.0, das größte strukturelle Problem); **S7-Self-Assessment am Ende der Stufe** (Pflicht für 🧮): Backprop auf Papier + eigene nanoGPT-Variante mit Modifikation; **Capstone-Foundations-Update-Block** verschoben nach `16_capstone_b_foundations.md`; Hinweis in 7.1-Theorie-Bullet "Backpropagation" auf Sequenz-Vorteil aus 8.2 (Logistic Regression vorher); Hinweis im Stufen-Outcome auf Stufe-8-Fokus für 🧮 nach vorgezogenem 8.1/8.2/8.5; Verfallsdatum-Stempel pro 🔄-Bullet eingeführt; Coursera-Audit-Modus-Hinweis ergänzt.
-- **2026-05-02:** Initiale Version v2.0.0
-- **Re-check geplant:** **Aug 2026 (3-Monats-Audit)** für Module 7.1, 7.2, 7.4, 7.5, 7.6 — alle A-Tiefe-Volatil. Nov 2026 für stabile 7.3.

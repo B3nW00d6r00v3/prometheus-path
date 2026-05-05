@@ -1,8 +1,11 @@
 # Stufe 3: Arbeitsmethoden mit KI
 
-**Aufwand gesamt:** 🔧 20-30h · 🧮 15-25h · 💼 25-35h
+**Aufwand:** 🔧 20-30h · 🧮 15-25h · 💼 25-35h
 **Voraussetzungen:** Stufe 2 abgeschlossen
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
+
+| Querschnitte | Capstone-Beitrag | Tools |
+|---|---|---|
+| — | Domain-Wahl Capstone A | Miro/FigJam, Notion/Obsidian, ChatGPT, Claude |
 
 Bevor du in Stufe 5 produktive KI-Anwendungen baust, lernst du **wie man strukturiert mit KI arbeitet**: Use-Cases identifizieren statt blind zu bauen, Design Thinking für KI-Probleme, Sprint-Planung mit KI-Unterstützung. Der häufigste Fehler bei KI-Projekten 2026 ist nicht die Technik — es ist, dass jemand das falsche Problem löst. Diese Stufe verhindert das.
 
@@ -19,7 +22,6 @@ Bevor du in Stufe 5 produktive KI-Anwendungen baust, lernst du **wie man struktu
 Design Thinking ist die etablierte Methodik, um Nutzerprobleme zu verstehen, bevor man Lösungen baut. Mit KI verändert sich der Werkzeugkasten — KI beschleunigt User-Research, Synthese, Prototyping —, aber die Methodik bleibt gleich. Dieses Modul lehrt dich, Design-Thinking-Workflows mit KI zu augmentieren, ohne in den Fehler zu verfallen, KI selbst als Lösung zu sehen.
 
 **Aufwand:** 🔧 4-6h · 🧮 4-6h · 💼 8-12h
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 **Voraussetzungen:** Stufe 2
 
 ### Lernziel
@@ -81,7 +83,6 @@ Du wählst ein **eigenes Problem** aus deinem Umfeld (Job, Verein, Hobby) und f�
 Agile Methoden (Scrum, Kanban) sind 2026 in vielen Unternehmen Standard für Produktentwicklung. KI verändert Agile-Praxis nicht fundamental — Sprints bleiben Sprints, Stand-ups bleiben Stand-ups —, aber sie augmentiert viele Routinen: Backlog-Refinement, Story-Schreibung, Estimation, Retro-Synthese. Dieses Modul lehrt dich, KI als Sprint-Helfer zu nutzen, ohne in die Falle zu tappen, dass KI-Vorschläge die Team-Diskussion ersetzen.
 
 **Aufwand:** 🔧 4-6h · 🧮 4-6h · 💼 8-12h
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 **Voraussetzungen:** Stufe 2
 
 ### Lernziel
@@ -144,10 +145,9 @@ Plane und führe einen eigenen 2-wöchigen Sprint durch (für ein eigenes Lern-Z
 
 Der teuerste Fehler bei KI-Projekten 2026 ist nicht die Implementierung — es ist, dass Teams Wochen oder Monate in Use-Cases investieren, die kein echtes Problem lösen, kein Geld bringen, oder mit klassischer Software billiger gelöst worden wären. Dieses Modul lehrt dich, einen KI-Use-Case strukturiert zu bewerten, **bevor** du ihn baust. Das ist die Disziplin, die in Stufe 5 (Anwendungen) und Stufe 9 (Strategie) tiefer wird.
 
-**Abgrenzung 3.3 vs. 9.1 (klargestellt in v2.1):** Modul 3.3 lehrt Use-Case-Methodik auf **Einzel-Use-Case-Ebene** — du bewertest einen Use-Case mit einem Canvas und entscheidest, ob er gebaut wird. Modul 9.1 (Stufe 9, KI-Strategie) lehrt Use-Case-Identifikation auf **Portfolio-Ebene für eine Organisation** — du erstellst ein priorisiertes Use-Case-Portfolio mit strategischer Logik (Wettbewerbsvorteil, Operating-Model-Fit, Lock-in-Risiken). Hier in 3.3 lernst du die operative Disziplin, in 9.1 die strategische Brille. Beide bauen aufeinander auf.
+**Abgrenzung 3.3 vs. 9.1:** Modul 3.3 lehrt Use-Case-Methodik auf **Einzel-Use-Case-Ebene** — du bewertest einen Use-Case mit einem Canvas und entscheidest, ob er gebaut wird. Modul 9.1 (Stufe 9, KI-Strategie) lehrt Use-Case-Identifikation auf **Portfolio-Ebene für eine Organisation** — du erstellst ein priorisiertes Use-Case-Portfolio mit strategischer Logik (Wettbewerbsvorteil, Operating-Model-Fit, Lock-in-Risiken). Hier in 3.3 lernst du die operative Disziplin, in 9.1 die strategische Brille. Beide bauen aufeinander auf.
 
 **Aufwand:** 🔧 8-10h · 🧮 5-8h · 💼 10-15h
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
 **Voraussetzungen:** Module 3.1, 3.2
 
 ### Lernziel
@@ -180,16 +180,16 @@ Du kannst einen KI-Use-Case mit einem strukturierten Canvas bewerten (Problem, W
 Wähle drei verschiedene KI-Use-Case-Ideen — eine aus deinem Berufsalltag, eine aus einem Hobby/Verein, eine aus deinem Privatleben. Für jede:
 
 - **AI Use Case Canvas** vollständig ausfüllen (Template wählen oder selbst gestalten):
- - Problem-Statement
- - Zielnutzer
- - KI-Wert (warum überhaupt KI?)
- - Datenquellen
- - KI-Methode (Prompting, RAG, Agent, klassisches ML?)
- - Erfolgsmetriken (mindestens 2 messbar)
- - Risiken (mindestens 4 in den vier Kategorien)
- - ROI-Schätzung (auch wenn grob)
- - MVP-Definition (was ist die kleinste Version, die du in 2 Wochen bauen könntest?)
- - Build-vs-Buy-Bewertung (gibt es Off-the-Shelf-Lösungen? Welche?)
+  - Problem-Statement
+  - Zielnutzer
+  - KI-Wert (warum überhaupt KI?)
+  - Datenquellen
+  - KI-Methode (Prompting, RAG, Agent, klassisches ML?)
+  - Erfolgsmetriken (mindestens 2 messbar)
+  - Risiken (mindestens 4 in den vier Kategorien)
+  - ROI-Schätzung (auch wenn grob)
+  - MVP-Definition (was ist die kleinste Version, die du in 2 Wochen bauen könntest?)
+  - Build-vs-Buy-Bewertung (gibt es Off-the-Shelf-Lösungen? Welche?)
 - **Priorisierung mit Impact-Effort-Matrix**: welche der drei Ideen würdest du als erstes angehen?
 - **Reflexion**: welcher Use-Case hat den Canvas-Test bestanden, welcher gescheitert? Warum?
 - Im Portfolio: `stufe-3_arbeitsmethoden/3-3-use-case-canvases/` mit allen drei Canvases als Markdown oder PDF.
@@ -225,7 +225,7 @@ Use-Case-Methodik ist tool-unabhängig. Wer die Canvases als interaktives Tool w
 | [Strategyzer — Business Model Generation](https://www.strategyzer.com) | Strategyzer | Free Resources | Vertiefung 3.3 |
 | [DLAI — AI for Everyone](https://www.coursera.org/learn/ai-for-everyone) | Andrew Ng (Coursera Audit-Modus) | ~10h | Wenn 💼-Track unsicher |
 
-**Coursera-Audit-Modus-Hinweis (NEU in v2.1):** Coursera-Kurse sind im Audit-Modus kostenlos zugänglich (Materialien ja, Zertifikat nein). Details siehe `99_anhang.md`.
+**Coursera-Audit-Modus-Hinweis:** Coursera-Kurse sind im Audit-Modus kostenlos zugänglich (Materialien ja, Zertifikat nein). Details siehe `99_anhang.md`.
 
 ---
 
@@ -238,13 +238,4 @@ Nach Stufe 3 hast du:
 - ✅ Capstone-Idee identifiziert (für 🔧 in Stufe 5, für 🧮 in Stufe 7, für 💼 in Stufe 9)
 - ✅ Methodik etabliert, um KI-Projekte strukturiert zu bewerten
 
-**Du bist bereit für Stufe 4: Programmier-Foundation (Pflicht für 🔧 vor Stufe 5, optional für 💼/🧮)** *(Pflicht-Markierung NEU in v2.1)*.
-
----
-
-## Aktualisierungslog
-
-- **2026-05-04:** Version v2.2.0 — Aktualisierungslog-Eintrag ohne inhaltliche Änderungen. Stufe 3 (Arbeitsmethoden mit KI) ist von v2.2-Frontier-Themen nicht betroffen. Module 3.1-3.3 unverändert.
-- **2026-05-04:** Version v2.1.0 — Abgrenzung Modul 3.3 zu Modul 9.1 explizit klargestellt (operative Einzelfall-Bewertung vs. strategische Portfolio-Sicht); Verfallsdatum-Stempel pro 🔄-Bullet eingeführt; Coursera-Audit-Modus-Hinweis bei Free-Zertifikaten ergänzt; Hinweis auf Stufe 4 als Pflicht für 🔧 (NEU in v2.1) im Stufen-Outcome.
-- **2026-05-02:** Initiale Version v2.0.0
-- **Re-check geplant:** November 2026 — primär: KI-Tool-Integrationen in Jira/Linear/Notion (3.2), 2026-Reality-Check-Patterns (3.3).
+**Du bist bereit für Stufe 4: Programmier-Foundation (Pflicht für 🔧 vor Stufe 5, optional für 💼/🧮)**.

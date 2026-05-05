@@ -1,20 +1,23 @@
 # Querschnitt: AI Safety / Red-Teaming als technische Disziplin
 
-**Aufwand:** 🔧 15-25h · 🧮 12-20h · 💼 6-12h
+**Aufwand:** 🔧 15-25h · 🧮 12-20h · 💼 6-12h  
 **Wann nötig:** ab Modul 5.3 (MCP-Sicherheit) als Bewusstsein, vertieft vor Capstone-Operate-Phase, **Pflicht-Pass für 🔧 vor Operate-Phase-Goldstandard**
-**Last verified:** Mai 2026 · **Re-check by:** Aug 2026 *(volatile A-Tiefe-Querschnitt — Threat-Models und Tools entwickeln sich quartalsweise)*
+
+| Stufen-Bezüge | Capstone-Bezug | Tools |
+|---|---|---|
+| Stufe 5, 6, 9 | Capstone A (Phase 7e Pflicht) | OWASP Top 10 LLM, Promptfoo Red-Team, garak, PyRIT |
 
 > **Wichtig zur Abgrenzung:** Dieser Querschnitt ergänzt **Modul 9.5 (EU AI Act & Compliance)**, ersetzt es **nicht**. Modul 9.5 ist regulatorisch (EU AI Act, DSGVO, Sektor-Recht). Querschnitt 16 ist technisch (wie attackiere und härte ich ein LLM-System). Beide sind Pflicht für Production-tauglichen Capstone — aber sie adressieren unterschiedliche Fragen.
 
 AI Safety ist 2026 kein Forschungs-Thema mehr, sondern Production-Disziplin. Wer LLM-Anwendungen ohne systematischen Red-Team-Pass deployed, baut Risiko ein, das später teuer wird (PR-Schäden, Compliance-Bußgelder, Liability-Verfahren — siehe Modul 9.7 Failure-Case-Library für Empirie). Dieser Querschnitt lehrt dich, deine eigene Anwendung systematisch anzugreifen, die Findings zu dokumentieren, Mitigations zu implementieren und ein Sicherheits-Audit nach 2026er Standards zu verfassen.
 
-**Querschnitt-Anker im v2.2-Curriculum** (zur Orientierung):
+**Querschnitt-Anker im Curriculum** (zur Orientierung):
 - **Modul 5.3 (MCP-Sicherheit)**: erstes Bewusstsein — Auth, Rate-Limits, Tool-Description-Injection-Tests. Hier vertieft.
 - **Modul 6.0 (Context Engineering)**: Context-Pollution-Antipatterns als Vorlauf zu Prompt-Injection-Härtung.
 - **Modul 6.5 (Computer Use)**: Sandboxing-Pflicht als Spezialfall.
 - **Modul 9.5 (Compliance)**: regulatorische Brücke — wo technische Mitigation auf rechtliche Pflicht trifft.
 - **Modul 9.7 (Failure-Case-Library)**: empirische Anker — DPD-Chatbot, McDonald's Drive-Through, Air-Canada-Lawsuit als technische Fälle.
-- **Capstone-A Phase 7e (NEU in v2.2)**: Red-Team-Pass auf Capstone-State als **Pflicht für Operate-Phase-Goldstandard**.
+- **Capstone-A Phase 7e**: Red-Team-Pass auf Capstone-State als **Pflicht für Operate-Phase-Goldstandard**.
 
 **Pflicht-Lektüre 2026:** [OWASP Top 10 for Large Language Model Applications 2025](https://owasp.org/www-project-top-10-for-large-language-model-applications/) — wenn du nichts anderes liest, lies das.
 
@@ -203,7 +206,7 @@ Wenn du eine Vulnerability findest — in eigener Anwendung oder fremder Library
 
 ## Praxis: Hauptprojekt — Red-Team-Pass auf eigenen Capstone
 
-**Pflicht für 🔧 vor Capstone-Operate-Phase-Goldstandard.** Brücke zu Capstone-A Phase 7e (NEU in v2.2).
+**Pflicht für 🔧 vor Capstone-Operate-Phase-Goldstandard.** Brücke zu Capstone-A Phase 7e.
 
 ### Schritt 1 — Threat-Model-Skizze (1-2h)
 - Pro Threat-Klasse (1-7 oben): trifft das auf deinen Capstone zu? Wenn ja, mit welcher Wahrscheinlichkeit / Impact?
@@ -268,10 +271,3 @@ Im Portfolio: `16_safety/red-team-audit/` mit Threat-Model, Findings-Report, Mit
 - [ ] Anthropic RSP gelesen (mindestens Hauptpunkte)
 - [ ] *Optional:* Red-Team-as-CI in GitHub Actions eingerichtet
 
----
-
-## Aktualisierungslog
-
-- **2026-05-05:** Version v2.2.1 — **Bugfix Stufen-Header**: Aufwand korrigiert von `🔧 6-12h · 🧮 6-12h · 💼 4-8h` auf `🔧 15-25h · 🧮 12-20h · 💼 6-12h` (Summe der Inhaltsblöcke stimmte nicht mit Header überein). **Bugfix Industrie-Awareness**: "Anthropic Project Glasswing" (nicht-existierend) durch "Anthropic Responsible Scaling Policy (RSP) und vergleichbare Industrie-Initiativen" ersetzt.
-- **2026-05-04:** Version v2.2.0 — **Querschnitt 16 als komplett neuer technischer Querschnitt aufgesetzt**: Threat-Model-Familie 7 Klassen (Prompt Injection direkt+indirekt, Jailbreaking, PII-Leakage, Output-Manipulation, Tool-Misuse, Denial-of-Wallet, Model-Extraction); Red-Teaming-Methodik manuell + automatisiert (Garak, PyRIT, Promptfoo Red Team, Inspect); Defense-Patterns (Input-Sanitization, Output-Filtering, Allowlist statt Denylist, Confirmation-Steps, Rate-Limiting, Sandboxing, Audit-Trail); Anthropic RSP + OpenAI Preparedness als Industrie-Awareness; Red-Team-as-CI als Production-Pattern 2026 mit Schwellenwert-Strategie; Failure-Disclosure-Protokoll; Praxis 7-Schritte-Hauptprojekt mit Red-Team-Pass auf eigenen Capstone als Pflicht-Verbindung zu Capstone-A Phase 7e (NEU in v2.2). Querschnitt-Anker mit Modul 5.3 (MCP-Sicherheit), 6.0 (Context-Pollution), 6.5 (Sandboxing), 9.5 (Compliance), 9.7 (Failure-Cases), 10.3 (Eval-as-CI). Aufwand 6-12h 🔧/🧮, 4-8h 💼; Pflicht 🔧 vor Operate-Phase. OWASP Top 10 LLM 2025 als Pflicht-Lektüre.
-- **Re-check geplant:** **Aug 2026 (3-Monats-Audit als A-Tiefe-Querschnitt)** — neue Threat-Klassen, Tool-Updates (Garak/PyRIT/Promptfoo), Anthropic RSP-Updates, neue Bug-Bounty-Programme.

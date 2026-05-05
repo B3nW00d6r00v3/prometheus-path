@@ -1,28 +1,29 @@
 # Querschnitt: Math-Foundation
 
-**Aufwand:** 🔧 10-30h · 🧮 80-150h · 💼 5-15h
+**Aufwand:** 🔧 10-30h · 🧮 80-150h · 💼 5-15h  
 **Wann nötig:** ab Stufe 7 (Deep Learning Foundations) — vorher konzeptionelles Verständnis aus 2.5 reicht
-**Last verified:** Mai 2026 · **Re-check by:** Nov 2026
+
+| Stufen-Bezüge | Capstone-Bezug | Tools |
+|---|---|---|
+| Stufe 7 (Pflicht-Gate 🧮), Stufe 8 | Capstone B | 3Blue1Brown, Khan Academy, Mathematics for ML |
 
 Dieser Querschnitt ist **Just-in-Time** — du brauchst ihn nicht vor Stufe 7. Wer 🧮 ist, sollte ihn vor Karpathys Zero-to-Hero (Modul 7.1) angefangen haben. Wer 🔧 ist, kann ihn parallel zu Stufe 7 selektiv durcharbeiten. Wer 💼 ist, braucht oft nur konzeptionelles Verständnis von Lineare Algebra und Wahrscheinlichkeit.
 
 **Wichtig:** Dieser Querschnitt ist nicht "lerne komplette Mathematik" — es ist "lerne die Mathematik, die du für moderne KI brauchst". Drei Säulen: **Lineare Algebra**, **Calculus** (Ableitungen), **Wahrscheinlichkeit & Statistik**.
 
-**Wichtige Strukturänderung in v2.1:**
-
-Für **🧮** ist die Math-Foundation nicht mehr nur Just-in-Time-Empfehlung, sondern **harte Pflicht-Vorbedingung für Stufe 7**, validiert durch einen **Math-Diagnose-Test als Gate-Sektion** (siehe nächster Abschnitt). Begründung: in v2.0 haben Lernende die Just-in-Time-Empfehlung oft als "kann ich mir während Stufe 7 holen" interpretiert — und dann in 7.1 mit Backprop kollidiert, weil die Calculus-Basis fehlte. Wochen verloren. Diagnose-Gate vor Stufe 7 fängt das systematisch ab.
+Für **🧮** ist die Math-Foundation **harte Pflicht-Vorbedingung für Stufe 7**, validiert durch einen **Math-Diagnose-Test als Gate-Sektion** (siehe nächster Abschnitt). Lernende die die Just-in-Time-Empfehlung als "kann ich mir während Stufe 7 holen" interpretieren, kollidieren in 7.1 mit Backprop, weil die Calculus-Basis fehlt. Diagnose-Gate vor Stufe 7 fängt das systematisch ab.
 
 Für 🔧 und 💼 bleibt Just-in-Time Empfehlung (kein hartes Gate), weil ihre Stufen-7-Tiefe konzeptionell ist und deutlich weniger Math-Anker hat.
 
 ---
 
-## Math-Diagnose-Test als Gate-Sektion *(NEU in v2.1, primär für 🧮)*
+## Math-Diagnose-Test als Gate-Sektion (primär für 🧮)
 
 **Aufwand:** 2-4h für den Test selbst + Lück-Schluss (variabel, oft 10-40h für 🧮)
 **Wann:** Vor Stufe 7. Bei 🔧 optional als Self-Check.
 **Voraussetzungen:** Modul 2.5 (Math-Konzepte konzeptionell)
 
-### Warum dieses Gate existiert (NEU in v2.1)
+### Warum dieses Gate existiert
 
 Just-in-Time-Math funktioniert für 🔧, weil dort die Math-Tiefe in Stufen 7-10 begrenzt ist (Architektur-Entscheidungen treffen, Hyperparameter wählen — kein Backprop von Hand). Für 🧮 funktioniert Just-in-Time **nicht zuverlässig**: Modul 7.1 (Karpathys micrograd) verlangt Calculus-Basis vom ersten Tag, plus Lineare Algebra für die Matrix-Operationen ab Lecture 2 (makemore-Bigram). Wer ohne diese Basis startet, bricht in Lecture 1-3 ab oder kommt nur passiv mit (Code abschreiben ohne Verstehen).
 
@@ -139,14 +140,14 @@ Vektoren, Matrizen, Matrix-Multiplikation, Eigenvektoren — die Sprache aller n
 
 - 🟢 [Gilbert Strang — Linear Algebra Lectures (MIT OCW)](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) — der Klassiker, akademisch tief. Optional für 🧮 als Vertiefung.
 
-- 🟢 **[Stanford CS336 — Language Modeling from Scratch](https://stanford-cs336.github.io/)** *(NEU in v2.2 als Vergleichs-/Vertiefungs-Referenz für 🧮)* — Spring 2024 Lecture Notes, sehr aktuell, deckt Tokenization → Architecture → Pretraining → Scaling Laws → Mid-Training → Post-Training (RLHF, DPO) → Inference systematisch ab. Anwendungs-orientierte Mathematik in modernen LLMs (Tensor-Operationen für Multi-Head-Attention, Scaling Laws, Mixed-Precision-Numerik). Empfohlen für 🧮 als parallele Lektüre zu Stufe 7 — die Stanford-Sequenz und unsere Stufe-7-Sequenz verstärken sich gegenseitig.
+- 🟢 **[Stanford CS336 — Language Modeling from Scratch](https://stanford-cs336.github.io/)** — Spring 2024 Lecture Notes, sehr aktuell, deckt Tokenization → Architecture → Pretraining → Scaling Laws → Mid-Training → Post-Training (RLHF, DPO) → Inference systematisch ab. Anwendungs-orientierte Mathematik in modernen LLMs (Tensor-Operationen für Multi-Head-Attention, Scaling Laws, Mixed-Precision-Numerik). Empfohlen für 🧮 als parallele Lektüre zu Stufe 7 — die Stanford-Sequenz und unsere Stufe-7-Sequenz verstärken sich gegenseitig.
 
 **Anwendungs-Anker im Curriculum:**
 - Modul 7.1 (Neural Networks): Forward-Pass = Matrix-Multiplikation
 - Modul 7.2 (Transformer): Q,K,V-Matrizen, Attention = Matrix-Operationen
 - Modul 8.1 (PCA): Eigenvektoren, SVD
 - Modul 5.1 (RAG-Embeddings): Vektoren im hochdimensionalen Raum
-- *Modul 8.2 (Logistic Regression from scratch — NEU in v2.1)*: Matrix-Operationen für Forward Pass
+- *Modul 8.2 (Logistic Regression from scratch)*: Matrix-Operationen für Forward Pass
 
 **Track-spezifische Empfehlung:**
 - 💼: 3Blue1Brown reicht (4-5h), konzeptionelles Verständnis ist Ziel.
@@ -181,7 +182,7 @@ Backpropagation ist Anwendung der Kettenregel auf neuronale Netze. Wer Backprop 
 - Modul 7.2: Loss-Funktionen optimieren
 - Modul 8.3: Gradient Boosting (Gradient Descent im Funktionsraum)
 - Modul 6.3: RL und Policy Gradients (für 🧮)
-- *Modul 8.2 (Logistic Regression from scratch — NEU in v2.1)*: Gradient-Berechnung von Hand als Foundation für Backprop
+- *Modul 8.2 (Logistic Regression from scratch)*: Gradient-Berechnung von Hand als Foundation für Backprop
 
 **Track-spezifische Empfehlung:**
 - 💼: 3Blue1Brown reicht (3-4h).
@@ -262,14 +263,14 @@ Lerne **nicht alles auf einmal**. Just-in-Time-Pattern (für 🔧 und 💼):
 | [Imperial College — Mathematics for ML](https://www.coursera.org/specializations/mathematics-machine-learning) | Imperial / Coursera (Audit-Modus) | 60-100h | Vertiefung 🧮 |
 | [Mathematics for Machine Learning Book](https://mml-book.github.io) | Deisenroth/Faisal/Ong | als Buch | Standard-Referenz 🧮 |
 
-**Coursera-Audit-Modus-Hinweis (NEU in v2.1):** Imperial College und Bayesian-Kurs auf Coursera sind im Audit-Modus kostenlos zugänglich. Details siehe `99_anhang.md`.
+**Coursera-Audit-Modus-Hinweis:** Imperial College und Bayesian-Kurs auf Coursera sind im Audit-Modus kostenlos zugänglich. Details siehe `99_anhang.md`.
 
 ---
 
 ## Outcome-Check
 
 **🧮:**
-- [ ] **Math-Diagnose-Test bestanden (12+ von 15)** *(NEU in v2.1, Pflicht-Gate vor Stufe 7)*
+- [ ] **Math-Diagnose-Test bestanden (12+ von 15)**
 - [ ] Backprop mit Stift und Papier auf einer kleinen MLP rechnen können
 - [ ] Eigenvektoren und SVD konzeptionell + rechnerisch verstanden
 - [ ] Bayes-Theorem in eigenen Worten erklären können
@@ -280,18 +281,10 @@ Lerne **nicht alles auf einmal**. Just-in-Time-Pattern (für 🔧 und 💼):
 - [ ] Gradient Descent in eigenen Worten erklären
 - [ ] Konfidenzintervalle für eigene Eval-Reports korrekt nutzen
 - [ ] PCA als Vorverarbeitungs-Schritt verstanden
-- [ ] Optional: Math-Diagnose-Test als Self-Check (9+ von 15) *(NEU in v2.1)*
+- [ ] Optional: Math-Diagnose-Test als Self-Check (9+ von 15)
 
 **💼:**
 - [ ] Konzeptionelles Verständnis: was ist ein Vektor, eine Matrix, ein Gradient
 - [ ] Was ist eine Wahrscheinlichkeitsverteilung, was ist Erwartungswert
 - [ ] Hypothesentests grundsätzlich verstehen (für 8.5)
 
----
-
-## Aktualisierungslog
-
-- **2026-05-04:** Version v2.2.0 — **Stanford CS336 (Language Modeling from Scratch, Spring 2024) als Vertiefungs-Referenz für 🧮 ergänzt** in Linear-Algebra-Sektion und Diagnose-Gate-Kontext. CS336 deckt Tokenization → Architecture → Pretraining → Scaling Laws → Mid-Training → Post-Training systematisch ab und verstärkt unsere Stufe-7-Sequenz. Empfohlen als parallele Lektüre für 🧮.
-- **2026-05-04:** Version v2.1.0 — **Math-Diagnose-Test als Gate-Sektion vor Stufe 7 NEU** (15 Aufgaben in drei Kategorien Lineare Algebra / Calculus / Wahrscheinlichkeit, Selbstkorrektur mit Lösungs-Skizzen, Gate-Logik mit klaren Schwellen, track-spezifische Differenzierung — Pflicht für 🧮, optional für 🔧, irrelevant für 💼); **Anwendungs-Strategie für 🧮 verschärft** (Just-in-Time reicht nicht, kompletter Math-Querschnitt vor Stufe 7 plus bestandenes Diagnose-Gate); **Anwendungs-Anker** ergänzt um Modul 8.2 Logistic Regression from scratch und Querschnitt-Eval; Coursera-Audit-Modus-Hinweis ergänzt; Outcome-Check für 🧮 ergänzt um Diagnose-Test-Pflicht.
-- **2026-05-02:** Initiale Version v2.0.0
-- **Re-check geplant:** November 2026 — primär: neue Online-Kurse, neue interaktive Visualisierungs-Tools, CS336-Folge-Edition prüfen.
