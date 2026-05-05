@@ -262,7 +262,90 @@ nav:
           - "Code-Stil und Linting": syllabus/current/V3/stufe04/modul-4.1/theorie/code-stil-linting.md
         - "Quellen": syllabus/current/V3/stufe04/quellen.md
         - "Free-Zertifikate": syllabus/current/V3/stufe04/zertifikate.md
-      - "Stufe 5 — Anwendungen bauen": syllabus/current/V3/05_stufe5.md
+      - "Stufe 5 — Anwendungen bauen":
+        - syllabus/current/V3/stufe05/index.md
+        - "Modul 5.0 — Eval-Mini-Block":
+          - syllabus/current/V3/stufe05/modul-5.0/index.md
+          - "Hamel Husains 'Your AI Product Needs Evals'": syllabus/current/V3/stufe05/modul-5.0/theorie/hamel-husain-evals.md
+          - "Was ist ein Test-Case?": syllabus/current/V3/stufe05/modul-5.0/theorie/test-case-anatomie.md
+          - "Reference-Based vs. Reference-Free Eval": syllabus/current/V3/stufe05/modul-5.0/theorie/reference-based-vs-free.md
+          - "LLM-as-Judge in der Minimal-Form": syllabus/current/V3/stufe05/modul-5.0/theorie/llm-as-judge-minimal.md
+          - "Erste Eval-Tool-Wahl: Promptfoo oder DeepEval": syllabus/current/V3/stufe05/modul-5.0/theorie/eval-tool-wahl.md
+          - "Test-Case-Größenordnung": syllabus/current/V3/stufe05/modul-5.0/theorie/test-case-groesse.md
+          - "Was du in 5.0 NICHT lernst": syllabus/current/V3/stufe05/modul-5.0/theorie/abgrenzung-5-0.md
+        - "Modul 5.1 — RAG modern":
+          - syllabus/current/V3/stufe05/modul-5.1/index.md
+          - "RAG-Grundprinzip": syllabus/current/V3/stufe05/modul-5.1/theorie/rag-grundprinzip.md
+          - "Embedding-Modelle Mai 2026": syllabus/current/V3/stufe05/modul-5.1/theorie/embedding-modelle.md
+          - "Vector-DB-Auswahl 2026": syllabus/current/V3/stufe05/modul-5.1/theorie/vector-db-auswahl.md
+          - "Chunking-Strategien": syllabus/current/V3/stufe05/modul-5.1/theorie/chunking-strategien.md
+          - "Contextual Retrieval (Anthropic 2024)": syllabus/current/V3/stufe05/modul-5.1/theorie/contextual-retrieval.md
+          - "Hybrid Search: Vektor + Keyword (BM25)": syllabus/current/V3/stufe05/modul-5.1/theorie/hybrid-search.md
+          - "Re-Ranking nach Retrieval": syllabus/current/V3/stufe05/modul-5.1/theorie/reranking.md
+          - "Query-Transformation als Optimierung": syllabus/current/V3/stufe05/modul-5.1/theorie/query-transformation.md
+          - "Multimodales RAG": syllabus/current/V3/stufe05/modul-5.1/theorie/multimodales-rag.md
+          - "RAG-Frontier 2026: Jenseits von Embed-and-Retrieve": syllabus/current/V3/stufe05/modul-5.1/theorie/rag-frontier.md
+          - "RAG-Eval mit RAGAS": syllabus/current/V3/stufe05/modul-5.1/theorie/ragas-eval.md
+          - "DSGVO und RAG": syllabus/current/V3/stufe05/modul-5.1/theorie/dsgvo-rag.md
+        - "Modul 5.2 — LLM-Frameworks im Vergleich":
+          - syllabus/current/V3/stufe05/modul-5.2/index.md
+          - "Frameworks vs. SDKs vs. Pattern": syllabus/current/V3/stufe05/modul-5.2/theorie/frameworks-vs-sdks.md
+          - "LangChain — Stärken und Schwächen 2026": syllabus/current/V3/stufe05/modul-5.2/theorie/langchain.md
+          - "LlamaIndex — RAG-fokussiert": syllabus/current/V3/stufe05/modul-5.2/theorie/llamaindex.md
+          - "PydanticAI — Type-Safe Agents": syllabus/current/V3/stufe05/modul-5.2/theorie/pydantic-ai.md
+          - "DSPy — Programmatisches Prompt-Optimieren": syllabus/current/V3/stufe05/modul-5.2/theorie/dspy.md
+          - "Haystack — Enterprise-Fokus": syllabus/current/V3/stufe05/modul-5.2/theorie/haystack.md
+          - "Provider-Abstraktion: LiteLLM und OpenRouter": syllabus/current/V3/stufe05/modul-5.2/theorie/litelm-openrouter.md
+          - "Vendor-SDKs als Alternative 2026": syllabus/current/V3/stufe05/modul-5.2/theorie/vendor-sdks.md
+          - "Structured Outputs / Constrained Generation": syllabus/current/V3/stufe05/modul-5.2/theorie/structured-outputs.md
+          - "Claude Agent SDK als Vergleichs-Framework": syllabus/current/V3/stufe05/modul-5.2/theorie/claude-agent-sdk.md
+          - "Pattern unter allen Frameworks": syllabus/current/V3/stufe05/modul-5.2/theorie/gemeinsame-pattern.md
+        - "Modul 5.3 — MCP in der Praxis":
+          - syllabus/current/V3/stufe05/modul-5.3/index.md
+          - "MCP-Architektur in der Tiefe": syllabus/current/V3/stufe05/modul-5.3/theorie/mcp-architektur.md
+          - "MCP-Primitives: Tools, Resources, Prompts": syllabus/current/V3/stufe05/modul-5.3/theorie/mcp-primitives.md
+          - "Public MCP Registry und Ecosystem 2026": syllabus/current/V3/stufe05/modul-5.3/theorie/mcp-registry.md
+          - "MCP-Clients 2026": syllabus/current/V3/stufe05/modul-5.3/theorie/mcp-clients.md
+          - "Eigenen MCP-Server bauen — die SDKs": syllabus/current/V3/stufe05/modul-5.3/theorie/mcp-server-sdks.md
+          - "MCP vs. Function Calling vs. Plugin-Frameworks": syllabus/current/V3/stufe05/modul-5.3/theorie/mcp-vs-alternativen.md
+          - "MCP-Sicherheits-Block": syllabus/current/V3/stufe05/modul-5.3/theorie/mcp-sicherheit.md
+          - "A2A/ACP-Awareness": syllabus/current/V3/stufe05/modul-5.3/theorie/a2a-acp-awareness.md
+        - "Modul 5.4 — GenAI-Anwendungs-Eval":
+          - syllabus/current/V3/stufe05/modul-5.4/index.md
+          - "Warum Eval? Was passiert ohne?": syllabus/current/V3/stufe05/modul-5.4/theorie/warum-eval.md
+          - "Offline vs. Online Eval": syllabus/current/V3/stufe05/modul-5.4/theorie/offline-vs-online-eval.md
+          - "Eval-Dataset aufbauen": syllabus/current/V3/stufe05/modul-5.4/theorie/eval-dataset.md
+          - "Reference-based vs. Reference-free Eval": syllabus/current/V3/stufe05/modul-5.4/theorie/reference-based-vs-free.md
+          - "LLM-as-Judge in der Tiefe": syllabus/current/V3/stufe05/modul-5.4/theorie/llm-as-judge-tiefe.md
+          - "RAG-spezifische Metriken (RAGAS-Tiefe)": syllabus/current/V3/stufe05/modul-5.4/theorie/ragas-metriken.md
+          - "Eval-Tools 2026": syllabus/current/V3/stufe05/modul-5.4/theorie/eval-tools.md
+          - "Eval-as-CI": syllabus/current/V3/stufe05/modul-5.4/theorie/eval-als-ci.md
+          - "Häufige Eval-Fallen": syllabus/current/V3/stufe05/modul-5.4/theorie/eval-fallen.md
+        - "Modul 5.5 — Frontend für LLM-Apps":
+          - syllabus/current/V3/stufe05/modul-5.5/index.md
+          - "Frontend-Optionen 2026 — Übersicht": syllabus/current/V3/stufe05/modul-5.5/theorie/frontend-optionen.md
+          - "Streamlit für schnelle Prototypen": syllabus/current/V3/stufe05/modul-5.5/theorie/streamlit.md
+          - "Vercel AI SDK 5 — Production-Standard": syllabus/current/V3/stufe05/modul-5.5/theorie/vercel-ai-sdk.md
+          - "Chainlit — Conversational UIs": syllabus/current/V3/stufe05/modul-5.5/theorie/chainlit.md
+          - "Open WebUI als lokale ChatGPT-Alternative": syllabus/current/V3/stufe05/modul-5.5/theorie/open-webui.md
+          - "Streaming als UX-Pflicht": syllabus/current/V3/stufe05/modul-5.5/theorie/streaming.md
+          - "Tool-Use im Frontend visualisieren": syllabus/current/V3/stufe05/modul-5.5/theorie/tool-use-visualisierung.md
+          - "Generative UI als 2026-Pattern": syllabus/current/V3/stufe05/modul-5.5/theorie/generative-ui.md
+          - "Authentication für LLM-Apps": syllabus/current/V3/stufe05/modul-5.5/theorie/auth.md
+          - "Rate Limiting per User": syllabus/current/V3/stufe05/modul-5.5/theorie/rate-limiting.md
+        - "Modul 5.6 — Skills-Pattern":
+          - syllabus/current/V3/stufe05/modul-5.6/index.md
+          - "Skills als neue Disziplin 2025-2026": syllabus/current/V3/stufe05/modul-5.6/theorie/skills-als-disziplin.md
+          - "Abgrenzung Skill vs. andere Patterns": syllabus/current/V3/stufe05/modul-5.6/theorie/skill-abgrenzung.md
+          - "SKILL.md-Format als Konvention": syllabus/current/V3/stufe05/modul-5.6/theorie/skill-md-format.md
+          - "Auto-Discovery via Description-Matching": syllabus/current/V3/stufe05/modul-5.6/theorie/auto-discovery.md
+          - "Wann Skill, wann Prompt, wann MCP, wann RAG?": syllabus/current/V3/stufe05/modul-5.6/theorie/wann-welches-pattern.md
+          - "Skills-Engineering-Antipatterns": syllabus/current/V3/stufe05/modul-5.6/theorie/antipatterns.md
+          - "Hamel evals-skills als Referenz-Implementation": syllabus/current/V3/stufe05/modul-5.6/theorie/hamel-evals-skills.md
+          - "Anthropic Claude Skills 2025/2026": syllabus/current/V3/stufe05/modul-5.6/theorie/claude-skills.md
+          - "Skills-Eval-Pattern": syllabus/current/V3/stufe05/modul-5.6/theorie/skills-eval.md
+        - "Quellen": syllabus/current/V3/stufe05/quellen.md
+        - "Free-Zertifikate": syllabus/current/V3/stufe05/zertifikate.md
       - "Stufe 6 — Agenten": syllabus/current/V3/06_stufe6.md
       - "Stufe 7 — Deep Learning Foundations": syllabus/current/V3/07_stufe7.md
       - "Stufe 8 — Klassisches ML & Statistik": syllabus/current/V3/08_stufe8.md

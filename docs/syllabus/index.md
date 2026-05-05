@@ -38,7 +38,7 @@ Jede Stufe markiert, welche Inhalte für welchen Track Pflicht, empfohlen oder o
 
     Python, Git, CLI, APIs — die technische Basis.
 
--   **[Stufe 5 — Anwendungen bauen](current/V3/05_stufe5.md)**
+-   **[Stufe 5 — Anwendungen bauen](current/V3/stufe05/index.md)**
 
     RAG, API-Integration, Eval, Function Calling, Prompt-Pipelines.
 
