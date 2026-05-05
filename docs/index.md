@@ -89,6 +89,41 @@ Fork the repo, track your journey, share what you learn. Build your knowledge gr
 
 </div>
 
+## Was du am Ende baust
+
+<div class="prometheus-grid" markdown>
+
+<div class="prometheus-card" markdown>
+<div class="card-icon">:wrench:</div>
+
+### Engineer
+
+Production-ready KI-System mit API, Monitoring, Eval-Pipeline und echten Nutzern.
+
+</div>
+
+<div class="prometheus-card" markdown>
+<div class="card-icon">:abacus:</div>
+
+### Foundations
+
+Eigenes Forschungsprojekt: Transformer trainieren, Paper-Draft schreiben.
+
+</div>
+
+<div class="prometheus-card" markdown>
+<div class="card-icon">:briefcase:</div>
+
+### Strategist
+
+KI-Strategie für eine reale Organisation mit Business Case und Pilot-Plan.
+
+</div>
+
+</div>
+
 ## Ready?
 
 Check out the [full syllabus](syllabus/index.md) to see what's ahead, or jump straight into the first module.
+
+[Start Here — Welcher Track passt zu dir?](start.md){ .cta-button }

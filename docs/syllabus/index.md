@@ -103,4 +103,30 @@ Der [**Anhang**](current/V3/99_anhang.md) enthält das zentrale Aktualisierungsl
 
 ---
 
+## Quick-Reference
+
+| Ressource | Beschreibung |
+|-----------|-------------|
+| [**Glossar**](../glossary.md) | Alle Fachbegriffe kompakt erklärt |
+| [**Tool-Übersicht**](../tools.md) | 150+ KI-Tools nach Kategorie |
+| [**Ressourcen**](../resources.md) | Alle Kurse, Bücher und Links |
+| [**Start Here**](../start.md) | Track-Wahl-Guide für Einsteiger |
+
+---
+
+## Fortschritt verwalten
+
+Dein Fortschritt wird lokal in deinem Browser gespeichert. Kein Account nötig.
+
+<div class="prometheus-progress-actions" markdown>
+
+<button onclick="exportProgress()" class="md-button">Fortschritt exportieren</button>
+<button onclick="document.getElementById('importFile').click()" class="md-button md-button--primary">Fortschritt importieren</button>
+<button onclick="resetProgress()" class="md-button" style="opacity:0.7">Zurücksetzen</button>
+<input type="file" id="importFile" accept=".json" style="display:none" onchange="importProgress(this.files[0])">
+
+</div>
+
+---
+
 *Version 2.2.1 — Mai 2026*

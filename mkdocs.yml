@@ -66,6 +66,8 @@ exclude_docs: |
   syllabus/current/V3/AI-Master-Curriculum_*.md
   syllabus/current/V3/KI-Meisterlehrplan_*.md
 
+copyright: "KI-Meisterlehrplan v2.2.1 · Letzte Aktualisierung Mai 2026 · CC BY-SA 4.0"
+
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -73,6 +75,7 @@ extra:
 
 nav:
   - Home: index.md
+  - "Start Here": start.md
   - Syllabus:
     - syllabus/index.md
     - "Lehrplan-Übersicht": syllabus/current/V3/000_master.md
@@ -99,6 +102,7 @@ nav:
       - "Capstone C — Strategist": syllabus/current/V3/19_capstone_c_strategist.md
     - "Anhang": syllabus/current/V3/99_anhang.md
   - Tools: tools.md
+  - Prompts: prompts.md
   - Glossar: glossary.md
   - Resources: resources.md
   - About: about.md

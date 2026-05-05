@@ -41,3 +41,28 @@ Claude serves as a personal AI tutor for this learning path:
 - Keep it simple: no backend, no databases, no auth
 - Every module should be self-contained and linkable
 - Progress is personal (localStorage) — no tracking of users
+
+---
+
+## Brain-Sync (PFLICHT nach jeder Session)
+
+Aktualisiere `STATUS.md` im Projekt-Root mit:
+
+```markdown
+# Project Prometheus — Status
+*Updated: YYYY-MM-DD*
+
+## Status
+🟢 Aktiv / 🟡 In Progress / 🔴 Blocked / ⚫ Pausiert
+
+## Letzter Fortschritt
+[Was wurde in dieser Session gemacht]
+
+## Nächster Schritt
+1. [Konkrete nächste Aktion]
+
+## Blocker
+[Was blockiert, oder "keine"]
+```
+
+Brain liest diese Datei read-only aus. Du musst nichts weiter tun.

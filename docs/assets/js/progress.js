@@ -92,6 +92,43 @@ function updateOverallProgress() {
   if (label) label.textContent = done + ' / ' + total + ' lessons completed (' + pct + '%)';
 }
 
+// --- Progress Export/Import ---
+
+function exportProgress() {
+  const data = localStorage.getItem(STORAGE_KEY);
+  const blob = new Blob([data || '{}'], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'prometheus-progress.json';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+function importProgress(file) {
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    try {
+      const parsed = JSON.parse(e.target.result);
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(parsed));
+      location.reload();
+    } catch (err) {
+      alert('Ungültige Datei. Bitte eine gültige JSON-Datei wählen.');
+    }
+  };
+  reader.readAsText(file);
+}
+
+function resetProgress() {
+  if (confirm('Fortschritt wirklich zurücksetzen? Das kann nicht rückgängig gemacht werden.')) {
+    localStorage.removeItem(STORAGE_KEY);
+    location.reload();
+  }
+}
+
 // Initialize when DOM is ready
 document.addEventListener('DOMContentLoaded', initProgressTracking);
 

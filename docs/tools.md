@@ -62,6 +62,8 @@ Die Foundation-Modelle und Chat-Interfaces, mit denen du im Curriculum arbeitest
 | **Aider** | :seedling: OSS | Terminal-basierter Coding-Assistent. Git-aware, multi-file edits. | [aider.chat](https://aider.chat) |
 | **Windsurf** | :moneybag: Freemium | KI-IDE (Codeium). Flow-basiertes Coding mit Cascade-Agent. | [windsurf.com](https://windsurf.com) |
 | **Replit Agent** | :moneybag: Freemium | Full-Stack-App-Entwicklung im Browser mit KI-Agent. | [replit.com](https://replit.com) |
+| **CodeRabbit** | :moneybag: Freemium | KI-Code-Review. Automatische PR-Reviews mit Kontext. TAAFT Top 30. | [coderabbit.ai](https://coderabbit.ai) |
+| **Kilo** | :moneybag: Freemium | Code-Review-Agent für Teams. Findet Bugs vor dem Merge. | [kilo.dev](https://kilo.dev) |
 
 ---
 
@@ -76,6 +78,12 @@ Nicht-Programmierer bauen funktionierende Apps per Beschreibung. Trend 2025/2026
 | **v0.dev** | :moneybag: Freemium | Vercel. React-UI-Generierung per Prompt. | [v0.dev](https://v0.dev) |
 | **Replit Agent** | :moneybag: Freemium | Full-Stack-App-Erstellung per Prompt im Browser. | [replit.com](https://replit.com) |
 | **Vercel** | :moneybag: Freemium | Hosting + Deployment für Next.js/React-Apps. AI SDK integriert. | [vercel.com](https://vercel.com) |
+| **Fabricate** | :moneybag: Freemium | Text-Prompt zu deployed Web-App (Frontend + Backend). TAAFT #4 2026. | [fabricate.dev](https://fabricate.dev) |
+| **Floot** | :moneybag: Freemium | KI-Plattform für Entrepreneurs zum App-Bau ohne Code. | [floot.ai](https://floot.ai) |
+| **Base44** | :moneybag: Freemium | Full-functional Apps ohne Code, minimales Setup. | [base44.com](https://base44.com) |
+| **biela.dev** | :moneybag: Freemium | "Stop learning to code. Start building." Idee → App. | [biela.dev](https://biela.dev) |
+| **Rocket** | :moneybag: Freemium | Vibe-Solutioning-Plattform: Prompt → Production-App. | [rocket.new](https://rocket.new) |
+| **Verdent** | :moneybag: Freemium | "AI Technical Cofounder" — Idee → laufendes Business. | [verdent.ai](https://verdent.ai) |
 
 ---
 
@@ -187,6 +195,11 @@ Nicht-Programmierer bauen funktionierende Apps per Beschreibung. Trend 2025/2026
 | **Veed** | :moneybag: Freemium | Intelligentes Video-Clipping und Auto-Captions. | [veed.io](https://veed.io) |
 | **Synthesia** | :moneybag: | Avatar-basierte Videos aus Text. Enterprise-Fokus. | [synthesia.io](https://synthesia.io) |
 | **Captions** | :moneybag: | Video-Untertitelung mit KI. Top Revenue (a16z). | [captions.ai](https://captions.ai) |
+| **PixVerse** | :moneybag: Freemium | Text/Bild-to-Video. Starke Charakter-Konsistenz. TAAFT Top 20. | [pixverse.ai](https://pixverse.ai) |
+| **Wan Video** | :moneybag: Freemium | Alibabas Video-Generierungsmodell. High-Quality Output. | [wan.video](https://wan.video) |
+| **freebeat AI** | :moneybag: Freemium | KI-Video-Editor mit automatischem Beat-Sync. | [freebeat.ai](https://freebeat.ai) |
+| **Fliz** | :moneybag: Freemium | Produkt-Videos automatisch aus URLs generieren. E-Commerce-Fokus. | [fliz.ai](https://fliz.ai) |
+| **ClipFinder** | :moneybag: Freemium | KI-basierte Video-Clip-Suche und -Extraktion. | [clipfinder.ai](https://clipfinder.ai) |
 
 ---
 
@@ -204,8 +217,42 @@ Nicht-Programmierer bauen funktionierende Apps per Beschreibung. Trend 2025/2026
 | **Deepgram** | :moneybag: API | Sehr niedrige Latenz STT. Starke Diarization. | [deepgram.com](https://deepgram.com) |
 | **AssemblyAI** | :moneybag: API | STT mit Speaker-Labels, Sentiment, Topic-Detection. | [assemblyai.com](https://assemblyai.com) |
 | **OpenAI Realtime API** | :moneybag: API | Bidirektionale Audio-Streams. Sub-Sekunden-Latenz. Voice Agents. | [platform.openai.com/docs/guides/realtime](https://platform.openai.com/docs/guides/realtime) |
-| **Suno** | :moneybag: Freemium | KI-Musik-Generierung. Volle Songs aus Text-Prompt. Top 50 (a16z). | [suno.com](https://suno.com) |
-| **Otter.ai** | :moneybag: Freemium | Meeting-Transkription und Zusammenfassung. | [otter.ai](https://otter.ai) |
+### Musik-Generierung
+
+| Tool | Typ | Beschreibung | Link |
+|------|-----|--------------|------|
+| **Suno** | :moneybag: Freemium | Volle Songs aus Text-Prompt. Marktführer KI-Musik (a16z Top 50). | [suno.com](https://suno.com) |
+| **Udio** | :moneybag: Freemium | High-Fidelity Musik-Generierung. Starke Genre-Kontrolle. | [udio.com](https://udio.com) |
+| **AirMusic** | :moneybag: Freemium | Text-to-Music mit feiner Stil-Kontrolle. TAAFT Top 50. | [airmusic.ai](https://airmusic.ai) |
+| **Lyria** (Google) | :moneybag: | Google DeepMind Musik-Modell. In YouTube integriert. | [deepmind.google/discover/lyria](https://deepmind.google/discover/lyria) |
+| **UniMusic** | :moneybag: Freemium | KI-Musik-Erstellung mit Vocal-Synthese. | [unimusic.ai](https://unimusic.ai) |
+| **Tunee** | :moneybag: Freemium | Song-Generierung mit anpassbarem Stil und Lyrics. | [tunee.io](https://tunee.io) |
+
+### Transkription & Dictation
+
+| Tool | Typ | Beschreibung | Link |
+|------|-----|--------------|------|
+| **Whisper** | :seedling: OSS | OpenAI STT. Multilingual, lokal lauffähig. | [github.com/openai/whisper](https://github.com/openai/whisper) |
+| **Wispr Flow** | :moneybag: Freemium | Voice-to-Text überall am Desktop. Low-Latency Dictation. | [wispr.flow](https://wispr.flow) |
+| **VoiceType AI** | :moneybag: Freemium | Diktat-App mit Kontext-Verständnis und Auto-Formatierung. | [voicetype.io](https://voicetype.io) |
+| **Paraspeech** | :moneybag: Freemium | Echtzeit-Transkription mit Speaker-Erkennung. | [paraspeech.ai](https://paraspeech.ai) |
+| **EchoWrite** | :moneybag: Freemium | Voice-to-polished-text mit Stil-Anpassung. | [echowrite.ai](https://echowrite.ai) |
+| **Freeway** | :moneybag: Freemium | Hands-free Diktieren mit KI-Verbesserung. | [freeway.app](https://freeway.app) |
+
+---
+
+## Meetings & Collaboration
+
+| Tool | Typ | Beschreibung | Link |
+|------|-----|--------------|------|
+| **Otter.ai** | :moneybag: Freemium | Meeting-Transkription, Zusammenfassung, Action Items. | [otter.ai](https://otter.ai) |
+| **Granola** | :moneybag: Freemium | KI-Meeting-Notizen mit automatischer Strukturierung. | [granola.ai](https://granola.ai) |
+| **Fireflies.ai** | :moneybag: Freemium | Meeting-Aufnahme, Transkript, durchsuchbares Archiv. | [fireflies.ai](https://fireflies.ai) |
+| **Supernormal** | :moneybag: Freemium | Automatische Meeting-Notes mit Zusammenfassung. | [supernormal.com](https://supernormal.com) |
+| **Read AI** | :moneybag: Freemium | Meeting-Analyse: Engagement, Sentiment, Zusammenfassung. | [read.ai](https://read.ai) |
+| **Hedy AI** | :moneybag: Freemium | KI-Meeting-Begleiter mit Echtzeit-Coaching. | [hedy.ai](https://hedy.ai) |
+| **Mumble AI** | :moneybag: Freemium | Meeting-Prep und Live-Talking-Points per KI. | [mumble.ai](https://mumble.ai) |
+| **Convo** | :moneybag: Freemium | Kollaborative Meeting-Intelligence-Plattform. | [convo.com](https://convo.com) |
 
 ---
 
@@ -362,6 +409,134 @@ Kategorie mit starkem Wachstum laut a16z (8 der Top 50 Web-Apps):
 
 ---
 
-*Letzte Aktualisierung: Mai 2026 · Basierend auf: Syllabus-Inhalte v2.2.1, a16z Top 100 Gen AI (Q1 2025), eigene Recherche.*
+## Agenten & Task-Automatisierung
+
+KI-Agenten, die selbstständig komplexe Aufgaben ausführen — über einfache Workflows hinaus.
+
+| Tool | Typ | Beschreibung | Link |
+|------|-----|--------------|------|
+| **Lindy** | :moneybag: Freemium | No-Code KI-Agenten-Builder. Workflows mit natürlicher Sprache definieren. | [lindy.ai](https://lindy.ai) |
+| **Raccoon AI** | :moneybag: Freemium | Browser-Automatisierung per KI-Agent. Web-Tasks delegieren. | [raccoon.ai](https://raccoon.ai) |
+| **Viktor** | :moneybag: Freemium | Persönlicher KI-Agent für wiederkehrende digitale Aufgaben. | [viktor.ai](https://viktor.ai) |
+| **Komos** | :moneybag: Freemium | KI-Agenten-Plattform für Unternehmensprozesse. | [komos.ai](https://komos.ai) |
+| **OpenClaw** | :seedling: OSS | Open-Source-Framework für KI-Agenten-Orchestrierung. | [openclaw.ai](https://openclaw.ai) |
+| **Skygen** | :moneybag: Freemium | Multi-Agent-System für komplexe Business-Workflows. | [skygen.ai](https://skygen.ai) |
+| **InitRunner** | :moneybag: Freemium | DevOps-Agent: Infrastructure-Tasks per Prompt automatisieren. | [initrunner.com](https://initrunner.com) |
+| **Watermelon** | :moneybag: Freemium | KI-Chatbot-Agent für Kundensupport. GPT-basiert. | [watermelon.ai](https://watermelon.ai) |
+
+---
+
+## Persönliche Assistenten & Wissens-Tools
+
+| Tool | Typ | Beschreibung | Link |
+|------|-----|--------------|------|
+| **Recall** | :moneybag: Freemium | KI-gestütztes Gedächtnis: Webseiten, Notizen, Inhalte automatisch verknüpft. | [recall.ai](https://recall.ai) |
+| **Notis** | :moneybag: Freemium | KI-Notiz-Assistent — Voice-to-structured-Notes mit Kontext. | [notis.ai](https://notis.ai) |
+| **TheLibrarian.io** | :moneybag: Freemium | Persönliche Wissens-KI: Bücher, Artikel, Highlights durchsuchbar. | [thelibrarian.io](https://thelibrarian.io) |
+| **Kin** | :moneybag: Freemium | Privater KI-Begleiter mit Langzeitgedächtnis. Lokale Daten. | [kin.ai](https://kin.ai) |
+| **Collate** | :moneybag: Freemium | KI-Knowledge-Base für Teams: Docs, Wikis, Q&A automatisiert. | [collate.com](https://collate.com) |
+| **Littlebird** | :moneybag: Freemium | KI-Assistent der proaktiv relevante Infos liefert. | [littlebird.ai](https://littlebird.ai) |
+| **ZeroTwo** | :moneybag: Freemium | Persönlicher Produktivitäts-Agent mit Kalender- und Task-Integration. | [zerotwo.ai](https://zerotwo.ai) |
+
+---
+
+## Lernen & Bildung (KI-gestützt)
+
+| Tool | Typ | Beschreibung | Link |
+|------|-----|--------------|------|
+| **Thea** | :moneybag: Freemium | KI-Tutor: adaptive Erklärungen, Quizzes, Zusammenfassungen. TAAFT #3. | [thea.so](https://thea.so) |
+| **DeepTutor** | :moneybag: Freemium | KI-Tutor der mit dir PDFs und Papers durcharbeitet. | [deeptutor.ai](https://deeptutor.ai) |
+| **SmartLearn** | :moneybag: Freemium | Adaptive Lernpfade mit KI-generiertem Content. | [smartlearn.ai](https://smartlearn.ai) |
+| **Vertech Academy** | :moneybag: Freemium | Tech-Skill-Training mit KI-Coach und Hands-on-Projekten. | [vertechacademy.com](https://vertechacademy.com) |
+| **Bookbud** | :moneybag: Freemium | KI-Buchzusammenfassungen mit personalisierten Insights. | [bookbud.ai](https://bookbud.ai) |
+
+---
+
+## Sales & Lead-Generierung
+
+| Tool | Typ | Beschreibung | Link |
+|------|-----|--------------|------|
+| **Jason AI** | :moneybag: Paid | KI-SDR: Automatisierte Outreach-Sequenzen mit Personalisierung. | [jason.ai](https://jason.ai) |
+| **Reply.io** | :moneybag: Freemium | Multi-Channel-Outreach mit KI-Schreibassistent. | [reply.io](https://reply.io) |
+| **Meetz** | :moneybag: Paid | KI-gestützte Meeting-Planung und Outreach-Automatisierung. | [meetz.ai](https://meetz.ai) |
+| **Cora Intelligence** | :moneybag: Paid | KI-Recherche-Agent für B2B-Lead-Intelligence. | [cora.ai](https://cora.ai) |
+| **Intuo** | :moneybag: Freemium | KI-Sales-Assistent mit CRM-Integration. | [intuo.io](https://intuo.io) |
+| **Konvertly** | :moneybag: Freemium | Lead-Scoring und Conversion-Optimierung mit KI. | [konvertly.com](https://konvertly.com) |
+| **Affint** | :moneybag: Freemium | KI-gestütztes Relationship-Intelligence für Sales-Teams. | [affint.ai](https://affint.ai) |
+
+---
+
+## SEO & Content-Marketing
+
+| Tool | Typ | Beschreibung | Link |
+|------|-----|--------------|------|
+| **SEOJuice** | :moneybag: Freemium | Automatische interne Verlinkung und SEO-Optimierung per KI. | [seojuice.io](https://seojuice.io) |
+| **Averi AI** | :moneybag: Freemium | KI-Marketing-Team: Content-Strategie, SEO, Social. | [averi.ai](https://averi.ai) |
+| **BlogSEO** | :moneybag: Freemium | SEO-optimierte Blogartikel per KI generieren. | [blogseo.ai](https://blogseo.ai) |
+| **Wordrific** | :moneybag: Freemium | KI-Content-Generator mit SEO-Score und Keyword-Planung. | [wordrific.com](https://wordrific.com) |
+| **Nodu AI** | :moneybag: Freemium | Content-Marketing-Automatisierung: Idee → SEO-Artikel. | [nodu.ai](https://nodu.ai) |
+| **groas** | :moneybag: Paid | KI-optimierte Google Ads Kampagnen-Erstellung und -Management. | [groas.ai](https://groas.ai) |
+
+---
+
+## Schreiben & Textgenerierung
+
+| Tool | Typ | Beschreibung | Link |
+|------|-----|--------------|------|
+| **Jasper** | :moneybag: Paid | Enterprise-KI-Schreibplattform. Marketing-Fokus. | [jasper.ai](https://jasper.ai) |
+| **Copy.ai** | :moneybag: Freemium | KI-Copywriting für Marketing, Ads, Social. | [copy.ai](https://copy.ai) |
+| **Automateed** | :moneybag: Freemium | KI-Buch-Erstellung: Outline → Draft → Formatierung. | [automateed.com](https://automateed.com) |
+| **ShakespeareAI** | :moneybag: Freemium | KI-Content mit Marken-Stimme und Ton-Konsistenz. | [shakespeare.ai](https://shakespeare.ai) |
+| **Librida** | :moneybag: Freemium | KI-gestütztes Buch-Schreiben mit Kapitelplanung. | [librida.com](https://librida.com) |
+| **WriteABookAI** | :moneybag: Freemium | Non-Fiction-Bücher per KI erstellen (Outline → Full Book). | [writeabookai.com](https://writeabookai.com) |
+
+---
+
+## Job-Suche & Karriere
+
+| Tool | Typ | Beschreibung | Link |
+|------|-----|--------------|------|
+| **Jobbyo** | :moneybag: Freemium | KI-Job-Matching: Profil-Analyse + automatische Bewerbungen. | [jobbyo.ai](https://jobbyo.ai) |
+| **JobGPT** | :moneybag: Freemium | KI-Bewerbungsassistent: Anschreiben, CV-Optimierung, Interview-Prep. | [jobgpt.ai](https://jobgpt.ai) |
+| **Seekario** | :moneybag: Freemium | KI-Karriere-Coach: Job-Suche, Networking, Skill-Gap-Analyse. | [seekario.ai](https://seekario.ai) |
+
+---
+
+## Finanzen & Trading
+
+| Tool | Typ | Beschreibung | Link |
+|------|-----|--------------|------|
+| **MarketAlerts.ai** | :moneybag: Freemium | KI-basierte Markt-Signale und Benachrichtigungen. | [marketalerts.ai](https://marketalerts.ai) |
+| **GoAI** | :moneybag: Freemium | KI-Finanzanalyse für Retail-Investoren. | [goai.finance](https://goai.finance) |
+| **MiDash** | :moneybag: Freemium | Dashboard für Portfolio-Analyse mit KI-Insights. | [midash.ai](https://midash.ai) |
+
+---
+
+## Übersetzung & Lokalisierung
+
+| Tool | Typ | Beschreibung | Link |
+|------|-----|--------------|------|
+| **DeepL** | :moneybag: Freemium | Beste maschinelle Übersetzung (besonders DE↔EN). Glossar-Funktion. | [deepl.com](https://deepl.com) |
+| **Google Translate** | :green_circle: Free | 130+ Sprachen, Kamera-Übersetzung, Konversationsmodus. | [translate.google.com](https://translate.google.com) |
+| **VersQ** | :moneybag: Paid | KI-Übersetzung mit fachspezifischem Kontext (Legal, Medical, Tech). | [versq.ai](https://versq.ai) |
+| **Palabra.ai** | :moneybag: Freemium | Lokalisierungs-Plattform mit KI-Translation-Memory. | [palabra.ai](https://palabra.ai) |
+
+---
+
+## LLM-Vergleich & Routing
+
+| Tool | Typ | Beschreibung | Link |
+|------|-----|--------------|------|
+| **ChatPlayground AI** | :moneybag: Freemium | Mehrere LLMs gleichzeitig abfragen und Antworten vergleichen. | [chatplayground.ai](https://chatplayground.ai) |
+| **ChatComparison AI** | :moneybag: Freemium | Side-by-Side-Vergleich von LLM-Outputs. | [chatcomparison.ai](https://chatcomparison.ai) |
+| **OpenRouter** | :moneybag: API | Ein API-Key für 100+ Modelle. Preis-Vergleich integriert. | [openrouter.ai](https://openrouter.ai) |
+| **LiteLLM** | :seedling: OSS | Unified Python-SDK für alle LLM-Provider. | [litellm.ai](https://litellm.ai) |
+
+---
+
+*Letzte Aktualisierung: Mai 2026 · Basierend auf: Syllabus-Inhalte v2.2.1, a16z Top 100 Gen AI (Q1 2025), [TAAFT Leaderboard](https://theresanaiforthat.com/leaderboard/) (Mai 2026), eigene Recherche.*
 
 *Hinweis: Die KI-Tool-Landschaft verändert sich monatlich. Prüfe [There's An AI For That](https://theresanaiforthat.com) und die [a16z-Liste](https://a16z.com/100-gen-ai-apps-4/) für aktuelle Ergänzungen.*
+
+!!! tip "Tool fehlt?"
+    Kennst du ein Tool, das hier fehlen sollte? Erstelle ein [GitHub Issue](https://github.com/B3nW00d6r00v3/project-prometheus/issues) mit Name, Link und Kategorie.
