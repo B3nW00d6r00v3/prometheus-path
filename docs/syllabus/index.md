@@ -34,7 +34,7 @@ Jede Stufe markiert, welche Inhalte für welchen Track Pflicht, empfohlen oder o
 
     Design Thinking, Agile mit KI, Use-Case-Methodik & MVP-Denken.
 
--   **[Stufe 4 — Programmier-Foundation](current/V3/04_stufe4.md)**
+-   **[Stufe 4 — Programmier-Foundation](current/V3/stufe04/index.md)**
 
     Python, Git, CLI, APIs — die technische Basis.
 
@@ -58,11 +58,11 @@ Jede Stufe markiert, welche Inhalte für welchen Track Pflicht, empfohlen oder o
 
     Datenstrategie, ROI, Operating Model, Compliance, Change Management.
 
--   **[Stufe 10 — Spezialisierung & Production](current/V3/10_stufe10.md)**
+-   **[Stufe 10 — Spezialisierung & Production](current/V3/stufe10/index.md)**
 
     LLMOps, Monitoring, Containerisierung, Capstone-Finalisierung.
 
--   **[Stufe 11 — Forschung & Cutting-Edge](current/V3/11_stufe11.md)**
+-   **[Stufe 11 — Forschung & Cutting-Edge](current/V3/stufe11/index.md)**
 
     Paper-Reading, Frontier-Themen, Community-Beitrag.
 

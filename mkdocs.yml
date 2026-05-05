@@ -246,14 +246,109 @@ nav:
           - "2026-Reality-Check": syllabus/current/V3/stufe03/modul-3.3/theorie/reality-check.md
         - "Quellen": syllabus/current/V3/stufe03/quellen.md
         - "Free-Zertifikate": syllabus/current/V3/stufe03/zertifikate.md
-      - "Stufe 4 — Programmier-Foundation": syllabus/current/V3/04_stufe4.md
+      - "Stufe 4 — Programmier-Foundation":
+        - syllabus/current/V3/stufe04/index.md
+        - "Modul 4.1 — Python-Vertiefung für KI":
+          - syllabus/current/V3/stufe04/modul-4.1/index.md
+          - "Pydantic v2 in der Tiefe": syllabus/current/V3/stufe04/modul-4.1/theorie/pydantic-v2.md
+          - "Async/await in der Praxis": syllabus/current/V3/stufe04/modul-4.1/theorie/async-await.md
+          - "Strukturiertes Logging": syllabus/current/V3/stufe04/modul-4.1/theorie/strukturiertes-logging.md
+          - "Error Handling für LLM-APIs": syllabus/current/V3/stufe04/modul-4.1/theorie/error-handling.md
+          - "FastAPI für KI-Services": syllabus/current/V3/stufe04/modul-4.1/theorie/fastapi.md
+          - "Konfigurations-Management mit Pydantic Settings": syllabus/current/V3/stufe04/modul-4.1/theorie/pydantic-settings.md
+          - "Tests für KI-Code: das harte Problem": syllabus/current/V3/stufe04/modul-4.1/theorie/tests-ki-code.md
+          - "Project-Layout und Packaging": syllabus/current/V3/stufe04/modul-4.1/theorie/project-layout.md
+          - "Streaming-LLM-Responses": syllabus/current/V3/stufe04/modul-4.1/theorie/streaming.md
+          - "Code-Stil und Linting": syllabus/current/V3/stufe04/modul-4.1/theorie/code-stil-linting.md
+        - "Quellen": syllabus/current/V3/stufe04/quellen.md
+        - "Free-Zertifikate": syllabus/current/V3/stufe04/zertifikate.md
       - "Stufe 5 — Anwendungen bauen": syllabus/current/V3/05_stufe5.md
       - "Stufe 6 — Agenten": syllabus/current/V3/06_stufe6.md
       - "Stufe 7 — Deep Learning Foundations": syllabus/current/V3/07_stufe7.md
       - "Stufe 8 — Klassisches ML & Statistik": syllabus/current/V3/08_stufe8.md
       - "Stufe 9 — KI-Strategie & Business": syllabus/current/V3/09_stufe9.md
-      - "Stufe 10 — Spezialisierung & Production": syllabus/current/V3/10_stufe10.md
-      - "Stufe 11 — Forschung & Cutting-Edge": syllabus/current/V3/11_stufe11.md
+      - "Stufe 10 — Spezialisierung & Production":
+        - syllabus/current/V3/stufe10/index.md
+        - "Modul 10.1 — KI im Marketing":
+          - syllabus/current/V3/stufe10/modul-10.1/index.md
+          - "Marketing-KI 2026: die etablierten Use-Cases": syllabus/current/V3/stufe10/modul-10.1/theorie/marketing-ki-use-cases.md
+          - "Content-Generierung über reine Generation hinaus": syllabus/current/V3/stufe10/modul-10.1/theorie/content-generierung.md
+          - "MCP für Marketing-Integrationen": syllabus/current/V3/stufe10/modul-10.1/theorie/mcp-marketing.md
+          - "Marketing-Workflow-Automation": syllabus/current/V3/stufe10/modul-10.1/theorie/workflow-automation.md
+          - "Brand-Voice und Style-Consistency": syllabus/current/V3/stufe10/modul-10.1/theorie/brand-voice.md
+          - "SEO mit KI 2026": syllabus/current/V3/stufe10/modul-10.1/theorie/seo-ki-2026.md
+          - "Personalisierung: das Spektrum": syllabus/current/V3/stufe10/modul-10.1/theorie/personalisierung.md
+          - "DSGVO im Marketing": syllabus/current/V3/stufe10/modul-10.1/theorie/dsgvo-marketing.md
+          - "Eval für Marketing-KI": syllabus/current/V3/stufe10/modul-10.1/theorie/eval-marketing.md
+          - "Marketing-KI-Tool-Landschaft 2026": syllabus/current/V3/stufe10/modul-10.1/theorie/tool-landschaft.md
+          - "Übertragung auf andere Branchen": syllabus/current/V3/stufe10/modul-10.1/theorie/uebertragung-branchen.md
+        - "Modul 10.2 — Fine-Tuning modern":
+          - syllabus/current/V3/stufe10/modul-10.2/index.md
+          - "Decision-Framework: Fine-Tuning vs. RAG vs. Prompt-Engineering": syllabus/current/V3/stufe10/modul-10.2/theorie/decision-framework.md
+          - "Wann Fine-Tuning?": syllabus/current/V3/stufe10/modul-10.2/theorie/wann-fine-tuning.md
+          - "Fine-Tuning-Stufen": syllabus/current/V3/stufe10/modul-10.2/theorie/fine-tuning-stufen.md
+          - "Supervised Fine-Tuning (SFT)": syllabus/current/V3/stufe10/modul-10.2/theorie/sft.md
+          - "DPO — Direct Preference Optimization": syllabus/current/V3/stufe10/modul-10.2/theorie/dpo.md
+          - "ORPO — Odds Ratio Preference Optimization": syllabus/current/V3/stufe10/modul-10.2/theorie/orpo.md
+          - "GRPO — Group Relative Policy Optimization": syllabus/current/V3/stufe10/modul-10.2/theorie/grpo.md
+          - "PEFT: LoRA, QLoRA, DoRA": syllabus/current/V3/stufe10/modul-10.2/theorie/peft.md
+          - "TRL — die Standard-Library 2026": syllabus/current/V3/stufe10/modul-10.2/theorie/trl.md
+          - "Axolotl — High-Level-Wrapper": syllabus/current/V3/stufe10/modul-10.2/theorie/axolotl.md
+          - "Unsloth — Speed-Optimierung": syllabus/current/V3/stufe10/modul-10.2/theorie/unsloth.md
+          - "Aktuelle Open-Source-Modelle für Fine-Tuning": syllabus/current/V3/stufe10/modul-10.2/theorie/open-source-modelle.md
+          - "Datensätze für Fine-Tuning": syllabus/current/V3/stufe10/modul-10.2/theorie/datensaetze.md
+          - "Hardware-Realität 2026": syllabus/current/V3/stufe10/modul-10.2/theorie/hardware-realitaet.md
+          - "Eval für Fine-Tuning": syllabus/current/V3/stufe10/modul-10.2/theorie/eval-fine-tuning.md
+          - "Catastrophic Forgetting": syllabus/current/V3/stufe10/modul-10.2/theorie/catastrophic-forgetting.md
+          - "Distillation als Alternative": syllabus/current/V3/stufe10/modul-10.2/theorie/distillation.md
+          - "Cost-Übersicht Fine-Tuning": syllabus/current/V3/stufe10/modul-10.2/theorie/cost-uebersicht.md
+        - "Modul 10.3 — MLOps + LLMOps Production":
+          - syllabus/current/V3/stufe10/modul-10.3/index.md
+          - "MLOps vs. LLMOps — Unterschiede 2026": syllabus/current/V3/stufe10/modul-10.3/theorie/mlops-vs-llmops.md
+          - "Cost-Engineering als Kerndisziplin": syllabus/current/V3/stufe10/modul-10.3/theorie/cost-engineering.md
+          - "Multi-Model-Routing in der Praxis": syllabus/current/V3/stufe10/modul-10.3/theorie/multi-model-routing.md
+          - "Inferenz-Server für selbst-gehostete Modelle": syllabus/current/V3/stufe10/modul-10.3/theorie/inferenz-server.md
+          - "Latency-Optimierung": syllabus/current/V3/stufe10/modul-10.3/theorie/latency-optimierung.md
+          - "Monitoring & Observability": syllabus/current/V3/stufe10/modul-10.3/theorie/monitoring-observability.md
+          - "Eval-as-CI Setup-Walkthrough": syllabus/current/V3/stufe10/modul-10.3/theorie/eval-as-ci-setup.md
+          - "Schwellenwert-Logik konkret": syllabus/current/V3/stufe10/modul-10.3/theorie/schwellenwert-logik.md
+          - "Failure-Handling-Pattern": syllabus/current/V3/stufe10/modul-10.3/theorie/failure-handling.md
+          - "Tooling für Eval-as-CI": syllabus/current/V3/stufe10/modul-10.3/theorie/eval-as-ci-tooling.md
+          - "Anti-Patterns bei Eval-as-CI": syllabus/current/V3/stufe10/modul-10.3/theorie/eval-as-ci-antipatterns.md
+          - "Prompt-Versionierung": syllabus/current/V3/stufe10/modul-10.3/theorie/prompt-versionierung.md
+          - "Sandboxing für Tool-Execution": syllabus/current/V3/stufe10/modul-10.3/theorie/sandboxing.md
+          - "Idempotenz und Rollback": syllabus/current/V3/stufe10/modul-10.3/theorie/idempotenz-rollback.md
+          - "Incident-Response für LLM-Services": syllabus/current/V3/stufe10/modul-10.3/theorie/incident-response.md
+          - "MCP-Sicherheit in Production": syllabus/current/V3/stufe10/modul-10.3/theorie/mcp-sicherheit.md
+          - "Compliance für LLM-Services": syllabus/current/V3/stufe10/modul-10.3/theorie/compliance-production.md
+        - "Quellen": syllabus/current/V3/stufe10/quellen.md
+        - "Free-Zertifikate": syllabus/current/V3/stufe10/zertifikate.md
+      - "Stufe 11 — Forschung & Cutting-Edge":
+        - syllabus/current/V3/stufe11/index.md
+        - "Modul 11.1 — Wie bleibe ich am Stand?":
+          - syllabus/current/V3/stufe11/modul-11.1/index.md
+          - "Das Information-Diet-Problem": syllabus/current/V3/stufe11/modul-11.1/theorie/information-diet-problem.md
+          - "Quellen-Typen und ihre Funktionen": syllabus/current/V3/stufe11/modul-11.1/theorie/quellen-typen.md
+          - "Cadence festlegen": syllabus/current/V3/stufe11/modul-11.1/theorie/cadence-festlegen.md
+          - "Filter und Triage-Heuristiken": syllabus/current/V3/stufe11/modul-11.1/theorie/filter-triage.md
+          - "Eigene Notiz-Praxis": syllabus/current/V3/stufe11/modul-11.1/theorie/notiz-praxis.md
+          - "Live-Quellen für volatile Bereiche": syllabus/current/V3/stufe11/modul-11.1/theorie/live-quellen.md
+          - "Failure-Case-Awareness als laufende Praxis": syllabus/current/V3/stufe11/modul-11.1/theorie/failure-case-awareness.md
+          - "Hype-Detector": syllabus/current/V3/stufe11/modul-11.1/theorie/hype-detector.md
+          - "Hands-On-Tradition aufrechterhalten": syllabus/current/V3/stufe11/modul-11.1/theorie/hands-on-tradition.md
+          - "Eigene Output-Praxis als Lern-Verstärker": syllabus/current/V3/stufe11/modul-11.1/theorie/output-praxis.md
+          - "Communities und Peer-Lernen": syllabus/current/V3/stufe11/modul-11.1/theorie/communities-peer-lernen.md
+          - "Kontinuierliches Lernen institutionalisieren": syllabus/current/V3/stufe11/modul-11.1/theorie/lernen-institutionalisieren.md
+          - "Anti-Pattern: passiver Konsum": syllabus/current/V3/stufe11/modul-11.1/theorie/anti-pattern-passiv.md
+        - "Modul 11.2 — Branchen-Vertiefung":
+          - syllabus/current/V3/stufe11/modul-11.2/index.md
+          - "Branchen-Wahl und das Vertiefungs-Pattern": syllabus/current/V3/stufe11/modul-11.2/theorie/branchen-vertiefungs-pattern.md
+          - "Beispiel-Vertiefung: B2B-SaaS-Mittelstand": syllabus/current/V3/stufe11/modul-11.2/theorie/beispiel-b2b-saas.md
+          - "Beispiel-Vertiefung: Healthcare / Medizin": syllabus/current/V3/stufe11/modul-11.2/theorie/beispiel-healthcare.md
+          - "Weitere Branchen: Stichworte für eigene Vertiefung": syllabus/current/V3/stufe11/modul-11.2/theorie/weitere-branchen.md
+          - "Branchen-Communities und Netzwerk aufbauen": syllabus/current/V3/stufe11/modul-11.2/theorie/branchen-communities.md
+        - "Quellen": syllabus/current/V3/stufe11/quellen.md
+        - "Free-Zertifikate": syllabus/current/V3/stufe11/zertifikate.md
     - Querschnitte:
       - "Math-Foundation": syllabus/current/V3/12_querschnitt_math.md
       - "Eval": syllabus/current/V3/13_querschnitt_eval.md
