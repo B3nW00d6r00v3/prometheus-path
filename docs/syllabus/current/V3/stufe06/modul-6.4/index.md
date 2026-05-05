@@ -31,7 +31,7 @@ Du hast denselben einfachen Agent in mindestens zwei Vendor-SDKs implementiert (
 | 8 | [Google ADK](theorie/google-adk.md) | ⏭️ | 10min |
 | 9 | [Computer Use als Sonderpattern](theorie/computer-use-ueberblick.md) | ✅ | 10min |
 | 10 | [Wann Vendor-SDK, wann Framework?](theorie/sdk-vs-framework.md) | ✅ | 10min |
-| 11 | [MCP als Brücke zwischen Vendor-SDKs](theorie/mcp-brücke.md) | ✅ | 10min |
+| 11 | [MCP als Brücke zwischen Vendor-SDKs](theorie/mcp-bruecke.md) | ✅ | 10min |
 
 ## Praxis: Hauptprojekt — Vendor-Vergleich
 
