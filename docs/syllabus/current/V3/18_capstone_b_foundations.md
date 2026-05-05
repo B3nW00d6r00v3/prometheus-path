@@ -183,7 +183,7 @@ Plus Pflicht-Vorbedingungs-Belege:
 - [Unsloth Docs](https://docs.unsloth.ai)
 - [Sebastian Raschka — Build a Large Language Model From Scratch (Buch)](https://www.manning.com/books/build-a-large-language-model-from-scratch)
 - [Hugging Face — LLM Course Chapter 11 (Fine-Tuning)](https://huggingface.co/learn/llm-course/chapter11)
-- [Decision-Framework: Fine-Tuning vs. RAG vs. Prompt](file:./10_stufe10.md)
+- [Decision-Framework: Fine-Tuning vs. RAG vs. Prompt](stufe10/modul-10.2/theorie/decision-framework.md)
 
 ---
 
