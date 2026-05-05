@@ -19,12 +19,12 @@ Vibe-Coding ist wie einem Architekten zu sagen "Ich will ein Haus mit drei Zimme
 Die wichtigsten Vibe-Coding-Plattformen 2026:
 
 - **Bolt.new** -- Web-Apps in Minuten. Stack ist React/Next.js. Staerke: Geschwindigkeit und schnelle Iteration.
-- **Lovable.dev** -- Full-Stack mit Datenbank. Fuer Apps, die Daten speichern muessen.
-- **v0.dev** -- von Vercel, fokussiert auf React-Komponenten. Ideal fuer UI-Prototypen.
-- **Replit Agent** -- komplette Apps mit Backend. Fuer groessere Projekte.
-- **Claude Artifacts** -- fuer Quick-Demos direkt in Claude.ai. Kein Deployment noetig.
+- **Lovable.dev** -- Full-Stack mit Datenbank. für Apps, die Daten speichern müssen.
+- **v0.dev** -- von Vercel, fokussiert auf React-Komponenten. Ideal für UI-Prototypen.
+- **Replit Agent** -- komplette Apps mit Backend. für größere Projekte.
+- **Claude Artifacts** -- für Quick-Demos direkt in Claude.ai. Kein Deployment nötig.
 
-Alle Tools wandeln Beschreibung in lauffaehigen Code. Du iterierst durch Beschreibung statt Coding -- "mach den Button groesser", "fuege eine Suchfunktion hinzu", "aendere die Farben zu dunkelblau".
+Alle Tools wandeln Beschreibung in lauffähigen Code. Du iterierst durch Beschreibung statt Coding -- "mach den Button größer", "fuege eine Suchfunktion hinzu", "aendere die Farben zu dunkelblau".
 
 *Verfallsdatum: August 2026.*
 
@@ -37,7 +37,7 @@ Alle Tools wandeln Beschreibung in lauffaehigen Code. Du iterierst durch Beschre
 | :hammer_and_wrench: | [v0](https://v0.dev) | React-Komponenten von Vercel |
 | :hammer_and_wrench: | [Replit](https://replit.com) | Komplette Apps mit Backend |
 
-## Teste dein Verstaendnis
+## Teste dein Verständnis
 
-- [ ] Kannst du erklaeren, was "Vibe Coding" von traditionellem Coding unterscheidet?
-- [ ] Weisst du, welche Plattform fuer welchen Use-Case am besten passt?
+- [ ] Kannst du erklären, was "Vibe Coding" von traditionellem Coding unterscheidet?
+- [ ] Weißt du, welche Plattform für welchen Use-Case am besten passt?

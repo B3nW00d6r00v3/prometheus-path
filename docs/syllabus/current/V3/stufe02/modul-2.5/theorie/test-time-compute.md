@@ -12,15 +12,15 @@ expires: null
 
 ## Kernidee
 
-Bisher galt: willst du ein besseres Modell, trainiere laenger mit mehr Daten und mehr GPUs. Das ist Training-Compute. Seit 2024 gibt es eine zweite Achse: lass das Modell bei der Antwort laenger nachdenken (mehr Inferenz-Compute). Wie ein Schachspieler, der mehr Zuege vorausberechnet -- nicht schlauer trainiert, sondern laenger ueberlegt. Das ist Test-Time-Compute.
+Bisher galt: willst du ein besseres Modell, trainiere laenger mit mehr Daten und mehr GPUs. Das ist Training-Compute. Seit 2024 gibt es eine zweite Achse: lass das Modell bei der Antwort laenger nachdenken (mehr Inferenz-Compute). Wie ein Schachspieler, der mehr Zuege vorausberechnet -- nicht schlauer trainiert, sondern laenger überlegt. Das ist Test-Time-Compute.
 
 ## Im Detail
 
 Bisher (2018-2024): mehr Training-Compute = bessere Modelle. Dieses Scaling Law (Chinchilla, Kaplan et al.) war die dominante Achse. Neu seit OpenAI o1 (September 2024): mehr **Inferenz-Compute** (Thinking-Tokens) = bessere Antworten bei harten Tasks. Das ist eine eigene Skalierungs-Achse neben Training-Compute.
 
-Die Implikation ist fundamental: du kannst dasselbe Modell "schlauer" machen, indem du es laenger denken laesst -- ohne Retraining. Das erklaert, warum Effort-Parameter (wie viel Thinking erlaubst du?) eine zentrale API-Konvention geworden sind.
+Die Implikation ist fundamental: du kannst dasselbe Modell "schlauer" machen, indem du es laenger denken lässt -- ohne Retraining. Das erklärt, warum Effort-Parameter (wie viel Thinking erlaubst du?) eine zentrale API-Konvention geworden sind.
 
-**Pflichtkonzept fuer 2026er Modell-Verstaendnis.** Vertiefung in Modul 7.5.
+**Pflichtkonzept für 2026er Modell-Verständnis.** Vertiefung in Modul 7.5.
 
 ## Ressourcen
 
@@ -28,7 +28,7 @@ Die Implikation ist fundamental: du kannst dasselbe Modell "schlauer" machen, in
 |-----|------|-----------|
 | :book: | [OpenAI — Learning to Reason with LLMs (Sept 2024)](https://openai.com/index/learning-to-reason-with-llms/) | Der Ursprungs-Post zu Test-Time-Compute |
 
-## Teste dein Verstaendnis
+## Teste dein Verständnis
 
-- [ ] Kannst du den Unterschied zwischen Training-Compute und Test-Time-Compute erklaeren?
+- [ ] Kannst du den Unterschied zwischen Training-Compute und Test-Time-Compute erklären?
 - [ ] Verstehst du, warum Test-Time-Compute eine eigene Skalierungs-Achse ist?

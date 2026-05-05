@@ -16,7 +16,7 @@ Ein Python-Skript mit hardcodierten Werten ist wie ein Werkzeug, das nur eine Sa
 
 ## Im Detail
 
-Fuer persoenliche Skripte ist ein CLI-Interface 100x praktischer als hardcoded Argumente. Zwei Libraries:
+für persoenliche Skripte ist ein CLI-Interface 100x praktischer als hardcoded Argumente. Zwei Libraries:
 
 **Typer** (empfohlen) -- moderner, basiert auf Type Hints:
 
@@ -39,7 +39,7 @@ Typer generiert automatisch `--help`, Argument-Parsing, Tab-Completion und Fehle
 
 **Click** -- aelter, aber maechtig und weit verbreitet. Typer baut intern auf Click auf.
 
-Fuer KI-CLI-Tools typische Argumente: `--input` (Datei/URL), `--model` (Modellauswahl), `--output` (Ausgabedatei), `--verbose` (Debug-Logging), `--max-tokens` (Cost-Kontrolle).
+für KI-CLI-Tools typische Argumente: `--input` (Datei/URL), `--model` (Modellauswahl), `--output` (Ausgabedatei), `--verbose` (Debug-Logging), `--max-tokens` (Cost-Kontrolle).
 
 ## Ressourcen
 
@@ -48,7 +48,7 @@ Fuer KI-CLI-Tools typische Argumente: `--input` (Datei/URL), `--model` (Modellau
 | :book: | [Typer Docs](https://typer.tiangolo.com) | Moderne CLI-Library |
 | :book: | [Click Docs](https://click.palletsprojects.com) | Klassiker, maechtig |
 
-## Teste dein Verstaendnis
+## Teste dein Verständnis
 
 - [ ] Kannst du ein einfaches CLI-Tool mit Typer erstellen?
 - [ ] Verstehst du, warum CLI-Tools praktischer sind als hardcodierte Skripte?

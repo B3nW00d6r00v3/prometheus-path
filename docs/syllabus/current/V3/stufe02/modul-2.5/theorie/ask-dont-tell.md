@@ -16,17 +16,17 @@ Bei einem klassischen LLM sagst du: "Erst analysiere X, dann vergleiche Y, dann 
 
 ## Im Detail
 
-Bei klassischen LLMs hilft es, den Loesungsweg vorzugeben ("Erst analysiere X, dann schliesse Y, dann formuliere Z"). Bei Reasoning-Modellen ist das oft kontraproduktiv -- sie denken effizienter, wenn du das Ziel klar formulierst und ihnen den Weg ueberlaesst. Reasoning-Modelle wie Claude Extended Thinking, GPT-o-Serie und DeepSeek R1 haben gelernt, eigene Loesungswege zu finden. Wenn du den Weg vorschreibst, beschraenkst du das Modell auf deinen (moeglicherweise suboptimalen) Denkpfad.
+Bei klassischen LLMs hilft es, den Loesungsweg vorzugeben ("Erst analysiere X, dann schliesse Y, dann formuliere Z"). Bei Reasoning-Modellen ist das oft kontraproduktiv -- sie denken effizienter, wenn du das Ziel klar formulierst und ihnen den Weg überlässt. Reasoning-Modelle wie Claude Extended Thinking, GPT-o-Serie und DeepSeek R1 haben gelernt, eigene Loesungswege zu finden. Wenn du den Weg vorschreibst, beschraenkst du das Modell auf deinen (möglicherweise suboptimalen) Denkpfad.
 
-**Faustregel:** Je komplexer die Aufgabe, desto mehr profitierst du davon, nur das Ziel zu definieren und dem Reasoning-Modell die Strategie zu ueberlassen.
+**Faustregel:** Je komplexer die Aufgabe, desto mehr profitierst du davon, nur das Ziel zu definieren und dem Reasoning-Modell die Strategie zu überlassen.
 
 ## Ressourcen
 
 | Typ | Link | Kommentar |
 |-----|------|-----------|
-| :book: | [OpenAI — Reasoning Best Practices](https://platform.openai.com/docs/guides/reasoning-best-practices) | Offizielle Empfehlungen fuer Reasoning-Prompts |
+| :book: | [OpenAI — Reasoning Best Practices](https://platform.openai.com/docs/guides/reasoning-best-practices) | Offizielle Empfehlungen für Reasoning-Prompts |
 
-## Teste dein Verstaendnis
+## Teste dein Verständnis
 
-- [ ] Kannst du erklaeren, warum Schritt-fuer-Schritt-Anweisungen bei Reasoning-Modellen schaden koennen?
+- [ ] Kannst du erklären, warum Schritt-für-Schritt-Anweisungen bei Reasoning-Modellen schaden können?
 - [ ] Hast du ein eigenes Beispiel, wo du nur das Ziel formulieren wuerdest statt den Weg?

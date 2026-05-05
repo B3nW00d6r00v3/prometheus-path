@@ -48,7 +48,7 @@ Die Struktur ist bei OpenAI und Google nahezu identisch -- nur Klassennamen und 
 | :hammer_and_wrench: | [OpenAI Python SDK](https://github.com/openai/openai-python) | OpenAI SDK |
 | :hammer_and_wrench: | [Google Generative AI SDK](https://github.com/google-gemini/generative-ai-python) | Google SDK |
 
-## Teste dein Verstaendnis
+## Teste dein Verständnis
 
 - [ ] Kannst du einen einfachen API-Call mit einem Provider-SDK schreiben?
 - [ ] Verstehst du die fuenf Grundpatterns (Client, Message, Streaming, Tools, Errors)?

@@ -29,7 +29,7 @@ Verbindung zum Querschnitt Eval: die erste Beruehrung mit Eval war in Modul 2.3 
 | :book: | [Hamel Husain — Your AI Product Needs Evals](https://hamel.dev/blog/posts/evals/) | Grundlagen-Artikel zu Evals |
 | :book: | [Anthropic — Extended Thinking](https://docs.claude.com/en/docs/build-with-claude/extended-thinking) | Sichtbare Thinking-Tokens bei Claude |
 
-## Teste dein Verstaendnis
+## Teste dein Verständnis
 
-- [ ] Kannst du erklaeren, warum "richtige Antwort" bei Reasoning-Modellen nicht ausreicht fuer Eval?
+- [ ] Kannst du erklären, warum "richtige Antwort" bei Reasoning-Modellen nicht ausreicht für Eval?
 - [ ] Verstehst du den Unterschied zwischen Output-Eval und Trajectory-Eval?

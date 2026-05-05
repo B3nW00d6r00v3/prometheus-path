@@ -19,7 +19,7 @@ Reasoning-Modelle sind kein Nischen-Feature eines einzelnen Anbieters -- sie sin
 Die Reasoning-Modell-Familie Mai 2026 umfasst:
 
 - **OpenAI:** o1 -> o3 -> o3-mini, plus o4/o5 in Roadmap.
-- **Anthropic:** Claude Sonnet 4.6 mit Thinking, Claude Opus 4.7 mit **Adaptive Thinking** (Modell entscheidet selbst, wieviel Thinking noetig -- Effort-Parameter low/medium/high/xhigh).
+- **Anthropic:** Claude Sonnet 4.6 mit Thinking, Claude Opus 4.7 mit **Adaptive Thinking** (Modell entscheidet selbst, wieviel Thinking nötig -- Effort-Parameter low/medium/high/xhigh).
 - **DeepSeek:** R1 (OSS, MIT-Lizenz) -> R2.
 - **Google:** Gemini 2.5 Reasoning, Gemini 3.1 Thinking.
 - **Alibaba:** Qwen QwQ (OSS).
@@ -36,7 +36,7 @@ Bemerkenswert: mit DeepSeek R1 und Qwen QwQ gibt es starke Open-Source-Reasoning
 | :book: | [Anthropic — Extended Thinking](https://docs.claude.com/en/docs/build-with-claude/extended-thinking) | Claude Adaptive Thinking |
 | :book: | [DeepSeek R1 Paper](https://arxiv.org/abs/2401.12954) | OSS-Reasoning-Modell |
 
-## Teste dein Verstaendnis
+## Teste dein Verständnis
 
 - [ ] Kannst du mindestens drei Reasoning-Modelle aus verschiedenen Anbietern nennen?
-- [ ] Weisst du, welche Reasoning-Modelle Open-Source sind?
+- [ ] Weißt du, welche Reasoning-Modelle Open-Source sind?

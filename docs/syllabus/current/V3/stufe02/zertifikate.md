@@ -1,10 +1,10 @@
 ---
-title: "Free-Zertifikate fuer Stufe 2"
+title: "Free-Zertifikate für Stufe 2"
 module: "stufe-2"
 type: referenz
 ---
 
-# Free-Zertifikate fuer Stufe 2
+# Free-Zertifikate für Stufe 2
 
 | Zertifikat | Anbieter | Aufwand | Wann sinnvoll |
 |---|---|---|---|

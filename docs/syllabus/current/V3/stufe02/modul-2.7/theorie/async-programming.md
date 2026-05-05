@@ -1,5 +1,5 @@
 ---
-title: "Async Programming fuer API-Calls"
+title: "Async Programming für API-Calls"
 module: "2.7"
 type: theorie
 fast_track: true
@@ -8,11 +8,11 @@ stability: green
 expires: null
 ---
 
-# Async Programming fuer API-Calls
+# Async Programming für API-Calls
 
 ## Kernidee
 
-LLM-API-Calls dauern Sekunden -- waehrend du auf eine Antwort wartest, koennte dein Programm schon die naechste Anfrage losschicken. Async Programming ist wie ein Kellner, der mehrere Tische gleichzeitig bedient: er wartet nicht, bis Tisch 1 gegessen hat, bevor er Tisch 2 die Karte bringt. Fuer LLM-Apps mit mehreren Aufrufen ist Async der Unterschied zwischen Minuten und Sekunden.
+LLM-API-Calls dauern Sekunden -- während du auf eine Antwort wartest, könnte dein Programm schon die nächste Anfrage losschicken. Async Programming ist wie ein Kellner, der mehrere Tische gleichzeitig bedient: er wartet nicht, bis Tisch 1 gegessen hat, bevor er Tisch 2 die Karte bringt. für LLM-Apps mit mehreren Aufrufen ist Async der Unterschied zwischen Minuten und Sekunden.
 
 ## Im Detail
 
@@ -35,7 +35,7 @@ Wichtige Konzepte:
 - **`await`** -- wartet auf das Ergebnis eines async Aufrufs.
 - **`asyncio.gather()`** -- fuehrt mehrere Coroutines parallel aus.
 
-Pflicht-Wissen fuer jede LLM-App mit mehr als einem API-Aufruf. Alle grossen SDKs (Anthropic, OpenAI, Google) bieten Async-Clients.
+Pflicht-Wissen für jede LLM-App mit mehr als einem API-Aufruf. Alle grossen SDKs (Anthropic, OpenAI, Google) bieten Async-Clients.
 
 ## Ressourcen
 
@@ -44,7 +44,7 @@ Pflicht-Wissen fuer jede LLM-App mit mehr als einem API-Aufruf. Alle grossen SDK
 | :book: | [Real Python — Async IO](https://realpython.com/async-io-python/) | Ausfuehrliche Einfuehrung |
 | :book: | [Anthropic — Async Examples](https://github.com/anthropics/anthropic-sdk-python#async-usage) | Async mit dem Anthropic SDK |
 
-## Teste dein Verstaendnis
+## Teste dein Verständnis
 
-- [ ] Kannst du den Unterschied zwischen synchronem und asynchronem Code erklaeren?
+- [ ] Kannst du den Unterschied zwischen synchronem und asynchronem Code erklären?
 - [ ] Verstehst du, warum Async bei LLM-API-Calls besonders nuetzlich ist?

@@ -12,11 +12,11 @@ expires: null
 
 ## Kernidee
 
-Tests fuer KI-Code sind tricky: LLM-Outputs sind nicht-deterministisch, also kannst du nicht testen "die Antwort ist exakt X". Aber alles *um* das LLM herum -- Daten-Parsing, Pipelines, Tool-Funktionen, Input-Validierung -- ist deterministisch und testbar. Teste das, was du testen kannst, und baue dir Vertrauen in deinen Code auf.
+Tests für KI-Code sind tricky: LLM-Outputs sind nicht-deterministisch, also kannst du nicht testen "die Antwort ist exakt X". Aber alles *um* das LLM herum -- Daten-Parsing, Pipelines, Tool-Funktionen, Input-Validierung -- ist deterministisch und testbar. Teste das, was du testen kannst, und baue dir Vertrauen in deinen Code auf.
 
 ## Im Detail
 
-Tests fuer KI-Code sind anders als klassisch (LLM-Outputs sind nicht-deterministisch). Aber Tests fuer die nicht-KI-Logik sind Standard und wichtig:
+Tests für KI-Code sind anders als klassisch (LLM-Outputs sind nicht-deterministisch). Aber Tests für die nicht-KI-Logik sind Standard und wichtig:
 
 **Was du testen kannst:**
 - Daten-Parsing (JSON -> Pydantic-Modell)
@@ -50,7 +50,7 @@ def test_parse_invalid_json():
 | :book: | [Real Python — pytest](https://realpython.com/pytest-python-testing/) | Praxis-orientierte Einfuehrung |
 | :book: | [pytest Docs](https://docs.pytest.org) | Offizielle Dokumentation |
 
-## Teste dein Verstaendnis
+## Teste dein Verständnis
 
 - [ ] Kannst du einen einfachen Test mit pytest schreiben?
 - [ ] Verstehst du, welche Teile von KI-Code testbar sind und welche nicht?

@@ -54,7 +54,7 @@ Du verstehst die Modell-Landschaft Mai 2026, kennst MCP konzeptionell, verstehst
 | 19 | [Trainings-Pattern auf hoher Ebene](theorie/trainings-pattern.md) | :material-check: | 10min |
 | 20 | [Inferenz-Pattern auf hoher Ebene](theorie/inferenz-pattern.md) | :material-check: | 10min |
 | 21 | [Effort-Parameter als API-Konvention 2026](theorie/effort-parameter.md) | :material-check: | 10min |
-| 22 | [Brücke zu Capstone-Wahl](theorie/bruecke-capstone.md) | :material-check: | 5min |
+| 22 | [Brücke zu Capstone-Wahl](theorie/Brücke-capstone.md) | :material-check: | 5min |
 
 ## Praxis: Hauptprojekt — Modell-Vergleichs-Notebook
 

@@ -18,12 +18,12 @@ Reasoning-Modelle entstehen nicht durch "mehr Daten" oder "groesseres Modell". S
 
 Reasoning-Modelle entstehen durch spezielle Trainings-Patterns:
 
-- **RLHF mit Reasoning-Reward:** Das Modell bekommt nicht nur Belohnung fuer gute Antworten, sondern fuer gute Denkprozesse.
+- **RLHF mit Reasoning-Reward:** Das Modell bekommt nicht nur Belohnung für gute Antworten, sondern für gute Denkprozesse.
 - **GRPO (Group Relative Policy Optimization):** Von DeepSeek R1 bekannt gemacht. Vergleicht Gruppen von Antworten relativ zueinander statt gegen ein festes Reward-Modell.
 - **Process-Reward-Models (PRM):** Belohnen jeden einzelnen Reasoning-Schritt, nicht nur das Endergebnis.
 - **Outcome-Reward-Models (ORM):** Belohnen nur das Endergebnis -- einfacher, aber weniger granular.
 
-**Hier reicht:** Du weisst, dass es eigene Trainings-Patterns sind, nicht "Standard-LLM mit besserem Prompt". Die technische Tiefe kommt in Modul 7.5.
+**Hier reicht:** Du weißt, dass es eigene Trainings-Patterns sind, nicht "Standard-LLM mit besserem Prompt". Die technische Tiefe kommt in Modul 7.5.
 
 ## Ressourcen
 
@@ -32,7 +32,7 @@ Reasoning-Modelle entstehen durch spezielle Trainings-Patterns:
 | :book: | [DeepSeek R1 Paper](https://arxiv.org/abs/2401.12954) | GRPO im Detail |
 | :book: | [OpenAI — Learning to Reason with LLMs](https://openai.com/index/learning-to-reason-with-llms/) | Hintergrund zu Reasoning-Training |
 
-## Teste dein Verstaendnis
+## Teste dein Verständnis
 
-- [ ] Kannst du den Unterschied zwischen PRM und ORM in einem Satz erklaeren?
+- [ ] Kannst du den Unterschied zwischen PRM und ORM in einem Satz erklären?
 - [ ] Verstehst du, warum Reasoning-Modelle anders trainiert werden als Standard-LLMs?

@@ -8,16 +8,16 @@ effort: "8-10h"
 
 # Modul 2.6: No-Code & Vibe-Coding
 
-Bevor du Python lernst, **baust du etwas Sichtbares**. No-Code-Plattformen (Make.com, n8n) und Vibe-Coding-Tools (Bolt, Lovable, v0) erlauben dir, in Stunden statt Wochen funktionierende KI-Workflows und Web-Apps zu produzieren. Das ist nicht Spielerei -- es ist 2026 ein eigenstaendiger professioneller Skill fuer schnelle Prototypen, MVPs und Workflow-Automatisierung. Wer No-Code beherrscht, kann spaeter bewusst entscheiden, wann Code noetig wird (was in Modul 2.7 motiviert wird).
+Bevor du Python lernst, **baust du etwas Sichtbares**. No-Code-Plattformen (Make.com, n8n) und Vibe-Coding-Tools (Bolt, Lovable, v0) erlauben dir, in Stunden statt Wochen funktionierende KI-Workflows und Web-Apps zu produzieren. Das ist nicht Spielerei -- es ist 2026 ein eigenstaendiger professioneller Skill für schnelle Prototypen, MVPs und Workflow-Automatisierung. Wer No-Code beherrscht, kann später bewusst entscheiden, wann Code nötig wird (was in Modul 2.7 motiviert wird).
 
 **Aufwand:** 8-10h  
 **Voraussetzungen:** Module 2.1-2.5
 
 ## Lernziel
 
-Du hast einen lauffaehigen No-Code-KI-Workflow gebaut, der dir taeglich Arbeit abnimmt, und eine kleine Web-App mit einem Vibe-Coding-Tool prototypisiert.
+Du hast einen lauffähigen No-Code-KI-Workflow gebaut, der dir taeglich Arbeit abnimmt, und eine kleine Web-App mit einem Vibe-Coding-Tool prototypisiert.
 
-## Theorie-Uebersicht
+## Theorie-Übersicht
 
 | # | Thema | Fast-Track | Aufwand |
 |---|-------|:----------:|---------|
@@ -38,22 +38,22 @@ Du hast einen lauffaehigen No-Code-KI-Workflow gebaut, der dir taeglich Arbeit a
 
 **Option B: Persoenlicher KI-Assistent als Web-App (eher Engineertrack)**
 
-- Mit Bolt.new oder Lovable.dev: einfache Chat-Oberflaeche, die deinen Use-Case loest (z.B. "Schreibe meine Lebenslauf-Versionen fuer unterschiedliche Stellen").
+- Mit Bolt.new oder Lovable.dev: einfache Chat-Oberflaeche, die deinen Use-Case loest (z.B. "Schreibe meine Lebenslauf-Versionen für unterschiedliche Stellen").
 - Anbindung an OpenAI/Anthropic-API.
 - Hosting auf der Plattform (kostenlos im Free-Tier).
 
 **Option C: Datei-zu-Datei-Pipeline (eher Businesstrack)**
 
 - n8n oder Make.com: Trigger ist Upload zu Cloud-Drive, KI verarbeitet Datei (z.B. Meeting-Transkript zu Protokoll, PDF zu Zusammenfassung), Ergebnis landet im Output-Ordner.
-- Praxis-Wert fuer Wissensarbeiter.
+- Praxis-Wert für Wissensarbeiter.
 
 Jede Option im Portfolio dokumentieren: was, warum, wie, Screenshots, Code/Workflow-Export.
 
 ## Mehrwert-Mini-Projekte
 
 - **Taegliche Routine-Automatisierung** -- z.B. "jeden Morgen 6 Uhr fasst KI mir das Wetter, Termine, wichtige News in eine Slack-DM".
-- **WhatsApp/Telegram-Bot** ueber Make.com oder n8n als persoenlicher KI-Assistent unterwegs.
-- **Vibe-Coded Mini-Tool** fuer eine spezifische Aufgabe (z.B. "schoener Markdown-Tabellen-Editor", "Persoenlicher Decision-Log").
+- **WhatsApp/Telegram-Bot** über Make.com oder n8n als persoenlicher KI-Assistent unterwegs.
+- **Vibe-Coded Mini-Tool** für eine spezifische Aufgabe (z.B. "schoener Markdown-Tabellen-Editor", "Persoenlicher Decision-Log").
 
 ## Open-Source-Pfad (besonders empfohlen)
 
@@ -63,8 +63,8 @@ Jede Option im Portfolio dokumentieren: was, warum, wie, Screenshots, Code/Workf
 
 ## Outcome-Check
 
-- [ ] Mindestens ein lauffaehiger Workflow / eine Web-App im Portfolio
+- [ ] Mindestens ein lauffähiger Workflow / eine Web-App im Portfolio
 - [ ] Workflow / App loest echtes Problem aus deinem Alltag
-- [ ] README erklaert: Was tut es? Warum? Wie? Stack?
+- [ ] README erklärt: Was tut es? Warum? Wie? Stack?
 - [ ] Du nutzt das Projekt taeglich oder mehrfach pro Woche
 - [ ] OSS-Pfad mindestens einmal getestet (auch wenn du Cloud bleibst)
