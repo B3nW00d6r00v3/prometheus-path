@@ -1,8 +1,8 @@
-site_name: "Project Prometheus"
+site_name: "Prometheus Path"
 site_description: "Stealing fire from the gods of AI — one lesson at a time"
-site_url: "https://b3nw00d6r00v3.github.io/project-prometheus/"
-repo_url: "https://github.com/B3nW00d6r00v3/project-prometheus"
-repo_name: "project-prometheus"
+site_url: "https://b3nw00d6r00v3.github.io/prometheus-path/"
+repo_url: "https://github.com/B3nW00d6r00v3/prometheus-path"
+repo_name: "prometheus-path"
 
 theme:
   name: material

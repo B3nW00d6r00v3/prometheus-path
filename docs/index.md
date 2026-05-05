@@ -6,7 +6,7 @@ hide:
 
 <div class="prometheus-hero" markdown>
 
-# Project Prometheus
+# Prometheus Path
 
 <p class="tagline">Stealing fire from the gods of AI — one lesson at a time</p>
 
@@ -43,7 +43,7 @@ with free alternatives. No paywalls. No gatekeeping. Just knowledge.</p>
 
 ## What is this?
 
-Project Prometheus is an open, self-paced AI curriculum that mirrors what you'd learn at a top university — assembled from the best freely available courses, textbooks, and resources on the internet.
+Prometheus Path is an open, self-paced AI curriculum that mirrors what you'd learn at a top university — assembled from the best freely available courses, textbooks, and resources on the internet.
 
 It's built as a **Learn in Public** project: tracking progress openly, sharing insights along the way, and inviting others to learn together.
 

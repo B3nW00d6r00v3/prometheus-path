@@ -1,4 +1,4 @@
-# Project Prometheus — CLAUDE.md
+# Prometheus Path — CLAUDE.md
 
 ## Project Overview
 An open, comprehensive AI learning path based on university-level courses with free alternatives.
@@ -49,7 +49,7 @@ Claude serves as a personal AI tutor for this learning path:
 Aktualisiere `STATUS.md` im Projekt-Root mit:
 
 ```markdown
-# Project Prometheus — Status
+# Prometheus Path — Status
 *Updated: YYYY-MM-DD*
 
 ## Status

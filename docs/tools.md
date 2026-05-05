@@ -539,4 +539,4 @@ KI-Agenten, die selbstständig komplexe Aufgaben ausführen — über einfache W
 *Hinweis: Die KI-Tool-Landschaft verändert sich monatlich. Prüfe [There's An AI For That](https://theresanaiforthat.com) und die [a16z-Liste](https://a16z.com/100-gen-ai-apps-4/) für aktuelle Ergänzungen.*
 
 !!! tip "Tool fehlt?"
-    Kennst du ein Tool, das hier fehlen sollte? Erstelle ein [GitHub Issue](https://github.com/B3nW00d6r00v3/project-prometheus/issues) mit Name, Link und Kategorie.
+    Kennst du ein Tool, das hier fehlen sollte? Erstelle ein [GitHub Issue](https://github.com/B3nW00d6r00v3/prometheus-path/issues) mit Name, Link und Kategorie.

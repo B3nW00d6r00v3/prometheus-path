@@ -1,4 +1,4 @@
-# About Project Prometheus
+# About Prometheus Path
 
 ## The Idea
 
@@ -17,7 +17,7 @@ This project follows the **Learn in Public** philosophy:
 
 **For self-learners:** Follow the syllabus at your own pace. Use the checkboxes to track your progress — it's saved in your browser, no account needed.
 
-**For contributors:** Found a better free resource? Have a suggestion? Open an issue or PR on [GitHub](https://github.com/B3nW00d6r00v3/project-prometheus).
+**For contributors:** Found a better free resource? Have a suggestion? Open an issue or PR on [GitHub](https://github.com/B3nW00d6r00v3/prometheus-path).
 
 ## Tech
 

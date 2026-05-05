@@ -1,5 +1,5 @@
 /**
- * Project Prometheus — Progress Tracking
+ * Prometheus Path — Progress Tracking
  * Stores lesson completion in localStorage. No backend, no cookies, no tracking.
  */
 

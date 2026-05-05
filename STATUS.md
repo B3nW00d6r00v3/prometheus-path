@@ -1,4 +1,4 @@
-# Project Prometheus — Status
+# Prometheus Path — Status
 *Updated: 2026-05-05*
 
 ## Status
