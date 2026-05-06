@@ -50,6 +50,22 @@ Die Foundation-Modelle und Chat-Interfaces, mit denen du im Curriculum arbeitest
 
 ---
 
+## KI-Workspaces für Teams & Unternehmen
+
+Multi-Modell-Plattformen für Teams — mit DSGVO-Compliance, eigenem Datenschutz und zentraler Verwaltung. Die Antwort auf "ChatGPT, aber sicher und mit Firmen-Daten".
+
+| Tool | Typ | Beschreibung | Link |
+|------|-----|--------------|------|
+| **Langdock** | :moneybag: Paid | Deutsches Enterprise-AI-Workspace. 60k+ Nutzer, 1000+ Firmen (Merck, Personio). Multi-Modell (Claude, GPT, Gemini, Llama). ISO 27001, SOC 2, Server in Frankfurt. | [langdock.com](https://langdock.com) |
+| **Beyond the Loop** | :moneybag: Freemium | All-in-One KI für DACH-Unternehmen. Chat, Dokumente, Voice, Bildgenerierung — alle großen Modelle. Bis 90% günstiger als Einzelabo-Modelle. | [beyondtheloop.ai](https://beyondtheloop.ai) |
+| **Synaplan** | :seedling: OSS + Cloud | Open-Source Multi-Modell-Plattform (PHP 8.3+). RAG, Dokument-Suche, einbettbare Chatbots. Self-hostbar (lokal + EU-Cloud). €19,95/Monat SaaS oder kostenlos selbst hosten. | [synaplan.com](https://synaplan.com) |
+| **Lurus** | :moneybag: Paid | Deutsche KI-Plattform. 15+ Modelle, 100+ Integrationen, Bild- und Webrecherche. Fokus Unternehmensnutzung. | [lurus.ai](https://lurus.ai) |
+| **Aleph Alpha** | :moneybag: Enterprise | Deutsches Sovereign-AI-Unternehmen (Heidelberg). Luminous-Modelle, BSI-zertifiziert, EU AI Act-konform. Für Behörden und kritische Infrastruktur. | [aleph-alpha.com](https://aleph-alpha.com) |
+| **InnoGPT** | :moneybag: Enterprise | 100% DSGVO, Zero-Retention-Policy, firmeneigene Wissensdatenbank trainierbar. Deutsches Rechenzentrum. | [innogpt.de](https://innogpt.de) |
+| **Merlin** | :moneybag: Freemium | Multi-Modell-Workspace (GPT, Claude, Gemini). ISO 27001, SOC 2. Browser-Extension + Web. Teams ab $15/Nutzer/Monat. | [getmerlin.in](https://getmerlin.in) |
+
+---
+
 ## Coding-Tools & IDEs
 
 | Tool | Typ | Beschreibung | Link |
