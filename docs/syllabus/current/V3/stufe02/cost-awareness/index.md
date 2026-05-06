@@ -23,13 +23,13 @@ Du kannst grob abschätzen, was eine API-Anfrage kostet, bevor du sie machst. Du
 
 | # | Thema | Fast-Track | Aufwand |
 |---|-------|:----------:|---------|
-| 1 | [Token-Pricing-Grundlogik](theorie/token-pricing.md) | :material-check: | 8min |
-| 2 | [Output ist 3-5x teurer als Input](theorie/output-teurer.md) | :material-check: | 8min |
-| 3 | [Modell-Tiers haben Faktor-10-Spreads](theorie/modell-tiers.md) | :material-check: | 8min |
-| 4 | [Prompt Caching](theorie/prompt-caching.md) | :material-check: | 8min |
-| 5 | [Free-Tier-Realität Mai 2026](theorie/free-tier.md) | :material-check: | 8min |
-| 6 | [Cost-Tracking-Tools für Anfänger](theorie/cost-tracking.md) | :material-minus: | 8min |
-| 7 | [Lokale Modelle: Strom-Cost statt Token-Cost](theorie/lokale-modelle.md) | :material-check: | 8min |
+| 1 | [Token-Pricing-Grundlogik](theorie/token-pricing.md) | :material-check: | 15min |
+| 2 | [Output ist 3-5x teurer als Input](theorie/output-teurer.md) | :material-check: | 15min |
+| 3 | [Modell-Tiers haben Faktor-10-Spreads](theorie/modell-tiers.md) | :material-check: | 15min |
+| 4 | [Prompt Caching](theorie/prompt-caching.md) | :material-check: | 15min |
+| 5 | [Free-Tier-Realität Mai 2026](theorie/free-tier.md) | :material-check: | 15min |
+| 6 | [Cost-Tracking-Tools für Anfänger](theorie/cost-tracking.md) | :material-minus: | 15min |
+| 7 | [Lokale Modelle: Strom-Cost statt Token-Cost](theorie/lokale-modelle.md) | :material-check: | 15min |
 
 ## Praxis: Hauptprojekt — Persönliches Cost-Verständnis
 

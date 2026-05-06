@@ -21,13 +21,13 @@ Du kannst in eigenen Worten erklären: was ein LLM tut, was Tokens und Context W
 
 | # | Thema | Fast-Track | Aufwand |
 |---|-------|:----------:|---------|
-| 1 | [Was ein LLM grundsätzlich tut](theorie/was-ein-llm-tut.md) | :material-check: | 10min |
-| 2 | [Tokens, nicht Wörter](theorie/tokens.md) | :material-check: | 10min |
-| 3 | [Context Window](theorie/context-window.md) | :material-check: | 10min |
-| 4 | [Trainingsdaten und Knowledge Cutoff](theorie/trainingsdaten-cutoff.md) | :material-check: | 10min |
-| 5 | [Halluzinationen](theorie/halluzinationen.md) | :material-check: | 10min |
-| 6 | [Stochastik: Temperature und Top-p](theorie/stochastik.md) | :material-check: | 10min |
-| 7 | [Frontier vs. Open-Source 2026](theorie/frontier-vs-opensource.md) | :material-minus: | 10min |
+| 1 | [Was ein LLM grundsätzlich tut](theorie/was-ein-llm-tut.md) | :material-check: | 15min |
+| 2 | [Tokens, nicht Wörter](theorie/tokens.md) | :material-check: | 15min |
+| 3 | [Context Window](theorie/context-window.md) | :material-check: | 15min |
+| 4 | [Trainingsdaten und Knowledge Cutoff](theorie/trainingsdaten-cutoff.md) | :material-check: | 15min |
+| 5 | [Halluzinationen](theorie/halluzinationen.md) | :material-check: | 15min |
+| 6 | [Stochastik: Temperature und Top-p](theorie/stochastik.md) | :material-check: | 15min |
+| 7 | [Frontier vs. Open-Source 2026](theorie/frontier-vs-opensource.md) | :material-minus: | 15min |
 
 ## Praxis: Hauptprojekt — Token & Halluzinations-Experiment
 
