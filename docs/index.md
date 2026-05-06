@@ -15,9 +15,9 @@ hide:
 
 <div class="hero-bg-image"></div>
 
-# KI meistern — nicht nur nutzen.
+# Prometheus Path
 
-<p class="tagline" data-de="Der offene Lernpfad von Null bis zur KI-Meisterschaft." data-en="The open learning path from zero to AI mastery.">Der offene Lernpfad von Null bis zur KI-Meisterschaft.</p>
+<p class="tagline">Stealing fire from the gods of AI — one lesson at a time</p>
 
 <p class="hero-sub" data-de="Kein Abo. Kein Paywall. Kein Gatekeeping. Uni-Niveau — kostenlos und offen für alle." data-en="No subscription. No paywall. No gatekeeping. University-level — free and open for everyone.">Kein Abo. Kein Paywall. Kein Gatekeeping. Uni-Niveau — kostenlos und offen für alle.</p>
 
@@ -50,7 +50,7 @@ hide:
 
 <!-- PROBLEM: Was dich hierher gebracht hat -->
 
-<h2 data-de="Kommt dir das bekannt vor?" data-en="Sound familiar?">Kommt dir das bekannt vor?</h2>
+<h2 class="section-heading" data-de="Kommt dir das bekannt vor?" data-en="Sound familiar?">Kommt dir das bekannt vor?</h2>
 
 <div class="prometheus-grid prometheus-grid--3">
 
@@ -85,7 +85,7 @@ hide:
 
 <!-- PLAN: 3 Schritte -->
 
-<h2 data-de="Dein Weg — in 3 Schritten" data-en="Your path — in 3 steps">Dein Weg — in 3 Schritten</h2>
+<h2 class="section-heading" data-de="Dein Weg — in 3 Schritten" data-en="Your path — in 3 steps">Dein Weg — in 3 Schritten</h2>
 
 <div class="prometheus-grid prometheus-grid--3">
 
@@ -120,12 +120,12 @@ hide:
 
 <!-- SUCCESS: Drei Tracks -->
 
-<h2 data-de="Drei Wege — ein Ziel: KI-Meisterschaft" data-en="Three paths — one goal: AI mastery">Drei Wege — ein Ziel: KI-Meisterschaft</h2>
+<h2 class="section-heading" data-de="Drei Wege — ein Ziel: KI-Meisterschaft" data-en="Three paths — one goal: AI mastery">Drei Wege — ein Ziel: KI-Meisterschaft</h2>
 
 <div class="prometheus-grid prometheus-grid--3">
 
 <div class="prometheus-card prometheus-card--track">
-<div class="card-icon">:wrench:</div>
+<div class="card-icon">🔧</div>
 
 <h3>Engineer</h3>
 
@@ -136,7 +136,7 @@ hide:
 </div>
 
 <div class="prometheus-card prometheus-card--track">
-<div class="card-icon">:abacus:</div>
+<div class="card-icon">🧮</div>
 
 <h3>Foundations</h3>
 
@@ -147,7 +147,7 @@ hide:
 </div>
 
 <div class="prometheus-card prometheus-card--track">
-<div class="card-icon">:briefcase:</div>
+<div class="card-icon">💼</div>
 
 <h3>Strategist</h3>
 

@@ -402,6 +402,13 @@
   margin-top: 0.25rem;
 }
 
+/* --- Section Headings (centered) --- */
+.section-heading {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
 /* --- Glass Cards --- */
 .prometheus-card--glass {
   background: rgba(22, 33, 62, 0.6);
