@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" opacity="0.15">
+  <defs>
+    <linearGradient id="flame1" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#ff3d00"/>
+      <stop offset="50%" stop-color="#ff6d00"/>
+      <stop offset="100%" stop-color="#ffab00"/>
+    </linearGradient>
+    <linearGradient id="flame2" x1="0.3" y1="1" x2="0.7" y2="0">
+      <stop offset="0%" stop-color="#ff6d00"/>
+      <stop offset="100%" stop-color="#ffab00" stop-opacity="0.4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="400" cy="280" r="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffab00" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ff6d00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Central glow -->
+  <circle cx="400" cy="280" r="180" fill="url(#glow)"/>
+
+  <!-- Abstract flame — main form -->
+  <path d="M400 80 Q430 160 420 220 Q440 180 460 140 Q470 200 450 260 Q480 220 500 180 Q500 260 470 320 Q440 380 400 400 Q360 380 330 320 Q300 260 300 180 Q320 220 350 260 Q330 200 340 140 Q360 180 380 220 Q370 160 400 80Z" fill="url(#flame1)"/>
+
+  <!-- Secondary flame wisps -->
+  <path d="M360 400 Q340 350 350 300 Q330 340 310 280 Q320 340 340 380 Q350 410 360 400Z" fill="#ff6d00" opacity="0.7"/>
+  <path d="M440 400 Q460 350 450 300 Q470 340 490 280 Q480 340 460 380 Q450 410 440 400Z" fill="#ff6d00" opacity="0.7"/>
+
+  <!-- Geometric knowledge fragments — ascending triangles -->
+  <polygon points="400,120 390,145 410,145" fill="#ffab00" opacity="0.8"/>
+  <polygon points="370,200 358,228 382,228" fill="#ffab00" opacity="0.5"/>
+  <polygon points="435,190 423,218 447,218" fill="#ffab00" opacity="0.5"/>
+  <polygon points="340,280 325,310 355,310" fill="#ff6d00" opacity="0.4"/>
+  <polygon points="465,270 450,300 480,300" fill="#ff6d00" opacity="0.4"/>
+
+  <!-- Circuit/knowledge transfer lines — left side -->
+  <g stroke="#ff6d00" stroke-width="1.5" fill="none" opacity="0.5">
+    <path d="M200 450 L280 380 L320 380"/>
+    <path d="M280 380 L280 340 L310 310"/>
+    <path d="M150 400 L220 400 L260 360"/>
+    <path d="M180 500 L250 440 L300 440 L340 400"/>
+    <circle cx="200" cy="450" r="3" fill="#ff6d00"/>
+    <circle cx="150" cy="400" r="3" fill="#ff6d00"/>
+    <circle cx="180" cy="500" r="3" fill="#ff6d00"/>
+    <circle cx="310" cy="310" r="3" fill="#ffab00"/>
+    <circle cx="260" cy="360" r="3" fill="#ffab00"/>
+  </g>
+
+  <!-- Circuit/knowledge transfer lines — right side -->
+  <g stroke="#ff6d00" stroke-width="1.5" fill="none" opacity="0.5">
+    <path d="M600 450 L520 380 L480 380"/>
+    <path d="M520 380 L520 340 L490 310"/>
+    <path d="M650 400 L580 400 L540 360"/>
+    <path d="M620 500 L550 440 L500 440 L460 400"/>
+    <circle cx="600" cy="450" r="3" fill="#ff6d00"/>
+    <circle cx="650" cy="400" r="3" fill="#ff6d00"/>
+    <circle cx="620" cy="500" r="3" fill="#ff6d00"/>
+    <circle cx="490" cy="310" r="3" fill="#ffab00"/>
+    <circle cx="540" cy="360" r="3" fill="#ffab00"/>
+  </g>
+
+  <!-- Descending particles — knowledge spreading to humanity -->
+  <g fill="#ffab00" opacity="0.6">
+    <circle cx="370" cy="430" r="2"/>
+    <circle cx="400" cy="450" r="2.5"/>
+    <circle cx="430" cy="435" r="2"/>
+    <circle cx="350" cy="470" r="1.5"/>
+    <circle cx="450" cy="475" r="1.5"/>
+    <circle cx="385" cy="490" r="1.8"/>
+    <circle cx="415" cy="500" r="1.8"/>
+    <circle cx="330" cy="510" r="1.2"/>
+    <circle cx="470" cy="515" r="1.2"/>
+    <circle cx="400" cy="530" r="1.5"/>
+    <circle cx="360" cy="545" r="1"/>
+    <circle cx="440" cy="550" r="1"/>
+  </g>
+
+  <!-- Abstract figure silhouette — the titan reaching upward -->
+  <g stroke="#ff3d00" stroke-width="2" fill="none" opacity="0.35">
+    <path d="M400 560 L400 480 L380 440 M400 480 L420 440"/>
+    <path d="M400 500 L360 460 L340 400"/>
+    <path d="M400 500 L440 460 L460 400"/>
+    <circle cx="400" cy="470" r="12"/>
+  </g>
+
+  <!-- Outer geometric frame — hexagonal hints -->
+  <g stroke="#ff6d00" stroke-width="0.8" fill="none" opacity="0.25">
+    <path d="M400 30 L550 120 L550 300 L400 390 L250 300 L250 120Z"/>
+    <path d="M400 50 L530 130 L530 290 L400 370 L270 290 L270 130Z"/>
+  </g>
+
+  <!-- Corner accents -->
+  <g stroke="#ffab00" stroke-width="1" fill="none" opacity="0.2">
+    <path d="M50 50 L120 50 M50 50 L50 120"/>
+    <path d="M750 50 L680 50 M750 50 L750 120"/>
+    <path d="M50 550 L120 550 M50 550 L50 480"/>
+    <path d="M750 550 L680 550 M750 550 L750 480"/>
+  </g>
+</svg>
