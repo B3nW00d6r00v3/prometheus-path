@@ -3,6 +3,16 @@
  * Stores lesson completion in localStorage. No backend, no cookies, no tracking.
  */
 
+/* --- External Links → new tab --- */
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('a[href^="http"]').forEach(function (link) {
+    if (!link.href.includes(window.location.hostname)) {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+    }
+  });
+});
+
 const STORAGE_KEY = 'prometheus_progress';
 
 function getProgress() {
