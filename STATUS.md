@@ -1,28 +1,31 @@
-# Prometheus Path — Status
-*Updated: 2026-05-05*
+# Prometheus Path -- Status
+*Updated: 2026-05-06*
 
 ## Status
 🟢 Aktiv
 
 ## Letzter Fortschritt
-Page-per-Submodule Restructuring vollständig abgeschlossen (alle Stufen 1-11):
+Alle 10 Theorie-Seiten in Modul 2.2 grundlegend ausgebaut:
 
-- **Stufen 1-4**: In früheren Sessions umgestellt
-- **Stufe 5**: 76 Dateien, 7 Module (5.0-5.6) — RAG, APIs, Eval, Function Calling, Prompt Pipelines, MCP, Skills
-- **Stufe 6**: 85 Dateien, 8 Module (6.0-6.7) — Context Engineering, MCP, Multi-Agent, Vendor SDKs, Computer Use, Schwärme, Agentic OS
-- **Stufe 7**: 71 Dateien, 6 Module (7.1-7.6) — Deep Learning, Transformer, Fine-Tuning, Multimodal, Reasoning
-- **Stufe 8**: 72 Dateien, 5 Module (8.1-8.5) — Klassisches ML, Regression, Clustering, RecSys, Statistik
-- **Stufe 9**: 63 Dateien, 7 Module (9.0-9.7) — KI-Strategie, Business, Compliance, Change Management, Failure Cases
-- **Stufen 10-11**: In früheren Sessions umgestellt
-- Alte Monolith-Dateien 04-11_stufeX.md gelöscht
-- mkdocs.yml Nav vollständig hierarchisch (alle Stufen aufgefaltet)
-- mkdocs build: **0 Warnings, 0 Errors**
-- Alle relativen Links gefixt (Tiefenfehler, Cross-Stufe-Links, UTF-8-Dateinamen)
+- **chatbots.md**: 7 Tools (ChatGPT, Claude, Gemini, Grok, Perplexity, DeepSeek, Mistral) mit Features, Use Cases, Limitations, Decision Guide
+- **coding-assistenten.md**: 7 Tools (Cursor, Claude Code, Copilot, Windsurf, Continue, Cline, Aider) mit Workflow-Empfehlungen
+- **ki-suche.md**: 5 Tools (Perplexity, ChatGPT Browsing, Gemini Deep Research, You.com, Exa) mit Abgrenzung zu klassischer Suche
+- **no-code-builder.md**: 6 Tools (Bolt.new, Lovable, v0.dev, Replit Agent, Gamma, Vercel) mit Abgrenzung App-Builder vs UI-Generator
+- **workflow-automatisierung.md**: 4 Tools (n8n, Make.com, Zapier, Lindy) mit KI-Workflow-Use-Cases
+- **bildgenerierung.md**: 7 Tools (Midjourney, DALL-E, SD, Flux, Firefly, Ideogram, Recraft) mit Copyright-Hinweisen
+- **audio.md**: TTS (ElevenLabs, Piper, Bark, OpenAI TTS) + STT (Whisper, Deepgram, AssemblyAI) mit Deutsch-Fokus
+- **videogenerierung.md**: 6 Tools (Veo 3, Sora, Runway, Kling, Pika, Luma) mit Reifgrad-Einschaetzung
+- **spezialisierte-tools.md**: 5 Tools (NotebookLM, Gamma, Granola, Otter.ai, Fireflies) fuer Recherche und Meetings
+- **live-quellen.md**: 6 Quellen (LMSYS, Open LLM Leaderboard, MTEB, TAAFT, a16z, Future Tools) mit woechentlicher Routine-Empfehlung
 
-## Nächster Schritt
-1. Content-Updates mit Opus: Feynman-Kernidee-Texte verbessern, Ressourcen-Links prüfen
-2. mkdocs build lokal verifikation vor Push
-3. `git push` wenn bereit (explizit anfordern)
+Jede Seite folgt der Zielstruktur: Frontmatter (stability: live, expires: 2026-11, effort: 20min), Kernidee, Ueberblicks-Tabelle, Detail-Abschnitte pro Tool, Decision Guide, Ressourcen, Verstaendnis-Fragen.
+
+Gesamtumfang: 1618 Zeilen (vorher ~250 Zeilen). Faktor 6x Inhaltszuwachs.
+
+## Naechster Schritt
+1. mkdocs build lokal verifizieren
+2. Weitere Theorie-Seiten in anderen Modulen ausbauen
+3. Ressourcen-Links pruefen (Broken-Link-Check)
 
 ## Blocker
 keine

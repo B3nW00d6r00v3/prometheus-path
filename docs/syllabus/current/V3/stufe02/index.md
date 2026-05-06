@@ -34,6 +34,7 @@ Zusätzliche Inhalte in dieser Stufe:
 | 2.5 | [LLM Foundations VERTIEFT + Reasoning](modul-2.5/index.md) | :material-check: | 9-13h |
 | 2.6 | [No-Code & Vibe-Coding](modul-2.6/index.md) | :material-check: | 8-10h |
 | 2.7 | [Python für KI](modul-2.7/index.md) | :material-check: | 30-50h |
+| 2.8 | [KI-Workspaces für Teams & Unternehmen](modul-2.8/index.md) | :material-minus: | 3-4h |
 
 ## Zertifikate & Quellen
 

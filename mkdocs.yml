@@ -205,6 +205,13 @@ nav:
           - "CLI-Tools": syllabus/current/V3/stufe02/modul-2.7/theorie/cli-tools.md
           - "dotenv für Secrets": syllabus/current/V3/stufe02/modul-2.7/theorie/dotenv-secrets.md
           - "Testing: pytest": syllabus/current/V3/stufe02/modul-2.7/theorie/testing-pytest.md
+        - "Modul 2.8 — KI-Workspaces für Teams":
+          - syllabus/current/V3/stufe02/modul-2.8/index.md
+          - "Was sind KI-Workspaces?": syllabus/current/V3/stufe02/modul-2.8/theorie/was-sind-ki-workspaces.md
+          - "DSGVO & Datenschutz": syllabus/current/V3/stufe02/modul-2.8/theorie/dsgvo-datenschutz.md
+          - "Anbieter-Vergleich": syllabus/current/V3/stufe02/modul-2.8/theorie/anbieter-vergleich.md
+          - "Wann lohnt sich ein Workspace?": syllabus/current/V3/stufe02/modul-2.8/theorie/wann-lohnt-sich-workspace.md
+          - "Self-Hosting vs. Cloud": syllabus/current/V3/stufe02/modul-2.8/theorie/selbst-hosten-vs-cloud.md
         - "Quellen": syllabus/current/V3/stufe02/quellen.md
         - "Free-Zertifikate": syllabus/current/V3/stufe02/zertifikate.md
       - "Stufe 3 — Arbeitsmethoden mit KI":
