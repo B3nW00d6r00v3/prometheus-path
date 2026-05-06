@@ -80,3 +80,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Make setLang global for onclick handlers
 window.setLang = setLang;
+
+// Re-initialize on MkDocs navigation (instant loading)
+if (typeof document$ !== 'undefined') {
+  document$.subscribe(() => {
+    // Reset animated flag so counters re-animate on revisit
+    document.querySelectorAll('.stat-value[data-animated]').forEach(el => {
+      delete el.dataset.animated;
+    });
+    animateCounters();
+    const saved = getLang();
+    if (saved) applyLang(saved);
+  });
+}

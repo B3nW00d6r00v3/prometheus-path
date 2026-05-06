@@ -1,15 +1,22 @@
+<div class="prometheus-hero" markdown>
+
 # Start Here
 
-Du willst loslegen, aber weißt nicht wo? Diese Seite hilft dir in 5 Minuten zum richtigen Einstiegspunkt.
+<p class="tagline">5 Minuten zum richtigen Einstiegspunkt</p>
 
----
+<div class="hero-cta-group">
+<a href="syllabus/current/V3/stufe01/index.md" class="cta-button">Stufe 1 starten</a>
+<a href="syllabus/index.md" class="cta-button-secondary">Vollständiger Lehrplan</a>
+</div>
+
+</div>
 
 ## Welcher Track passt zu dir?
 
 <div class="prometheus-grid" markdown>
 
 <div class="prometheus-card" markdown>
-### :wrench: Engineer
+### 🔧 Engineer
 
 **Du willst KI-Systeme bauen, deployen und betreiben.**
 
@@ -22,7 +29,7 @@ Du willst loslegen, aber weißt nicht wo? Diese Seite hilft dir in 5 Minuten zum
 </div>
 
 <div class="prometheus-card" markdown>
-### :abacus: Foundations
+### 🧮 Foundations
 
 **Du willst verstehen, *warum* KI funktioniert.**
 
@@ -35,7 +42,7 @@ Du willst loslegen, aber weißt nicht wo? Diese Seite hilft dir in 5 Minuten zum
 </div>
 
 <div class="prometheus-card" markdown>
-### :briefcase: Strategist
+### 💼 Strategist
 
 **Du willst KI-Initiativen identifizieren und steuern.**
 
@@ -55,13 +62,13 @@ Du willst loslegen, aber weißt nicht wo? Diese Seite hilft dir in 5 Minuten zum
 
 | Frage | Antwort | Empfehlung |
 |-------|---------|-----------|
-| Programmierst du bereits? | Ja | :wrench: oder :abacus: |
-| Programmierst du bereits? | Nein | :briefcase: (oder :wrench: mit Stufe 4 als Pflicht) |
-| Willst du Systeme **bauen** oder **verstehen**? | Bauen | :wrench: |
-| Willst du Systeme **bauen** oder **verstehen**? | Verstehen | :abacus: |
-| Arbeitest du in einem Unternehmen, das KI einführen will? | Ja | :briefcase: |
-| Reizt dich Mathematik und Forschung? | Ja | :abacus: |
-| Willst du alle drei Perspektiven? | Ja | :trophy: Meister (alle Tracks) |
+| Programmierst du bereits? | Ja | 🔧 oder 🧮 |
+| Programmierst du bereits? | Nein | 💼 (oder 🔧 mit Stufe 4 als Pflicht) |
+| Willst du Systeme **bauen** oder **verstehen**? | Bauen | 🔧 |
+| Willst du Systeme **bauen** oder **verstehen**? | Verstehen | 🧮 |
+| Arbeitest du in einem Unternehmen, das KI einführen will? | Ja | 💼 |
+| Reizt dich Mathematik und Forschung? | Ja | 🧮 |
+| Willst du alle drei Perspektiven? | Ja | 🏆 Meister (alle Tracks) |
 
 ---
 
@@ -118,4 +125,7 @@ Das ist bereits mehr als die meisten "KI-Kurse" liefern. Ab hier wird es track-s
 
 ## Bereit?
 
-[Zum vollständigen Lehrplan :material-fire:](syllabus/index.md){ .cta-button }
+<div class="hero-cta-group">
+<a href="syllabus/current/V3/stufe01/index.md" class="cta-button">Stufe 1 starten</a>
+<a href="syllabus/index.md" class="cta-button-secondary">Vollständiger Lehrplan</a>
+</div>
